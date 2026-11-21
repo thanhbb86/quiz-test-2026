@@ -1,0 +1,70 @@
+/* Tùy chỉnh bổ sung cho cả Desktop và Smartphone */
+:root {
+  --quiz-font-size: 1rem;
+  --quiz-line-height: 1.6;
+}
+
+body.font-small {
+  --quiz-font-size: 0.92rem;
+}
+
+body.font-normal {
+  --quiz-font-size: 1.05rem;
+}
+
+body.font-large {
+  --quiz-font-size: 1.22rem;
+}
+
+.quiz-text {
+  font-size: var(--quiz-font-size);
+  line-height: var(--quiz-line-height);
+}
+
+/* Tránh highlight xanh khó chịu khi chạm trên điện thoại */
+button,
+label {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Nút đáp án đạt chuẩn vùng chạm mobile >= 48px */
+.option-btn {
+  min-height: 52px;
+  transition: transform 0.08s ease, border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.option-btn:active {
+  transform: scale(0.99);
+}
+
+/* Thanh cuộn gọn gàng */
+.custom-scroll::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.5);
+  border-radius: 9999px;
+}
+
+/* Hiệu ứng Toast */
+@keyframes toastSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.toast-enter {
+  animation: toastSlideIn 0.2s ease-out forwards;
+}
+
+/* Safe area bottom cho iPhone có tai thỏ */
+.safe-bottom {
+  padding-bottom: max(0.75rem, env(safe-area-inset-bottom));
+}

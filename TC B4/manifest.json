@@ -1,0 +1,10 @@
+{
+  "name": "Trắc Nghiệm Trưởng Ca Bậc 4",
+  "short_name": "Trắc Nghiệm TC4",
+  "description": "Ứng dụng ôn tập và thi trắc nghiệm Trưởng Ca Bậc 4 - Nhà máy Thủy điện Bắc Bình",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#0284c7",
+  "orientation": "any"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Ngân Hàng Đề Thi BHPP 2026",
+  "short_name": "BHPP 2026",
+  "description": "Ứng dụng ôn tập và thi trắc nghiệm toàn bộ 19 bộ đề Nhà máy Thủy điện Bắc Bình 2026",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#0284c7",
+  "orientation": "any"
+}

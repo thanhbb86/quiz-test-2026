@@ -1,0 +1,11 @@
+{
+  "name": "quiz-test-2026-tc-b4",
+  "version": "1.0.0",
+  "description": "QUIZ TEST 2026 - Ứng dụng trắc nghiệm Trưởng Ca Bậc 4",
+  "private": true,
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/cli": "^6.2.0",
+    "@capacitor/core": "^6.2.0"
+  }
+}

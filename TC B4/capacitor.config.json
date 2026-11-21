@@ -1,0 +1,8 @@
+{
+  "appId": "com.bhpp.quiztest2026.tcb4",
+  "appName": "QUIZ TEST 2026 (TC B4)",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}
