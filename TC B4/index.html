@@ -6,7 +6,9 @@
   <meta name="theme-color" content="#0284c7" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-  <title>Trắc Nghiệm Trưởng Ca Bậc 4 - NMTĐ Bắc Bình</title>
+  <meta name="apple-mobile-web-app-title" content="QUIZ TC B4" />
+  <title>QUIZ TEST 2026 (TC B4) - NMTĐ Bắc Bình</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png" />
   <link rel="manifest" href="./manifest.json" />
   <link rel="stylesheet" href="./src/styles.css" />
   <script src="https://cdn.tailwindcss.com"></script>
@@ -486,5 +488,10 @@
   <script src="./src/excel-parser.js"></script>
   <script src="./src/quiz-engine.js"></script>
   <script src="./src/app.js"></script>
+  <script>
+    if ("serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost")) {
+      navigator.serviceWorker.register("./sw.js").catch(() => {});
+    }
+  </script>
 </body>
 </html>

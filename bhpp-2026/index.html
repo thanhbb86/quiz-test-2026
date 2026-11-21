@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="theme-color" content="#0284c7" />
+  <meta name="theme-color" content="#059669" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-  <title>Ngân Hàng Đề Thi BHPP 2026 - NMTĐ Bắc Bình</title>
+  <meta name="apple-mobile-web-app-title" content="QUIZ TEST 2026" />
+  <title>QUIZ TEST 2026 - Ngân Hàng Đề Thi BHPP 2026</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png" />
   <link rel="manifest" href="./manifest.json" />
   <link rel="stylesheet" href="./src/styles.css" />
   <script src="https://cdn.tailwindcss.com"></script>
@@ -425,5 +427,10 @@
   <script src="./src/db.js"></script>
   <script src="./src/excel-parser.js"></script>
   <script src="./src/app.js"></script>
+  <script>
+    if ("serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost")) {
+      navigator.serviceWorker.register("./sw.js").catch(() => {});
+    }
+  </script>
 </body>
 </html>
