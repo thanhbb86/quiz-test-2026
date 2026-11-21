@@ -134,6 +134,16 @@
       throw new Error("Không có câu hỏi nào phù hợp với bộ lọc đã chọn.");
     }
 
+    // @FIXED: Giữ đúng thứ tự chuyên đề (I -> II -> ...) khi tạo đề thi, chỉ xáo trộn câu hỏi bên trong từng chuyên đề - Không được xóa logic này
+    const sectionOrderMap = new Map();
+    if (Array.isArray(allQuestions)) {
+      allQuestions.forEach((q) => {
+        if (!sectionOrderMap.has(q.sectionId)) {
+          sectionOrderMap.set(q.sectionId, sectionOrderMap.size);
+        }
+      });
+    }
+
     if (
       !(filterIds instanceof Set) &&
       allocationMode === "ratio" &&
@@ -141,22 +151,26 @@
       Array.isArray(selectedSectionIds) &&
       selectedSectionIds.length > 0
     ) {
+      const orderedSectionIds = selectedSectionIds
+        .slice()
+        .sort((a, b) => (sectionOrderMap.get(a) ?? 9999) - (sectionOrderMap.get(b) ?? 9999));
+
       const secPools = new Map();
-      selectedSectionIds.forEach((id) => secPools.set(id, []));
+      orderedSectionIds.forEach((id) => secPools.set(id, []));
       pool.forEach((q) => {
         if (secPools.has(q.sectionId)) secPools.get(q.sectionId).push(q);
       });
 
-      const countsMap = computeRatioCounts(secPools, selectedSectionIds, questionLimit, sectionRatios);
+      const countsMap = computeRatioCounts(secPools, orderedSectionIds, questionLimit, sectionRatios);
       let sampled = [];
-      for (const secId of selectedSectionIds) {
+      for (const secId of orderedSectionIds) {
         const secQuestions = secPools.get(secId) || [];
         const take = countsMap.get(secId) || 0;
         if (take <= 0) continue;
         const picked = (shuffleQuestions ? shuffleArray(secQuestions) : secQuestions).slice(0, take);
         sampled = sampled.concat(picked);
       }
-      pool = shuffleQuestions ? shuffleArray(sampled) : sampled;
+      pool = sampled;
     } else {
       if (shuffleQuestions) {
         pool = shuffleArray(pool);
@@ -165,6 +179,11 @@
       if (questionLimit > 0 && questionLimit < pool.length) {
         pool = pool.slice(0, questionLimit);
       }
+
+      // Sắp xếp lại các câu đã chọn theo đúng thứ tự chuyên đề I -> II -> ...
+      pool.sort(
+        (a, b) => (sectionOrderMap.get(a.sectionId) ?? 9999) - (sectionOrderMap.get(b.sectionId) ?? 9999)
+      );
     }
 
     const preparedQuestions = pool.map((q) => prepareQuestion(q, shuffleOptions));
