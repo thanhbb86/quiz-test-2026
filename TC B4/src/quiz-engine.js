@@ -19,20 +19,74 @@
     return copy;
   }
 
+  // @FIXED: Bảo toàn nghĩa các đáp án tổng hợp ("Tất cả đều đúng/sai") và ánh xạ lại chữ cái tham chiếu ("Phương án A và C đúng") khi đảo đáp án - Không được xóa logic này
+  const AGGREGATE_OPT_RE =
+    /^(tất cả(\s+các\s+(phương án|câu|ý))?\s*(đều)?\s*(đúng|sai)|tất cả các cấp|cả\s+\d+\s+(phương án|câu|ý)|các\s+(phương án|câu|ý)\s+trên|cả\s+(hai|ba|bốn)\s+(phương án|câu|ý)|không có phương án nào)/i;
+  const RELATIVE_POS_RE = /\b(phương án|câu|ý)\s+(trên|dưới)\b/i;
+  const MULTI_REF_RE = /\b(phương án|đáp án|câu|ý|cả)\s+([A-F](?:\s*(?:,|và|&|\/|\+)\s*[A-F])+)(?![A-Za-zÀ-ỹ0-9])/gi;
+  const SINGLE_REF_RE = /\b(phương án|đáp án)\s+([A-F])(?![A-Za-zÀ-ỹ0-9])/gi;
+
+  function isAggregateOption(text) {
+    return AGGREGATE_OPT_RE.test(String(text || "").trim());
+  }
+
+  function remapOptionReferences(text, labelMap) {
+    let updated = String(text || "");
+    updated = updated.replace(MULTI_REF_RE, (full, prefix, group) => {
+      const letters = group.match(/[A-F]/gi);
+      if (!letters || letters.length === 0) return full;
+      const mapped = letters
+        .map((ch) => labelMap[ch.toUpperCase()] || ch.toUpperCase())
+        .sort((a, b) => OPTION_LABELS.indexOf(a) - OPTION_LABELS.indexOf(b));
+      if (mapped.length === 2) {
+        return `${prefix} ${mapped[0]} và ${mapped[1]}`;
+      }
+      const last = mapped.pop();
+      return `${prefix} ${mapped.join(", ")} và ${last}`;
+    });
+
+    updated = updated.replace(SINGLE_REF_RE, (full, prefix, ch) => {
+      const nextCh = labelMap[ch.toUpperCase()] || ch.toUpperCase();
+      return `${prefix} ${nextCh}`;
+    });
+
+    return updated;
+  }
+
   function prepareQuestion(rawQ, shuffleOptions) {
     const indexedOpts = rawQ.options.map((opt, idx) => ({
+      origLabel: opt.label || OPTION_LABELS[idx] || String(idx + 1),
       text: opt.text,
       isCorrect: idx === rawQ.correctIndex,
+      isAggregate: isAggregateOption(opt.text),
     }));
 
-    const finalOpts = shuffleOptions ? shuffleArray(indexedOpts) : indexedOpts;
-    let newCorrectIndex = 0;
+    // Nếu có phương án tham chiếu vị trí tương đối ("phương án trên/dưới"), giữ nguyên thứ tự gốc
+    const hasPosRef = indexedOpts.some((o) => RELATIVE_POS_RE.test(o.text));
+    let finalOpts;
 
+    if (!shuffleOptions || hasPosRef) {
+      finalOpts = indexedOpts;
+    } else {
+      const normalOpts = indexedOpts.filter((o) => !o.isAggregate);
+      const aggregateOpts = indexedOpts.filter((o) => o.isAggregate);
+      finalOpts = shuffleArray(normalOpts).concat(aggregateOpts);
+    }
+
+    const labelMap = {};
+    finalOpts.forEach((opt, idx) => {
+      labelMap[opt.origLabel] = OPTION_LABELS[idx] || String(idx + 1);
+    });
+
+    let newCorrectIndex = 0;
     const options = finalOpts.map((opt, idx) => {
       if (opt.isCorrect) newCorrectIndex = idx;
+      const newLabel = OPTION_LABELS[idx] || String(idx + 1);
+      const finalText =
+        shuffleOptions && !hasPosRef ? remapOptionReferences(opt.text, labelMap) : opt.text;
       return {
-        label: OPTION_LABELS[idx] || String(idx + 1),
-        text: opt.text,
+        label: newLabel,
+        text: finalText,
       };
     });
 
