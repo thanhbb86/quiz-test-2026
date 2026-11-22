@@ -23,34 +23,34 @@
   const AGGREGATE_OPT_RE =
     /^(tất cả(\s+các\s+(phương án|câu|ý))?\s*(đều)?\s*(đúng|sai)|tất cả các cấp|cả\s+\d+\s+(phương án|câu|ý)|các\s+(phương án|câu|ý)\s+trên|cả\s+(hai|ba|bốn)\s+(phương án|câu|ý)|không có phương án nào)/i;
   const RELATIVE_POS_RE = /\b(phương án|câu|ý)\s+(trên|dưới)\b/i;
-  const MULTI_REF_RE = /\b(phương án|đáp án|câu|ý|cả)\s+([A-F](?:\s*(?:,|và|&|\/|\+)\s*[A-F])+)(?![A-Za-zÀ-ỹ0-9])/gi;
-  const SINGLE_REF_RE = /\b(phương án|đáp án)\s+([A-F])(?![A-Za-zÀ-ỹ0-9])/gi;
+  // Dùng 1 regex duy nhất để ánh xạ trong 1 lượt, tránh lỗi ánh xạ 2 lần (ví dụ "Phương án A và B" -> "B và D" -> "D và D")
+  const COMBINED_REF_RE =
+    /\b(?:(phương án|đáp án)\s+([A-F](?:\s*(?:,|và|&|\/|\+)\s*[A-F])*)|(câu|ý|cả)\s+([A-F](?:\s*(?:,|và|&|\/|\+)\s*[A-F])+))(?![A-Za-zÀ-ỹ0-9])/gi;
 
   function isAggregateOption(text) {
     return AGGREGATE_OPT_RE.test(String(text || "").trim());
   }
 
   function remapOptionReferences(text, labelMap) {
-    let updated = String(text || "");
-    updated = updated.replace(MULTI_REF_RE, (full, prefix, group) => {
+    return String(text || "").replace(COMBINED_REF_RE, (full, p1, g1, p2, g2) => {
+      const prefix = p1 || p2;
+      const group = g1 || g2;
       const letters = group.match(/[A-F]/gi);
       if (!letters || letters.length === 0) return full;
+
       const mapped = letters
         .map((ch) => labelMap[ch.toUpperCase()] || ch.toUpperCase())
         .sort((a, b) => OPTION_LABELS.indexOf(a) - OPTION_LABELS.indexOf(b));
+
+      if (mapped.length === 1) {
+        return `${prefix} ${mapped[0]}`;
+      }
       if (mapped.length === 2) {
         return `${prefix} ${mapped[0]} và ${mapped[1]}`;
       }
       const last = mapped.pop();
       return `${prefix} ${mapped.join(", ")} và ${last}`;
     });
-
-    updated = updated.replace(SINGLE_REF_RE, (full, prefix, ch) => {
-      const nextCh = labelMap[ch.toUpperCase()] || ch.toUpperCase();
-      return `${prefix} ${nextCh}`;
-    });
-
-    return updated;
   }
 
   function prepareQuestion(rawQ, shuffleOptions) {
