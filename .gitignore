@@ -2,6 +2,9 @@ node_modules/
 */node_modules/
 */www/
 */android/
+app android/
+*.apk
+*.zip
 .env
 __pycache__/
 *.pyc
