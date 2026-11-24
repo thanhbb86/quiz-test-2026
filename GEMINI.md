@@ -1,5 +1,8 @@
 # WORKSPACE RULES — QUIZ TEST 2026
 
+## QUY TẮC KIẾN TRÚC BẮT BUỘC
+- **Luôn giữ 2 ứng dụng độc lập hoàn toàn (`TC B4/` và `bhpp-2026/`):** Không bao giờ gộp chung 2 ứng dụng vào cùng một trang cổng (`index.html` gốc), cùng một app `.apk`, hay cùng một link Web/iOS. Mỗi ứng dụng có link Web/iOS riêng, `manifest.json` riêng, `sw.js` riêng và file `.apk` riêng.
+
 ## DANH SÁCH LỖI ĐÃ KHÓA
 - **[2026-11-22] Lỗi mất nghĩa đáp án tham chiếu chéo ("Phương án A và C đúng", "Tất cả đều đúng") khi đảo đáp án (`TC B4/src/quiz-engine.js`, `bhpp-2026/src/quiz-engine.js`):**
   - *Nguyên nhân:* `prepareQuestion` xáo trộn toàn bộ mảng `options` nhưng giữ nguyên chữ cái tham chiếu trong văn bản đáp án (`Phương án A và C đúng`), hoặc đưa `"Tất cả đều đúng"` lên đầu.
