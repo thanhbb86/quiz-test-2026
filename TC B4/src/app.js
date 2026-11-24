@@ -6,6 +6,8 @@
   "use strict";
 
   const state = {
+    decks: [],
+    activeDeckId: "TC B4",
     bank: null,
     isCustomBank: false,
     bankUpdatedAt: null,
@@ -106,32 +108,75 @@
       state.bookmarks = bookmarks;
       state.wrongStats = wrongStats;
 
+      let mainBank;
       if (customRecord && customRecord.data && Array.isArray(customRecord.data.questions)) {
-        state.bank = customRecord.data;
+        mainBank = customRecord.data;
         state.isCustomBank = true;
         state.bankUpdatedAt = customRecord.updatedAt;
       } else if (global.QUIZ_DATA && Array.isArray(global.QUIZ_DATA.questions)) {
-        state.bank = global.QUIZ_DATA;
+        mainBank = global.QUIZ_DATA;
         state.isCustomBank = false;
         state.bankUpdatedAt = global.QUIZ_DATA.meta?.generatedAt || null;
       } else {
         throw new Error("Không tìm thấy dữ liệu câu hỏi.");
       }
 
-      // Mặc định chọn tất cả chuyên đề
-      state.selectedSections = new Set(state.bank.sections.map((s) => s.id));
+      const extraDecks = Array.isArray(global.EXTRA_DECKS) ? global.EXTRA_DECKS : [];
+      state.decks = [
+        {
+          id: "TC B4",
+          name: "Trưởng Ca Bậc 4",
+          meta: mainBank.meta,
+          sections: mainBank.sections,
+          questions: mainBank.questions,
+        },
+        ...extraDecks.map((d) => ({
+          id: d.id,
+          name: d.name,
+          meta: { sourceFile: d.title, sheetName: d.name },
+          sections: d.sections,
+          questions: d.questions,
+        })),
+      ];
+
       state.allocationMode = state.settings.allocationMode || "ratio";
-      state.sectionRatios = { ...(state.settings.sectionRatios || {}) };
       $("cfg-limit").value =
         state.settings.totalQuestions !== undefined ? String(state.settings.totalQuestions) : "40";
-      syncSectionRatiosIfEmpty();
-      renderHome();
+      selectDeck(state.settings.activeDeckId || "TC B4", false);
     } catch (err) {
       console.error(err);
       showToast(err.message || "Lỗi tải dữ liệu.", "error");
     } finally {
       hideLoading();
     }
+  }
+
+  function selectDeck(deckId, save = true) {
+    const found = state.decks.find((d) => d.id === deckId) || state.decks[0];
+    if (!found) return;
+    state.activeDeckId = found.id;
+    state.bank = found;
+    state.selectedSections = new Set(found.sections.map((s) => s.id));
+    state.sectionRatios = {};
+    if (save) {
+      state.settings = global.QuizDB.saveSettings({ activeDeckId: found.id });
+    }
+    syncSectionRatiosIfEmpty();
+    renderDeckSelector();
+    renderHome();
+  }
+
+  function renderDeckSelector() {
+    const sel = $("deck-select");
+    if (!sel) return;
+    sel.innerHTML = state.decks
+      .map(
+        (d) =>
+          `<option value="${escapeHtml(d.id)}" ${d.id === state.activeDeckId ? "selected" : ""}>${escapeHtml(
+            d.name
+          )} (${d.questions.length} câu)</option>`
+      )
+      .join("");
   }
 
   function syncSectionRatiosIfEmpty() {
@@ -343,6 +388,16 @@
     const total = session.questions.length;
     const userAnswer = session.answers[idx];
     const isPractice = session.mode === "practice" || session.mode === "wrong_review" || session.mode === "bookmark_review";
+    const isMulti = Boolean(q.isMulti);
+    const correctSet = new Set(
+      Array.isArray(q.correctIndices) && q.correctIndices.length > 0 ? q.correctIndices : [q.correctIndex]
+    );
+    const selectedSet = new Set(
+      isMulti ? (Array.isArray(userAnswer) ? userAnswer : []) : userAnswer !== null && userAnswer !== undefined ? [userAnswer] : []
+    );
+    const hasAnswered = selectedSet.size > 0;
+    const isChecked = isMulti ? Boolean(session.checked && session.checked[idx]) : hasAnswered;
+    const showImmediate = isPractice && isChecked;
 
     $("quiz-progress-text").textContent = `Câu ${idx + 1} / ${total}`;
     $("quiz-progress-bar").style.width = `${Math.round(((idx + 1) / total) * 100)}%`;
@@ -369,10 +424,16 @@
     const feedbackEl = $("quiz-practice-feedback");
     feedbackEl.classList.add("hidden");
 
+    if (isMulti) {
+      const hint = document.createElement("div");
+      hint.className = "text-xs font-semibold text-brand-600 dark:text-brand-400";
+      hint.textContent = `ⓘ Câu hỏi nhiều đáp án — chọn tất cả ${correctSet.size} phương án đúng`;
+      container.appendChild(hint);
+    }
+
     q.options.forEach((opt, optIdx) => {
-      const isSelected = userAnswer === optIdx;
-      const showImmediate = isPractice && userAnswer !== null;
-      const isCorrectOpt = optIdx === q.correctIndex;
+      const isSelected = selectedSet.has(optIdx);
+      const isCorrectOpt = correctSet.has(optIdx);
 
       let btnStyle =
         "border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 hover:border-brand-400";
@@ -400,7 +461,7 @@
       btn.dataset.optIdx = String(optIdx);
       btn.className = `option-btn w-full p-3.5 rounded-xl border-2 text-left flex items-start gap-3 ${btnStyle}`;
       btn.innerHTML = `
-        <span class="w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold shrink-0 mt-0.5 ${badgeStyle}">
+        <span class="w-7 h-7 ${isMulti ? "rounded-lg" : "rounded-full"} flex items-center justify-center text-xs font-bold shrink-0 mt-0.5 ${badgeStyle}">
           ${escapeHtml(opt.label)}
         </span>
         <span class="quiz-text flex-1">${escapeHtml(opt.text)}</span>
@@ -408,18 +469,38 @@
       container.appendChild(btn);
     });
 
-    if (isPractice && userAnswer !== null) {
-      const correctOpt = q.options[q.correctIndex];
-      const isRight = userAnswer === q.correctIndex;
+    if (isPractice && isMulti && !isChecked) {
+      const checkBtn = document.createElement("button");
+      checkBtn.type = "button";
+      checkBtn.id = "btn-check-multi";
+      checkBtn.className = "mt-2 px-4 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-semibold text-sm";
+      checkBtn.textContent = "✓ Kiểm tra đáp án";
+      checkBtn.addEventListener("click", () => {
+        if (!selectedSet.size) {
+          showToast("Hãy chọn ít nhất 1 phương án trước khi kiểm tra.", "warning");
+          return;
+        }
+        session.checked[idx] = true;
+        renderQuizQuestion();
+      });
+      container.appendChild(checkBtn);
+    }
+
+    if (showImmediate) {
+      const isRight =
+        selectedSet.size === correctSet.size && Array.from(correctSet).every((ci) => selectedSet.has(ci));
+      const correctLabels = Array.from(correctSet)
+        .sort((a, b) => a - b)
+        .map((ci) => q.options[ci]?.label)
+        .filter(Boolean)
+        .join(", ");
       feedbackEl.classList.remove("hidden");
       feedbackEl.className = isRight
         ? "p-3.5 rounded-xl text-sm font-medium bg-emerald-50 dark:bg-emerald-950/40 text-emerald-800 dark:text-emerald-200 border border-emerald-200 dark:border-emerald-800"
         : "p-3.5 rounded-xl text-sm font-medium bg-rose-50 dark:bg-rose-950/40 text-rose-800 dark:text-rose-200 border border-rose-200 dark:border-rose-800";
       feedbackEl.textContent = isRight
         ? "✓ Chính xác!"
-        : `✗ Chưa đúng. Đáp án đúng là ${correctOpt ? correctOpt.label : ""}: ${
-            correctOpt ? correctOpt.text : ""
-          }`;
+        : `✗ Chưa đúng. Đáp án đúng là: ${correctLabels}`;
     }
 
     // Cập nhật nút Trước / Tiếp
@@ -436,18 +517,22 @@
     $("btn-next-mobile").classList.toggle("opacity-40", isLast);
   }
 
+  function isQuestionAnswered(ans) {
+    return Array.isArray(ans) ? ans.length > 0 : ans !== null && ans !== undefined;
+  }
+
   function renderNavigatorGrids() {
     const session = state.session;
     if (!session) return;
 
-    const answered = session.answers.filter((a) => a !== null).length;
+    const answered = session.answers.filter(isQuestionAnswered).length;
     $("nav-answered-count").textContent = `${answered}/${session.questions.length} đã làm`;
 
     const buildHtml = () =>
       session.questions
         .map((_, idx) => {
           const isCurrent = idx === session.currentIndex;
-          const isAnswered = session.answers[idx] !== null;
+          const isAnswered = isQuestionAnswered(session.answers[idx]);
           const isFlagged = session.flagged[idx];
 
           let cls =
@@ -474,7 +559,18 @@
 
   function selectOption(optIdx) {
     if (!state.session || state.session.submitted) return;
-    state.session.answers[state.session.currentIndex] = optIdx;
+    const idx = state.session.currentIndex;
+    const q = state.session.questions[idx];
+    if (q.isMulti) {
+      const cur = Array.isArray(state.session.answers[idx]) ? state.session.answers[idx].slice() : [];
+      const pos = cur.indexOf(optIdx);
+      if (pos >= 0) cur.splice(pos, 1);
+      else cur.push(optIdx);
+      state.session.answers[idx] = cur;
+      if (state.session.checked) state.session.checked[idx] = false;
+    } else {
+      state.session.answers[idx] = optIdx;
+    }
     renderQuizQuestion();
     renderNavigatorGrids();
   }
@@ -587,13 +683,23 @@
           ? "border-emerald-200 dark:border-emerald-900 bg-emerald-50/40 dark:bg-emerald-950/20"
           : "border-rose-200 dark:border-rose-900 bg-rose-50/40 dark:bg-rose-950/20";
 
+        const correctSet = new Set(
+          Array.isArray(q.correctIndices) && q.correctIndices.length > 0 ? q.correctIndices : [q.correctIndex]
+        );
+        const userSet = new Set(
+          Array.isArray(d.userAnswer) ? d.userAnswer : d.userAnswer !== null && d.userAnswer !== undefined ? [d.userAnswer] : []
+        );
+
         const optsHtml = q.options
           .map((opt, idx) => {
-            const isCorrect = idx === q.correctIndex;
-            const isUser = idx === d.userAnswer;
+            const isCorrect = correctSet.has(idx);
+            const isUser = userSet.has(idx);
             let tag = "";
             let rowCls = "text-slate-600 dark:text-slate-300";
-            if (isCorrect) {
+            if (isCorrect && isUser) {
+              rowCls = "text-emerald-700 dark:text-emerald-300 font-semibold";
+              tag = " ✓ (Đúng - Bạn chọn)";
+            } else if (isCorrect) {
               rowCls = "text-emerald-700 dark:text-emerald-300 font-semibold";
               tag = " ✓ (Đáp án đúng)";
             } else if (isUser) {
@@ -772,6 +878,13 @@
         });
       });
     });
+
+    // Home: Deck selector
+    if ($("deck-select")) {
+      $("deck-select").addEventListener("change", (e) => {
+        selectDeck(e.target.value, true);
+      });
+    }
 
     // Home: Total questions input & presets
     $("cfg-limit").addEventListener("input", () => {
@@ -954,7 +1067,7 @@
 
     const handleSubmitClick = () => {
       if (!state.session) return;
-      const unanswered = state.session.answers.filter((a) => a === null).length;
+      const unanswered = state.session.answers.filter((a) => !isQuestionAnswered(a)).length;
       if (unanswered > 0 && !confirm(`Bạn còn ${unanswered} câu chưa trả lời. Xác nhận nộp bài?`)) {
         return;
       }

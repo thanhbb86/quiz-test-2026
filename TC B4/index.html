@@ -78,6 +78,18 @@
 
     <!-- ==================== VIEW 1: TRANG CHỦ / CẤU HÌNH ==================== -->
     <section id="view-home" class="space-y-5">
+      <!-- Chọn bộ đề -->
+      <div class="bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-5 border border-slate-200 dark:border-slate-800 shadow-sm">
+        <div class="flex flex-wrap items-center justify-between gap-3">
+          <div>
+            <h2 class="font-bold text-base">Chọn bộ đề thi</h2>
+            <p class="text-xs text-slate-500 dark:text-slate-400">Trưởng Ca Bậc 4, Bộ đề An toàn &amp; Văn hóa Doanh nghiệp</p>
+          </div>
+          <select id="deck-select" class="w-full sm:w-auto min-w-[240px] rounded-xl border border-brand-300 dark:border-brand-700 bg-brand-50/50 dark:bg-slate-800 px-3 py-2.5 text-sm font-bold text-brand-700 dark:text-brand-300">
+          </select>
+        </div>
+      </div>
+
       <!-- Thống kê nhanh -->
       <div class="grid grid-cols-3 gap-2.5 sm:gap-4">
         <div class="bg-white dark:bg-slate-900 rounded-2xl p-3 sm:p-4 border border-slate-200 dark:border-slate-800 shadow-sm">
@@ -484,6 +496,7 @@
 
   <!-- Dữ liệu mặc định nhúng sẵn (tránh lỗi CORS khi mở trực tiếp file://) -->
   <script src="./data/questions.js"></script>
+  <script src="./data/extra-decks.js"></script>
   <script src="./src/db.js"></script>
   <script src="./src/excel-parser.js"></script>
   <script src="./src/quiz-engine.js"></script>

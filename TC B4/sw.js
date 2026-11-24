@@ -1,4 +1,4 @@
-const CACHE_NAME = "quiz-tc-b4-v4";
+const CACHE_NAME = "quiz-tc-b4-v5";
 const CORE_ASSETS = [
   "./",
   "./index.html",
@@ -7,6 +7,7 @@ const CORE_ASSETS = [
   "./icons/icon-192.png",
   "./icons/icon-512.png",
   "./data/questions.js",
+  "./data/extra-decks.js",
   "./src/styles.css",
   "./src/db.js",
   "./src/excel-parser.js",

@@ -5,7 +5,7 @@
 (function (global) {
   "use strict";
 
-  const OPTION_LABELS = ["A", "B", "C", "D", "E", "F"];
+  const OPTION_LABELS = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"];
   let activeTimerId = null;
 
   function shuffleArray(arr) {
@@ -54,10 +54,15 @@
   }
 
   function prepareQuestion(rawQ, shuffleOptions) {
+    const rawCorrectSet = new Set(
+      Array.isArray(rawQ.correctIndices) && rawQ.correctIndices.length > 0
+        ? rawQ.correctIndices
+        : [rawQ.correctIndex]
+    );
     const indexedOpts = rawQ.options.map((opt, idx) => ({
       origLabel: opt.label || OPTION_LABELS[idx] || String(idx + 1),
       text: opt.text,
-      isCorrect: idx === rawQ.correctIndex,
+      isCorrect: rawCorrectSet.has(idx),
       isAggregate: isAggregateOption(opt.text),
     }));
 
@@ -78,9 +83,9 @@
       labelMap[opt.origLabel] = OPTION_LABELS[idx] || String(idx + 1);
     });
 
-    let newCorrectIndex = 0;
+    const newCorrectIndices = [];
     const options = finalOpts.map((opt, idx) => {
-      if (opt.isCorrect) newCorrectIndex = idx;
+      if (opt.isCorrect) newCorrectIndices.push(idx);
       const newLabel = OPTION_LABELS[idx] || String(idx + 1);
       const finalText =
         shuffleOptions && !hasPosRef ? remapOptionReferences(opt.text, labelMap) : opt.text;
@@ -97,7 +102,9 @@
       sectionTitle: rawQ.sectionTitle,
       text: rawQ.text,
       options,
-      correctIndex: newCorrectIndex,
+      correctIndex: newCorrectIndices[0] ?? 0,
+      correctIndices: newCorrectIndices,
+      isMulti: newCorrectIndices.length > 1,
     };
   }
 
@@ -249,6 +256,7 @@
       title,
       questions: preparedQuestions,
       answers: new Array(preparedQuestions.length).fill(null),
+      checked: new Array(preparedQuestions.length).fill(false),
       flagged: new Array(preparedQuestions.length).fill(false),
       currentIndex: 0,
       durationSec,
@@ -300,8 +308,20 @@
 
     session.questions.forEach((q, idx) => {
       const userAnswer = session.answers[idx];
-      const isAnswered = userAnswer !== null && userAnswer !== undefined;
-      const isCorrect = isAnswered && userAnswer === q.correctIndex;
+      let isAnswered = false;
+      let isCorrect = false;
+      if (q.isMulti) {
+        const arr = Array.isArray(userAnswer) ? userAnswer : [];
+        isAnswered = arr.length > 0;
+        const userSet = new Set(arr);
+        isCorrect =
+          isAnswered &&
+          userSet.size === q.correctIndices.length &&
+          q.correctIndices.every((ci) => userSet.has(ci));
+      } else {
+        isAnswered = userAnswer !== null && userAnswer !== undefined;
+        isCorrect = isAnswered && userAnswer === q.correctIndex;
+      }
 
       if (isAnswered) answeredCount += 1;
       if (isCorrect) {
