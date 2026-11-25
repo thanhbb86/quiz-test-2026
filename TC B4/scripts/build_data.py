@@ -46,9 +46,19 @@ def parse_excel(excel_path: Path, sheet_name: str = SHEET_NAME) -> dict[str, Any
 
     workbook = openpyxl.load_workbook(excel_path, data_only=True)
     try:
-        if sheet_name not in workbook.sheetnames:
-            raise ValueError(f"Không tìm thấy sheet '{sheet_name}' trong {excel_path.name}")
-        ws = workbook[sheet_name]
+        if sheet_name in workbook.sheetnames:
+            ws = workbook[sheet_name]
+        elif "TC B4" in workbook.sheetnames:
+            ws = workbook["TC B4"]
+        else:
+            ws = workbook.worksheets[0]
+        sheet_name = ws.title
+
+        start_row = 4
+        for r in range(1, min(10, ws.max_row + 1)):
+            if clean_text(ws.cell(r, 1).value).upper() in ("CÂU HỎI", "CAU HOI"):
+                start_row = r + 1
+                break
 
         org_title = clean_text(ws.cell(1, 2).value) or "NHÀ MÁY THỦY ĐIỆN BẮC BÌNH"
         exam_title = clean_text(ws.cell(2, 2).value) or "ĐỐI TƯỢNG THI: TRƯỞNG CA BẬC 4"
@@ -75,10 +85,10 @@ def parse_excel(excel_path: Path, sheet_name: str = SHEET_NAME) -> dict[str, Any
             q["options"] = [{"label": opt["label"], "text": opt["text"]} for opt in q["options"]]
             questions.append(q)
 
-        for r in range(4, ws.max_row + 1):
+        for r in range(start_row, ws.max_row + 1):
             col1 = clean_text(ws.cell(r, 1).value)
             col2 = clean_text(ws.cell(r, 2).value)
-            col3 = clean_text(ws.cell(r, 3).value).upper()
+            col3 = re.sub(r"[^A-ZĐ]", "", clean_text(ws.cell(r, 3).value).upper())
 
             if not col1 and not col2:
                 continue

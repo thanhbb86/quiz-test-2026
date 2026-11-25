@@ -2,12 +2,12 @@
 window.QUIZ_DATA = {
   "meta": {
     "organization": "CÔNG TY CỔ PHẦN PHÁT TRIỂN ĐIỆN LỰC VIỆT NAM\n NHÀ MÁY THỦY ĐIỆN BẮC BÌNH",
-    "title": "ĐỐI TƯỢNG THI: TRƯỞNG CA BẬC 4",
+    "title": "ĐỐI TƯỢNG THI: TRƯỞNG CA",
     "sourceFile": "truong ca bac 4.xlsx",
-    "sheetName": "trac nghiem",
+    "sheetName": "TC B4",
     "totalSections": 12,
-    "totalQuestions": 403,
-    "generatedAt": "2026-11-21T12:53:44.933287+00:00"
+    "totalQuestions": 427,
+    "generatedAt": "2026-11-25T05:19:24.007652+00:00"
   },
   "sections": [
     {
@@ -38,7 +38,7 @@ window.QUIZ_DATA = {
     {
       "id": "VI",
       "title": "CHƯƠNG I ĐẾN VI THÔNG TƯ 06/2025/TT-BCTT QUY ĐỊNH ĐIỀU ĐỘ, VẬN HÀNH, THAO TÁC, XỬ LÝ SỰ CỐ, KHỞI ĐỘNG ĐEN VÀ KHÔI PHỤC HTĐ QUỐC GIA",
-      "questionCount": 30
+      "questionCount": 54
     },
     {
       "id": "VII",
@@ -97,7 +97,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 5
+      "sourceRow": 6
     },
     {
       "id": "I-2-2",
@@ -124,7 +124,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 10
+      "sourceRow": 11
     },
     {
       "id": "I-3-3",
@@ -151,7 +151,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 15
+      "sourceRow": 16
     },
     {
       "id": "I-4-4",
@@ -178,7 +178,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 20
+      "sourceRow": 21
     },
     {
       "id": "I-5-5",
@@ -205,7 +205,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 25
+      "sourceRow": 26
     },
     {
       "id": "I-6-6",
@@ -232,7 +232,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 30
+      "sourceRow": 31
     },
     {
       "id": "I-7-7",
@@ -259,7 +259,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 35
+      "sourceRow": 36
     },
     {
       "id": "I-8-8",
@@ -286,7 +286,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 40
+      "sourceRow": 41
     },
     {
       "id": "I-9-9",
@@ -313,7 +313,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 45
+      "sourceRow": 46
     },
     {
       "id": "I-10-10",
@@ -340,7 +340,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 50
+      "sourceRow": 51
     },
     {
       "id": "I-11-11",
@@ -367,7 +367,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 55
+      "sourceRow": 56
     },
     {
       "id": "I-12-12",
@@ -394,7 +394,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 60
+      "sourceRow": 61
     },
     {
       "id": "I-13-13",
@@ -421,7 +421,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 65
+      "sourceRow": 66
     },
     {
       "id": "I-14-14",
@@ -448,7 +448,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 70
+      "sourceRow": 71
     },
     {
       "id": "I-15-15",
@@ -475,7 +475,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 75
+      "sourceRow": 76
     },
     {
       "id": "I-16-16",
@@ -502,7 +502,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 80
+      "sourceRow": 81
     },
     {
       "id": "I-17-17",
@@ -529,7 +529,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 85
+      "sourceRow": 86
     },
     {
       "id": "I-18-18",
@@ -556,7 +556,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 90
+      "sourceRow": 91
     },
     {
       "id": "I-19-19",
@@ -583,7 +583,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 95
+      "sourceRow": 96
     },
     {
       "id": "I-20-20",
@@ -610,7 +610,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 100
+      "sourceRow": 101
     },
     {
       "id": "I-21-21",
@@ -637,7 +637,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 105
+      "sourceRow": 106
     },
     {
       "id": "I-22-22",
@@ -664,7 +664,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 110
+      "sourceRow": 111
     },
     {
       "id": "I-23-23",
@@ -691,7 +691,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 115
+      "sourceRow": 116
     },
     {
       "id": "I-24-24",
@@ -718,7 +718,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 120
+      "sourceRow": 121
     },
     {
       "id": "I-25-25",
@@ -745,7 +745,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 125
+      "sourceRow": 126
     },
     {
       "id": "I-26-26",
@@ -772,7 +772,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 130
+      "sourceRow": 131
     },
     {
       "id": "I-27-27",
@@ -799,7 +799,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 135
+      "sourceRow": 136
     },
     {
       "id": "I-28-28",
@@ -826,7 +826,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 140
+      "sourceRow": 141
     },
     {
       "id": "I-29-29",
@@ -853,7 +853,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 145
+      "sourceRow": 146
     },
     {
       "id": "I-30-30",
@@ -880,7 +880,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 150
+      "sourceRow": 151
     },
     {
       "id": "I-31-31",
@@ -907,7 +907,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 155
+      "sourceRow": 156
     },
     {
       "id": "I-32-32",
@@ -934,7 +934,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 160
+      "sourceRow": 161
     },
     {
       "id": "I-33-33",
@@ -961,7 +961,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 165
+      "sourceRow": 166
     },
     {
       "id": "I-34-34",
@@ -988,7 +988,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 170
+      "sourceRow": 171
     },
     {
       "id": "I-35-35",
@@ -1015,7 +1015,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 175
+      "sourceRow": 176
     },
     {
       "id": "I-36-36",
@@ -1042,7 +1042,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 180
+      "sourceRow": 181
     },
     {
       "id": "I-37-37",
@@ -1069,7 +1069,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 185
+      "sourceRow": 186
     },
     {
       "id": "I-38-38",
@@ -1096,7 +1096,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 190
+      "sourceRow": 191
     },
     {
       "id": "I-39-39",
@@ -1123,7 +1123,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 195
+      "sourceRow": 196
     },
     {
       "id": "I-40-40",
@@ -1150,7 +1150,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 200
+      "sourceRow": 201
     },
     {
       "id": "I-41-41",
@@ -1177,7 +1177,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 205
+      "sourceRow": 206
     },
     {
       "id": "I-42-42",
@@ -1204,7 +1204,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 210
+      "sourceRow": 211
     },
     {
       "id": "I-43-43",
@@ -1231,7 +1231,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 215
+      "sourceRow": 216
     },
     {
       "id": "I-44-44",
@@ -1258,7 +1258,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 220
+      "sourceRow": 221
     },
     {
       "id": "I-45-45",
@@ -1285,7 +1285,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 225
+      "sourceRow": 226
     },
     {
       "id": "I-46-46",
@@ -1312,7 +1312,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 230
+      "sourceRow": 231
     },
     {
       "id": "I-47-47",
@@ -1331,7 +1331,7 @@ window.QUIZ_DATA = {
         },
         {
           "label": "C",
-          "text": "Nhưng sau đó phải theo dõi nhiệt độ gió và có kế hoạch đưa bộ làm\nmát này ra xửa chữa"
+          "text": "Nhưng sau đó phải theo dõi nhiệt độ gió và có kế hoạch đưa bộ làm mát này ra xửa chữa"
         },
         {
           "label": "D",
@@ -1339,7 +1339,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 235
+      "sourceRow": 236
     },
     {
       "id": "I-48-48",
@@ -1366,7 +1366,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 240
+      "sourceRow": 241
     },
     {
       "id": "I-49-49",
@@ -1393,7 +1393,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 245
+      "sourceRow": 246
     },
     {
       "id": "I-50-50",
@@ -1420,7 +1420,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 250
+      "sourceRow": 251
     },
     {
       "id": "I-51-51",
@@ -1447,14 +1447,14 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 255
+      "sourceRow": 256
     },
     {
       "id": "I-52-52",
       "number": 52,
       "sectionId": "I",
       "sectionTitle": "QTXLSC TỔ MÁY VÀ TRẠM 110 kV",
-      "text": "Theo quy trình xử lý sự cố tổ máy Bắc Bình: Các nhóm sự cố phần điện bao gồm:",
+      "text": "Theo quy trình xử lý sự cố tổ máy Bắc Bình; Các nhóm sự cố phần điện bao gồm:",
       "options": [
         {
           "label": "A",
@@ -1474,7 +1474,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 260
+      "sourceRow": 261
     },
     {
       "id": "I-53-53",
@@ -1501,7 +1501,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 265
+      "sourceRow": 266
     },
     {
       "id": "I-54-54",
@@ -1528,7 +1528,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 270
+      "sourceRow": 271
     },
     {
       "id": "I-55-55",
@@ -1555,7 +1555,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 275
+      "sourceRow": 276
     },
     {
       "id": "I-56-56",
@@ -1582,7 +1582,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 280
+      "sourceRow": 281
     },
     {
       "id": "I-57-57",
@@ -1609,7 +1609,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 285
+      "sourceRow": 286
     },
     {
       "id": "I-58-58",
@@ -1636,7 +1636,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 290
+      "sourceRow": 291
     },
     {
       "id": "I-59-59",
@@ -1663,7 +1663,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 295
+      "sourceRow": 296
     },
     {
       "id": "I-60-60",
@@ -1690,7 +1690,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 300
+      "sourceRow": 301
     },
     {
       "id": "I-61-61",
@@ -1717,7 +1717,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 305
+      "sourceRow": 306
     },
     {
       "id": "I-62-62",
@@ -1744,7 +1744,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 310
+      "sourceRow": 311
     },
     {
       "id": "I-63-63",
@@ -1771,7 +1771,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 315
+      "sourceRow": 316
     },
     {
       "id": "I-64-64",
@@ -1798,7 +1798,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 320
+      "sourceRow": 321
     },
     {
       "id": "I-65-65",
@@ -1825,7 +1825,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 325
+      "sourceRow": 326
     },
     {
       "id": "I-66-66",
@@ -1852,7 +1852,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 330
+      "sourceRow": 331
     },
     {
       "id": "I-67-67",
@@ -1875,7 +1875,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 335
+      "sourceRow": 336
     },
     {
       "id": "I-68-68",
@@ -1902,7 +1902,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 339
+      "sourceRow": 340
     },
     {
       "id": "I-69-69",
@@ -1929,7 +1929,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 344
+      "sourceRow": 345
     },
     {
       "id": "I-70-70",
@@ -1956,7 +1956,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 349
+      "sourceRow": 350
     },
     {
       "id": "II-1-71",
@@ -1983,7 +1983,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 355
+      "sourceRow": 356
     },
     {
       "id": "II-2-72",
@@ -2010,7 +2010,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 360
+      "sourceRow": 361
     },
     {
       "id": "II-3-73",
@@ -2037,7 +2037,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 365
+      "sourceRow": 366
     },
     {
       "id": "II-4-74",
@@ -2064,7 +2064,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 370
+      "sourceRow": 371
     },
     {
       "id": "II-5-75",
@@ -2091,7 +2091,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 375
+      "sourceRow": 376
     },
     {
       "id": "II-6-76",
@@ -2118,7 +2118,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 380
+      "sourceRow": 381
     },
     {
       "id": "II-7-77",
@@ -2145,7 +2145,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 385
+      "sourceRow": 386
     },
     {
       "id": "II-8-78",
@@ -2172,7 +2172,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 390
+      "sourceRow": 391
     },
     {
       "id": "II-9-79",
@@ -2199,7 +2199,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 395
+      "sourceRow": 396
     },
     {
       "id": "II-10-80",
@@ -2226,7 +2226,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 400
+      "sourceRow": 401
     },
     {
       "id": "II-11-81",
@@ -2253,7 +2253,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 405
+      "sourceRow": 406
     },
     {
       "id": "II-12-82",
@@ -2280,7 +2280,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 410
+      "sourceRow": 411
     },
     {
       "id": "II-13-83",
@@ -2307,7 +2307,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 415
+      "sourceRow": 416
     },
     {
       "id": "II-14-84",
@@ -2334,7 +2334,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 420
+      "sourceRow": 421
     },
     {
       "id": "II-15-85",
@@ -2357,7 +2357,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 425
+      "sourceRow": 426
     },
     {
       "id": "II-16-86",
@@ -2384,7 +2384,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 429
+      "sourceRow": 430
     },
     {
       "id": "III-1-87",
@@ -2411,7 +2411,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 435
+      "sourceRow": 436
     },
     {
       "id": "III-2-88",
@@ -2438,7 +2438,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 440
+      "sourceRow": 441
     },
     {
       "id": "III-3-89",
@@ -2465,7 +2465,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 445
+      "sourceRow": 446
     },
     {
       "id": "III-4-90",
@@ -2492,7 +2492,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 450
+      "sourceRow": 451
     },
     {
       "id": "III-5-91",
@@ -2519,7 +2519,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 455
+      "sourceRow": 456
     },
     {
       "id": "III-6-92",
@@ -2546,7 +2546,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 460
+      "sourceRow": 461
     },
     {
       "id": "III-7-93",
@@ -2573,7 +2573,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 465
+      "sourceRow": 466
     },
     {
       "id": "III-8-94",
@@ -2600,7 +2600,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 470
+      "sourceRow": 471
     },
     {
       "id": "III-9-95",
@@ -2627,7 +2627,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 475
+      "sourceRow": 476
     },
     {
       "id": "III-10-96",
@@ -2654,7 +2654,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 480
+      "sourceRow": 481
     },
     {
       "id": "III-11-97",
@@ -2681,7 +2681,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 485
+      "sourceRow": 486
     },
     {
       "id": "III-12-98",
@@ -2708,7 +2708,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 490
+      "sourceRow": 491
     },
     {
       "id": "III-13-99",
@@ -2735,7 +2735,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 495
+      "sourceRow": 496
     },
     {
       "id": "III-14-100",
@@ -2762,7 +2762,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 500
+      "sourceRow": 501
     },
     {
       "id": "III-15-101",
@@ -2789,7 +2789,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 505
+      "sourceRow": 506
     },
     {
       "id": "III-16-102",
@@ -2816,7 +2816,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 510
+      "sourceRow": 511
     },
     {
       "id": "III-17-103",
@@ -2843,7 +2843,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 515
+      "sourceRow": 516
     },
     {
       "id": "III-18-104",
@@ -2870,7 +2870,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 520
+      "sourceRow": 521
     },
     {
       "id": "III-19-105",
@@ -2897,7 +2897,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 525
+      "sourceRow": 526
     },
     {
       "id": "III-20-106",
@@ -2924,7 +2924,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 530
+      "sourceRow": 531
     },
     {
       "id": "III-21-107",
@@ -2951,7 +2951,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 535
+      "sourceRow": 536
     },
     {
       "id": "III-22-108",
@@ -2978,7 +2978,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 540
+      "sourceRow": 541
     },
     {
       "id": "III-23-109",
@@ -3005,7 +3005,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 545
+      "sourceRow": 546
     },
     {
       "id": "III-24-110",
@@ -3032,7 +3032,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 550
+      "sourceRow": 551
     },
     {
       "id": "III-25-111",
@@ -3059,7 +3059,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 555
+      "sourceRow": 556
     },
     {
       "id": "III-26-112",
@@ -3086,7 +3086,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 560
+      "sourceRow": 561
     },
     {
       "id": "III-27-113",
@@ -3113,7 +3113,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 565
+      "sourceRow": 566
     },
     {
       "id": "III-28-114",
@@ -3140,7 +3140,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 570
+      "sourceRow": 571
     },
     {
       "id": "IV-1-115",
@@ -3167,7 +3167,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 576
+      "sourceRow": 577
     },
     {
       "id": "IV-2-116",
@@ -3194,7 +3194,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 581
+      "sourceRow": 582
     },
     {
       "id": "IV-3-117",
@@ -3221,7 +3221,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 586
+      "sourceRow": 587
     },
     {
       "id": "IV-4-118",
@@ -3248,7 +3248,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 591
+      "sourceRow": 592
     },
     {
       "id": "IV-5-119",
@@ -3275,7 +3275,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 596
+      "sourceRow": 597
     },
     {
       "id": "IV-6-120",
@@ -3302,7 +3302,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 601
+      "sourceRow": 602
     },
     {
       "id": "IV-7-121",
@@ -3329,7 +3329,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 606
+      "sourceRow": 607
     },
     {
       "id": "IV-8-122",
@@ -3356,7 +3356,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 611
+      "sourceRow": 612
     },
     {
       "id": "IV-9-123",
@@ -3383,7 +3383,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 616
+      "sourceRow": 617
     },
     {
       "id": "IV-10-124",
@@ -3410,7 +3410,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 621
+      "sourceRow": 622
     },
     {
       "id": "IV-11-125",
@@ -3437,7 +3437,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 626
+      "sourceRow": 627
     },
     {
       "id": "IV-12-126",
@@ -3464,7 +3464,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 631
+      "sourceRow": 632
     },
     {
       "id": "IV-13-127",
@@ -3491,7 +3491,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 636
+      "sourceRow": 637
     },
     {
       "id": "IV-14-128",
@@ -3518,7 +3518,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 641
+      "sourceRow": 642
     },
     {
       "id": "IV-15-129",
@@ -3545,7 +3545,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 646
+      "sourceRow": 647
     },
     {
       "id": "IV-16-130",
@@ -3572,7 +3572,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 651
+      "sourceRow": 652
     },
     {
       "id": "IV-17-131",
@@ -3599,7 +3599,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 656
+      "sourceRow": 657
     },
     {
       "id": "IV-18-132",
@@ -3626,7 +3626,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 661
+      "sourceRow": 662
     },
     {
       "id": "IV-19-133",
@@ -3653,7 +3653,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 666
+      "sourceRow": 667
     },
     {
       "id": "IV-20-134",
@@ -3680,7 +3680,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 671
+      "sourceRow": 672
     },
     {
       "id": "IV-21-135",
@@ -3707,7 +3707,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 676
+      "sourceRow": 677
     },
     {
       "id": "IV-22-136",
@@ -3734,7 +3734,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 681
+      "sourceRow": 682
     },
     {
       "id": "IV-23-137",
@@ -3761,7 +3761,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 686
+      "sourceRow": 687
     },
     {
       "id": "IV-24-138",
@@ -3788,7 +3788,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 691
+      "sourceRow": 692
     },
     {
       "id": "IV-25-139",
@@ -3815,7 +3815,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 696
+      "sourceRow": 697
     },
     {
       "id": "IV-26-140",
@@ -3842,14 +3842,14 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 701
+      "sourceRow": 702
     },
     {
       "id": "IV-27-141",
       "number": 27,
       "sectionId": "IV",
       "sectionTitle": "Phần II: AN TOÀN THUỶ, CƠ, NHIỆT, HOÁ CỦA QUY TRÌNH AN TOÀN",
-      "text": "Theo Phần II. An toàn TCNH của quy trình an toàn quy định pha chế a xit như\nthế nào?",
+      "text": "Theo Phần II. An toàn TCNH của quy trình an toàn quy định pha chế a xit như thế nào?",
       "options": [
         {
           "label": "A",
@@ -3869,7 +3869,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 706
+      "sourceRow": 707
     },
     {
       "id": "IV-28-142",
@@ -3896,7 +3896,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 711
+      "sourceRow": 712
     },
     {
       "id": "V-1-143",
@@ -3923,7 +3923,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 717
+      "sourceRow": 718
     },
     {
       "id": "V-2-144",
@@ -3950,7 +3950,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 722
+      "sourceRow": 723
     },
     {
       "id": "V-3-145",
@@ -3977,7 +3977,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 727
+      "sourceRow": 728
     },
     {
       "id": "V-4-146",
@@ -4004,7 +4004,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 732
+      "sourceRow": 733
     },
     {
       "id": "V-5-147",
@@ -4031,7 +4031,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 737
+      "sourceRow": 738
     },
     {
       "id": "V-6-148",
@@ -4058,7 +4058,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 742
+      "sourceRow": 743
     },
     {
       "id": "V-7-149",
@@ -4085,7 +4085,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 747
+      "sourceRow": 748
     },
     {
       "id": "V-8-150",
@@ -4112,7 +4112,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 752
+      "sourceRow": 753
     },
     {
       "id": "V-9-151",
@@ -4139,7 +4139,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 757
+      "sourceRow": 758
     },
     {
       "id": "V-10-152",
@@ -4166,7 +4166,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 762
+      "sourceRow": 763
     },
     {
       "id": "V-11-153",
@@ -4193,7 +4193,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 767
+      "sourceRow": 768
     },
     {
       "id": "V-12-154",
@@ -4220,7 +4220,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 772
+      "sourceRow": 773
     },
     {
       "id": "V-13-155",
@@ -4247,7 +4247,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 777
+      "sourceRow": 778
     },
     {
       "id": "V-14-156",
@@ -4274,7 +4274,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 782
+      "sourceRow": 783
     },
     {
       "id": "V-15-157",
@@ -4301,7 +4301,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 787
+      "sourceRow": 788
     },
     {
       "id": "V-16-158",
@@ -4328,7 +4328,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 792
+      "sourceRow": 793
     },
     {
       "id": "V-17-159",
@@ -4355,7 +4355,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 797
+      "sourceRow": 798
     },
     {
       "id": "V-18-160",
@@ -4382,7 +4382,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 802
+      "sourceRow": 803
     },
     {
       "id": "V-19-161",
@@ -4409,7 +4409,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 807
+      "sourceRow": 808
     },
     {
       "id": "V-20-162",
@@ -4436,7 +4436,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 812
+      "sourceRow": 813
     },
     {
       "id": "V-21-163",
@@ -4463,7 +4463,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 817
+      "sourceRow": 818
     },
     {
       "id": "V-22-164",
@@ -4490,7 +4490,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 822
+      "sourceRow": 823
     },
     {
       "id": "V-23-165",
@@ -4517,7 +4517,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 827
+      "sourceRow": 828
     },
     {
       "id": "V-24-166",
@@ -4544,7 +4544,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 832
+      "sourceRow": 833
     },
     {
       "id": "V-25-167",
@@ -4571,7 +4571,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 837
+      "sourceRow": 838
     },
     {
       "id": "V-26-168",
@@ -4598,7 +4598,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 842
+      "sourceRow": 843
     },
     {
       "id": "V-27-169",
@@ -4625,7 +4625,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 847
+      "sourceRow": 848
     },
     {
       "id": "V-28-170",
@@ -4652,7 +4652,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 852
+      "sourceRow": 853
     },
     {
       "id": "V-29-171",
@@ -4679,7 +4679,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 857
+      "sourceRow": 858
     },
     {
       "id": "V-30-172",
@@ -4706,7 +4706,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 862
+      "sourceRow": 863
     },
     {
       "id": "VI-1-173",
@@ -4733,7 +4733,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 868
+      "sourceRow": 869
     },
     {
       "id": "VI-2-174",
@@ -4760,7 +4760,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 873
+      "sourceRow": 874
     },
     {
       "id": "VI-3-175",
@@ -4787,7 +4787,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 878
+      "sourceRow": 879
     },
     {
       "id": "VI-4-176",
@@ -4814,7 +4814,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 883
+      "sourceRow": 884
     },
     {
       "id": "VI-5-177",
@@ -4841,7 +4841,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 888
+      "sourceRow": 889
     },
     {
       "id": "VI-6-178",
@@ -4868,7 +4868,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 893
+      "sourceRow": 894
     },
     {
       "id": "VI-7-179",
@@ -4895,7 +4895,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 898
+      "sourceRow": 899
     },
     {
       "id": "VI-8-180",
@@ -4922,7 +4922,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 903
+      "sourceRow": 904
     },
     {
       "id": "VI-9-181",
@@ -4949,7 +4949,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 908
+      "sourceRow": 909
     },
     {
       "id": "VI-10-182",
@@ -4976,7 +4976,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 913
+      "sourceRow": 914
     },
     {
       "id": "VI-11-183",
@@ -5003,7 +5003,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 918
+      "sourceRow": 919
     },
     {
       "id": "VI-12-184",
@@ -5030,7 +5030,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 923
+      "sourceRow": 924
     },
     {
       "id": "VI-13-185",
@@ -5057,7 +5057,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 928
+      "sourceRow": 929
     },
     {
       "id": "VI-14-186",
@@ -5084,7 +5084,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 933
+      "sourceRow": 934
     },
     {
       "id": "VI-15-187",
@@ -5111,7 +5111,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 938
+      "sourceRow": 939
     },
     {
       "id": "VI-16-188",
@@ -5138,7 +5138,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 943
+      "sourceRow": 944
     },
     {
       "id": "VI-17-189",
@@ -5165,7 +5165,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 948
+      "sourceRow": 949
     },
     {
       "id": "VI-18-190",
@@ -5192,7 +5192,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 953
+      "sourceRow": 954
     },
     {
       "id": "VI-19-191",
@@ -5219,7 +5219,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 958
+      "sourceRow": 959
     },
     {
       "id": "VI-20-192",
@@ -5246,7 +5246,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 963
+      "sourceRow": 964
     },
     {
       "id": "VI-21-193",
@@ -5273,7 +5273,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 968
+      "sourceRow": 969
     },
     {
       "id": "VI-22-194",
@@ -5300,7 +5300,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 973
+      "sourceRow": 974
     },
     {
       "id": "VI-23-195",
@@ -5327,7 +5327,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 978
+      "sourceRow": 979
     },
     {
       "id": "VI-24-196",
@@ -5354,7 +5354,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 983
+      "sourceRow": 984
     },
     {
       "id": "VI-25-197",
@@ -5381,7 +5381,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 988
+      "sourceRow": 989
     },
     {
       "id": "VI-26-198",
@@ -5408,7 +5408,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 993
+      "sourceRow": 994
     },
     {
       "id": "VI-27-199",
@@ -5435,7 +5435,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 998
+      "sourceRow": 999
     },
     {
       "id": "VI-28-200",
@@ -5462,7 +5462,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1003
+      "sourceRow": 1004
     },
     {
       "id": "VI-29-201",
@@ -5489,7 +5489,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1008
+      "sourceRow": 1009
     },
     {
       "id": "VI-30-202",
@@ -5516,10 +5516,642 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1013
+      "sourceRow": 1014
     },
     {
-      "id": "VII-1-203",
+      "id": "VI-31-203",
+      "number": 31,
+      "sectionId": "VI",
+      "sectionTitle": "CHƯƠNG I ĐẾN VI THÔNG TƯ 06/2025/TT-BCTT QUY ĐỊNH ĐIỀU ĐỘ, VẬN HÀNH, THAO TÁC, XỬ LÝ SỰ CỐ, KHỞI ĐỘNG ĐEN VÀ KHÔI PHỤC HTĐ QUỐC GIA",
+      "text": "Theo Thông tư quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục HTĐQG: Cho phép Nhân viên vận hành đương ca giao ca trong các trường hợp nào",
+      "options": [
+        {
+          "label": "A",
+          "text": "Đã trực ca quá 12 giờ"
+        },
+        {
+          "label": "B",
+          "text": "Chưa thông báo đầy đủ tình hình vận hành trong ca cho nhân viên vận hành nhận ca"
+        },
+        {
+          "label": "C",
+          "text": "Nhân viên vận hành nhận ca đã ký nhận ca"
+        },
+        {
+          "label": "D",
+          "text": "Nhân viên vận hành nhận ca không đủ tỉnh táo do đã uống rượu, bia."
+        }
+      ],
+      "correctIndex": 2,
+      "sourceRow": 1019
+    },
+    {
+      "id": "VI-32-204",
+      "number": 32,
+      "sectionId": "VI",
+      "sectionTitle": "CHƯƠNG I ĐẾN VI THÔNG TƯ 06/2025/TT-BCTT QUY ĐỊNH ĐIỀU ĐỘ, VẬN HÀNH, THAO TÁC, XỬ LÝ SỰ CỐ, KHỞI ĐỘNG ĐEN VÀ KHÔI PHỤC HTĐ QUỐC GIA",
+      "text": "Theo Thông tư quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục HTĐQG: Nếu không có quy định riêng, máy biến áp dầu được phép quá tải ngắn hạn 45% trong bao lâu",
+      "options": [
+        {
+          "label": "A",
+          "text": "120 phút"
+        },
+        {
+          "label": "B",
+          "text": "20 phút"
+        },
+        {
+          "label": "C",
+          "text": "80 phút"
+        },
+        {
+          "label": "D",
+          "text": "45 phút"
+        }
+      ],
+      "correctIndex": 2,
+      "sourceRow": 1024
+    },
+    {
+      "id": "VI-33-205",
+      "number": 33,
+      "sectionId": "VI",
+      "sectionTitle": "CHƯƠNG I ĐẾN VI THÔNG TƯ 06/2025/TT-BCTT QUY ĐỊNH ĐIỀU ĐỘ, VẬN HÀNH, THAO TÁC, XỬ LÝ SỰ CỐ, KHỞI ĐỘNG ĐEN VÀ KHÔI PHỤC HTĐ QUỐC GIA",
+      "text": "Theo Thông tư quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục HTĐQG: Nhân viên vận hành thực hiện quyền điều khiển thế nào là không đúng quy trình trong trường hợp vận hành bình thường",
+      "options": [
+        {
+          "label": "A",
+          "text": "Xin phép và được sự cho phép của cấp điều độ có quyền kiểm tra trước khi thực hiện quyền điều khiển."
+        },
+        {
+          "label": "B",
+          "text": "Thông báo thông tin cần thiết với đơn vị có quyền nắm thông tin trước khi thực hiện quyền điều khiển."
+        },
+        {
+          "label": "C",
+          "text": "Báo cáo cấp điều độ có quyền kiểm tra sau khi thực hiện xong quyền điều khiển."
+        },
+        {
+          "label": "D",
+          "text": "Thông báo đơn vị có quyền nắm thông tin sau khi thực hiện xong quyền điều khiển."
+        }
+      ],
+      "correctIndex": 3,
+      "sourceRow": 1029
+    },
+    {
+      "id": "VI-34-206",
+      "number": 34,
+      "sectionId": "VI",
+      "sectionTitle": "CHƯƠNG I ĐẾN VI THÔNG TƯ 06/2025/TT-BCTT QUY ĐỊNH ĐIỀU ĐỘ, VẬN HÀNH, THAO TÁC, XỬ LÝ SỰ CỐ, KHỞI ĐỘNG ĐEN VÀ KHÔI PHỤC HTĐ QUỐC GIA",
+      "text": "Theo Thông tư quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục HTĐQG: Phương án nào quy định đúng điều kiện lựa chọn nhà máy điện khởi động đen chính theo điện áp",
+      "options": [
+        {
+          "label": "A",
+          "text": "Phương án B, C"
+        },
+        {
+          "label": "B",
+          "text": "Nhà máy điện đấu nối trực tiếp với hệ thống điện có cấp điện áp 500kV"
+        },
+        {
+          "label": "C",
+          "text": "Nhà máy điện đấu nối trực tiếp với hệ thống điện có cấp điện áp 220kV"
+        },
+        {
+          "label": "D",
+          "text": "Nhà máy điện đấu nối trực tiếp với hệ thống điện có cấp điện áp 110kV"
+        }
+      ],
+      "correctIndex": 0,
+      "sourceRow": 1034
+    },
+    {
+      "id": "VI-35-207",
+      "number": 35,
+      "sectionId": "VI",
+      "sectionTitle": "CHƯƠNG I ĐẾN VI THÔNG TƯ 06/2025/TT-BCTT QUY ĐỊNH ĐIỀU ĐỘ, VẬN HÀNH, THAO TÁC, XỬ LÝ SỰ CỐ, KHỞI ĐỘNG ĐEN VÀ KHÔI PHỤC HTĐ QUỐC GIA",
+      "text": "Theo Thông tư quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục HTĐQG: Trưởng ca xử lý theo phương án nào khi rơ le hơi của máy biến áp tác động báo tín hiệu, sau khi lấy mẫu khí trong rơ le để phân tích kiểm tra, kết quả trong khí có các thành phần phân hủy của chất cách điện",
+      "options": [
+        {
+          "label": "A",
+          "text": "Theo dõi các thông số vận hành của máy biến áp, báo cáo ngay Điều độ viên có quyền điều khiển khi có thay đổi."
+        },
+        {
+          "label": "B",
+          "text": "Tách ngay máy biến áp ra khỏi vận hành để tránh sự cố cháy nổ."
+        },
+        {
+          "label": "C",
+          "text": "Báo cáo lãnh đạo đơn vị để xin tách máy biến áp ra khỏi vận hành."
+        },
+        {
+          "label": "D",
+          "text": "Báo cáo ngay với với Cấp điều độ có quyền điều khiển để tách máy biến áp."
+        }
+      ],
+      "correctIndex": 3,
+      "sourceRow": 1039
+    },
+    {
+      "id": "VI-36-208",
+      "number": 36,
+      "sectionId": "VI",
+      "sectionTitle": "CHƯƠNG I ĐẾN VI THÔNG TƯ 06/2025/TT-BCTT QUY ĐỊNH ĐIỀU ĐỘ, VẬN HÀNH, THAO TÁC, XỬ LÝ SỰ CỐ, KHỞI ĐỘNG ĐEN VÀ KHÔI PHỤC HTĐ QUỐC GIA",
+      "text": "Theo Thông tư quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục HTĐQG: Không cho phép giao ca trong các trường hợp nào sau đây",
+      "options": [
+        {
+          "label": "A",
+          "text": "Nhân viên vận hành nhận ca đến muộn."
+        },
+        {
+          "label": "B",
+          "text": "Chưa thông báo đầy đủ tình hình vận hành trong ca cho nhân viên vận hành nhận ca."
+        },
+        {
+          "label": "C",
+          "text": "Nhân viên vận hành nhận ca đã uống rượu, bia."
+        },
+        {
+          "label": "D",
+          "text": "Nhân viên vận hành nhận ca bị mệt."
+        }
+      ],
+      "correctIndex": 1,
+      "sourceRow": 1044
+    },
+    {
+      "id": "VI-37-209",
+      "number": 37,
+      "sectionId": "VI",
+      "sectionTitle": "CHƯƠNG I ĐẾN VI THÔNG TƯ 06/2025/TT-BCTT QUY ĐỊNH ĐIỀU ĐỘ, VẬN HÀNH, THAO TÁC, XỬ LÝ SỰ CỐ, KHỞI ĐỘNG ĐEN VÀ KHÔI PHỤC HTĐ QUỐC GIA",
+      "text": "Theo Thông tư quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục HTĐQG: Phương án nào không đúng theo quy định trình tự thao tác dao cách ly hai phía máy cắt",
+      "options": [
+        {
+          "label": "A",
+          "text": "Đóng dao cách ly phía có điện áp trước"
+        },
+        {
+          "label": "B",
+          "text": "Mở dao cách ly phía nếu có sự cố xảy ra ít ảnh hưởng đến chế độ vận hành của hệ thống điện trước, mở dao cách ly kia sau"
+        },
+        {
+          "label": "C",
+          "text": "Đóng dao cách ly phía nếu có sự cố xảy ra ít ảnh hưởng đến chế độ vận hành của hệ thống điện trước, đóng dao cách ly kia sau"
+        },
+        {
+          "label": "D",
+          "text": "Mở dao cách ly phía không có điện áp trước"
+        }
+      ],
+      "correctIndex": 2,
+      "sourceRow": 1049
+    },
+    {
+      "id": "VI-38-210",
+      "number": 38,
+      "sectionId": "VI",
+      "sectionTitle": "CHƯƠNG I ĐẾN VI THÔNG TƯ 06/2025/TT-BCTT QUY ĐỊNH ĐIỀU ĐỘ, VẬN HÀNH, THAO TÁC, XỬ LÝ SỰ CỐ, KHỞI ĐỘNG ĐEN VÀ KHÔI PHỤC HTĐ QUỐC GIA",
+      "text": "Theo Thông tư quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục HTĐQG: Thẩm quyền cho phép máy cắt được cắt sự cố thêm khi vượt quá số lần quy định?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Giám đốc hoặc phó giám đốc kỹ thuật đơn vị quản lý vận hành thiết bị."
+        },
+        {
+          "label": "B",
+          "text": "Cấp điều độ có quyền điều khiển thiết bị."
+        },
+        {
+          "label": "C",
+          "text": "Trưởng kíp trực vận hành thiết bị."
+        },
+        {
+          "label": "D",
+          "text": "Cấp điều độ có quyền kiểm tra thiết bị."
+        }
+      ],
+      "correctIndex": 0,
+      "sourceRow": 1054
+    },
+    {
+      "id": "VI-39-211",
+      "number": 39,
+      "sectionId": "VI",
+      "sectionTitle": "CHƯƠNG I ĐẾN VI THÔNG TƯ 06/2025/TT-BCTT QUY ĐỊNH ĐIỀU ĐỘ, VẬN HÀNH, THAO TÁC, XỬ LÝ SỰ CỐ, KHỞI ĐỘNG ĐEN VÀ KHÔI PHỤC HTĐ QUỐC GIA",
+      "text": "Theo Thông tư quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục HTĐQG: Phương án nào cho phép đưa tổ máy trở lại vận hành không cần văn bản Đơn vị quản lý vận hành khẳng định máy phát điện đó đủ tiêu chuẩn vận hành",
+      "options": [
+        {
+          "label": "A",
+          "text": "Bảo vệ chạm đất stator"
+        },
+        {
+          "label": "B",
+          "text": "Bảo vệ so lệch"
+        },
+        {
+          "label": "C",
+          "text": "Bảo vệ quá dòng điện áp thấp"
+        },
+        {
+          "label": "D",
+          "text": "Bảo vệ mất kích từ"
+        }
+      ],
+      "correctIndex": 2,
+      "sourceRow": 1059
+    },
+    {
+      "id": "VI-40-212",
+      "number": 40,
+      "sectionId": "VI",
+      "sectionTitle": "CHƯƠNG I ĐẾN VI THÔNG TƯ 06/2025/TT-BCTT QUY ĐỊNH ĐIỀU ĐỘ, VẬN HÀNH, THAO TÁC, XỬ LÝ SỰ CỐ, KHỞI ĐỘNG ĐEN VÀ KHÔI PHỤC HTĐ QUỐC GIA",
+      "text": "Theo Thông tư quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục HTĐQG: Quy định trình tự thao tác dao cách ly hai phía máy cắt trong trường hợp một phía có điện áp, một phía không có điện áp",
+      "options": [
+        {
+          "label": "A",
+          "text": "Khi thao tác mở dao cách ly: Mở dao cách ly phía có điện áp trước, mở dao cách ly phía không có điện áp sau; Khi thao tác đóng dao cách ly: Đóng dao cách ly phía không có điện áp trước, đóng dao cách ly phía có điện áp sau"
+        },
+        {
+          "label": "B",
+          "text": "Khi thao tác mở dao cách ly: Mở dao cách ly phía có điện áp trước, mở dao cách ly phía không có điện áp sau; Khi thao tác đóng dao cách ly: Đóng dao cách ly phía có điện áp trước, đóng dao cách ly phía không có điện áp sau"
+        },
+        {
+          "label": "C",
+          "text": "Khi thao tác mở dao cách ly: Mở dao cách ly phía không có điện áp trước, mở dao cách ly phía có điện áp sau; Khi thao tác đóng dao cách ly: Đóng dao cách ly phía có điện áp trước, đóng dao cách ly phía không có điện áp sau"
+        }
+      ],
+      "correctIndex": 2,
+      "sourceRow": 1064
+    },
+    {
+      "id": "VI-41-213",
+      "number": 41,
+      "sectionId": "VI",
+      "sectionTitle": "CHƯƠNG I ĐẾN VI THÔNG TƯ 06/2025/TT-BCTT QUY ĐỊNH ĐIỀU ĐỘ, VẬN HÀNH, THAO TÁC, XỬ LÝ SỰ CỐ, KHỞI ĐỘNG ĐEN VÀ KHÔI PHỤC HTĐ QUỐC GIA",
+      "text": "Theo Thông tư quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục HTĐQG: Phương án nào cho phép đóng máy cắt không kiểm tra điều kiện hòa đồng bộ hoặc khép vòng",
+      "options": [
+        {
+          "label": "A",
+          "text": "Khi đóng theo lệnh điều độ"
+        },
+        {
+          "label": "B",
+          "text": "Khi không có mạch hòa"
+        },
+        {
+          "label": "C",
+          "text": "Khi một phía máy cắt có điện"
+        },
+        {
+          "label": "D",
+          "text": "Khi hai phía máy cắt có điện"
+        }
+      ],
+      "correctIndex": 2,
+      "sourceRow": 1068
+    },
+    {
+      "id": "VI-42-214",
+      "number": 42,
+      "sectionId": "VI",
+      "sectionTitle": "CHƯƠNG I ĐẾN VI THÔNG TƯ 06/2025/TT-BCTT QUY ĐỊNH ĐIỀU ĐỘ, VẬN HÀNH, THAO TÁC, XỬ LÝ SỰ CỐ, KHỞI ĐỘNG ĐEN VÀ KHÔI PHỤC HTĐ QUỐC GIA",
+      "text": "Theo Thông tư quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục HTĐQG: Cho phép thay đổi nội dung, trình tự thao tác trong phiếu thao tác trong trường hợp nào",
+      "options": [
+        {
+          "label": "A",
+          "text": "Người duyệt phiếu đồng ý"
+        },
+        {
+          "label": "B",
+          "text": "Người ra lệnh đồng ý"
+        },
+        {
+          "label": "C",
+          "text": "Không cho phép"
+        }
+      ],
+      "correctIndex": 0,
+      "sourceRow": 1073
+    },
+    {
+      "id": "VI-43-215",
+      "number": 43,
+      "sectionId": "VI",
+      "sectionTitle": "CHƯƠNG I ĐẾN VI THÔNG TƯ 06/2025/TT-BCTT QUY ĐỊNH ĐIỀU ĐỘ, VẬN HÀNH, THAO TÁC, XỬ LÝ SỰ CỐ, KHỞI ĐỘNG ĐEN VÀ KHÔI PHỤC HTĐ QUỐC GIA",
+      "text": "Theo Thông tư quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục HTĐQG: Điều khiển tần số thứ cấp được hiểu theo như thế nào",
+      "options": [
+        {
+          "label": "A",
+          "text": "Là quá trình điều chỉnh tiếp theo của điều chỉnh tần số sơ cấp được thực hiện thông qua tác động của hệ thống AGC nhằm đưa tần số về dải làm việc cho phép"
+        },
+        {
+          "label": "B",
+          "text": "Là điều khiển tần số sơ cấp"
+        },
+        {
+          "label": "C",
+          "text": "Là điều tần cấp 3"
+        },
+        {
+          "label": "D",
+          "text": "Là quá trình song song với điều chỉnh tần số sơ cấp được thực hiện thông qua tác động của hệ thống AGC nhằm đưa tần số về dải làm việc cho phép"
+        }
+      ],
+      "correctIndex": 0,
+      "sourceRow": 1077
+    },
+    {
+      "id": "VI-44-216",
+      "number": 44,
+      "sectionId": "VI",
+      "sectionTitle": "CHƯƠNG I ĐẾN VI THÔNG TƯ 06/2025/TT-BCTT QUY ĐỊNH ĐIỀU ĐỘ, VẬN HÀNH, THAO TÁC, XỬ LÝ SỰ CỐ, KHỞI ĐỘNG ĐEN VÀ KHÔI PHỤC HTĐ QUỐC GIA",
+      "text": "Theo Thông tư quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục HTĐQG: Thủ tục giao nhận ca được hoàn thành khi nào?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sau khi người giao ca ký tên vào sổ giao nhận ca."
+        },
+        {
+          "label": "B",
+          "text": "Sau khi người giao ca và người nhận ca ký tên vào sổ giao nhận ca."
+        },
+        {
+          "label": "C",
+          "text": "Sau khi đủ cả kíp nhận ca ký tên vào sổ giao nhận ca."
+        },
+        {
+          "label": "D",
+          "text": "Sau khi người nhận ca ký tên vào sổ giao nhận ca."
+        }
+      ],
+      "correctIndex": 1,
+      "sourceRow": 1082
+    },
+    {
+      "id": "VI-45-217",
+      "number": 45,
+      "sectionId": "VI",
+      "sectionTitle": "CHƯƠNG I ĐẾN VI THÔNG TƯ 06/2025/TT-BCTT QUY ĐỊNH ĐIỀU ĐỘ, VẬN HÀNH, THAO TÁC, XỬ LÝ SỰ CỐ, KHỞI ĐỘNG ĐEN VÀ KHÔI PHỤC HTĐ QUỐC GIA",
+      "text": "Theo Thông tư quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục HTĐQG: Trưởng ca nhà máy điện kiến nghị cấp điều độ có quyền điều khiển xử lý tín hiệu cảnh báo quá tải stator máy phát điện theo phương án nào",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tăng điện áp thanh cái"
+        },
+        {
+          "label": "B",
+          "text": "Phương án B, C"
+        },
+        {
+          "label": "C",
+          "text": "Giảm công suất phản kháng"
+        },
+        {
+          "label": "D",
+          "text": "Giảm công suất tác dụng"
+        }
+      ],
+      "correctIndex": 1,
+      "sourceRow": 1087
+    },
+    {
+      "id": "VI-46-218",
+      "number": 46,
+      "sectionId": "VI",
+      "sectionTitle": "CHƯƠNG I ĐẾN VI THÔNG TƯ 06/2025/TT-BCTT QUY ĐỊNH ĐIỀU ĐỘ, VẬN HÀNH, THAO TÁC, XỬ LÝ SỰ CỐ, KHỞI ĐỘNG ĐEN VÀ KHÔI PHỤC HTĐ QUỐC GIA",
+      "text": "Theo Thông tư quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục HTĐQG: Lãnh đạo trực tiếp của nhân viên vận hành cấp dưới có quyền nào",
+      "options": [
+        {
+          "label": "A",
+          "text": "Thay đổi lệnh điều độ khi được sự đồng ý của lãnh đạo của nhân viên vận hành cấp trên."
+        },
+        {
+          "label": "B",
+          "text": "Đình chỉ công tác của nhân viên vận hành và cử nhân viên vận hành khác thay thế."
+        },
+        {
+          "label": "C",
+          "text": "Thay đổi lệnh điều độ khi chưa được sự đồng ý của nhân viên vận hành cấp trên."
+        },
+        {
+          "label": "D",
+          "text": "Ra lệnh ngừng khẩn cấp thiết bị."
+        }
+      ],
+      "correctIndex": 1,
+      "sourceRow": 1092
+    },
+    {
+      "id": "VI-47-219",
+      "number": 47,
+      "sectionId": "VI",
+      "sectionTitle": "CHƯƠNG I ĐẾN VI THÔNG TƯ 06/2025/TT-BCTT QUY ĐỊNH ĐIỀU ĐỘ, VẬN HÀNH, THAO TÁC, XỬ LÝ SỰ CỐ, KHỞI ĐỘNG ĐEN VÀ KHÔI PHỤC HTĐ QUỐC GIA",
+      "text": "Theo Thông tư quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục HTĐQG: Nếu không có quy định riêng, máy biến áp dầu được phép quá tải ngắn hạn 30% trong bao lâu",
+      "options": [
+        {
+          "label": "A",
+          "text": "20 phút"
+        },
+        {
+          "label": "B",
+          "text": "80 phút"
+        },
+        {
+          "label": "C",
+          "text": "120 phút"
+        },
+        {
+          "label": "D",
+          "text": "45 phút"
+        }
+      ],
+      "correctIndex": 2,
+      "sourceRow": 1097
+    },
+    {
+      "id": "VI-48-220",
+      "number": 48,
+      "sectionId": "VI",
+      "sectionTitle": "CHƯƠNG I ĐẾN VI THÔNG TƯ 06/2025/TT-BCTT QUY ĐỊNH ĐIỀU ĐỘ, VẬN HÀNH, THAO TÁC, XỬ LÝ SỰ CỐ, KHỞI ĐỘNG ĐEN VÀ KHÔI PHỤC HTĐ QUỐC GIA",
+      "text": "Theo Thông tư quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục HTĐQG: Phương án nào quy định không đúng trách nhiệm ban hành quy trình vận hành và xử lý sự cố",
+      "options": [
+        {
+          "label": "A",
+          "text": "Đơn vị quản lý vận hành ban hành quy trình vận hành và xử lý sự cố hệ thống điện tự dùng"
+        },
+        {
+          "label": "B",
+          "text": "Cấp điều độ có quyền điều khiển ban hành quy trình vận hành và xử lý sự cố hệ thống điện thuộc quyền điều khiển"
+        },
+        {
+          "label": "C",
+          "text": "Cấp điều độ có quyền điều khiển ban hành quy trình vận hành và xử lý sự cố trạm điện, nhà máy điện"
+        },
+        {
+          "label": "D",
+          "text": "Đơn vị quản lý vận hành ban hành quy trình vận hành và xử lý sự cố trạm điện, nhà máy điện"
+        }
+      ],
+      "correctIndex": 2,
+      "sourceRow": 1102
+    },
+    {
+      "id": "VI-49-221",
+      "number": 49,
+      "sectionId": "VI",
+      "sectionTitle": "CHƯƠNG I ĐẾN VI THÔNG TƯ 06/2025/TT-BCTT QUY ĐỊNH ĐIỀU ĐỘ, VẬN HÀNH, THAO TÁC, XỬ LÝ SỰ CỐ, KHỞI ĐỘNG ĐEN VÀ KHÔI PHỤC HTĐ QUỐC GIA",
+      "text": "Theo Thông tư quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục HTĐQG: Phương án nào quy định đúng về việc viết và duyệt phiếu thao tác theo kế hoạch tại trung tâm điều khiển:",
+      "options": [
+        {
+          "label": "A",
+          "text": "Người viết phiếu là nhân viên vận hành, người duyệt phiếu là Trưởng, Phó trung tâm điều khiển."
+        },
+        {
+          "label": "B",
+          "text": "Người viết phiếu là nhân viên vận hành hoặc nhân viên được giao nhiệm vụ viết phiếu thao tác, người duyệt phiếu là Trưởng, Phó trung tâm điều khiển."
+        },
+        {
+          "label": "C",
+          "text": "Người viết phiếu là nhân viên vận hành, người duyệt phiếu là Trưởng, Phó trung tâm điều khiển hoặc người được uỷ quyền."
+        },
+        {
+          "label": "D",
+          "text": "Người viết phiếu là nhân viên vận hành hoặc nhân viên được giao nhiệm vụ viết phiếu thao tác, người duyệt phiếu là Trưởng, Phó trung tâm điều khiển hoặc người được uỷ quyền."
+        }
+      ],
+      "correctIndex": 3,
+      "sourceRow": 1107
+    },
+    {
+      "id": "VI-50-222",
+      "number": 50,
+      "sectionId": "VI",
+      "sectionTitle": "CHƯƠNG I ĐẾN VI THÔNG TƯ 06/2025/TT-BCTT QUY ĐỊNH ĐIỀU ĐỘ, VẬN HÀNH, THAO TÁC, XỬ LÝ SỰ CỐ, KHỞI ĐỘNG ĐEN VÀ KHÔI PHỤC HTĐ QUỐC GIA",
+      "text": "Theo Thông tư quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục HTĐQG: Trường hợp phát hiện thiết bị đang vận hành có nguy cơ đe dọa đến tính mạng con người và an toàn thiết bị, nhân viên vận hành của các đơn vị quản lý vận hành thiết bị đó có quyền",
+      "options": [
+        {
+          "label": "A",
+          "text": "Báo cáo ngay cho Cấp điều độ có quyền điều khiển để ra lệnh điều độ."
+        },
+        {
+          "label": "B",
+          "text": "Báo cáo ngay cho Lãnh đạo đơn vị để tách thiết bị ra khỏi vận hành."
+        },
+        {
+          "label": "C",
+          "text": "Tách khẩn cấp thiết bị ra khỏi hệ thống điện và không phải chịu trách nhiệm về quyết định của mình."
+        },
+        {
+          "label": "D",
+          "text": "Tách khẩn cấp thiết bị ra khỏi hệ thống điện và phải chịu hoàn toàn trách nhiệm về quyết định của mình."
+        }
+      ],
+      "correctIndex": 3,
+      "sourceRow": 1112
+    },
+    {
+      "id": "VI-51-223",
+      "number": 51,
+      "sectionId": "VI",
+      "sectionTitle": "CHƯƠNG I ĐẾN VI THÔNG TƯ 06/2025/TT-BCTT QUY ĐỊNH ĐIỀU ĐỘ, VẬN HÀNH, THAO TÁC, XỬ LÝ SỰ CỐ, KHỞI ĐỘNG ĐEN VÀ KHÔI PHỤC HTĐ QUỐC GIA",
+      "text": "Theo Thông tư quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục HTĐQG: Trong trường hợp chạm đất mạch điều khiển của máy cắt:",
+      "options": [
+        {
+          "label": "A",
+          "text": "Vẫn cho phép thao tác máy cắt."
+        },
+        {
+          "label": "B",
+          "text": "Cắt aptomat cấp nguồn điều khiển máy cắt."
+        },
+        {
+          "label": "C",
+          "text": "Không cho phép thao tác máy cắt."
+        },
+        {
+          "label": "D",
+          "text": "Cho phép thao tác máy cắt trong chế độ sự cố."
+        }
+      ],
+      "correctIndex": 3,
+      "sourceRow": 1117
+    },
+    {
+      "id": "VI-52-224",
+      "number": 52,
+      "sectionId": "VI",
+      "sectionTitle": "CHƯƠNG I ĐẾN VI THÔNG TƯ 06/2025/TT-BCTT QUY ĐỊNH ĐIỀU ĐỘ, VẬN HÀNH, THAO TÁC, XỬ LÝ SỰ CỐ, KHỞI ĐỘNG ĐEN VÀ KHÔI PHỤC HTĐ QUỐC GIA",
+      "text": "Theo Thông tư quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục HTĐQG: Nếu không có quy định riêng, máy biến áp dầu được phép quá tải ngắn hạn 75% trong bao lâu",
+      "options": [
+        {
+          "label": "A",
+          "text": "120 phút"
+        },
+        {
+          "label": "B",
+          "text": "80 phút"
+        },
+        {
+          "label": "C",
+          "text": "45 phút"
+        },
+        {
+          "label": "D",
+          "text": "20 phút"
+        }
+      ],
+      "correctIndex": 3,
+      "sourceRow": 1122
+    },
+    {
+      "id": "VI-53-225",
+      "number": 53,
+      "sectionId": "VI",
+      "sectionTitle": "CHƯƠNG I ĐẾN VI THÔNG TƯ 06/2025/TT-BCTT QUY ĐỊNH ĐIỀU ĐỘ, VẬN HÀNH, THAO TÁC, XỬ LÝ SỰ CỐ, KHỞI ĐỘNG ĐEN VÀ KHÔI PHỤC HTĐ QUỐC GIA",
+      "text": "Theo Thông tư quy định điều độ, vận hành, thao tác, xử lý sự cố, khởi động đen và khôi phục HTĐQG: Phương án nào quy định đúng người viết phiếu thao tác có kế hoạch nhà máy điện",
+      "options": [
+        {
+          "label": "A",
+          "text": "Nhân viên vận hành"
+        },
+        {
+          "label": "B",
+          "text": "Phó quản đốc phân xưởng vận hành"
+        }
+      ],
+      "correctIndex": 0,
+      "sourceRow": 1127
+    },
+    {
+      "id": "VI-54-226",
+      "number": 54,
+      "sectionId": "VI",
+      "sectionTitle": "CHƯƠNG I ĐẾN VI THÔNG TƯ 06/2025/TT-BCTT QUY ĐỊNH ĐIỀU ĐỘ, VẬN HÀNH, THAO TÁC, XỬ LÝ SỰ CỐ, KHỞI ĐỘNG ĐEN VÀ KHÔI PHỤC HTĐ QUỐC GIA",
+      "text": "Thời gian nhà máy điện có trách nhiệm gửi báo cáo ngày hôm trước cho cấp điều độ có quyền điều khiển.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Trước 06h30 hàng ngày."
+        },
+        {
+          "label": "B",
+          "text": "Trước 05h00 hàng ngày."
+        },
+        {
+          "label": "C",
+          "text": "Trước 06h00 hàng ngày."
+        },
+        {
+          "label": "D",
+          "text": "Trước 05h30 hàng ngày."
+        }
+      ],
+      "correctIndex": 3,
+      "sourceRow": 1130
+    },
+    {
+      "id": "VII-1-227",
       "number": 1,
       "sectionId": "VII",
       "sectionTitle": "CHƯƠNG VIII QUY ĐỊNH XỬ LÝ SỰ CỐ TRONG HỆ THỐNG ĐIỆN QUỐC GIA - TT06/2025/TT-BCT",
@@ -5543,10 +6175,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1019
+      "sourceRow": 1136
     },
     {
-      "id": "VII-2-204",
+      "id": "VII-2-228",
       "number": 2,
       "sectionId": "VII",
       "sectionTitle": "CHƯƠNG VIII QUY ĐỊNH XỬ LÝ SỰ CỐ TRONG HỆ THỐNG ĐIỆN QUỐC GIA - TT06/2025/TT-BCT",
@@ -5570,10 +6202,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1024
+      "sourceRow": 1141
     },
     {
-      "id": "VII-3-205",
+      "id": "VII-3-229",
       "number": 3,
       "sectionId": "VII",
       "sectionTitle": "CHƯƠNG VIII QUY ĐỊNH XỬ LÝ SỰ CỐ TRONG HỆ THỐNG ĐIỆN QUỐC GIA - TT06/2025/TT-BCT",
@@ -5597,10 +6229,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1029
+      "sourceRow": 1146
     },
     {
-      "id": "VII-4-206",
+      "id": "VII-4-230",
       "number": 4,
       "sectionId": "VII",
       "sectionTitle": "CHƯƠNG VIII QUY ĐỊNH XỬ LÝ SỰ CỐ TRONG HỆ THỐNG ĐIỆN QUỐC GIA - TT06/2025/TT-BCT",
@@ -5624,10 +6256,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1034
+      "sourceRow": 1151
     },
     {
-      "id": "VII-5-207",
+      "id": "VII-5-231",
       "number": 5,
       "sectionId": "VII",
       "sectionTitle": "CHƯƠNG VIII QUY ĐỊNH XỬ LÝ SỰ CỐ TRONG HỆ THỐNG ĐIỆN QUỐC GIA - TT06/2025/TT-BCT",
@@ -5651,10 +6283,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1039
+      "sourceRow": 1156
     },
     {
-      "id": "VII-6-208",
+      "id": "VII-6-232",
       "number": 6,
       "sectionId": "VII",
       "sectionTitle": "CHƯƠNG VIII QUY ĐỊNH XỬ LÝ SỰ CỐ TRONG HỆ THỐNG ĐIỆN QUỐC GIA - TT06/2025/TT-BCT",
@@ -5678,10 +6310,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1044
+      "sourceRow": 1161
     },
     {
-      "id": "VII-7-209",
+      "id": "VII-7-233",
       "number": 7,
       "sectionId": "VII",
       "sectionTitle": "CHƯƠNG VIII QUY ĐỊNH XỬ LÝ SỰ CỐ TRONG HỆ THỐNG ĐIỆN QUỐC GIA - TT06/2025/TT-BCT",
@@ -5705,10 +6337,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1049
+      "sourceRow": 1166
     },
     {
-      "id": "VII-8-210",
+      "id": "VII-8-234",
       "number": 8,
       "sectionId": "VII",
       "sectionTitle": "CHƯƠNG VIII QUY ĐỊNH XỬ LÝ SỰ CỐ TRONG HỆ THỐNG ĐIỆN QUỐC GIA - TT06/2025/TT-BCT",
@@ -5732,10 +6364,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1054
+      "sourceRow": 1171
     },
     {
-      "id": "VII-9-211",
+      "id": "VII-9-235",
       "number": 9,
       "sectionId": "VII",
       "sectionTitle": "CHƯƠNG VIII QUY ĐỊNH XỬ LÝ SỰ CỐ TRONG HỆ THỐNG ĐIỆN QUỐC GIA - TT06/2025/TT-BCT",
@@ -5759,10 +6391,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1059
+      "sourceRow": 1176
     },
     {
-      "id": "VII-10-212",
+      "id": "VII-10-236",
       "number": 10,
       "sectionId": "VII",
       "sectionTitle": "CHƯƠNG VIII QUY ĐỊNH XỬ LÝ SỰ CỐ TRONG HỆ THỐNG ĐIỆN QUỐC GIA - TT06/2025/TT-BCT",
@@ -5786,10 +6418,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1064
+      "sourceRow": 1181
     },
     {
-      "id": "VII-11-213",
+      "id": "VII-11-237",
       "number": 11,
       "sectionId": "VII",
       "sectionTitle": "CHƯƠNG VIII QUY ĐỊNH XỬ LÝ SỰ CỐ TRONG HỆ THỐNG ĐIỆN QUỐC GIA - TT06/2025/TT-BCT",
@@ -5813,10 +6445,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1069
+      "sourceRow": 1186
     },
     {
-      "id": "VII-12-214",
+      "id": "VII-12-238",
       "number": 12,
       "sectionId": "VII",
       "sectionTitle": "CHƯƠNG VIII QUY ĐỊNH XỬ LÝ SỰ CỐ TRONG HỆ THỐNG ĐIỆN QUỐC GIA - TT06/2025/TT-BCT",
@@ -5840,10 +6472,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1074
+      "sourceRow": 1191
     },
     {
-      "id": "VII-13-215",
+      "id": "VII-13-239",
       "number": 13,
       "sectionId": "VII",
       "sectionTitle": "CHƯƠNG VIII QUY ĐỊNH XỬ LÝ SỰ CỐ TRONG HỆ THỐNG ĐIỆN QUỐC GIA - TT06/2025/TT-BCT",
@@ -5867,10 +6499,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1079
+      "sourceRow": 1196
     },
     {
-      "id": "VII-14-216",
+      "id": "VII-14-240",
       "number": 14,
       "sectionId": "VII",
       "sectionTitle": "CHƯƠNG VIII QUY ĐỊNH XỬ LÝ SỰ CỐ TRONG HỆ THỐNG ĐIỆN QUỐC GIA - TT06/2025/TT-BCT",
@@ -5894,10 +6526,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1084
+      "sourceRow": 1201
     },
     {
-      "id": "VII-15-217",
+      "id": "VII-15-241",
       "number": 15,
       "sectionId": "VII",
       "sectionTitle": "CHƯƠNG VIII QUY ĐỊNH XỬ LÝ SỰ CỐ TRONG HỆ THỐNG ĐIỆN QUỐC GIA - TT06/2025/TT-BCT",
@@ -5921,10 +6553,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1089
+      "sourceRow": 1206
     },
     {
-      "id": "VII-16-218",
+      "id": "VII-16-242",
       "number": 16,
       "sectionId": "VII",
       "sectionTitle": "CHƯƠNG VIII QUY ĐỊNH XỬ LÝ SỰ CỐ TRONG HỆ THỐNG ĐIỆN QUỐC GIA - TT06/2025/TT-BCT",
@@ -5948,10 +6580,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1094
+      "sourceRow": 1211
     },
     {
-      "id": "VII-17-219",
+      "id": "VII-17-243",
       "number": 17,
       "sectionId": "VII",
       "sectionTitle": "CHƯƠNG VIII QUY ĐỊNH XỬ LÝ SỰ CỐ TRONG HỆ THỐNG ĐIỆN QUỐC GIA - TT06/2025/TT-BCT",
@@ -5975,10 +6607,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1099
+      "sourceRow": 1216
     },
     {
-      "id": "VII-18-220",
+      "id": "VII-18-244",
       "number": 18,
       "sectionId": "VII",
       "sectionTitle": "CHƯƠNG VIII QUY ĐỊNH XỬ LÝ SỰ CỐ TRONG HỆ THỐNG ĐIỆN QUỐC GIA - TT06/2025/TT-BCT",
@@ -6002,10 +6634,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1104
+      "sourceRow": 1221
     },
     {
-      "id": "VII-19-221",
+      "id": "VII-19-245",
       "number": 19,
       "sectionId": "VII",
       "sectionTitle": "CHƯƠNG VIII QUY ĐỊNH XỬ LÝ SỰ CỐ TRONG HỆ THỐNG ĐIỆN QUỐC GIA - TT06/2025/TT-BCT",
@@ -6029,10 +6661,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1109
+      "sourceRow": 1226
     },
     {
-      "id": "VII-20-222",
+      "id": "VII-20-246",
       "number": 20,
       "sectionId": "VII",
       "sectionTitle": "CHƯƠNG VIII QUY ĐỊNH XỬ LÝ SỰ CỐ TRONG HỆ THỐNG ĐIỆN QUỐC GIA - TT06/2025/TT-BCT",
@@ -6056,10 +6688,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1114
+      "sourceRow": 1231
     },
     {
-      "id": "VII-21-223",
+      "id": "VII-21-247",
       "number": 21,
       "sectionId": "VII",
       "sectionTitle": "CHƯƠNG VIII QUY ĐỊNH XỬ LÝ SỰ CỐ TRONG HỆ THỐNG ĐIỆN QUỐC GIA - TT06/2025/TT-BCT",
@@ -6083,10 +6715,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1119
+      "sourceRow": 1236
     },
     {
-      "id": "VIII-1-224",
+      "id": "VIII-1-248",
       "number": 1,
       "sectionId": "VIII",
       "sectionTitle": "THÔNG TƯ 05/2025/TT-BCT QUY ĐỊNH HỆ THỐNG ĐIỆN TRUYỀN TẢI, PHÂN PHỐI ĐIỆN VÀ ĐO ĐÉM ĐIỆN NĂNG",
@@ -6110,10 +6742,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1125
+      "sourceRow": 1242
     },
     {
-      "id": "VIII-2-225",
+      "id": "VIII-2-249",
       "number": 2,
       "sectionId": "VIII",
       "sectionTitle": "THÔNG TƯ 05/2025/TT-BCT QUY ĐỊNH HỆ THỐNG ĐIỆN TRUYỀN TẢI, PHÂN PHỐI ĐIỆN VÀ ĐO ĐÉM ĐIỆN NĂNG",
@@ -6137,10 +6769,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1130
+      "sourceRow": 1247
     },
     {
-      "id": "VIII-3-226",
+      "id": "VIII-3-250",
       "number": 3,
       "sectionId": "VIII",
       "sectionTitle": "THÔNG TƯ 05/2025/TT-BCT QUY ĐỊNH HỆ THỐNG ĐIỆN TRUYỀN TẢI, PHÂN PHỐI ĐIỆN VÀ ĐO ĐÉM ĐIỆN NĂNG",
@@ -6164,10 +6796,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1135
+      "sourceRow": 1252
     },
     {
-      "id": "VIII-4-227",
+      "id": "VIII-4-251",
       "number": 4,
       "sectionId": "VIII",
       "sectionTitle": "THÔNG TƯ 05/2025/TT-BCT QUY ĐỊNH HỆ THỐNG ĐIỆN TRUYỀN TẢI, PHÂN PHỐI ĐIỆN VÀ ĐO ĐÉM ĐIỆN NĂNG",
@@ -6191,10 +6823,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1140
+      "sourceRow": 1257
     },
     {
-      "id": "VIII-5-228",
+      "id": "VIII-5-252",
       "number": 5,
       "sectionId": "VIII",
       "sectionTitle": "THÔNG TƯ 05/2025/TT-BCT QUY ĐỊNH HỆ THỐNG ĐIỆN TRUYỀN TẢI, PHÂN PHỐI ĐIỆN VÀ ĐO ĐÉM ĐIỆN NĂNG",
@@ -6218,10 +6850,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1145
+      "sourceRow": 1262
     },
     {
-      "id": "VIII-6-229",
+      "id": "VIII-6-253",
       "number": 6,
       "sectionId": "VIII",
       "sectionTitle": "THÔNG TƯ 05/2025/TT-BCT QUY ĐỊNH HỆ THỐNG ĐIỆN TRUYỀN TẢI, PHÂN PHỐI ĐIỆN VÀ ĐO ĐÉM ĐIỆN NĂNG",
@@ -6245,10 +6877,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1150
+      "sourceRow": 1267
     },
     {
-      "id": "VIII-7-230",
+      "id": "VIII-7-254",
       "number": 7,
       "sectionId": "VIII",
       "sectionTitle": "THÔNG TƯ 05/2025/TT-BCT QUY ĐỊNH HỆ THỐNG ĐIỆN TRUYỀN TẢI, PHÂN PHỐI ĐIỆN VÀ ĐO ĐÉM ĐIỆN NĂNG",
@@ -6272,10 +6904,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1155
+      "sourceRow": 1272
     },
     {
-      "id": "VIII-8-231",
+      "id": "VIII-8-255",
       "number": 8,
       "sectionId": "VIII",
       "sectionTitle": "THÔNG TƯ 05/2025/TT-BCT QUY ĐỊNH HỆ THỐNG ĐIỆN TRUYỀN TẢI, PHÂN PHỐI ĐIỆN VÀ ĐO ĐÉM ĐIỆN NĂNG",
@@ -6299,10 +6931,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1160
+      "sourceRow": 1277
     },
     {
-      "id": "VIII-9-232",
+      "id": "VIII-9-256",
       "number": 9,
       "sectionId": "VIII",
       "sectionTitle": "THÔNG TƯ 05/2025/TT-BCT QUY ĐỊNH HỆ THỐNG ĐIỆN TRUYỀN TẢI, PHÂN PHỐI ĐIỆN VÀ ĐO ĐÉM ĐIỆN NĂNG",
@@ -6326,10 +6958,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1165
+      "sourceRow": 1282
     },
     {
-      "id": "VIII-10-233",
+      "id": "VIII-10-257",
       "number": 10,
       "sectionId": "VIII",
       "sectionTitle": "THÔNG TƯ 05/2025/TT-BCT QUY ĐỊNH HỆ THỐNG ĐIỆN TRUYỀN TẢI, PHÂN PHỐI ĐIỆN VÀ ĐO ĐÉM ĐIỆN NĂNG",
@@ -6353,10 +6985,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1170
+      "sourceRow": 1287
     },
     {
-      "id": "IX-1-234",
+      "id": "IX-1-258",
       "number": 1,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -6376,10 +7008,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1176
+      "sourceRow": 1293
     },
     {
-      "id": "IX-2-235",
+      "id": "IX-2-259",
       "number": 2,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -6403,10 +7035,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1180
+      "sourceRow": 1297
     },
     {
-      "id": "IX-3-236",
+      "id": "IX-3-260",
       "number": 3,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -6430,10 +7062,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1185
+      "sourceRow": 1302
     },
     {
-      "id": "IX-4-237",
+      "id": "IX-4-261",
       "number": 4,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -6457,10 +7089,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1190
+      "sourceRow": 1307
     },
     {
-      "id": "IX-5-238",
+      "id": "IX-5-262",
       "number": 5,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -6484,10 +7116,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1195
+      "sourceRow": 1312
     },
     {
-      "id": "IX-6-239",
+      "id": "IX-6-263",
       "number": 6,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -6511,10 +7143,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1200
+      "sourceRow": 1317
     },
     {
-      "id": "IX-7-240",
+      "id": "IX-7-264",
       "number": 7,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -6538,10 +7170,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1205
+      "sourceRow": 1322
     },
     {
-      "id": "IX-8-241",
+      "id": "IX-8-265",
       "number": 8,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -6565,10 +7197,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1210
+      "sourceRow": 1327
     },
     {
-      "id": "IX-9-242",
+      "id": "IX-9-266",
       "number": 9,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -6592,10 +7224,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1215
+      "sourceRow": 1332
     },
     {
-      "id": "IX-10-243",
+      "id": "IX-10-267",
       "number": 10,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -6615,10 +7247,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1220
+      "sourceRow": 1337
     },
     {
-      "id": "IX-11-244",
+      "id": "IX-11-268",
       "number": 11,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -6638,10 +7270,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1224
+      "sourceRow": 1341
     },
     {
-      "id": "IX-12-245",
+      "id": "IX-12-269",
       "number": 12,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -6665,10 +7297,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1228
+      "sourceRow": 1345
     },
     {
-      "id": "IX-13-246",
+      "id": "IX-13-270",
       "number": 13,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -6692,10 +7324,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1233
+      "sourceRow": 1350
     },
     {
-      "id": "IX-14-247",
+      "id": "IX-14-271",
       "number": 14,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -6719,10 +7351,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1238
+      "sourceRow": 1355
     },
     {
-      "id": "IX-15-248",
+      "id": "IX-15-272",
       "number": 15,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -6746,10 +7378,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1243
+      "sourceRow": 1360
     },
     {
-      "id": "IX-16-249",
+      "id": "IX-16-273",
       "number": 16,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -6773,10 +7405,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1248
+      "sourceRow": 1365
     },
     {
-      "id": "IX-17-250",
+      "id": "IX-17-274",
       "number": 17,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -6800,10 +7432,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1253
+      "sourceRow": 1370
     },
     {
-      "id": "IX-18-251",
+      "id": "IX-18-275",
       "number": 18,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -6827,10 +7459,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1258
+      "sourceRow": 1375
     },
     {
-      "id": "IX-19-252",
+      "id": "IX-19-276",
       "number": 19,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -6854,10 +7486,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1263
+      "sourceRow": 1380
     },
     {
-      "id": "IX-20-253",
+      "id": "IX-20-277",
       "number": 20,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -6877,10 +7509,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1268
+      "sourceRow": 1385
     },
     {
-      "id": "IX-21-254",
+      "id": "IX-21-278",
       "number": 21,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -6896,10 +7528,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1272
+      "sourceRow": 1389
     },
     {
-      "id": "IX-22-255",
+      "id": "IX-22-279",
       "number": 22,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -6923,14 +7555,14 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1275
+      "sourceRow": 1392
     },
     {
-      "id": "IX-23-256",
+      "id": "IX-23-280",
       "number": 23,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
-      "text": "Theo thông tư số 29/2026/TT-BCT Quy định vận hành Thị trường bán buôn điện cạnh tranh: Tổ máy thủy điện được huy động do điều kiện ràng buộc phải phát và có giá chào cao hơn giá trần thị trường (SMP cap) hoặc được huy động\ncông suất với dải chào giá cao hơn SMP cap thì phần sản lượng phát tương ứng được thanh toán với giá nào",
+      "text": "Theo thông tư số 29/2026/TT-BCT Quy định vận hành Thị trường bán buôn điện cạnh tranh: Tổ máy thủy điện được huy động do điều kiện ràng buộc phải phát và có giá chào cao hơn giá trần thị trường (SMP cap) hoặc được huy động công suất với dải chào giá cao hơn SMP cap thì phần sản lượng phát tương ứng được thanh toán với giá nào",
       "options": [
         {
           "label": "A",
@@ -6950,10 +7582,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1280
+      "sourceRow": 1397
     },
     {
-      "id": "IX-24-257",
+      "id": "IX-24-281",
       "number": 24,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -6977,10 +7609,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1285
+      "sourceRow": 1402
     },
     {
-      "id": "IX-25-258",
+      "id": "IX-25-282",
       "number": 25,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7000,10 +7632,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1290
+      "sourceRow": 1407
     },
     {
-      "id": "IX-26-259",
+      "id": "IX-26-283",
       "number": 26,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7027,10 +7659,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1294
+      "sourceRow": 1411
     },
     {
-      "id": "IX-27-260",
+      "id": "IX-27-284",
       "number": 27,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7054,14 +7686,14 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1299
+      "sourceRow": 1416
     },
     {
-      "id": "IX-28-261",
+      "id": "IX-28-285",
       "number": 28,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
-      "text": "Theo thông tư số 29/2026/TT-BCT Quy định vận hành Thị trường bán buôn điện cạnh tranh: Trong chu kỳ giao dịch, sản lượng điện năng đo đếm của nhà máy điện nhỏ hơn hoặc bằng sản lượng điện hợp đồng giờ (Qmq < Qc) thì hiệu\nchỉnh thanh toán như thế nào?",
+      "text": "Theo thông tư số 29/2026/TT-BCT Quy định vận hành Thị trường bán buôn điện cạnh tranh: Trong chu kỳ giao dịch, sản lượng điện năng đo đếm của nhà máy điện nhỏ hơn hoặc bằng sản lượng điện hợp đồng giờ (Qmq < Qc) thì hiệu chỉnh thanh toán như thế nào?",
       "options": [
         {
           "label": "A",
@@ -7081,10 +7713,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1304
+      "sourceRow": 1421
     },
     {
-      "id": "IX-29-262",
+      "id": "IX-29-286",
       "number": 29,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7108,10 +7740,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1309
+      "sourceRow": 1426
     },
     {
-      "id": "IX-30-263",
+      "id": "IX-30-287",
       "number": 30,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7135,10 +7767,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1314
+      "sourceRow": 1431
     },
     {
-      "id": "IX-31-264",
+      "id": "IX-31-288",
       "number": 31,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7158,10 +7790,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1319
+      "sourceRow": 1436
     },
     {
-      "id": "IX-32-265",
+      "id": "IX-32-289",
       "number": 32,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7185,10 +7817,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1323
+      "sourceRow": 1440
     },
     {
-      "id": "IX-33-266",
+      "id": "IX-33-290",
       "number": 33,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7212,10 +7844,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1328
+      "sourceRow": 1445
     },
     {
-      "id": "IX-34-267",
+      "id": "IX-34-291",
       "number": 34,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7239,10 +7871,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1333
+      "sourceRow": 1450
     },
     {
-      "id": "IX-35-268",
+      "id": "IX-35-292",
       "number": 35,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7262,10 +7894,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1338
+      "sourceRow": 1455
     },
     {
-      "id": "IX-36-269",
+      "id": "IX-36-293",
       "number": 36,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7289,10 +7921,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1342
+      "sourceRow": 1459
     },
     {
-      "id": "IX-37-270",
+      "id": "IX-37-294",
       "number": 37,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7316,10 +7948,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1347
+      "sourceRow": 1464
     },
     {
-      "id": "IX-38-271",
+      "id": "IX-38-295",
       "number": 38,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7343,10 +7975,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1352
+      "sourceRow": 1469
     },
     {
-      "id": "IX-39-272",
+      "id": "IX-39-296",
       "number": 39,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7370,10 +8002,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1357
+      "sourceRow": 1474
     },
     {
-      "id": "IX-40-273",
+      "id": "IX-40-297",
       "number": 40,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7397,10 +8029,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1362
+      "sourceRow": 1479
     },
     {
-      "id": "IX-41-274",
+      "id": "IX-41-298",
       "number": 41,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7424,10 +8056,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1367
+      "sourceRow": 1484
     },
     {
-      "id": "IX-42-275",
+      "id": "IX-42-299",
       "number": 42,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7451,10 +8083,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1372
+      "sourceRow": 1489
     },
     {
-      "id": "IX-43-276",
+      "id": "IX-43-300",
       "number": 43,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7478,10 +8110,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1377
+      "sourceRow": 1494
     },
     {
-      "id": "IX-44-277",
+      "id": "IX-44-301",
       "number": 44,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7501,10 +8133,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1382
+      "sourceRow": 1499
     },
     {
-      "id": "IX-45-278",
+      "id": "IX-45-302",
       "number": 45,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7528,10 +8160,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1386
+      "sourceRow": 1503
     },
     {
-      "id": "IX-46-279",
+      "id": "IX-46-303",
       "number": 46,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7555,10 +8187,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1391
+      "sourceRow": 1508
     },
     {
-      "id": "IX-47-280",
+      "id": "IX-47-304",
       "number": 47,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7582,10 +8214,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1396
+      "sourceRow": 1513
     },
     {
-      "id": "IX-48-281",
+      "id": "IX-48-305",
       "number": 48,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7609,10 +8241,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1401
+      "sourceRow": 1518
     },
     {
-      "id": "IX-49-282",
+      "id": "IX-49-306",
       "number": 49,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7632,10 +8264,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1406
+      "sourceRow": 1523
     },
     {
-      "id": "IX-50-283",
+      "id": "IX-50-307",
       "number": 50,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7659,10 +8291,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1410
+      "sourceRow": 1527
     },
     {
-      "id": "IX-51-284",
+      "id": "IX-51-308",
       "number": 51,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7686,10 +8318,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1415
+      "sourceRow": 1532
     },
     {
-      "id": "IX-52-285",
+      "id": "IX-52-309",
       "number": 52,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7705,10 +8337,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1420
+      "sourceRow": 1537
     },
     {
-      "id": "IX-53-286",
+      "id": "IX-53-310",
       "number": 53,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7732,10 +8364,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1423
+      "sourceRow": 1540
     },
     {
-      "id": "IX-54-287",
+      "id": "IX-54-311",
       "number": 54,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7759,10 +8391,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1428
+      "sourceRow": 1545
     },
     {
-      "id": "IX-55-288",
+      "id": "IX-55-312",
       "number": 55,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7782,10 +8414,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1433
+      "sourceRow": 1550
     },
     {
-      "id": "IX-56-289",
+      "id": "IX-56-313",
       "number": 56,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7805,10 +8437,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1437
+      "sourceRow": 1554
     },
     {
-      "id": "IX-57-290",
+      "id": "IX-57-314",
       "number": 57,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7832,10 +8464,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1441
+      "sourceRow": 1558
     },
     {
-      "id": "IX-58-291",
+      "id": "IX-58-315",
       "number": 58,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7859,10 +8491,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1446
+      "sourceRow": 1563
     },
     {
-      "id": "IX-59-292",
+      "id": "IX-59-316",
       "number": 59,
       "sectionId": "IX",
       "sectionTitle": "THÔNG TƯ 29/2026/TT-BCT QUY ĐỊNH VẬN HÀNH THỊ TRƯỜNG BÁN BUÔN ĐIỆN CẠNH TRANH",
@@ -7886,10 +8518,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1451
+      "sourceRow": 1568
     },
     {
-      "id": "X-1-293",
+      "id": "X-1-317",
       "number": 1,
       "sectionId": "X",
       "sectionTitle": "QUY TRÌNH ĐIỀU TRA SỰ CỐ",
@@ -7913,10 +8545,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1457
+      "sourceRow": 1574
     },
     {
-      "id": "X-2-294",
+      "id": "X-2-318",
       "number": 2,
       "sectionId": "X",
       "sectionTitle": "QUY TRÌNH ĐIỀU TRA SỰ CỐ",
@@ -7940,10 +8572,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1462
+      "sourceRow": 1579
     },
     {
-      "id": "X-3-295",
+      "id": "X-3-319",
       "number": 3,
       "sectionId": "X",
       "sectionTitle": "QUY TRÌNH ĐIỀU TRA SỰ CỐ",
@@ -7967,10 +8599,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1467
+      "sourceRow": 1584
     },
     {
-      "id": "X-4-296",
+      "id": "X-4-320",
       "number": 4,
       "sectionId": "X",
       "sectionTitle": "QUY TRÌNH ĐIỀU TRA SỰ CỐ",
@@ -7994,10 +8626,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1472
+      "sourceRow": 1589
     },
     {
-      "id": "X-5-297",
+      "id": "X-5-321",
       "number": 5,
       "sectionId": "X",
       "sectionTitle": "QUY TRÌNH ĐIỀU TRA SỰ CỐ",
@@ -8021,10 +8653,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1477
+      "sourceRow": 1594
     },
     {
-      "id": "X-6-298",
+      "id": "X-6-322",
       "number": 6,
       "sectionId": "X",
       "sectionTitle": "QUY TRÌNH ĐIỀU TRA SỰ CỐ",
@@ -8048,10 +8680,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1482
+      "sourceRow": 1599
     },
     {
-      "id": "X-7-299",
+      "id": "X-7-323",
       "number": 7,
       "sectionId": "X",
       "sectionTitle": "QUY TRÌNH ĐIỀU TRA SỰ CỐ",
@@ -8075,10 +8707,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1487
+      "sourceRow": 1604
     },
     {
-      "id": "X-8-300",
+      "id": "X-8-324",
       "number": 8,
       "sectionId": "X",
       "sectionTitle": "QUY TRÌNH ĐIỀU TRA SỰ CỐ",
@@ -8102,10 +8734,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1492
+      "sourceRow": 1609
     },
     {
-      "id": "X-9-301",
+      "id": "X-9-325",
       "number": 9,
       "sectionId": "X",
       "sectionTitle": "QUY TRÌNH ĐIỀU TRA SỰ CỐ",
@@ -8129,10 +8761,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1497
+      "sourceRow": 1614
     },
     {
-      "id": "X-10-302",
+      "id": "X-10-326",
       "number": 10,
       "sectionId": "X",
       "sectionTitle": "QUY TRÌNH ĐIỀU TRA SỰ CỐ",
@@ -8156,10 +8788,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1502
+      "sourceRow": 1619
     },
     {
-      "id": "XI-1-303",
+      "id": "XI-1-327",
       "number": 1,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8183,10 +8815,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1508
+      "sourceRow": 1625
     },
     {
-      "id": "XI-2-304",
+      "id": "XI-2-328",
       "number": 2,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8210,10 +8842,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1513
+      "sourceRow": 1630
     },
     {
-      "id": "XI-3-305",
+      "id": "XI-3-329",
       "number": 3,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8237,10 +8869,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1518
+      "sourceRow": 1635
     },
     {
-      "id": "XI-4-306",
+      "id": "XI-4-330",
       "number": 4,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8264,10 +8896,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1523
+      "sourceRow": 1640
     },
     {
-      "id": "XI-5-307",
+      "id": "XI-5-331",
       "number": 5,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8291,10 +8923,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1528
+      "sourceRow": 1645
     },
     {
-      "id": "XI-6-308",
+      "id": "XI-6-332",
       "number": 6,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8310,10 +8942,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1533
+      "sourceRow": 1650
     },
     {
-      "id": "XI-7-309",
+      "id": "XI-7-333",
       "number": 7,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8337,10 +8969,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1536
+      "sourceRow": 1653
     },
     {
-      "id": "XI-8-310",
+      "id": "XI-8-334",
       "number": 8,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8364,10 +8996,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1541
+      "sourceRow": 1658
     },
     {
-      "id": "XI-9-311",
+      "id": "XI-9-335",
       "number": 9,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8391,10 +9023,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1546
+      "sourceRow": 1663
     },
     {
-      "id": "XI-10-312",
+      "id": "XI-10-336",
       "number": 10,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8418,10 +9050,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1551
+      "sourceRow": 1668
     },
     {
-      "id": "XI-11-313",
+      "id": "XI-11-337",
       "number": 11,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8445,10 +9077,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1556
+      "sourceRow": 1673
     },
     {
-      "id": "XI-12-314",
+      "id": "XI-12-338",
       "number": 12,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8472,10 +9104,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1561
+      "sourceRow": 1678
     },
     {
-      "id": "XI-13-315",
+      "id": "XI-13-339",
       "number": 13,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8499,10 +9131,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1566
+      "sourceRow": 1683
     },
     {
-      "id": "XI-14-316",
+      "id": "XI-14-340",
       "number": 14,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8526,10 +9158,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1571
+      "sourceRow": 1688
     },
     {
-      "id": "XI-15-317",
+      "id": "XI-15-341",
       "number": 15,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8553,10 +9185,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1576
+      "sourceRow": 1693
     },
     {
-      "id": "XI-16-318",
+      "id": "XI-16-342",
       "number": 16,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8580,10 +9212,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1581
+      "sourceRow": 1698
     },
     {
-      "id": "XI-17-319",
+      "id": "XI-17-343",
       "number": 17,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8603,10 +9235,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1586
+      "sourceRow": 1703
     },
     {
-      "id": "XI-18-320",
+      "id": "XI-18-344",
       "number": 18,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8626,10 +9258,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1590
+      "sourceRow": 1707
     },
     {
-      "id": "XI-19-321",
+      "id": "XI-19-345",
       "number": 19,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8653,10 +9285,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1594
+      "sourceRow": 1711
     },
     {
-      "id": "XI-20-322",
+      "id": "XI-20-346",
       "number": 20,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8680,10 +9312,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1599
+      "sourceRow": 1716
     },
     {
-      "id": "XI-21-323",
+      "id": "XI-21-347",
       "number": 21,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8703,10 +9335,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1604
+      "sourceRow": 1721
     },
     {
-      "id": "XI-22-324",
+      "id": "XI-22-348",
       "number": 22,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8726,10 +9358,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1608
+      "sourceRow": 1725
     },
     {
-      "id": "XI-23-325",
+      "id": "XI-23-349",
       "number": 23,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8753,10 +9385,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1612
+      "sourceRow": 1729
     },
     {
-      "id": "XI-24-326",
+      "id": "XI-24-350",
       "number": 24,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8776,10 +9408,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1617
+      "sourceRow": 1734
     },
     {
-      "id": "XI-25-327",
+      "id": "XI-25-351",
       "number": 25,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8803,10 +9435,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1621
+      "sourceRow": 1738
     },
     {
-      "id": "XI-26-328",
+      "id": "XI-26-352",
       "number": 26,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8826,10 +9458,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1626
+      "sourceRow": 1743
     },
     {
-      "id": "XI-27-329",
+      "id": "XI-27-353",
       "number": 27,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8849,10 +9481,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1630
+      "sourceRow": 1747
     },
     {
-      "id": "XI-28-330",
+      "id": "XI-28-354",
       "number": 28,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8872,10 +9504,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1634
+      "sourceRow": 1751
     },
     {
-      "id": "XI-29-331",
+      "id": "XI-29-355",
       "number": 29,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8899,10 +9531,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1638
+      "sourceRow": 1755
     },
     {
-      "id": "XI-30-332",
+      "id": "XI-30-356",
       "number": 30,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8926,10 +9558,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1643
+      "sourceRow": 1760
     },
     {
-      "id": "XI-31-333",
+      "id": "XI-31-357",
       "number": 31,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8953,10 +9585,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1648
+      "sourceRow": 1765
     },
     {
-      "id": "XI-32-334",
+      "id": "XI-32-358",
       "number": 32,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -8980,10 +9612,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1653
+      "sourceRow": 1770
     },
     {
-      "id": "XI-33-335",
+      "id": "XI-33-359",
       "number": 33,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -9007,10 +9639,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1658
+      "sourceRow": 1775
     },
     {
-      "id": "XI-34-336",
+      "id": "XI-34-360",
       "number": 34,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -9034,10 +9666,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1663
+      "sourceRow": 1780
     },
     {
-      "id": "XI-35-337",
+      "id": "XI-35-361",
       "number": 35,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -9061,10 +9693,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1668
+      "sourceRow": 1785
     },
     {
-      "id": "XI-36-338",
+      "id": "XI-36-362",
       "number": 36,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -9088,10 +9720,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1673
+      "sourceRow": 1790
     },
     {
-      "id": "XI-37-339",
+      "id": "XI-37-363",
       "number": 37,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -9115,10 +9747,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1678
+      "sourceRow": 1795
     },
     {
-      "id": "XI-38-340",
+      "id": "XI-38-364",
       "number": 38,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -9142,10 +9774,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1683
+      "sourceRow": 1800
     },
     {
-      "id": "XI-39-341",
+      "id": "XI-39-365",
       "number": 39,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -9169,10 +9801,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1688
+      "sourceRow": 1805
     },
     {
-      "id": "XI-40-342",
+      "id": "XI-40-366",
       "number": 40,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -9196,10 +9828,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1693
+      "sourceRow": 1810
     },
     {
-      "id": "XI-41-343",
+      "id": "XI-41-367",
       "number": 41,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -9223,10 +9855,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1698
+      "sourceRow": 1815
     },
     {
-      "id": "XI-42-344",
+      "id": "XI-42-368",
       "number": 42,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -9246,14 +9878,14 @@ window.QUIZ_DATA = {
         },
         {
           "label": "D",
-          "text": "25 kA/ 5 s"
+          "text": "50 kA/ 5 s."
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1703
+      "sourceRow": 1820
     },
     {
-      "id": "XI-43-345",
+      "id": "XI-43-369",
       "number": 43,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -9277,10 +9909,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1708
+      "sourceRow": 1825
     },
     {
-      "id": "XI-44-346",
+      "id": "XI-44-370",
       "number": 44,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -9304,10 +9936,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1713
+      "sourceRow": 1830
     },
     {
-      "id": "XI-45-347",
+      "id": "XI-45-371",
       "number": 45,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -9331,10 +9963,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1718
+      "sourceRow": 1835
     },
     {
-      "id": "XI-46-348",
+      "id": "XI-46-372",
       "number": 46,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -9358,10 +9990,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1723
+      "sourceRow": 1840
     },
     {
-      "id": "XI-47-349",
+      "id": "XI-47-373",
       "number": 47,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -9385,10 +10017,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1728
+      "sourceRow": 1845
     },
     {
-      "id": "XI-48-350",
+      "id": "XI-48-374",
       "number": 48,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -9412,10 +10044,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1733
+      "sourceRow": 1850
     },
     {
-      "id": "XI-49-351",
+      "id": "XI-49-375",
       "number": 49,
       "sectionId": "XI",
       "sectionTitle": "QUY TRÌNH XLSC DC&AC",
@@ -9439,10 +10071,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1738
+      "sourceRow": 1855
     },
     {
-      "id": "XII-1-352",
+      "id": "XII-1-376",
       "number": 1,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -9466,10 +10098,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1744
+      "sourceRow": 1861
     },
     {
-      "id": "XII-2-353",
+      "id": "XII-2-377",
       "number": 2,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -9493,10 +10125,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1749
+      "sourceRow": 1866
     },
     {
-      "id": "XII-3-354",
+      "id": "XII-3-378",
       "number": 3,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -9520,10 +10152,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1754
+      "sourceRow": 1871
     },
     {
-      "id": "XII-4-355",
+      "id": "XII-4-379",
       "number": 4,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -9547,10 +10179,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1759
+      "sourceRow": 1876
     },
     {
-      "id": "XII-5-356",
+      "id": "XII-5-380",
       "number": 5,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -9574,10 +10206,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1764
+      "sourceRow": 1881
     },
     {
-      "id": "XII-6-357",
+      "id": "XII-6-381",
       "number": 6,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -9601,10 +10233,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1769
+      "sourceRow": 1886
     },
     {
-      "id": "XII-7-358",
+      "id": "XII-7-382",
       "number": 7,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -9628,10 +10260,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1774
+      "sourceRow": 1891
     },
     {
-      "id": "XII-8-359",
+      "id": "XII-8-383",
       "number": 8,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -9655,10 +10287,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1779
+      "sourceRow": 1896
     },
     {
-      "id": "XII-9-360",
+      "id": "XII-9-384",
       "number": 9,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -9682,10 +10314,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1784
+      "sourceRow": 1901
     },
     {
-      "id": "XII-10-361",
+      "id": "XII-10-385",
       "number": 10,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -9709,10 +10341,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1789
+      "sourceRow": 1906
     },
     {
-      "id": "XII-11-362",
+      "id": "XII-11-386",
       "number": 11,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -9732,14 +10364,14 @@ window.QUIZ_DATA = {
         },
         {
           "label": "D",
-          "text": "Hãng ABB, máy cắt không khí, Uđm=1000VAC, Iđm=600A"
+          "text": "Hãng ABB, máy cắt không khí, Uđm=11.000VAC, Iđm=600A."
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1794
+      "sourceRow": 1911
     },
     {
-      "id": "XII-12-363",
+      "id": "XII-12-387",
       "number": 12,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -9763,10 +10395,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1799
+      "sourceRow": 1916
     },
     {
-      "id": "XII-13-364",
+      "id": "XII-13-388",
       "number": 13,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -9790,10 +10422,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1804
+      "sourceRow": 1921
     },
     {
-      "id": "XII-14-365",
+      "id": "XII-14-389",
       "number": 14,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -9817,10 +10449,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1809
+      "sourceRow": 1926
     },
     {
-      "id": "XII-15-366",
+      "id": "XII-15-390",
       "number": 15,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -9844,10 +10476,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1814
+      "sourceRow": 1931
     },
     {
-      "id": "XII-16-367",
+      "id": "XII-16-391",
       "number": 16,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -9871,10 +10503,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1819
+      "sourceRow": 1936
     },
     {
-      "id": "XII-17-368",
+      "id": "XII-17-392",
       "number": 17,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -9898,10 +10530,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1824
+      "sourceRow": 1941
     },
     {
-      "id": "XII-18-369",
+      "id": "XII-18-393",
       "number": 18,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -9925,10 +10557,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1829
+      "sourceRow": 1946
     },
     {
-      "id": "XII-19-370",
+      "id": "XII-19-394",
       "number": 19,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -9952,10 +10584,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1834
+      "sourceRow": 1951
     },
     {
-      "id": "XII-20-371",
+      "id": "XII-20-395",
       "number": 20,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -9979,10 +10611,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1839
+      "sourceRow": 1956
     },
     {
-      "id": "XII-21-372",
+      "id": "XII-21-396",
       "number": 21,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10006,10 +10638,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1844
+      "sourceRow": 1961
     },
     {
-      "id": "XII-22-373",
+      "id": "XII-22-397",
       "number": 22,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10033,10 +10665,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1849
+      "sourceRow": 1966
     },
     {
-      "id": "XII-23-374",
+      "id": "XII-23-398",
       "number": 23,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10060,10 +10692,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1854
+      "sourceRow": 1971
     },
     {
-      "id": "XII-24-375",
+      "id": "XII-24-399",
       "number": 24,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10087,10 +10719,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1859
+      "sourceRow": 1976
     },
     {
-      "id": "XII-25-376",
+      "id": "XII-25-400",
       "number": 25,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10114,10 +10746,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1864
+      "sourceRow": 1981
     },
     {
-      "id": "XII-26-377",
+      "id": "XII-26-401",
       "number": 26,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10141,10 +10773,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1869
+      "sourceRow": 1986
     },
     {
-      "id": "XII-27-378",
+      "id": "XII-27-402",
       "number": 27,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10168,10 +10800,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1874
+      "sourceRow": 1991
     },
     {
-      "id": "XII-28-379",
+      "id": "XII-28-403",
       "number": 28,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10195,10 +10827,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1879
+      "sourceRow": 1996
     },
     {
-      "id": "XII-29-380",
+      "id": "XII-29-404",
       "number": 29,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10222,10 +10854,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1884
+      "sourceRow": 2001
     },
     {
-      "id": "XII-30-381",
+      "id": "XII-30-405",
       "number": 30,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10249,10 +10881,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1889
+      "sourceRow": 2006
     },
     {
-      "id": "XII-31-382",
+      "id": "XII-31-406",
       "number": 31,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10272,14 +10904,14 @@ window.QUIZ_DATA = {
         },
         {
           "label": "D",
-          "text": "Rơ le Micom P645 bảo vệ máy biến áp tự dùng"
+          "text": "Rơ le Micom P442 bảo vệ máy biến áp tự dùng."
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1894
+      "sourceRow": 2011
     },
     {
-      "id": "XII-32-383",
+      "id": "XII-32-407",
       "number": 32,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10303,10 +10935,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1899
+      "sourceRow": 2016
     },
     {
-      "id": "XII-33-384",
+      "id": "XII-33-408",
       "number": 33,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10330,10 +10962,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1904
+      "sourceRow": 2021
     },
     {
-      "id": "XII-34-385",
+      "id": "XII-34-409",
       "number": 34,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10357,10 +10989,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1909
+      "sourceRow": 2026
     },
     {
-      "id": "XII-35-386",
+      "id": "XII-35-410",
       "number": 35,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10384,10 +11016,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1914
+      "sourceRow": 2031
     },
     {
-      "id": "XII-36-387",
+      "id": "XII-36-411",
       "number": 36,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10411,10 +11043,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1919
+      "sourceRow": 2036
     },
     {
-      "id": "XII-37-388",
+      "id": "XII-37-412",
       "number": 37,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10438,10 +11070,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1924
+      "sourceRow": 2041
     },
     {
-      "id": "XII-38-389",
+      "id": "XII-38-413",
       "number": 38,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10465,10 +11097,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1929
+      "sourceRow": 2046
     },
     {
-      "id": "XII-39-390",
+      "id": "XII-39-414",
       "number": 39,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10492,10 +11124,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1934
+      "sourceRow": 2051
     },
     {
-      "id": "XII-40-391",
+      "id": "XII-40-415",
       "number": 40,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10519,10 +11151,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1939
+      "sourceRow": 2056
     },
     {
-      "id": "XII-41-392",
+      "id": "XII-41-416",
       "number": 41,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10546,10 +11178,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 2,
-      "sourceRow": 1944
+      "sourceRow": 2061
     },
     {
-      "id": "XII-42-393",
+      "id": "XII-42-417",
       "number": 42,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10573,10 +11205,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1949
+      "sourceRow": 2066
     },
     {
-      "id": "XII-43-394",
+      "id": "XII-43-418",
       "number": 43,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10600,10 +11232,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 0,
-      "sourceRow": 1954
+      "sourceRow": 2071
     },
     {
-      "id": "XII-44-395",
+      "id": "XII-44-419",
       "number": 44,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10627,10 +11259,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 1,
-      "sourceRow": 1959
+      "sourceRow": 2076
     },
     {
-      "id": "XII-45-396",
+      "id": "XII-45-420",
       "number": 45,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10654,10 +11286,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1964
+      "sourceRow": 2081
     },
     {
-      "id": "XII-46-397",
+      "id": "XII-46-421",
       "number": 46,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10681,10 +11313,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1969
+      "sourceRow": 2086
     },
     {
-      "id": "XII-47-398",
+      "id": "XII-47-422",
       "number": 47,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10708,10 +11340,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1974
+      "sourceRow": 2091
     },
     {
-      "id": "XII-48-399",
+      "id": "XII-48-423",
       "number": 48,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10735,10 +11367,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1979
+      "sourceRow": 2096
     },
     {
-      "id": "XII-49-400",
+      "id": "XII-49-424",
       "number": 49,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10762,10 +11394,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1984
+      "sourceRow": 2101
     },
     {
-      "id": "XII-50-401",
+      "id": "XII-50-425",
       "number": 50,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10789,10 +11421,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1989
+      "sourceRow": 2106
     },
     {
-      "id": "XII-51-402",
+      "id": "XII-51-426",
       "number": 51,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10816,10 +11448,10 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1994
+      "sourceRow": 2111
     },
     {
-      "id": "XII-52-403",
+      "id": "XII-52-427",
       "number": 52,
       "sectionId": "XII",
       "sectionTitle": "Hệ thống kích từ, rơ le, SCADA",
@@ -10843,7 +11475,7 @@ window.QUIZ_DATA = {
         }
       ],
       "correctIndex": 3,
-      "sourceRow": 1999
+      "sourceRow": 2116
     }
   ],
   "warnings": []
