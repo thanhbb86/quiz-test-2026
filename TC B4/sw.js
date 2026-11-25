@@ -1,4 +1,4 @@
-const CACHE_NAME = "quiz-tc-b4-v5";
+const CACHE_NAME = "quiz-tc-b4-v6";
 const CORE_ASSETS = [
   "./",
   "./index.html",
