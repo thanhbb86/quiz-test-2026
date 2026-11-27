@@ -4,18 +4,18 @@ window.EXTRA_DECKS = [
     "id": "AN TOAN",
     "name": "Bộ đề An toàn",
     "group": "An toàn",
-    "title": "BỘ ĐỀ THI AN TOÀN (QĐ 959/QĐ-EVN & Pháp luật)",
+    "title": "BỘ ĐỀ AN TOÀN CHUNG (ATĐ_2026)",
     "organization": "NHÀ MÁY THỦY ĐIỆN BẮC BÌNH",
     "sections": [
       {
         "id": "I",
-        "title": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "questionCount": 59
+        "title": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "questionCount": 398
       },
       {
         "id": "II",
-        "title": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "questionCount": 413
+        "title": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "questionCount": 59
       }
     ],
     "questions": [
@@ -23,1718 +23,7 @@ window.EXTRA_DECKS = [
         "id": "AN TOAN__I-1-1",
         "number": 1,
         "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Anh/ chị hãy giải thích thế nào là Người lãnh đạo công việc?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Là người có trách nhiệm phân công công việc, chỉ huy và giám sát nhân viên đơn vị công tác trong suốt quá trình thực hiện công việc."
-          },
-          {
-            "label": "B",
-            "text": "Là người chỉ đạo chung khi công việc do nhiều đơn vị công tác của cùng một tổ chức hoạt động điện lực thực hiện."
-          },
-          {
-            "label": "C",
-            "text": "Là người của đơn vị quản lý vận hành thực hiện việc cho phép đơn vị công tác vào làm việc ở tại hiện trường, khi hiện trường công tác đã đủ điều kiện đảm bảo an toàn."
-          },
-          {
-            "label": "D",
-            "text": "Là người của đơn vị công tác trực tiếp thực hiện công việc do người chỉ huy trực tiếp phân công."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-2-2",
-        "number": 2,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Anh/chị hãy giải thích thế nào là Người chỉ huy trực tiếp?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Là người có trách nhiệm phân công công việc, chỉ huy và giám sát nhân viên đơn vị công tác trong suốt quá trình thực hiện công việc"
-          },
-          {
-            "label": "B",
-            "text": "Là người của đơn vị trực tiếp quản lý vận hành các thiết bị điện được giao nhiệm vụ cấp PCT"
-          },
-          {
-            "label": "C",
-            "text": "Là người của đơn vị quản lý vận hành thực hiện việc cho phép đơn vị công tác vào làm việc ở tại hiện trường, khi hiện trường công tác đã đủ điều kiện đảm bảo an toàn"
-          },
-          {
-            "label": "D",
-            "text": "Là người của đơn vị công tác trực tiếp thực hiện công việc do người chỉ huy trực tiếp phân công"
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-3-3",
-        "number": 3,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Anh/chị hãy giải thích thế nào là Nhân viên đơn vị công tác?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Là người của đơn vị quản lý vận hành thực hiện việc cho phép đơn vị công tác vào làm việc ở tại hiện trường, khi hiện trường công tác đã đủ điều kiện đảm bảo an toàn"
-          },
-          {
-            "label": "B",
-            "text": "Là người có kiến thức về an toàn điện, được huấn luyện, chỉ định và thực hiện việc giám sát an toàn điện cho đơn vị công tác"
-          },
-          {
-            "label": "C",
-            "text": "Là người của đơn vị công tác trực tiếp thực hiện công việc do người chỉ huy trực tiếp phân công"
-          },
-          {
-            "label": "D",
-            "text": "Là người có trách nhiệm phân công công việc, chỉ huy và giám sát nhân viên đơn vị công tác trong suốt quá trình thực hiện công việc"
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-4-4",
-        "number": 4,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Anh/chị hãy giải thích thế nào là Người cho phép?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Là người chỉ đạo chung khi công việc do nhiều đơn vị công tác của cùng một tổ chức hoạt động điện lực thực hiện"
-          },
-          {
-            "label": "B",
-            "text": "Là người có trách nhiệm phân công công việc, chỉ huy và giám sát nhân viên đơn vị công tác trong suốt quá trình thực hiện công việc"
-          },
-          {
-            "label": "C",
-            "text": "Là người của đơn vị công tác trực tiếp thực hiện công việc do người chỉ huy trực tiếp phân công"
-          },
-          {
-            "label": "D",
-            "text": "Là người của đơn vị quản lý vận hành thực hiện việc cho phép đơn vị công tác vào làm việc ở tại hiện trường, khi hiện trường công tác đã đủ điều kiện đảm bảo an toàn"
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-5-5",
-        "number": 5,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Anh/chị hãy giải thích thế nào là Đơn vị công tác?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Là đơn vị thực hiện công việc sửa chữa, thí nghiệm, xây lắp,... Mỗi đơn vị công tác phải có ít nhất 02 người, trong đó phải có 01 người chỉ huy trực tiếp chịu trách nhiệm chung"
-          },
-          {
-            "label": "B",
-            "text": "Là đơn vị có quyền và trách nhiệm cử ra đơn vị công tác để thực hiện công việc sửa chữa, thí nghiệm, xây lắp,…"
-          },
-          {
-            "label": "C",
-            "text": "Là đơn vị trực tiếp thực hiện công việc quản lý, vận hành các thiết bị."
-          },
-          {
-            "label": "D",
-            "text": "Là đơn vị bên ngoài cử đến Công ty để tham quan, học tập và được hướng dẫn an toàn trước khi vào nhà máy"
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-6-6",
-        "number": 6,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Anh/chị hãy giải thích thế nào là Đơn vị làm công việc?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Là đơn vị trực tiếp thực hiện công việc quản lý, vận hành các thiết bị"
-          },
-          {
-            "label": "B",
-            "text": "Là đơn vị có quyền và trách nhiệm cử ra đơn vị công tác để thực hiện công việc sửa chữa, thí nghiệm, xây lắp,…"
-          },
-          {
-            "label": "C",
-            "text": "Là đơn vị bên ngoài cử đến Công ty để tham quan, học tập và được hướng dẫn an toàn trước khi vào nhà máy"
-          },
-          {
-            "label": "D",
-            "text": "Là đơn vị thực hiện công việc sửa chữa, thí nghiệm, xây lắp,... Mỗi đơn vị công tác phải có ít nhất 02 người, trong đó phải có 01 người chỉ huy trực tiếp chịu trách nhiệm chung"
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-7-7",
-        "number": 7,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Anh/chị hãy giải thích thế nào là Đơn vị quản lý vận hành?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Là đơn vị thực hiện công việc sửa chữa, thí nghiệm, xây lắp,... Mỗi đơn vị công tác phải có ít nhất 02 người, trong đó phải có 01 người chỉ huy trực tiếp chịu trách nhiệm chung"
-          },
-          {
-            "label": "B",
-            "text": "Là đơn vị có quyền và trách nhiệm cử ra đơn vị công tác để thực hiện công việc sửa chữa, thí nghiệm, xây lắp,…"
-          },
-          {
-            "label": "C",
-            "text": "Là đơn vị trực tiếp thực hiện công việc quản lý, vận hành các thiết bị"
-          },
-          {
-            "label": "D",
-            "text": "Là đơn vị bên ngoài cử đến Công ty để tham quan, học tập và được hướng dẫn an toàn trước khi vào nhà máy"
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-8-8",
-        "number": 8,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Anh/chị hãy giải thích thế nào là Làm việc có cắt điện một phần?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Là công việc phải áp dụng các biện pháp kỹ thuật hoặc tổ chức để đề phòng người và phương tiện, dụng cụ làm việc đến phần có điện với khoảng cách nhỏ hơn khoảng cách an toàn cho phép"
-          },
-          {
-            "label": "B",
-            "text": "Là công việc làm ở thiết bị đang mang điện, có sử dụng các trang bị, dụng cụ chuyên dùng"
-          },
-          {
-            "label": "C",
-            "text": "Là làm việc ở độ cao từ 2,0 m trở lên, được tính từ mặt đất (mặt bằng) đến điểm tiếp xúc của chân người thực hiện công việc"
-          },
-          {
-            "label": "D",
-            "text": "Là công việc làm ở thiết bị chỉ có một phần được cắt điện để làm việc hoặc thiết bị được cắt điện hoàn toàn nhưng các lối đi ra phần phân phối ngoài trời hoặc thông sang phòng bên cạnh có điện vẫn mở cửa"
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-9-9",
-        "number": 9,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Anh/ chị hiểu thế nào là làm việc trên cao?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Làm việc trên cao là làm việc ở độ cao từ 1,0 m trở lên, được tính từ mặt đất (mặt bằng) đến điểm tiếp xúc của chân người thực hiện công việc."
-          },
-          {
-            "label": "B",
-            "text": "Làm việc trên cao là làm việc ở độ cao từ 1,5 m trở lên, được tính từ mặt đất (mặt bằng) đến điểm tiếp xúc của chân người thực hiện công việc."
-          },
-          {
-            "label": "C",
-            "text": "Làm việc trên cao là làm việc ở độ cao từ 2,0 m trở lên, được tính từ mặt đất (mặt bằng) đến điểm tiếp xúc của chân người thực hiện công việc."
-          },
-          {
-            "label": "D",
-            "text": "Làm việc trên cao là làm việc ở độ cao từ 0,5 m trở lên, được tính từ mặt đất (mặt bằng) đến điểm tiếp xúc của chân người thực hiện công việc."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-10-10",
-        "number": 10,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Anh/chị hãy giải thích thế nào là Điện hạ áp?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Là điện áp đến 1.000 V"
-          },
-          {
-            "label": "B",
-            "text": "Là điện áp trên 1.000 V"
-          },
-          {
-            "label": "C",
-            "text": "Là điện áp đến 2.000 V"
-          },
-          {
-            "label": "D",
-            "text": "Là điện áp đến 6.000 V"
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-11-11",
-        "number": 11,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Anh/chị hãy giải thích thế nào là Điện cao áp?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Là điện áp dưới 1000 V"
-          },
-          {
-            "label": "B",
-            "text": "Là điện áp trên 1.000 V"
-          },
-          {
-            "label": "C",
-            "text": "Là điện áp = 1000 V"
-          },
-          {
-            "label": "D",
-            "text": "Là điện áp = 220 V"
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-12-12",
-        "number": 12,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Khi thao tác đóng, cắt điện ở thiết bị điện cao áp phải do mấy người thực hiện?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Thao tác đóng, cắt điện ở thiết bị điện cao áp, phải do ít nhất 02 người thực hiện (trừ trường hợp thiết bị được trang bị đặc biệt và có quy trình thao tác riêng). Người thao tác phải có bậc 3 an toàn điện trở lên, người giám sát thao tác phải có bậc 4 an toàn điện trở lên."
-          },
-          {
-            "label": "B",
-            "text": "Thao tác đóng, cắt điện ở thiết bị điện cao áp, chỉ cần 01 người thực hiện (trừ trường hợp thiết bị được trang bị đặc biệt và có quy trình thao tác riêng), người này phải có bậc 4 an toàn điện trở lên và hiểu rõ sơ đồ và vị trí của thiết bị tại hiện trường"
-          },
-          {
-            "label": "C",
-            "text": "Thao tác đóng, cắt điện ở thiết bị điện cao áp, phải do ít nhất 02 người thực hiện (trừ trường hợp thiết bị được trang bị đặc biệt và có quy trình thao tác riêng). Người thao tác phải có bậc 2 an toàn điện trở lên, người giám sát thao tác phải có bậc 3 an toàn điện trở lên."
-          },
-          {
-            "label": "D",
-            "text": "Thao tác đóng, cắt điện ở thiết bị điện cao áp, phải do ít nhất 02 người thực hiện (trừ trường hợp thiết bị được trang bị đặc biệt và có quy trình thao tác riêng). Người thao tác phải là nhân viên đơn vị công tác có bậc 3 an toàn điện trở lên, người giám sát thao tác phải có bậc nghề là bậc 6 trở lên."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-13-13",
-        "number": 13,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Dao cách ly được phép thao tác trong trường hợp nào sau đây?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Dao cách ly được phép thao tác không điện hoặc thao tác có điện khi dòng điện thao tác nhỏ hơn dòng điện cho phép theo quy trình vận hành của dao cách ly do đơn vị quản lý vận hành ban hành."
-          },
-          {
-            "label": "B",
-            "text": "Dao cách ly được phép đóng, cắt trực tiếp tại chỗ ở ngoài trời trong lúc mưa to nước chảy thành dòng trên thiết bị, dụng cụ an toàn hoặc đang có giông sét với điều kiện phải có người giám sát tại chỗ."
-          },
-          {
-            "label": "C",
-            "text": "Dao cách ly được phép thao tác không điện hoặc thao tác có điện khi dòng điện thao tác lớn hơn dòng điện cho phép theo quy trình vận hành của dao cách ly do đơn vị quản lý vận hành ban hành."
-          },
-          {
-            "label": "D",
-            "text": "Dao cách ly được phép thao tác không điện hoặc thao tác có điện khi dòng điện thao tác lớn hơn dòng điện cho phép theo quy trình vận hành của dao cách ly do đơn vị quản lý vận hành ban hành nhưng phải có người giám sát an toàn bậc 4 an toàn điện trở lên."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-14-14",
-        "number": 14,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Khi nào thì nhân viên vận hành được phép cắt các máy cắt, dao cách ly mà không phải có lệnh thao tác hoặc phiếu thao tác?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Khi xảy ra tai nạn, sự cố hoặc có thể gây ra mất an toàn cho người và hư hỏng thiết bị."
-          },
-          {
-            "label": "B",
-            "text": "Khi đưa thiết bị từ sửa chữa vào vận hành và các Phiếu công tác liên quan đên thiết bị đã được khóa hết."
-          },
-          {
-            "label": "C",
-            "text": "Khi các Phiếu công tác liên quan đên thiết bị đã được khóa, nơi làm việc đã được đơn vi công tác bàn giao cho người cho phép làm việc."
-          },
-          {
-            "label": "D",
-            "text": "Khi nhân viên đơn vị công tác yêu cầu đóng điện để chạy thử và hiệu chỉnh thiết bị."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-15-15",
-        "number": 15,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Phiếu thao tác thực hiện xong phải được lưu trong thời gian bao lâu?",
-        "options": [
-          {
-            "label": "A",
-            "text": "01 tháng."
-          },
-          {
-            "label": "B",
-            "text": "02 tháng."
-          },
-          {
-            "label": "C",
-            "text": "Ít nhất 03 tháng."
-          },
-          {
-            "label": "D",
-            "text": "Không cần lưu."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-16-16",
-        "number": 16,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Bậc an toàn điện được chia thành bao nhiêu bậc?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Bậc an toàn điện được chia thành 4 bậc đó là: 1/5; 2/5; 3/5; 4/5."
-          },
-          {
-            "label": "B",
-            "text": "Bậc an toàn điện được chia thành 7 bậc đó là: 1/7; 2/7; 3/7; 4/7; 5/7; 6/7; 7/7"
-          },
-          {
-            "label": "C",
-            "text": "Bậc an toàn điện được chia thành 5 bậc đó là: 1/5; 2/5; 3/5; 4/5; 5/5."
-          },
-          {
-            "label": "D",
-            "text": "Bậc an toàn điện được chia thành 5 bậc đó là: 2/5; 3/5; 4/5; 5/5; 6/5."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-17-17",
-        "number": 17,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Những biện pháp kỹ thuật chuẩn bị nơi làm việc phải cắt điện bao gồm những biện pháp nào?",
-        "options": [
-          {
-            "label": "A",
-            "text": "(1) Cắt điện và ngăn chặn có điện trở lại nơi làm việc; (2) Đăng ký công tác; (3) Đặt nối đất; (4) Đặt rào chắn; treo biển báo, tín hiệu. Nếu cắt điện hoàn toàn thì không phải làm rào chắn."
-          },
-          {
-            "label": "B",
-            "text": "(1) Cắt điện và ngăn chặn có điện trở lại nơi làm việc; (2) Kiểm tra không còn điện; (3) Làm việc theo PCT hoặc LCT; (4) Đặt rào chắn; treo biển báo, tín hiệu. Nếu cắt điện hoàn toàn thì không phải làm rào chắn."
-          },
-          {
-            "label": "C",
-            "text": "(1) Cắt điện và ngăn chặn có điện trở lại nơi làm việc; (2) Kiểm tra không còn điện; (3) Đặt nối đất; (4) Cho phép làm việc tại hiện trường."
-          },
-          {
-            "label": "D",
-            "text": "(1) Cắt điện và ngăn chặn có điện trở lại nơi làm việc; (2) Kiểm tra không còn điện; (3) Đặt nối đất; (4) Đặt rào chắn; treo biển báo, tín hiệu. Nếu cắt điện hoàn toàn thì không phải làm rào chắn."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-18-18",
-        "number": 18,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Các biện pháp sau đây biện pháp nào là biện pháp tổ chức để đảm bảo an toàn khi làm việc?",
-        "options": [
-          {
-            "label": "A",
-            "text": "(1) Khảo sát, lập biên bản hiện trường, lập phương án thi công và biện pháp an toàn (nếu cần thiết); (2) Đăng ký công tác; (3) Làm việc theo PCT hoặc LCT; (4) Cho phép làm việc tại hiện trường; (5) Giám sát an toàn trong thời gian làm việc."
-          },
-          {
-            "label": "B",
-            "text": "(1) Cắt điện và ngăn chặn có điện trở lại nơi làm việc; (2) Đăng ký công tác; (3) Làm việc theo PCT hoặc LCT; (4) Cho phép làm việc tại hiện trường; (5) Giám sát an toàn trong thời gian làm việc; (6) Kiểm tra không còn điện; (7) Đặt nối đất."
-          },
-          {
-            "label": "C",
-            "text": "(1) Khảo sát, lập biên bản hiện trường, lập phương án thi công và biện pháp an toàn (nếu cần thiết); (2) Kiểm tra không còn điện; (3) Làm việc theo PCT hoặc LCT; (4) Cho phép làm việc tại hiện trường; (5) Giám sát an toàn trong thời gian làm việc."
-          },
-          {
-            "label": "D",
-            "text": "(1) Khảo sát, lập biên bản hiện trường, lập phương án thi công và biện pháp an toàn (nếu cần thiết); (2) Đăng ký công tác; (3) Đặt rào chắn; treo biển báo, tín hiệu. Nếu cắt điện hoàn toàn thì không phải làm rào chắn; (4) Giám sát an toàn trong thời gian làm việc."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-19-19",
-        "number": 19,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Khoảng cách an toàn điện khi không có rào chắn đối với cấp điện áp từ 1 kV đến 15 kV là bao nhiêu m?",
-        "options": [
-          {
-            "label": "A",
-            "text": "0,3 m."
-          },
-          {
-            "label": "B",
-            "text": "0,7 m."
-          },
-          {
-            "label": "C",
-            "text": "0,4 m."
-          },
-          {
-            "label": "D",
-            "text": "0,5 m."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-20-20",
-        "number": 20,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Khoảng cách an toàn điện khi không có rào chắn đối với cấp điện áp từ trên 15 kV đến 35 kV là bao nhiêu m ?",
-        "options": [
-          {
-            "label": "A",
-            "text": "0,5 m."
-          },
-          {
-            "label": "B",
-            "text": "0,6 m."
-          },
-          {
-            "label": "C",
-            "text": "1,0 m."
-          },
-          {
-            "label": "D",
-            "text": "0,7 m."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-21-21",
-        "number": 21,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Khoảng cách an toàn điện khi không có rào chắn đối với cấp điện áp 220 kV là bao nhiêu m ?",
-        "options": [
-          {
-            "label": "A",
-            "text": "0,7 m."
-          },
-          {
-            "label": "B",
-            "text": "1,0 m."
-          },
-          {
-            "label": "C",
-            "text": "1,5 m."
-          },
-          {
-            "label": "D",
-            "text": "2,5 m."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-22-22",
-        "number": 22,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Khi phải làm rào chắn thì Khoảng cách nhỏ nhất từ rào chắn đến phần mang điện đối với cấp điện áp từ 1 kV đến 15 kV là bao nhiêu m?",
-        "options": [
-          {
-            "label": "A",
-            "text": "0,35 m."
-          },
-          {
-            "label": "B",
-            "text": "0,1 m"
-          },
-          {
-            "label": "C",
-            "text": "0,2 m."
-          },
-          {
-            "label": "D",
-            "text": "0,3 m."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-23-23",
-        "number": 23,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Khi phải làm rào chắn thì Khoảng cách nhỏ nhất từ rào chắn đến phần mang điện đối với cấp điện áp trên 15 kV đến 35 kV là bao nhiêu m?",
-        "options": [
-          {
-            "label": "A",
-            "text": "0,2 m."
-          },
-          {
-            "label": "B",
-            "text": "0,6 m."
-          },
-          {
-            "label": "C",
-            "text": "0,4 m."
-          },
-          {
-            "label": "D",
-            "text": "0,5 m"
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-24-24",
-        "number": 24,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Khi phải làm rào chắn thì Khoảng cách nhỏ nhất từ rào chắn đến phần mang điện đối với cấp điện áp 220 kV là bao nhiêu m?",
-        "options": [
-          {
-            "label": "A",
-            "text": "1,0 m."
-          },
-          {
-            "label": "B",
-            "text": "2,0 m."
-          },
-          {
-            "label": "C",
-            "text": "2,5 m."
-          },
-          {
-            "label": "D",
-            "text": "0,7 m."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-25-25",
-        "number": 25,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Các yêu cầu khi cắt điện để làm công việc nào sau đây là đúng?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Nếu cắt điện bằng máy cắt và dao cách ly có bộ truyền động điều khiển từ xa thì phải khoá mạch điều khiển các thiết bị này, bao gồm: cắt aptomat, gỡ cầu chì,..."
-          },
-          {
-            "label": "B",
-            "text": "Người thao tác phải treo biển: “Cấm đóng điện! Có người đang làm việc” ở các bộ phận truyền động của các máy cắt, dao cách ly,... mà từ đó có thể đóng điện đến nơi làm việc."
-          },
-          {
-            "label": "C",
-            "text": "Cắt điện từng phần để làm việc phải giao cho người chỉ huy trực tiếp đơn vị công tác để ngăn ngừa khả năng nhầm lẫn, gây nguy hiểm cho đơn vị công tác."
-          },
-          {
-            "label": "D",
-            "text": "Phải ngăn chặn được những nguồn điện cao, hạ áp qua các máy biến áp lực, máy biến áp đo lường, máy phát điện khác có điện ngược trở lại gây nguy hiểm cho thiết bị đang vận hành."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-26-26",
-        "number": 26,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Anh chị hãy chỉ ra yêu cầu khi cắt điện để làm công việc nào sau đây là đúng?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Nếu cắt điện bằng máy cắt và dao cách ly có bộ truyền động điều khiển từ xa thì không được khoá mạch điều khiển các thiết bị này, bao gồm: cắt aptomat, gỡ cầu chì,..."
-          },
-          {
-            "label": "B",
-            "text": "Người thao tác phải treo biển: “Cấm đóng điện! Có người đang làm việc” ở các bộ phận truyền động của các máy cắt, dao cách ly,... mà từ đó có thể đóng điện đến nơi làm việc."
-          },
-          {
-            "label": "C",
-            "text": "Cắt điện từng phần để làm việc phải giao cho người chỉ huy trực tiếp đơn vị công tác để ngăn ngừa khả năng nhầm lẫn, gây nguy hiểm cho đơn vị công tác."
-          },
-          {
-            "label": "D",
-            "text": "Phải ngăn chặn được những nguồn điện cao, hạ áp qua các máy biến áp lực, máy biến áp đo lường, máy phát điện khác có điện ngược trở lại gây nguy hiểm cho người làm việc."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-27-27",
-        "number": 27,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Ai là người phải treo biển “Cấm đóng điện! Có người đang làm việc” ở các bộ phận truyền động của các máy cắt, dao cách ly...?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Người thao tác."
-          },
-          {
-            "label": "B",
-            "text": "Người giám sát thao tác."
-          },
-          {
-            "label": "C",
-            "text": "Người chỉ huy trực tiếp đơn vị công tác."
-          },
-          {
-            "label": "D",
-            "text": "Nhân viên đơn vị công tác."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-28-28",
-        "number": 28,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Người nào phải tiến hành kiểm tra không còn điện ở các thiết bị đã cắt điện?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Nhân viên đơn vị công tác"
-          },
-          {
-            "label": "B",
-            "text": "Người giám sát thao tác"
-          },
-          {
-            "label": "C",
-            "text": "Người thực hiện thao tác cắt điện"
-          },
-          {
-            "label": "D",
-            "text": "Người chỉ huy trực tiếp đơn vị công tác"
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-29-29",
-        "number": 29,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Khi kiểm tra không còn điện ở thiết bị đã được cắt điện, việc gì sau đây bị cấm?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Cấm Người thực hiện thao tác cắt điện tiến hành kiểm tra không còn điện ở các thiết bị đã cắt điện."
-          },
-          {
-            "label": "B",
-            "text": "Cấm kiểm tra không còn điện bằng thiết bị thử điện chuyên dùng phù hợp với điện áp danh định của thiết bị cần thử."
-          },
-          {
-            "label": "C",
-            "text": "Cấm căn cứ tín hiệu đèn, rơ le, đồng hồ để xác nhận thiết bị không còn điện, nhưng nếu đèn, rơ le, đồng hồ báo tín hiệu có điện thì phải xem như thiết bị vẫn có điện."
-          },
-          {
-            "label": "D",
-            "text": "Cấm dùng bút thử điện, còi thử điện để thử không còn điện ở tất cả các pha và các phía vào, ra của thiết bị."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-30-30",
-        "number": 30,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Nơi làm việc có cắt điện, vị trí nối đất phải thực hiện như thế nào:",
-        "options": [
-          {
-            "label": "A",
-            "text": "Phải nối đất ngay sau khi kiểm tra không còn điện; Nối đất ở tất cả các pha của thiết bị về phía có khả năng dẫn điện đến; Đảm bảo khoảng cách an toàn đối với phần còn mang điện; Đảm bảo cho toàn bộ đơn vị công tác nằm trọn trong vùng bảo vệ của nối đất."
-          },
-          {
-            "label": "B",
-            "text": "Phải nối đất ngay sau khi cắt điện; Nối đất ở tất cả các pha của thiết bị về phía có khả năng dẫn điện đến; Đảm bảo khoảng cách an toàn đối với phần còn mang điện; Đảm bảo cho toàn bộ đơn vị công tác nằm trọn trong vùng bảo vệ của nối đất."
-          },
-          {
-            "label": "C",
-            "text": "Phải nối đất ngay sau khi cắt điện; Nối đất ở tất cả các pha của thiết bị về phía có khả năng dẫn điện đến; Đảm bảo khoảng cách an toàn đối với phần còn mang điện; Đảm bảo cho toàn bộ đơn vị công tác nằm ngoài vùng bảo vệ của nối đất."
-          },
-          {
-            "label": "D",
-            "text": "Phải nối đất ngay sau khi kiểm tra không còn điện; Nối đất ở tất cả các pha của thiết bị về phía có khả năng dẫn điện đến; Đảm bảo khoảng cách an toàn đối với phần đã cắt điện; Đảm bảo cho toàn bộ đơn vị công tác nằm trọn trong vùng bảo vệ của nối đất."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-31-31",
-        "number": 31,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Trách nhiệm của việc nối đất tạo vùng an toàn khi làm việc được quy định như thế nào cho đúng?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Tại hiện trường làm việc, người cho phép tổ chức thực hiện việc nối đất tạo vùng làm việc, người chỉ huy trực tiếp chịu trách nhiệm tổ chức thực hiện nối đất di động. Người cho phép và người chỉ huy trực tiếp phải khẳng định rõ các vị trí đã nối đất để tạo vùng an toàn sao cho đơn vị công tác nằm trọn trong vùng bảo vệ của nối đất."
-          },
-          {
-            "label": "B",
-            "text": "Tại hiện trường làm việc, người cho phép tổ chức thực hiện việc nối đất di động, người chỉ huy trực tiếp chịu trách nhiệm tổ chức thực hiện nối đất tạo vùng làm việc. Người cho phép và người chỉ huy trực tiếp phải khẳng định rõ các vị trí đã nối đất để tạo vùng an toàn sao cho đơn vị công tác nằm trọn trong vùng bảo vệ của nối đất."
-          },
-          {
-            "label": "C",
-            "text": "Tại hiện trường làm việc, người cho phép tổ chức thực hiện việc nối đất tạo vùng làm việc, người chỉ huy trực tiếp chịu trách nhiệm tổ chức thực hiện nối đất di động. Người cho phép và người chỉ huy trực tiếp phải khẳng định rõ các vị trí đã nối đất để tạo vùng an toàn sao cho đơn vị công tác nằm ngoài vùng bảo vệ của nối đất."
-          },
-          {
-            "label": "D",
-            "text": "Tại hiện trường làm việc, người cho phép tổ chức thực hiện việc nối đất di động, người chỉ huy trực tiếp chịu trách nhiệm tổ chức thực hiện nối đất tạo vùng làm việc. Người cho phép và người chỉ huy trực tiếp phải khẳng định rõ các vị trí đã nối đất để tạo vùng an toàn sao cho đơn vị công tác nằm ngoài vùng bảo vệ của nối đất."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-32-32",
-        "number": 32,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Các nối đất tạo vùng an toàn khi làm việc chỉ được tháo dỡ khi có sự đồng ý của ai?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Của người chỉ huy trực tiếp."
-          },
-          {
-            "label": "B",
-            "text": "Của nhân viên đơn vị công tác."
-          },
-          {
-            "label": "C",
-            "text": "Của người cho phép làm việc."
-          },
-          {
-            "label": "D",
-            "text": "Của người cấp Phiếu công tác."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-33-33",
-        "number": 33,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Đặt và tháo nối đất phải do mấy người thực hiện?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Phải do 02 người thực hiện, trong đó một người phải có bậc an toàn điện từ bậc 4 trở lên, người còn lại từ bậc 2 trở lên."
-          },
-          {
-            "label": "B",
-            "text": "Phải do 01 người thực hiện, người đó phải có bậc 4 an toàn điện trở lên."
-          },
-          {
-            "label": "C",
-            "text": "Phải do 02 người thực hiện, hai người này phải có bậc an toàn điện từ bậc 3 trở lên."
-          },
-          {
-            "label": "D",
-            "text": "Phải do 02 người thực hiện, trong đó một người phải có bậc an toàn điện từ bậc 4 trở lên, người còn lại từ bậc 3 trở lên."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-34-34",
-        "number": 34,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Khi đặt nối đất phải thực hiện như thế nào cho đúng?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Khi đặt nối đất phải lắp một đầu dây nối đất với đất trước, sau đó lắp đầu còn lại vào thiết bị, đường dây; tháo nối đất làm theo trình tự ngược lại. Khi lắp/tháo nối đất di động người lắp/tháo phải dùng sào và găng cách điện."
-          },
-          {
-            "label": "B",
-            "text": "Khi đặt nối đất phải lắp một đầu dây nối đất với thiết bị trước, sau đó lắp đầu còn lại vào đất; tháo nối đất làm theo trình tự ngược lại. Khi lắp/tháo nối đất di động người lắp/tháo phải dùng sào và găng cách điện."
-          },
-          {
-            "label": "C",
-            "text": "Khi đặt nối đất phải lắp một đầu dây nối đất với đất trước, sau đó lắp đầu còn lại vào thiết bị, đường dây; tháo nối đất làm theo trình tự ngược lại. Khi lắp/tháo nối đất di động người lắp/tháo phải dùng sào và găng tay bảo hộ lao động."
-          },
-          {
-            "label": "D",
-            "text": "Khi đặt nối đất phải lắp một đầu dây nối đất với đất trước, sau đó lắp đầu còn lại vào thiết bị, đường dây; tháo nối đất làm theo trình tự như lắp nối đất. Khi lắp/tháo nối đất di động người lắp/tháo phải dùng đầy đủ bảo hộ lao động."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-35-35",
-        "number": 35,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Việc nối đất di động do ai chịu trách nhiệm thực hiện?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Người cho phép làm việc."
-          },
-          {
-            "label": "B",
-            "text": "Người cấp PCT."
-          },
-          {
-            "label": "C",
-            "text": "Người ra Lệnh công tác."
-          },
-          {
-            "label": "D",
-            "text": "Người chỉ huy trực tiếp."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-36-36",
-        "number": 36,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Đối với lưới điện phân phối, theo quy định tiết diện dây nối đất di động là bao nhiêu mm2 ?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Không được nhỏ hơn 16 mm2."
-          },
-          {
-            "label": "B",
-            "text": "Không được nhỏ hơn 15 mm2."
-          },
-          {
-            "label": "C",
-            "text": "Không được nhỏ hơn 10 mm2."
-          },
-          {
-            "label": "D",
-            "text": "Không được nhỏ hơn 6 mm2."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-37-37",
-        "number": 37,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Ở bộ phận truyền động của máy cắt, dao cách ly mà từ đó đóng điện đến nơi làm việc phải treo biển gì ?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Treo biển “Dừng lại! Có điện nguy hiểm chết người”."
-          },
-          {
-            "label": "B",
-            "text": "Treo biển “Cấm đóng điện! Có người đang làm việc”."
-          },
-          {
-            "label": "C",
-            "text": "Treo biển “Cấm lại gần! Có điện nguy hiểm chết người”."
-          },
-          {
-            "label": "D",
-            "text": "Treo biển “Cấm vào! Điện áp cao nguy hiểm chết người\"."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-38-38",
-        "number": 38,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Trong Phiếu công tác bao gồm những chức danh nào sau đây?",
-        "options": [
-          {
-            "label": "A",
-            "text": "(1) Người cấp Phiếu công tác; (2) Người Lãnh đạo công việc; (3) Người chỉ huy trực tiếp; (4) Người cho phép làm việc; (5) Người giám sát an toàn điện; (6) Nhân viên đơn vị công tác."
-          },
-          {
-            "label": "B",
-            "text": "(1) Người cấp Phiếu công tác; (2) Người ra lện công tác; (3) Người chỉ huy trực tiếp; (4) Người cho phép làm việc; (5) Người giám sát an toàn điện; (6) Nhân viên đơn vị công tác."
-          },
-          {
-            "label": "C",
-            "text": "(1) Người cấp Phiếu công tác; (2) Người Lãnh đạo việc; (3) Người chỉ huy trực tiếp; (4) Người cho phép làm việc; (5) Người giám sát an toàn điện; (6) Người nhận lệnh công tác."
-          },
-          {
-            "label": "D",
-            "text": "(1) Người cấp Phiếu công tác; (2) Người Lãnh đạo việc; (3) Người ra lệnh công tác; (4) Người cho phép làm việc; (5) Người nhận lệnh công tác; (6) Nhân viên đơn vị công tác."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-39-39",
-        "number": 39,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Đối với công việc phải khảo sát hiện trường thì Đơn vị làm công việc phải cử ai đi khảo sát hiện trường?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Người đi khảo sát phải là những người sẽ được cử làm người cho phép làm việc hoặc người cấp Phiếu công tác (nếu có)."
-          },
-          {
-            "label": "B",
-            "text": "Người đi khảo sát phải là những người sẽ được cử làm người chỉ huy trực tiếp hoặc người giám sát an toàn điện (nếu có)."
-          },
-          {
-            "label": "C",
-            "text": "Người đi khảo sát phải là những người sẽ được cử làm nhân viên đơn vị công tác hoặc người thao tác thiết bị điện (nếu có)."
-          },
-          {
-            "label": "D",
-            "text": "Người đi khảo sát phải là những người sẽ được cử làm người giám sát thao tác hoặc nhân viên vận hành quản lý thiết bị (nếu có)."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-40-40",
-        "number": 40,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Thời gian hiệu lực của PCT được quy định như thế nào là đúng?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Thời gian hiệu lực của PCT do người lãnh đạo công việc ghi nhưng không quá 30 ngày"
-          },
-          {
-            "label": "B",
-            "text": "Thời gian hiệu lực của PCT do người cấp phiếu ghi nhưng không quá 30 ngày"
-          },
-          {
-            "label": "C",
-            "text": "Thời gian hiệu lực của PCT do người cấp phiếu ghi nhưng không quá 35 ngày"
-          },
-          {
-            "label": "D",
-            "text": "Thời gian hiệu lực của PCT do người cấp phiếu ghi nhưng không quá 40 ngày"
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-41-41",
-        "number": 41,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Phiếu công tác được cấp như thế nào?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Mỗi PCT chỉ được cấp cho 01 đơn vị công tác cho 02 công việc."
-          },
-          {
-            "label": "B",
-            "text": "Mỗi PCT chỉ được cấp cho 01 đơn vị công tác cho 03 công việc."
-          },
-          {
-            "label": "C",
-            "text": "Mỗi PCT chỉ được cấp cho 01 đơn vị công tác cho 01 công việc."
-          },
-          {
-            "label": "D",
-            "text": "Mỗi PCT chỉ được cấp cho 02 đơn vị công tác cho 01 công việc."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-42-42",
-        "number": 42,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Trong khi tiến hành công việc theo PCT, có được tự ý mở rộng phạm vi làm việc không? Nếu mở rộng phạm vi làm việc thì phải thực hiện như thế nào cho đúng?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Trong khi tiến hành công việc theo PCT, không được tự ý mở rộng phạm vi làm việc. Nếu mở rộng phạm vi làm việc thì phải cấp LCT."
-          },
-          {
-            "label": "B",
-            "text": "Trong khi tiến hành công việc theo PCT được tự ý mở rộng phạm vi làm việc, Nếu mở rộng phạm vi làm việc thì phải bổ sung thêm nhân viên đơn vị công tác."
-          },
-          {
-            "label": "C",
-            "text": "Trong khi tiến hành công việc theo PCT, được tự ý mở rộng phạm vi làm việc. Nếu mở rộng phạm vi làm việc thì không phải cấp PCT mới."
-          },
-          {
-            "label": "D",
-            "text": "Trong khi tiến hành công việc theo PCT, không được tự ý mở rộng phạm vi làm việc. Nếu mở rộng phạm vi làm việc thì phải cấp PCT mới."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-43-43",
-        "number": 43,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Sau khi hoàn thành công việc, PCT được quản lý như thế nào?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Sau khi hoàn thành công việc, PCT được trả lại người cấp phiếu để kiểm tra, lưu giữ ít nhất 15 ngày (kể cả những phiếu đã cấp nhưng không thực hiện)"
-          },
-          {
-            "label": "B",
-            "text": "Sau khi hoàn thành công việc, PCT được trả lại người cấp phiếu để kiểm tra, lưu giữ ít nhất 20 ngày (kể cả những phiếu đã cấp nhưng không thực hiện)"
-          },
-          {
-            "label": "C",
-            "text": "Sau khi hoàn thành công việc, PCT được trả cho người chỉ huy trực tiếp, lưu giữ ít nhất 30 ngày (kể cả những phiếu đã cấp nhưng không thực hiện)"
-          },
-          {
-            "label": "D",
-            "text": "Sau khi hoàn thành công việc, PCT được trả lại người cấp phiếu để kiểm tra, lưu giữ ít nhất 01 tháng (kể cả những phiếu đã cấp nhưng không thực hiện)"
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-44-44",
-        "number": 44,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Sau khi hoàn thành công việc, LCT phải được lưu giữ trong thời gian bao lâu?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Sau khi hoàn thành công việc, LCT phải được lưu giữ ít nhất 01 tháng (kể cả những lệnh đã ban hành nhưng không thực hiện)"
-          },
-          {
-            "label": "B",
-            "text": "Sau khi hoàn thành công việc, LCT phải được lưu giữ ít nhất 15 ngày (kể cả những lệnh đã ban hành nhưng không thực hiện)"
-          },
-          {
-            "label": "C",
-            "text": "Sau khi hoàn thành công việc, LCT phải được lưu giữ ít nhất 20 ngày (kể cả những lệnh đã ban hành nhưng không thực hiện)"
-          },
-          {
-            "label": "D",
-            "text": "Sau khi hoàn thành công việc, LCT phải được lưu giữ trong thời gian 25 ngày (kể cả những lệnh đã ban hành nhưng không thực hiện)"
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-45-45",
-        "number": 45,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Các công việc thực hiện theo PCT bao gồm những công việc nào?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Làm việc cắt điện hoàn toàn; Làm việc có điện; Làm việc ở gần phần có điện."
-          },
-          {
-            "label": "B",
-            "text": "Làm việc cắt điện hoàn toàn; Làm việc có điện; Làm việc ở gần phần có điện; Làm việc ở xa nơi có điện."
-          },
-          {
-            "label": "C",
-            "text": "Làm việc cắt điện hoàn toàn; Làm việc có điện; Làm việc ở gần phần có điện; Xử lý sự cố thiết bị do nhân viên vận hành thực hiện trong ca."
-          },
-          {
-            "label": "D",
-            "text": "Làm việc cắt điện hoàn toàn; Làm việc có điện; Làm việc ở gần phần có điện; Công việc không cần phải thực hiện các biện pháp kỹ thuật chuẩn bị vị trí làm việc."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-46-46",
-        "number": 46,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Những công việc sau đây, các công việc được phép thực hiện theo LCT ?",
-        "options": [
-          {
-            "label": "A",
-            "text": "(1) Làm việc cắt điện hoàn toàn; (2) Làm việc có điện; (3) Làm việc ở gần phần có điện ."
-          },
-          {
-            "label": "B",
-            "text": "(1) Làm việc ở xa nơi có điện; (2) Xử lý sự cố thiết bị, đường dây do nhân viên vận hành thực hiện trong ca trực, hoặc những người khác thực hiện dưới sự giám sát của nhân viên vận hành."
-          },
-          {
-            "label": "C",
-            "text": "(1) Làm việc có điện; (2) Làm việc ở thiết bị, đường dây điện cao áp trong một số trường hợp do cấp có thẩm quyền của đơn vị quản lý thiết bị, đường dây quyết định."
-          },
-          {
-            "label": "D",
-            "text": "(1) Xử lý sự cố thiết bị, đường dây do nhân viên đơn vị công tác thực hiện trong ca trực; (2) Làm việc cắt điện hoàn toàn."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-47-47",
-        "number": 47,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Theo Quy trình an toàn điện trong 01 PCT, 01 người được phép đảm nhận 02 chức danh nào sau đây?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Người cấp phiếu công tác, Người Lãnh đạo công việc hoặc Người Lãnh đạo công việc, Người giám sát an toàn điện (nếu có)"
-          },
-          {
-            "label": "B",
-            "text": "Người cấp phiếu công tác, Nhân viên đơn vị công tác hoặc Nhân viên đơn vị công tác, Người giám sát an toàn điện (nếu có)"
-          },
-          {
-            "label": "C",
-            "text": "Người cấp phiếu công tác, Người chỉ huy trực tiếp hoặc Người cấp phiếu công tác, Người giám sát an toàn điện (nếu có)"
-          },
-          {
-            "label": "D",
-            "text": "Người cấp phiếu công tác, Người Lãnh đạo công việc hoặc Người cấp phiếu công tác, Nhân viên đơn vị công tác"
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-48-48",
-        "number": 48,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Theo Quy trình an toàn điện trong 01 PCT, 01 người được phép đảm nhận nhiều nhất 03 chức danh nào sau đây?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Người cấp phiếu công tác, Người Lãnh đạo công việc, Người giám sát an toàn điện (nếu có)."
-          },
-          {
-            "label": "B",
-            "text": "Người cấp phiếu công tác, Nhân viên đơn vị công tác, Người giám sát an toàn điện (nếu có)."
-          },
-          {
-            "label": "C",
-            "text": "Người cấp phiếu công tác, Người giám sát thao tác, Người giám sát an toàn điện (nếu có)."
-          },
-          {
-            "label": "D",
-            "text": "Người cấp phiếu công tác, Người cho phép, Người giám sát an toàn điện (nếu có)."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-49-49",
-        "number": 49,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Lệnh công tác có các chức danh nào sau đây?",
-        "options": [
-          {
-            "label": "A",
-            "text": "(1) Người ra LCT (2) Người giám sát an toàn điện (3) Người chỉ huy trực tiếp (khi tổ chức thành đơn vị công tác), Người thi hành lệnh (khi thực hiện công việc một mình) (4) Nhân viên đơn vị công tác."
-          },
-          {
-            "label": "B",
-            "text": "(1) Người ra LCT (2) Người cấp Phiếu công tác (3) Người chỉ huy trực tiếp (khi tổ chức thành đơn vị công tác), Người thi hành lệnh (khi thực hiện công việc một mình) (4) Nhân viên đơn vị công tác."
-          },
-          {
-            "label": "C",
-            "text": "(1) Người ra LCT (2) Người cho phép làm việc (3) Người chỉ huy trực tiếp (khi tổ chức thành đơn vị công tác), Người thi hành lệnh (khi thực hiện công việc một mình) (4) Nhân viên đơn vị công tác."
-          },
-          {
-            "label": "D",
-            "text": "(1) Người ra LCT (2) Người cho phép làm việc (3) Người chỉ huy trực tiếp (khi tổ chức thành đơn vị công tác), Người thi hành lệnh (khi thực hiện công việc một mình) (4) Người cấp Phiếu công tác."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-50-50",
-        "number": 50,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Người cấp PCT phải có bậc an toàn điện là bao nhiêu?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Có bậc 5 an toàn điện"
-          },
-          {
-            "label": "B",
-            "text": "Có bậc 4 an toàn điện"
-          },
-          {
-            "label": "C",
-            "text": "Có bậc 3 an toàn điện"
-          },
-          {
-            "label": "D",
-            "text": "Có bậc 6 an toàn điện."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-51-51",
-        "number": 51,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Theo quy trình An toàn điện, Người cấp PCT phải đáp ứng yêu cầu nào sau đây mới được làm Người cấp PCT?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Người cấp PCT phải là người của đơn vị quản lý vận hành; phải biết được nội dung công việc, điều kiện đảm bảo an toàn điện để đề ra đủ, đúng các biện pháp an toàn về điện cho đơn vị công tác. Có bậc 5 an toàn điện và được công nhận chức danh “Người cấp phiếu công tác”."
-          },
-          {
-            "label": "B",
-            "text": "Người cấp PCT phải là người của đơn vị làm công việc; phải biết được nội dung công việc, điều kiện đảm bảo an toàn điện để đề ra đủ, đúng các biện pháp an toàn về điện cho đơn vị công tác. Có bậc 5 an toàn điện và được công nhận chức danh “Người cấp phiếu công tác”."
-          },
-          {
-            "label": "C",
-            "text": "Người cấp PCT phải là người của đơn vị quản lý vận hành; phải biết được nội dung công việc, điều kiện đảm bảo an toàn điện để đề ra đủ, đúng các biện pháp an toàn về điện cho đơn vị công tác. Có bậc 4 an toàn điện và được công nhận chức danh “Người cấp phiếu công tác”."
-          },
-          {
-            "label": "D",
-            "text": "Người cấp PCT phải là người của đơn vị quản lý vận hành; phải biết được nội dung công việc, điều kiện đảm bảo an toàn điện để đề ra đủ, đúng các biện pháp an toàn về điện cho đơn vị công tác. Có bậc 5 an toàn điện và được công nhận chức danh “Người ra lệnh công tác”."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-52-52",
-        "number": 52,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Tại nhà máy điện những ai được cấp Phiếu công tác?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Tại các nhà máy điện, PCT do Quản đốc, Phó Quản đốc, Chuyên viên kỹ thuật cấp. Trưởng ca đương nhiệm cấp PCT trong trường hợp người cấp PCT vắng mặt, công việc đột xuất hoặc khi sự cố."
-          },
-          {
-            "label": "B",
-            "text": "Tại các nhà máy điện, PCT do Quản đốc, Phó Quản đốc, Kỹ thuật viên phân xưởng quản lý vận hành thiết bị cấp. Trưởng kíp điện đương nhiệm cấp PCT trong trường hợp người cấp PCT vắng mặt, công việc đột xuất hoặc khi sự cố."
-          },
-          {
-            "label": "C",
-            "text": "Tại các nhà máy điện, PCT do Quản đốc, Phó Quản đốc, Kỹ thuật viên phân xưởng sửa chữa thiết bị cấp. Trưởng ca đương nhiệm cấp PCT trong trường hợp người cấp PCT vắng mặt, công việc đột xuất hoặc khi sự cố."
-          },
-          {
-            "label": "D",
-            "text": "Tại các nhà máy điện, PCT do Quản đốc, Phó Quản đốc, Kỹ thuật viên phân xưởng quản lý vận hành thiết bị cấp. Trưởng ca đương nhiệm cấp PCT trong trường hợp người cấp PCT vắng mặt, công việc đột xuất hoặc khi sự cố."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-53-53",
-        "number": 53,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Điều kiện để làm người cho phép là điều kiện nào sau đây?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Người cho phép phải là nhân viên đơn vị công tác đang làm nhiệm vụ trong ca trực. Có bậc 4 an toàn điện trở lên và được công nhận chức danh “Người cho phép”."
-          },
-          {
-            "label": "B",
-            "text": "Người cho phép phải là nhân viên vận hành đang làm nhiệm vụ trong ca trực. Có bậc 4 an toàn điện trở lên và được công nhận chức danh “Người cho phép”."
-          },
-          {
-            "label": "C",
-            "text": "Người cho phép phải là nhân viên vận hành đang làm nhiệm vụ trong ca trực. Có bậc 3 an toàn điện trở lên và được công nhận chức danh “Người cho phép”."
-          },
-          {
-            "label": "D",
-            "text": "Người cho phép phải là nhân viên vận hành đang làm nhiệm vụ trong ca trực. Có bậc 5 an toàn điện trở lên và được công nhận chức danh “Người chỉ huy trực tiếp”."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-54-54",
-        "number": 54,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Trách nhiệm của Người cho phép là:",
-        "options": [
-          {
-            "label": "A",
-            "text": "Chịu trách nhiệm phối hợp hoạt động của các đơn vị công tác, khi công việc do nhiều đơn vị công tác của cùng một tổ chức hoạt động điện lực thực hiện theo các PCT để đảm bảo an toàn."
-          },
-          {
-            "label": "B",
-            "text": "Kiểm tra (hoặc thực hiện nếu được người cấp phiếu giao) việc thực hiện đủ, đúng các biện pháp an toàn tại hiện trường thuộc trách nhiệm của mình để chuẩn bị chỗ làm việc cho đơn vị công tác."
-          },
-          {
-            "label": "C",
-            "text": "Có mặt liên tục tại nơi làm việc, giám sát và có biện pháp để nhân viên đơn vị công tác không thực hiện những hành vi có thể gây tai nạn trong quá trình làm việc."
-          },
-          {
-            "label": "D",
-            "text": "Chấp hành nghiêm nhiệm vụ được phân công và có trách nhiệm tự bảo vệ để đảm bảo an toàn khi làm việc. Từ chối thực hiện công việc khi thấy không đảm bảo an toàn, nếu người chỉ huy trực tiếp không chấp thuận thì báo cáo lên cấp trên để giải quyết."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-55-55",
-        "number": 55,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Người cho phép, Người chỉ huy trực tiếp, Người giám sát an toàn điện phải có bậc an toàn điện là bậc mấy?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Bậc 2 an toàn điện."
-          },
-          {
-            "label": "B",
-            "text": "Không quy định bậc an toàn điện."
-          },
-          {
-            "label": "C",
-            "text": "Bậc 4 an toàn điện trở lên."
-          },
-          {
-            "label": "D",
-            "text": "Bậc 3 an toàn điện trở lên"
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-56-56",
-        "number": 56,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Người lãnh đạo công việc, Người cấp PCT, Người ra LCT phải có bậc an toàn điện là bậc mấy?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Bậc 5 an toàn điện."
-          },
-          {
-            "label": "B",
-            "text": "Không quy định bậc an toàn điện."
-          },
-          {
-            "label": "C",
-            "text": "Bậc 4 an toàn điện trở lên."
-          },
-          {
-            "label": "D",
-            "text": "Bậc 3 an toàn điện trở lên."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-57-57",
-        "number": 57,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Anh/ chị hãy chỉ ra đâu là trách nhiệm của Người lãnh đạo công việc?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Chịu trách nhiệm phối hợp hoạt động của các đơn vị công tác, khi công việc do nhiều đơn vị công tác của cùng một tổ chức hoạt động điện lực thực hiện theo các PCT để đảm bảo an toàn."
-          },
-          {
-            "label": "B",
-            "text": "Có mặt liên tục tại nơi làm việc, giám sát và có biện pháp để nhân viên đơn vị công tác không thực hiện những hành vi có thể gây tai nạn trong quá trình làm việc"
-          },
-          {
-            "label": "C",
-            "text": "Kiểm tra (hoặc thực hiện nếu được người cấp phiếu giao) việc thực hiện đủ, đúng các biện pháp an toàn tại hiện trường thuộc trách nhiệm của mình để chuẩn bị chỗ làm việc cho đơn vị công tác"
-          },
-          {
-            "label": "D",
-            "text": "Chỉ huy điều hành đơn vị công tác thực hiện các công việc trong phạm vi cho phép làm việc theo PCT, bao gồm việc thực hiện các thủ tục, biện pháp an toàn nơi làm việc thuộc trách nhiệm của đơn vị công tác"
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-58-58",
-        "number": 58,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Người ra LCT phải có bậc mấy an toàn điện?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Bậc 4 an toàn điện"
-          },
-          {
-            "label": "B",
-            "text": "Bậc 3 an toàn điện"
-          },
-          {
-            "label": "C",
-            "text": "Bậc 2 an toàn điện"
-          },
-          {
-            "label": "D",
-            "text": "Bậc 5 an toàn điện"
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__I-59-59",
-        "number": 59,
-        "sectionId": "I",
-        "sectionTitle": "PHẦN 1: THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
-        "text": "Anh/ chỉ hãy chỉ ra đâu là trách nhiệm của Người ra LCT trong đáp án sau?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Có mặt liên tục tại nơi làm việc, giám sát và có biện pháp để nhân viên đơn vị công tác không thực hiện những hành vi có thể gây tai nạn trong quá trình làm việc."
-          },
-          {
-            "label": "B",
-            "text": "Kiểm tra (hoặc thực hiện nếu được người cấp phiếu giao) việc thực hiện đủ, đúng các biện pháp an toàn tại hiện trường thuộc trách nhiệm của mình để chuẩn bị chỗ làm việc cho đơn vị công tác."
-          },
-          {
-            "label": "C",
-            "text": "Chịu trách nhiệm phối hợp hoạt động của các đơn vị công tác, khi công việc do nhiều đơn vị công tác của cùng một tổ chức hoạt động điện lực thực hiện theo các PCT để đảm bảo an toàn."
-          },
-          {
-            "label": "D",
-            "text": "Tiếp nhận báo cáo kết quả, thời gian hoàn thành sau khi thực hiện xong công việc từ người chỉ huy trực tiếp (hoặc người thi hành lệnh) và ghi vào sổ LCT theo quy định."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__II-1-60",
-        "number": 1,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo QCVN 17: 2013/BLĐTBXH - Quy chuẩn kỹ thuật quốc gia về an toàn lao động đối với công việc hàn hơi. Quy định khi tiến hành công việc hàn hơi trong các hầm, buồng, thùng, khoang bể kín phải:",
         "options": [
           {
@@ -1754,16 +43,16 @@ window.EXTRA_DECKS = [
             "text": "Phải thực hiện thông gió, với tốc độ gió từ 0,3 đến 1,5 m/s."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-2-61",
+        "id": "AN TOAN__I-2-2",
         "number": 2,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo QCVN 17: 2013/BLĐTBXH - Quy chuẩn kỹ thuật quốc gia về an toàn lao động đối với công việc hàn hơi. Khi di chuyển chai chứa khí:",
         "options": [
           {
@@ -1783,16 +72,16 @@ window.EXTRA_DECKS = [
             "text": "Không được sử dụng cơ cấu bảo vệ van hoặc nam châm để nâng chai có dung tích nước lớn hơn 12 lít."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-3-62",
+        "id": "AN TOAN__I-3-3",
         "number": 3,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Các yếu tố nguy hiểm có nguy cơ gây tai nạn lao động trong sản xuất?",
         "options": [
           {
@@ -1812,16 +101,16 @@ window.EXTRA_DECKS = [
             "text": "Vật văng bắn; vật rơi, đổ, sập; các bộ phận truyền động và chuyển động; nguồn nhiệt; nguồn điện; nổ."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-4-63",
+        "id": "AN TOAN__I-4-4",
         "number": 4,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo QCVN 17: 2013/BLĐTBXH - Quy chuẩn kỹ thuật quốc gia về an toàn lao động đối với công việc hàn hơi. Đối với thợ hàn hơi, yêu cầu nào sau đây không đúng quy định?",
         "options": [
           {
@@ -1841,16 +130,16 @@ window.EXTRA_DECKS = [
             "text": "Khi kết thúc công việc phải đóng tất cả các van chai; nới vít nén ở bộ phận giảm áp, xả hết khí thừa ra khỏi ống dẫn."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-5-64",
+        "id": "AN TOAN__I-5-5",
         "number": 5,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Hãy nêu các biện pháp cơ bản về kỹ thuật an toàn nhằm đảm bảo an toàn và phòng ngừa tai nạn lao động:",
         "options": [
           {
@@ -1867,19 +156,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả các ý A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-6-65",
+        "id": "AN TOAN__I-6-6",
         "number": 6,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo QCVN 17: 2013/BLĐTBXH - Quy chuẩn kỹ thuật quốc gia về an toàn lao động đối với công việc hàn hơi. Khi di chuyển chai chứa khí, quy định nào sau đây không đúng:",
         "options": [
           {
@@ -1899,16 +188,16 @@ window.EXTRA_DECKS = [
             "text": "Không được dùng dây chão, dây xích để treo chai khi người chế tạo đã lắp đặt để nâng hạ thích hợp như là vấu lồi. Không thể sử dụng giàn bệ hoặc palet thích hợp dùng cho chai để nâng hạ chúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-7-66",
+        "id": "AN TOAN__I-7-7",
         "number": 7,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo QCVN 17: 2013/BLĐTBXH - Quy chuẩn kỹ thuật quốc gia về an toàn lao động đối với công việc hàn hơi. Trước khi tiến hành hàn cắt phải:",
         "options": [
           {
@@ -1925,19 +214,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả các ý A, B, C đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-8-67",
+        "id": "AN TOAN__I-8-8",
         "number": 8,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Biện pháp an toàn tổ chức nơi làm việc trong công tác hàn hơi được quy định như?",
         "options": [
           {
@@ -1954,19 +243,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả các ý A, B, C đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-9-68",
+        "id": "AN TOAN__I-9-9",
         "number": 9,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo QCVN 03:2011/BLĐTBXH– Quy chuẩn kỹ thuật quốc gia về an toàn lao động đối với máy hàn điện và công việc hàn điện. Yêu cầu đối với công nhân hàn điện được quy định như thế nào?",
         "options": [
           {
@@ -1983,19 +272,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Các các ý A, B, C đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-10-69",
+        "id": "AN TOAN__I-10-10",
         "number": 10,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo QCVN 03:2011/BLĐTBXH– Quy chuẩn kỹ thuật quốc gia về an toàn lao động đối với máy hàn điện và công việc hàn điện. Yêu cầu đối với gian sản xuất, bố trí thiết bị và tổ chức nơi làm việc như?",
         "options": [
           {
@@ -2012,19 +301,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả các ý A, B, C đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-11-70",
+        "id": "AN TOAN__I-11-11",
         "number": 11,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo QCVN 03:2011/BLĐTBXH– Quy chuẩn kỹ thuật quốc gia về an toàn lao động đối với máy hàn điện và công việc hàn điện. Yêu cầu đối với gian sản xuất, bố trí thiết bị và tổ chức nơi làm việc như?",
         "options": [
           {
@@ -2041,19 +330,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả các ý A, B, C đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-12-71",
+        "id": "AN TOAN__I-12-12",
         "number": 12,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo QCVN 03:2011/BLĐTBXH– Quy chuẩn kỹ thuật quốc gia về an toàn lao động đối với máy hàn điện và công việc hàn điện. Yêu cầu bố trí thiết bị và tổ chức nơi làm việc quy định như thế nào?",
         "options": [
           {
@@ -2073,16 +362,16 @@ window.EXTRA_DECKS = [
             "text": "Khoảng cách giữa các máy hàn không được nhỏ hơn 2,5m. Khoảng cách giữa các máy hàn tự động không được nhỏ hơn 3m."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-13-72",
+        "id": "AN TOAN__I-13-13",
         "number": 13,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo QCVN 03:2011/BLĐTBXH– Quy chuẩn kỹ thuật quốc gia về an toàn lao động đối với máy hàn điện và công việc hàn điện. Yêu cầu bố trí thiết bị và tổ chức nơi làm việc quy định như thế nào?",
         "options": [
           {
@@ -2102,16 +391,16 @@ window.EXTRA_DECKS = [
             "text": "Chiều dài dây dẫn từ nơi cấp điện áp sơ cấp đến thiết bị hàn di động không vượt quá 15m."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-14-73",
+        "id": "AN TOAN__I-14-14",
         "number": 14,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo QCVN 03:2011/BLĐTBXH– Quy chuẩn kỹ thuật quốc gia về an toàn lao động đối với máy hàn điện và công việc hàn điện. Yêu cầu nào sau đây đúng quy định?",
         "options": [
           {
@@ -2128,19 +417,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả các ý A, B, C đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-15-74",
+        "id": "AN TOAN__I-15-15",
         "number": 15,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo QCVN 03:2011/BLĐTBXH– Quy chuẩn kỹ thuật quốc gia về an toàn lao động đối với máy hàn điện và công việc hàn điện. Yêu cầu nào sau đây đúng quy định?",
         "options": [
           {
@@ -2157,19 +446,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả các ý A, B, C đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-16-75",
+        "id": "AN TOAN__I-16-16",
         "number": 16,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo QCVN 03:2011/BLĐTBXH– Quy chuẩn kỹ thuật quốc gia về an toàn lao động đối với máy hàn điện và công việc hàn điện. Yêu cầu nào sau đây đúng quy định?",
         "options": [
           {
@@ -2185,16 +474,16 @@ window.EXTRA_DECKS = [
             "text": "Khi tiến hành hàn điện ngoài trời, phía trên các máy hàn và vị trí hàn cần có mái che bằng vật liệu không cháy. Nếu không có mái che, khi mưa phải ngừng làm việc."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-17-76",
+        "id": "AN TOAN__I-17-17",
         "number": 17,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo QCVN 03:2011/BLĐTBXH– Quy chuẩn kỹ thuật quốc gia về an toàn lao động đối với máy hàn điện và công việc hàn điện. Công việc hàn dưới nước phải tuân thủ các yêu cầu nào sau đây?",
         "options": [
           {
@@ -2211,19 +500,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả các ý A, B, C đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-18-77",
+        "id": "AN TOAN__I-18-18",
         "number": 18,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo QCVN 03:2011/BLĐTBXH– Quy chuẩn kỹ thuật quốc gia về an toàn lao động đối với máy hàn điện và công việc hàn điện. Yêu cầu về phương tiện bảo vệ cá nhân nào sau đây đúng?",
         "options": [
           {
@@ -2240,19 +529,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả các ý A, B, C đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-19-78",
+        "id": "AN TOAN__I-19-19",
         "number": 19,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo QCVN 03:2011/BLĐTBXH– Quy chuẩn kỹ thuật quốc gia về an toàn lao động đối với máy hàn điện và công việc hàn điện. Yêu cầu về phương tiện bảo vệ cá nhân nào sau đây đúng?",
         "options": [
           {
@@ -2269,19 +558,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả các ý A, B, C đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-20-79",
+        "id": "AN TOAN__I-20-20",
         "number": 20,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo QCVN 09: 2012/BLĐTBXH - Quy chuẩn kỹ thuật quốc gia về an toàn lao động đối với dụng cụ điện cầm tay truyền động bằng động cơ. Được bảo quản và vận chuyển theo đúng quy định nào sau đây?",
         "options": [
           {
@@ -2298,19 +587,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả các ý A, B, C đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-21-80",
+        "id": "AN TOAN__I-21-21",
         "number": 21,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo QCVN 09: 2012/BLĐTBXH - Quy chuẩn kỹ thuật quốc gia về an toàn lao động đối với dụng cụ điện cầm tay truyền động bằng động cơ. Mỗi lần giao dụng cụ điện cầm tay cho người sử dụng, người giao dụng cụ điện cầm tay cùng người sử dụng phải kiểm tra các mục nào sau đây:",
         "options": [
           {
@@ -2327,19 +616,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả các ý A, B, C đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-22-81",
+        "id": "AN TOAN__I-22-22",
         "number": 22,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Quy định của Luật AT-VSLĐ thì đối tượng nào không thuộc thành phần của Hội đồng an toàn, vệ sinh lao động cơ sở?",
         "options": [
           {
@@ -2359,16 +648,16 @@ window.EXTRA_DECKS = [
             "text": "Người làm công tác y tế ở cơ sở sản xuất, kinh doanh và các thành viên khác có liên quan."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-23-82",
+        "id": "AN TOAN__I-23-23",
         "number": 23,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Quy định của Luật AT-VSLĐ thì việc lập kế hoạch AT-VSLĐ như thế nào?",
         "options": [
           {
@@ -2388,16 +677,16 @@ window.EXTRA_DECKS = [
             "text": "Định kỳ hằng quý, người sử dụng lao động phải được lấy ý kiến Ban chấp hành công đoàn cơ sở để xây dựng và tổ chức triển khai kế hoạch an toàn, vệ sinh lao động."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-24-83",
+        "id": "AN TOAN__I-24-24",
         "number": 24,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Quy định của Luật AT-VSLĐ thì NSDLĐ phải thực hiện việc đánh giá rủi ro như thế nào?",
         "options": [
           {
@@ -2417,16 +706,16 @@ window.EXTRA_DECKS = [
             "text": "Phải tổ chức đánh giá và hướng dẫn người lao động tự đánh giá nguy cơ rủi ro về AT-VSLĐ trước khi làm việc, thường xuyên trong quá trình lao động hoặc khi cần thiết."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-25-84",
+        "id": "AN TOAN__I-25-25",
         "number": 25,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Quy định của Luật AT-VSLĐ thì nội dung nào sau đây không nằm trong kế hoạch ứng cứu khẩn cấp?",
         "options": [
           {
@@ -2446,16 +735,16 @@ window.EXTRA_DECKS = [
             "text": "Trang thiết bị phục vụ ứng cứu; Biện pháp ngăn chặn, khắc phục hậu quả do sự cố gây ra;"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-26-85",
+        "id": "AN TOAN__I-26-26",
         "number": 26,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Quy định của Luật AT-VSLĐ quy định về tổ chức Thanh tra an toàn, vệ sinh lao động như thế nào?",
         "options": [
           {
@@ -2475,16 +764,16 @@ window.EXTRA_DECKS = [
             "text": "Là thanh tra chuyên ngành thuộc cơ quan quản lý nhà nước về lao động cấp trung ương, cấp tỉnh và các cơ sở sản xuất kinh doanh có các công việc nguy hiểm, độc hại."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-27-86",
+        "id": "AN TOAN__I-27-27",
         "number": 27,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Luật An toàn, vệ sinh lao động số: 84/2015/QH13, tiêu chuẩn để bầu An toàn vệ sinh viên là gì?",
         "options": [
           {
@@ -2504,16 +793,16 @@ window.EXTRA_DECKS = [
             "text": "Là Tổ trưởng SX, giỏi nghề gương mẫu về bảo hộ lao động và nhiệt tình."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-28-87",
+        "id": "AN TOAN__I-28-28",
         "number": 28,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Luật An toàn, vệ sinh lao động số: 84/2015/QH13, nguyên tắc tổ chức bồi dưỡng bằng hiện vật được thực hiện:",
         "options": [
           {
@@ -2530,19 +819,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả ý A, B, C đều đúng"
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-29-88",
+        "id": "AN TOAN__I-29-29",
         "number": 29,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại Nghị định 145/2020/NĐ-CP ngày 24/12/2020, Quy định chi tiết và hướng dẫn thi hành một số điều của Bộ luật lao động về điều kiện lao động và quan hệ lao động. Thời giờ không được tính vào thời giờ làm việc có hưởng lương của người lao động là thời giờ nào?",
         "options": [
           {
@@ -2562,16 +851,16 @@ window.EXTRA_DECKS = [
             "text": "Thời giờ phải ngừng việc do lỗi của người lao động."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-30-89",
+        "id": "AN TOAN__I-30-30",
         "number": 30,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại Tại Nghị định 145/2020/NĐ-CP ngày 24/12/2020, Quy định chi tiết và hướng dẫn thi hành một số điều của Bộ luật lao động về điều kiện lao động và quan hệ lao động. Thời giờ được tính vào thời giờ làm việc có hưởng lương của người lao động là thời giờ nào?",
         "options": [
           {
@@ -2588,19 +877,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các ý trên đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-31-90",
+        "id": "AN TOAN__I-31-31",
         "number": 31,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại Nghị định 145/2020/NĐ-CP ngày 24/12/2020, Quy định chi tiết và hướng dẫn thi hành một số điều của Bộ luật lao động về điều kiện lao động và quan hệ lao động. Thời giờ được tính vào thời giờ làm việc có hưởng lương của người lao động nữ nuôi con nhỏ dưới 12 tháng tuổi là thời giờ nào?",
         "options": [
           {
@@ -2617,7 +906,7 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Không có ý nào đúng."
+            "text": "Không có phương án nào đúng."
           }
         ],
         "correctIndex": 0,
@@ -2626,10 +915,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-32-91",
+        "id": "AN TOAN__I-32-32",
         "number": 32,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại Nghị định 145/2020/NĐ-CP ngày 24/12/2020, Quy định chi tiết và hướng dẫn thi hành một số điều của Bộ luật lao động về điều kiện lao động và quan hệ lao động. Thời giờ được tính vào thời giờ làm việc có hưởng lương của người lao động nuôi con nhỏ dưới 12 tháng tuổi là thời giờ nào?",
         "options": [
           {
@@ -2646,19 +935,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Không có ý nào đúng."
+            "text": "Không có phương án nào đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-33-92",
+        "id": "AN TOAN__I-33-33",
         "number": 33,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại Nghị định 145/2020/NĐ-CP ngày 24/12/2020, Quy định chi tiết và hướng dẫn thi hành một số điều của Bộ luật lao động về điều kiện lao động và quan hệ lao động. Thời giờ được tính vào thời giờ làm việc có hưởng lương của người lao động nữ trong thời gian hành kinh là thời giờ nào.",
         "options": [
           {
@@ -2675,19 +964,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Không có câu nào đúng."
+            "text": "Không có phương án nào đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-34-93",
+        "id": "AN TOAN__I-34-34",
         "number": 34,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại Nghị định 145/2020/NĐ-CP ngày 24/12/2020, Quy định chi tiết và hướng dẫn thi hành một số điều của Bộ luật lao động về điều kiện lao động và quan hệ lao động. Thời giờ làm thêm trong mỗi ngày đối với từng loại công việc của người lao động được quy định như thế nào?",
         "options": [
           {
@@ -2707,16 +996,16 @@ window.EXTRA_DECKS = [
             "text": "Không được vượt quá 60% số giờ làm việc được quy định trong mỗi ngày."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-35-94",
+        "id": "AN TOAN__I-35-35",
         "number": 35,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại Nghị định 145/2020/NĐ-CP ngày 24/12/2020, Quy định chi tiết và hướng dẫn thi hành một số điều của Bộ luật lao động về điều kiện lao động và quan hệ lao động. Tổng số thời giờ làm thêm trong một năm không được vượt quá bao nhiêu giờ quy định dưới đây?",
         "options": [
           {
@@ -2736,16 +1025,16 @@ window.EXTRA_DECKS = [
             "text": "350 giờ"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-36-95",
+        "id": "AN TOAN__I-36-36",
         "number": 36,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại Nghị định 145/2020/NĐ-CP ngày 24/12/2020, Quy định chi tiết và hướng dẫn thi hành một số điều của Bộ luật lao động về điều kiện lao động và quan hệ lao động. Tổng cộng thời giờ làm việc bình thường và thời giờ làm thêm trong một ngày không được vượt quá bao nhiêu giờ?",
         "options": [
           {
@@ -2765,16 +1054,16 @@ window.EXTRA_DECKS = [
             "text": "24 giờ"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-37-96",
+        "id": "AN TOAN__I-37-37",
         "number": 37,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại Bộ luật lao động số 45/2019/QH14 ngày 20/11/2019 của Quốc hội quy định: thời giờ làm việc trong điều kiện làm việc bình thường trong một ngày không quá bao nhiêu giờ?",
         "options": [
           {
@@ -2791,19 +1080,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Không có câu nào đúng."
+            "text": "Không có phương án nào đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-38-97",
+        "id": "AN TOAN__I-38-38",
         "number": 38,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại Nghị định 145/2020/NĐ-CP ngày 24/12/2020, Quy định chi tiết và hướng dẫn thi hành một số điều của Bộ luật lao động về điều kiện lao động và quan hệ lao động: thời giờ làm việc trong điều kiện làm việc bình thường trong một ngày không quá bao nhiêu giờ?",
         "options": [
           {
@@ -2820,19 +1109,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Không có câu nào đúng"
+            "text": "Không có phương án nào đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-39-98",
+        "id": "AN TOAN__I-39-39",
         "number": 39,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại Bộ luật lao động số 45/2019/QH14 ngày 20/11/2019 của Quốc hội quy định: thời giờ làm việc trong điều kiện làm việc bình thường trong một tuần không quá bao nhiêu giờ?",
         "options": [
           {
@@ -2858,10 +1147,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-41-99",
-        "number": 41,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-40-40",
+        "number": 40,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại Bộ luật lao động số 45/2019/QH14 ngày 20/11/2019 của Quốc hội quy định: nếu người sử dụng lao động quy định làm việc theo tuần, thì thời gian làm việc trong ngày không quá bao nhiêu giờ?",
         "options": [
           {
@@ -2878,19 +1167,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Không có câu nào đúng"
+            "text": "Không có phương án nào đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-42-100",
-        "number": 42,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-41-41",
+        "number": 41,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại Bộ luật lao động số 45/2019/QH14 ngày 20/11/2019 của Quốc hội quy định: người làm công việc đặc biệt nặng nhọc, độc hại, nguy hiểm theo danh mục của Bộ Lao động - Thương binh và Xã hội phối hợp với Bộ Y tế ban hành, thì thời giờ làm việc bình thường không quá bao nhiêu giờ trong ngày?",
         "options": [
           {
@@ -2910,16 +1199,16 @@ window.EXTRA_DECKS = [
             "text": "10 giờ"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-43-101",
-        "number": 43,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-42-42",
+        "number": 42,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại Bộ luật lao động số 45/2019/QH14 ngày 20/11/2019 của Quốc hội quy định: thời giờ làm việc ban đêm được quy định như thế nào?",
         "options": [
           {
@@ -2939,16 +1228,16 @@ window.EXTRA_DECKS = [
             "text": "Tính từ 21 giờ đến 5 giờ sáng hôm sau."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-44-102",
-        "number": 44,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-43-43",
+        "number": 43,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại Bộ luật lao động số 45/2019/QH14 ngày 20/11/2019 của Quốc hội quy định: thời giờ làm việc trong điều kiện lao động đặc biệt nặng nhọc, độc hại, nguy hiểm theo danh mục do Bộ Lao động-Thương binh và Xã hội chủ trì phối hợp với Bộ Y tế ban hành, được rút ngắn bao nhiêu giờ trong một ngày làm việc bình thường?",
         "options": [
           {
@@ -2968,16 +1257,16 @@ window.EXTRA_DECKS = [
             "text": "02 giờ"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-45-103",
-        "number": 45,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-44-44",
+        "number": 44,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại Bộ luật lao động số 45/2019/QH14 ngày 20/11/2019. Quy định thời giờ nghỉ giữa giờ làm việc là bao nhiêu nếu làm việc liên tục 8 giờ hoặc 6 giờ vào ban ngày",
         "options": [
           {
@@ -3003,10 +1292,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-46-104",
-        "number": 46,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-45-45",
+        "number": 45,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại Bộ luật lao động số 45/2019/QH14 ngày 20/11/2019 của Quốc hội. Quy định thời giờ nghỉ giữa giờ làm việc là bao nhiêu nếu làm việc liên tục vào ban đêm?",
         "options": [
           {
@@ -3026,16 +1315,16 @@ window.EXTRA_DECKS = [
             "text": "30 phút."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-47-105",
-        "number": 47,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-46-46",
+        "number": 46,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại Nghị định 115/2015/NĐ-CP ngày 11/11/2015 của Chính phủ quy định chi tiết một số điều của Luật Bảo hiểm xã hội về bảo hiểm xã hội bắt buộc. Đối tượng lao động nào không được tham gia Bảo hiểm xã hội bắt buộc?",
         "options": [
           {
@@ -3055,16 +1344,16 @@ window.EXTRA_DECKS = [
             "text": "Người lao động là công nhân quốc phòng, công nhân công an, người làm công tác khác trong tổ chức cơ yếu."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-48-106",
-        "number": 48,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-47-47",
+        "number": 47,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại Nghị định 115/2015/NĐ-CP ngày 11/11/2015 của Chính phủ quy định chi tiết một số điều của Luật Bảo hiểm xã hội về bảo hiểm xã hội bắt buộc. Đối tượng lao động nào dưới đây phải tham gia Bảo hiểm xã hội bắt buộc?",
         "options": [
           {
@@ -3081,19 +1370,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các câu đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-49-107",
-        "number": 49,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-48-48",
+        "number": 48,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại Thông tư số 59/2015/TT-BLĐTBXH ngày 29/12/2015 quy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm xã hội về bảo hiểm xã hội bắt buộc. Người lao động tham gia Bảo hiểm xã hội bắt buộc thì được hưởng các chế độ Bảo hiểm xã hội nào?",
         "options": [
           {
@@ -3110,19 +1399,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các câu đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-50-108",
-        "number": 50,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-49-49",
+        "number": 49,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại Thông tư số 59/2015/TT-BLĐTBXH ngày 29/12/2015 quy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm xã hội về bảo hiểm xã hội bắt buộc. Trường hợp nào không được hưởng chế độ ốm đau của Bảo hiểm xã hội?",
         "options": [
           {
@@ -3142,16 +1431,16 @@ window.EXTRA_DECKS = [
             "text": "Bị tai nạn rủi ro phải nghỉ việc và có xác nhận của cơ sở y tế."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-51-109",
-        "number": 51,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-50-50",
+        "number": 50,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại Luật ATVSLĐ số 84/2015/QH13 ngày 25/6/2015 của Quốc hội. Trường hợp nào được hưởng chế độ tại nạn lao động?",
         "options": [
           {
@@ -3168,19 +1457,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các câu đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-52-110",
-        "number": 52,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-51-51",
+        "number": 51,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại Luật ATVSLĐ ngày 25/6/2015 của Quốc hội. Trường hợp nào không được hưởng chế độ bệnh nghề nghiệp?",
         "options": [
           {
@@ -3200,16 +1489,16 @@ window.EXTRA_DECKS = [
             "text": "Bị tai nạn ngoài nơi làm việc hoặc ngoài giờ làm việc khi thực hiện công việc theo yêu cầu của người sử dụng lao động."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-53-111",
-        "number": 53,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-52-52",
+        "number": 52,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại Nghị định 28/2020/NĐ-CP ngày 01/3/2020 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực pháp luật lao động. Hành vi nào của người sử dụng lao động thực hiện đã vi phạm những quy định về thời giờ làm việc, thời giờ nghỉ ngơi đối với người lao động?",
         "options": [
           {
@@ -3226,19 +1515,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các câu đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-54-112",
-        "number": 54,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-53-53",
+        "number": 53,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại Nghị định 28/2020/NĐ-CP ngày 01/3/2020 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực pháp luật lao động. Hành vi nào của người sử dụng lao động thực hiện đã vi phạm những quy định về trang thiết bị an toàn lao động, vệ sinh lao động đối với người lao động?",
         "options": [
           {
@@ -3255,19 +1544,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các câu đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-55-113",
-        "number": 55,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-54-54",
+        "number": 54,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại Nghị định 28/2020/NĐ-CP ngày 01/3/2020 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực pháp luật lao động. Hành vi nào của người sử dụng lao động thực hiện đã vi phạm những quy định về đảm bảo an toàn sức khoẻ cho người lao động.",
         "options": [
           {
@@ -3287,16 +1576,16 @@ window.EXTRA_DECKS = [
             "text": "Thực hiện các quy định về đo, kiểm tra môi trường tại nơi làm việc có yếu tố độc hại theo quy định."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-56-114",
-        "number": 56,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-55-55",
+        "number": 55,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi người sử dụng lao động vi phạm những quy định về thời giờ làm việc, thời giờ nghỉ ngơi: buộc người lao động làm việc quá 8 giờ trong một ngày hoặc 48 giờ trong một tuần hoặc sử dụng lao động nữ có thai từ tháng thứ 7 làm thêm giờ, làm việc vào ban đêm. Với nhiệm vụ của người ATVSV, Anh (chị) cần thực hiện giải pháp nào để người sử dụng lao động khắc phục vi phạm trên?",
         "options": [
           {
@@ -3316,16 +1605,16 @@ window.EXTRA_DECKS = [
             "text": "Yêu cầu người lao động không làm việc quá thời gian trên,báo cáo Công đoàn giải quyết."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-57-115",
-        "number": 57,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-56-56",
+        "number": 56,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi người sử dụng lao động vi phạm những quy định về thời giờ làm việc, thời giờ nghỉ ngơi: buộc người lao động làm việc quá 8 giờ trong một ngày hoặc 48 giờ trong một tuần. Với nhiệm vụ của người ATVSV, Anh (chị) cần thực hiện giải pháp nào để người sử dụng lao động khắc phục vi phạm trên?",
         "options": [
           {
@@ -3342,19 +1631,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các câu đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-58-116",
-        "number": 58,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-57-57",
+        "number": 57,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi người sử dụng lao động vi phạm những quy định về lao động đặc thù: không có chỗ thay quần áo, buồng tắm và buồng vệ sinh phụ nữ hoặc sử dụng lao động nữ có thai từ tháng thứ 7 làm thêm giờ. Với nhiệm vụ của người ATVSV, Anh (chị) cần thực hiện giải pháp nào để người sử dụng lao động khắc phục vi phạm trên?",
         "options": [
           {
@@ -3374,16 +1663,16 @@ window.EXTRA_DECKS = [
             "text": "Yêu cầu lao động nữ không làm việc từ thời điểm phát hiện vi phạm cho đến khi các vi phạm được khắc phục."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-59-117",
-        "number": 59,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-58-58",
+        "number": 58,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi người sử dụng lao động vi phạm những quy định về trang thiết bị an toàn lao động, vệ sinh lao động: Không cung cấp đầy đủ hoặc không đạt tiêu chuẩn chất lượng, quy cách các trang bị, phương tiện bảo vệ cá nhân cho người làm công việc có yếu tố nguy hiểm, độc hại. Với nhiệm vụ của người ATVSV, Anh/Chị cần thực hiện giải pháp nào để người sử dụng lao động khắc phục vi phạm trên?",
         "options": [
           {
@@ -3403,16 +1692,16 @@ window.EXTRA_DECKS = [
             "text": "Báo cáo với đơn vị hoặc đề nghị với cấp trên thực hiện trang bị đầy đủ các phương tiện kỹ thuật, y tế, bảo vệ cá nhân cho người lao động theo đúng quy định."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-60-118",
-        "number": 60,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-59-59",
+        "number": 59,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi người sử dụng lao động vi phạm những quy định về đảm bảo an toàn sức khoẻ cho người lao động: không thực hiện chế độ bồi dưỡng hiện vật cho người làm công việc có yếu tố nguy hiểm, độc hại; không tổ chức huấn luyện, hướng dẫn, thông báo cho người lao động về những quy định, biện pháp an toàn; không tổ chức khám sức khoẻ định kỳ cho người lao động… Với nhiệm vụ của người ATVSV, Anh/Chị cần thực hiện giải pháp nào để người sử dụng lao động khắc phục vi phạm trên?",
         "options": [
           {
@@ -3429,19 +1718,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các câu đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-61-119",
-        "number": 61,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-60-60",
+        "number": 60,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi người sử dụng lao động vi phạm những quy định về bảo đảm an toàn sức khoẻ cho người lao động: không thực hiện chế độ bồi dưỡng hiện vật cho người làm công việc có yếu tố nguy hiểm, độc hại; không tổ chức khám bệnh nghề nghiệp cho người lao động... Với nhiệm vụ của người ATVSV, Anh/Chị cần thực hiện giải pháp nào để người sử dụng lao động khắc phục vi phạm trên?",
         "options": [
           {
@@ -3458,19 +1747,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các câu đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-62-120",
-        "number": 62,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-61-61",
+        "number": 61,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi người sử dụng lao động vi phạm những quy định về tiêu chuẩn an toàn lao động, vệ sinh lao động: Không đăng ký đối với các loại máy, thiết bị, vật tư, các chất có yêu cầu nghiêm nghặt về an toàn lao động, vệ sinh lao động. Với nhiệm vụ của người ATVSV, Anh/Chị cần thực hiện giải pháp nào để người sử dụng lao động khắc phục vi phạm trên?",
         "options": [
           {
@@ -3487,19 +1776,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các câu đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-63-121",
-        "number": 63,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-62-62",
+        "number": 62,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi người sử dụng lao động vi phạm những quy định về tai nạn lao động, bệnh nghề nghiệp: không thực hiện việc trợ cấp, bồi thường cho người lao động khi họ bị tai nạn lao động, bệnh nghề nghiệp. Với nhiệm vụ của người ATVSV, Anh/Chị cần thực hiện giải pháp nào để người sử dụng lao động khắc phục vi phạm trên?",
         "options": [
           {
@@ -3519,16 +1808,16 @@ window.EXTRA_DECKS = [
             "text": "Yêu cầu người lao động ngừng làm việc cho đến khi nhận được các khoản trợ cấp, bồi dưỡng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-64-122",
-        "number": 64,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-63-63",
+        "number": 63,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi người sử dụng lao động vi phạm những quy định về tai nạn lao động, bệnh nghề nghiệp: không thực hiện những quy định về giải quyết, bố trí công việc phù hợp với sức khoẻ người lao động bị bệnh nghề nghiệp theo kết luận của Hội đồng Giám định y khoa. Với nhiệm vụ của người ATVSV, Anh/Chị cần thực hiện giải pháp nào để người sử dụng lao động khắc phục vi phạm trên?",
         "options": [
           {
@@ -3545,19 +1834,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các câu đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-65-123",
-        "number": 65,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-64-64",
+        "number": 64,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi người sử dụng lao động vi phạm những quy định về tai nạn lao động, bệnh nghề nghiệp: không thanh toán các khoản chi phí y tế từ khi sơ cứu, cấp cứu đến khi điều trị xong cho người bị tai nạn lao động hoặc bệnh nghề nghiệp. Với nhiệm vụ của người ATVSV, Anh/Chị cần thực hiện giải pháp nào để người sử dụng lao động khắc phục vi phạm trên?",
         "options": [
           {
@@ -3577,16 +1866,16 @@ window.EXTRA_DECKS = [
             "text": "Đề nghị người lao động khởi kiện người sử dụng lao động ra tòa."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-66-124",
-        "number": 66,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-65-65",
+        "number": 65,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Trong Luật ATVSLĐ số 84/2015/QH13 ngày 25/6/2015 của Quốc hội quy định đơn vị nào ban hành danh mục các loại máy, thiết bị, vật tư, các chất có yêu cầu nghiêm ngặt về an toàn lao động, vệ sinh lao động?",
         "options": [
           {
@@ -3603,19 +1892,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các câu đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-67-125",
-        "number": 67,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-66-66",
+        "number": 66,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Luật ATVSLĐ số 84/2015/QH13 ngày 25/6/2015 của Quốc hội quy định: người lao động có quyền nào sau đây?",
         "options": [
           {
@@ -3635,16 +1924,16 @@ window.EXTRA_DECKS = [
             "text": "Không được từ chối làm công việc hoặc rời bỏ nơi làm việc nếu thấy nguy cơ gây tai nạn lao động mà chỉ cần báo với cấp trên để giải quyết."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-68-126",
-        "number": 68,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-67-67",
+        "number": 67,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Luật ATVSLĐ số 84/2015/QH13 ngày 25/6/2015 của Quốc hội quy định: Nơi làm việc có nhiều yếu tố độc hại, người sử dung lao động phải được thực hiện như thế nào?",
         "options": [
           {
@@ -3664,16 +1953,16 @@ window.EXTRA_DECKS = [
             "text": "Hằng năm hoặc khi cần thiết, tổ chức kiểm tra, đánh giá các yếu tố nguy hiểm, yếu tố có hại tại nơi làm việc để tiến hành các biện pháp về công nghệ, kỹ thuật nhằm loại trừ, giảm thiểu yếu tố nguy hiểm, yếu tố có hại tại nơi làm việc, cải thiện điều kiện lao động, chăm sóc sức khỏe cho người lao động."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-69-127",
-        "number": 69,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-68-68",
+        "number": 68,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Luật ATVSLĐ số 84/2015/QH13 ngày 25/6/2015 của Quốc hội quy định: đoàn điều tra cấp tỉnh có trách nhiệm điều tra, lập biên bản với các vụ tai nạn lao động (TNLĐ) loại nào?",
         "options": [
           {
@@ -3690,19 +1979,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các câu đều sai."
+            "text": "Tất cả các phương án đều sai."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-70-128",
-        "number": 70,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-69-69",
+        "number": 69,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Luật ATVSLĐ số 84/2015/QH13 ngày 25/6/2015 của Quốc hội quy định: đoàn điều tra cấp cơ sở có trách nhiệm điều tra, lập biên bản với các vụ tai nạn lao động (TNLĐ) loại nào?",
         "options": [
           {
@@ -3719,19 +2008,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các câu đều sai."
+            "text": "Tất cả các phương án đều sai."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-71-129",
-        "number": 71,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-70-70",
+        "number": 70,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Luật ATVSLĐ số 84/2015/QH13 ngày 25/6/2015 của Quốc hội quy định: ai làm trưởng đoàn điều tra tai nạn lao động làm bị thương nặng nhiều người?",
         "options": [
           {
@@ -3751,16 +2040,16 @@ window.EXTRA_DECKS = [
             "text": "Thanh tra Sở Y tế."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-72-130",
-        "number": 72,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-71-71",
+        "number": 71,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Luật ATVSLĐ số 84/2015/QH13 ngày 25/6/2015 của Quốc hội quy định: thời hạn điều tra đối với tai nạn lao động chết người như thế nào?",
         "options": [
           {
@@ -3786,10 +2075,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-73-131",
-        "number": 73,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-72-72",
+        "number": 72,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Luật ATVSLĐ số 84/2015/QH13 ngày 25/6/2015 của Quốc hội quy định: thời hạn điều tra đối với tai nạn lao động làm bị thương nặng một người lao động như thế nào?",
         "options": [
           {
@@ -3806,19 +2095,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Không có câu nào đúng."
+            "text": "Không có phương án nào đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-74-132",
-        "number": 74,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-73-73",
+        "number": 73,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Luật ATVSLĐ số 84/2015/QH13 ngày 25/6/2015 của Quốc hội quy định: thời hạn điều tra đối với tai nạn lao động làm bị thương nặng từ 2 người trở lên như thế nào?",
         "options": [
           {
@@ -3835,7 +2124,7 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Không có câu nào đúng."
+            "text": "Không có phương án nào đúng."
           }
         ],
         "correctIndex": 0,
@@ -3844,10 +2133,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-75-133",
-        "number": 75,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-74-74",
+        "number": 74,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Luật ATVSLĐ số 84/2015/QH13 ngày 25/6/2015 của Quốc hội quy định: thời hạn điều tra đối với tai nạn lao động nhẹ như thế nào?",
         "options": [
           {
@@ -3864,19 +2153,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Không có câu nào đúng."
+            "text": "Không có phương án nào đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-76-134",
-        "number": 76,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-75-75",
+        "number": 75,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Nghị định 39/2016/NĐ-CP ngày 15/5/2016 của Chính phủ qui định: tai nạn lao động (TNLĐ) được phân loại như thế nào?",
         "options": [
           {
@@ -3902,10 +2191,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-77-135",
-        "number": 77,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-76-76",
+        "number": 76,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Luật ATVSLĐ số 84/2015/QH13 ngày 25/6/2015 của Quốc hội quy định: ai làm trưởng đoàn điều tra vụ tai nạn lao động (TNLĐ) làm bị thương 1 người?",
         "options": [
           {
@@ -3925,16 +2214,16 @@ window.EXTRA_DECKS = [
             "text": "Người sử dụng lao động của nạn nhân bị TNLĐ."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-78-136",
-        "number": 78,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-77-77",
+        "number": 77,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Nghị định 39/2016/NĐ-CP ngày 15/5/2016 của Chính phủ qui định: cơ sở lao động có bao nhiêu công nhân trực tiếp thì phải thành lập Phòng an toàn?",
         "options": [
           {
@@ -3960,10 +2249,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-79-137",
-        "number": 79,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-78-78",
+        "number": 78,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Luật ATVSLĐ số 84/2015/QH13 ngày 25/6/2015 của Quốc hội quy định: người lao động không có nghĩa vụ làm việc gì sau đây:",
         "options": [
           {
@@ -3983,16 +2272,16 @@ window.EXTRA_DECKS = [
             "text": "Tham gia cấp cứu, khắc phục sự cố, tai nạn lao động theo phương án xử lý sự cố, ứng cứu khẩn cấp hoặc khi có lệnh của người sử dụng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-80-138",
-        "number": 80,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-79-79",
+        "number": 79,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Luật ATVSLĐ số 84/2015/QH13 ngày 25/6/2015 của Quốc hội quy định: Nội dung nào dưới đây không thuộc quyền hạn của người sử dụng lao động trong công tác An toàn vệ sinh lao động.",
         "options": [
           {
@@ -4012,16 +2301,16 @@ window.EXTRA_DECKS = [
             "text": "Không chấp hành quyết định của Thanh tra viên lao động về an toàn vệ sinh lao động nếu quyết định đó sai."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-81-139",
-        "number": 81,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-80-80",
+        "number": 80,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Luật ATVSLĐ số 84/2015/QH13 ngày 25/6/2015 của Quốc hội, chức năng nào sau đây không thuộc chức năng của bộ phận an toàn vệ sinh lao động tại cơ sở sản xuất?",
         "options": [
           {
@@ -4041,16 +2330,16 @@ window.EXTRA_DECKS = [
             "text": "Tham mưu cho người sử dụng lao động trong việc tổ chức hoạt động thanh tra an toàn vệ sinh lao động."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-82-140",
-        "number": 82,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-81-81",
+        "number": 81,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Luật ATVSLĐ số 84/2015/QH13 ngày 25/6/2015 của Quốc hội, nhiệm vụ nào sau đây không thuộc nhiệm vụ của bộ phận an toàn vệ sinh lao động tại cơ sở sản xuất?",
         "options": [
           {
@@ -4070,16 +2359,16 @@ window.EXTRA_DECKS = [
             "text": "Theo dõi quản lý tình hình thương tật, bệnh tật phát sinh do bệnh nghề nghiệp."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-83-141",
-        "number": 83,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-82-82",
+        "number": 82,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Luật ATVSLĐ số 84/2015/QH13 ngày 25/6/2015 của Quốc hội, nội dung nào sau đây không thuộc quyền hạn của bộ phận an toàn vệ sinh lao động tại cơ sở sản xuất?",
         "options": [
           {
@@ -4099,16 +2388,16 @@ window.EXTRA_DECKS = [
             "text": "Tham gia ý kiến vào việc khen thưởng đối với cá nhân, tập thể có thành tích tốt trong công tác an toàn vệ sinh lao động."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-84-142",
-        "number": 84,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-83-83",
+        "number": 83,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Luật ATVSLĐ số 84/2015/QH13 ngày 25/6/2015 của Quốc hội, nội dung nào sau đây không thuộc quyền hạn của An toàn vệ sinh viên tại cơ sở sản xuất?",
         "options": [
           {
@@ -4134,10 +2423,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-85-143",
-        "number": 85,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-84-84",
+        "number": 84,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Luật ATVSLĐ số 84/2015/QH13 ngày 25/6/2015 của Quốc hội, người nào sau đây sẽ đủ điều kiện làm Chủ tịch Hội đồng an toàn vệ sinh lao động (ATVSLĐ) tại cơ sở sản xuất?",
         "options": [
           {
@@ -4157,16 +2446,16 @@ window.EXTRA_DECKS = [
             "text": "Chủ tịch Công đoàn công ty."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-86-144",
-        "number": 86,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-85-85",
+        "number": 85,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Luật ATVSLĐ số 84/2015/QH13 ngày 25/6/2015 của Quốc hội, kế hoạch an toàn vệ sinh lao động có mấy nội dung chủ yếu:",
         "options": [
           {
@@ -4186,16 +2475,16 @@ window.EXTRA_DECKS = [
             "text": "Có 5 nội dung chủ yếu."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-87-145",
-        "number": 87,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-86-86",
+        "number": 86,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Thông tư 07/2016/TT-BLĐTBXH ngày 15/5/2016 của Bộ Lao động - Thương binh và Xã hội quy định thời hạn kiểm tra toàn diện trong công tác tự kiểm tra về an toàn vệ sinh lao động như thế nào tại đơn vị sản xuất kinh doanh điện năng?",
         "options": [
           {
@@ -4212,19 +2501,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Không có câu nào đúng."
+            "text": "Không có phương án nào đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-88-146",
-        "number": 88,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-87-87",
+        "number": 87,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Việc tự kiểm tra về công tác An toàn vệ sinh lao động tại tổ sản xuất phải thực hiện như thế nào?",
         "options": [
           {
@@ -4241,7 +2530,7 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các câu trên đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
         "correctIndex": 0,
@@ -4250,10 +2539,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-89-147",
-        "number": 89,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-88-88",
+        "number": 88,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Nghị định 44/2016/NĐ-CP ngày 15/5/2016 của Chính phủ qui định: thời gian huấn luyện định kỳ đối với nhóm 1 như thế nào?",
         "options": [
           {
@@ -4273,16 +2562,16 @@ window.EXTRA_DECKS = [
             "text": "Ít nhất 2 năm một lần, mỗi lần ít nhất 8 giờ."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-90-148",
-        "number": 90,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-89-89",
+        "number": 89,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Nghị định 44/2016/NĐ-CP ngày 15/5/2016 của Chính phủ qui định: thời gian huấn luyện lần đầu đối với nhóm 3 như thế nào?",
         "options": [
           {
@@ -4302,16 +2591,16 @@ window.EXTRA_DECKS = [
             "text": "Ít nhất 24 giờ, kể cả thời gian kiểm tra."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-91-149",
-        "number": 91,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-90-90",
+        "number": 90,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Nghị định 44/2016/NĐ-CP ngày 15/5/2016 của Chính phủ qui định: thời gian huấn luyện lần đầu đối với nhóm 1 như thế nào?",
         "options": [
           {
@@ -4331,16 +2620,16 @@ window.EXTRA_DECKS = [
             "text": "Ít nhất 32 giờ, kể cả thời gian kiểm tra."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-92-150",
-        "number": 92,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-91-91",
+        "number": 91,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Nghị định 44/2016/NĐ-CP ngày 15/5/2016 của Chính phủ qui định: thời gian huấn luyện lần đầu đối với người làm công tác ATVSLĐ (nhóm 2) tại cơ sở như thế nào?",
         "options": [
           {
@@ -4360,16 +2649,16 @@ window.EXTRA_DECKS = [
             "text": "Ít nhất là 48 giờ, bao gồm cả thời gian huấn luyện lý thuyết, thực hành và kiểm tra."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-93-151",
-        "number": 93,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-92-92",
+        "number": 92,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Nghị định 44/2016/NĐ-CP ngày 15/5/2016 của Chính phủ qui định: thời gian huấn luyện định kỳ đối với nhóm 4 như thế nào?",
         "options": [
           {
@@ -4389,16 +2678,16 @@ window.EXTRA_DECKS = [
             "text": "Ít nhất 3 năm một lần, mỗi lần ít nhất 8 giờ."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-94-152",
-        "number": 94,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-93-93",
+        "number": 93,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Nghị định 44/2016/NĐ-CP ngày 15/5/2016 của Chính phủ qui định: thời gian huấn luyện định kỳ với người làm công tác ATVSLĐ (nhóm 2) tại cơ sở như thế nào?",
         "options": [
           {
@@ -4418,16 +2707,16 @@ window.EXTRA_DECKS = [
             "text": "Ít nhất 2 năm một lần, mỗi lần ít nhất 48 giờ."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-95-153",
-        "number": 95,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-94-94",
+        "number": 94,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Nghị định 44/2016/NĐ-CP ngày 15/5/2016 của Chính phủ qui định: thời gian huấn luyện đối với an toàn vệ sinh viên (ATVSV) (nhóm 6) như thế nào?",
         "options": [
           {
@@ -4447,17 +2736,17 @@ window.EXTRA_DECKS = [
             "text": "Ít nhất là 4 giờ ngoài nội dung đã được huấn luyện về an toàn, vệ sinh lao động."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-96-154",
-        "number": 96,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Nghị định 44/2016/NĐ-CP ngày 15/5/2016 của Chính phủ qui định: thời gian huấn luyện lần đầu đối với người làm công tác Y tế (nhóm 5) như thế nào?",
+        "id": "AN TOAN__I-95-95",
+        "number": 95,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Nghị định 140/2018/NĐ-CP ngày 18/10/2018 của Chính phủ qui định: thời gian huấn luyện lần đầu đối với người làm công tác Y tế (nhóm 5) như thế nào?",
         "options": [
           {
             "label": "A",
@@ -4465,7 +2754,7 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "B",
-            "text": "Ít nhất là 56 giờ, bao gồm cả thời gian kiểm tra."
+            "text": "Ít nhất là 16 giờ, bao gồm cả thời gian kiểm tra."
           },
           {
             "label": "C",
@@ -4476,16 +2765,16 @@ window.EXTRA_DECKS = [
             "text": "Ít nhất là 60 giờ, bao gồm cả thời gian kiểm tra."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-97-155",
-        "number": 97,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-96-96",
+        "number": 96,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Nghị định 44/2016/NĐ-CP ngày 15/5/2016 của Chính phủ qui định: không cấp giấy chứng nhận, chứng chỉ, thẻ an toàn lao động cho đối tượng là nhóm nào?",
         "options": [
           {
@@ -4505,16 +2794,16 @@ window.EXTRA_DECKS = [
             "text": "Nhóm 5"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-98-156",
-        "number": 98,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-97-97",
+        "number": 97,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Nghị định 44/2016/NĐ-CP ngày 15/5/2016 của Chính phủ qui định: thẻ an toàn lao động được cấp cho người lao động thuộc nhóm nào?",
         "options": [
           {
@@ -4534,16 +2823,16 @@ window.EXTRA_DECKS = [
             "text": "Nhóm 5, nhóm 6."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-99-157",
-        "number": 99,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-98-98",
+        "number": 98,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Nghị định 44/2016/NĐ-CP ngày 15/5/2016 của Chính phủ qui định: Thẻ an toàn lao động có thời hạn mấy năm?",
         "options": [
           {
@@ -4563,16 +2852,16 @@ window.EXTRA_DECKS = [
             "text": "2 năm."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-101-158",
-        "number": 101,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-99-99",
+        "number": 99,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Nghị định 44/2016/NĐ-CP ngày 15/5/2016 của Chính phủ qui định: đơn vị nào in, cấp và quản lý thẻ an toàn lao động cho người lao động thuộc nhóm 3?",
         "options": [
           {
@@ -4592,16 +2881,16 @@ window.EXTRA_DECKS = [
             "text": "Đơn vị tổ chức huấn luyện."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-102-159",
-        "number": 102,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-100-100",
+        "number": 100,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Nghị định 44/2016/NĐ-CP ngày 15/5/2016 của Chính phủ qui định: đơn vị nào có trách nhiệm in, cấp giấy chứng nhận và quản lý giấy chứng nhận an toàn lao động, vệ sinh lao động?",
         "options": [
           {
@@ -4621,16 +2910,16 @@ window.EXTRA_DECKS = [
             "text": "Sở Công Thương."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-103-160",
-        "number": 103,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-101-101",
+        "number": 101,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Nghị định 39/2016/NĐ-CP ngày 15/5/2016 của Chính phủ qui định: Việc hoàn chỉnh hồ sơ và lưu trữ hồ sơ tai nạn lao động cho người lao động đã chết do bị TNLĐ được quy định như thế nào?",
         "options": [
           {
@@ -4650,16 +2939,16 @@ window.EXTRA_DECKS = [
             "text": "20 năm."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-104-161",
-        "number": 104,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-102-102",
+        "number": 102,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Nghị định 39/2016/NĐ-CP ngày 15/5/2016 của Chính phủ qui định: Việc hoàn chỉnh hồ sơ và lưu trữ hồ sơ cho vụ tai nạn lao động không làm chết người được quy định như thế nào?",
         "options": [
           {
@@ -4679,16 +2968,16 @@ window.EXTRA_DECKS = [
             "text": "Cho đến khi người lao động bị TNLĐ chết."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-105-162",
-        "number": 105,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-103-103",
+        "number": 103,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Nghị định 39/2016/NĐ-CP ngày 15/5/2016 của Chính phủ qui định: Người/ Bộ phận nào có trách nhiệm lập Hồ sơ vụ tai nạn lao động?",
         "options": [
           {
@@ -4708,16 +2997,16 @@ window.EXTRA_DECKS = [
             "text": "Giám đốc/ Tổng Giám đốc Công ty."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-106-163",
-        "number": 106,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-104-104",
+        "number": 104,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Luật ATVSLĐ số 84/2015/QH13 ngày 25/6/2015 của Quốc hội quy định: Người lao động làm công việc nặng nhọc, độc hại, nguy hiểm được khám sức khỏe định kỳ như thế nào?",
         "options": [
           {
@@ -4730,23 +3019,23 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "C",
-            "text": "Không có câu nào đúng."
+            "text": "Không có phương án nào đúng."
           },
           {
             "label": "D",
             "text": "Ít nhất 1 lần trong sáu tháng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-107-164",
-        "number": 107,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-105-105",
+        "number": 105,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Luật ATVSLĐ số 84/2015/QH13 ngày 25/6/2015 của Quốc hội quy định: Người lao động là người đang học nghề, tập nghề được khám sức khỏe định kỳ như thế nào?",
         "options": [
           {
@@ -4763,19 +3052,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Không có câu nào đúng."
+            "text": "Không có phương án nào đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-108-165",
-        "number": 108,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-106-106",
+        "number": 106,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Bộ luật lao động năm 2012. Bệnh nghề nghiệp là gì?",
         "options": [
           {
@@ -4795,16 +3084,16 @@ window.EXTRA_DECKS = [
             "text": "Bệnh nghề nghiệp là bệnh xảy ra từ từ hoặc cấp tính. Một số bệnh nghề nghiệp không chữa khỏi và để lại di chứng. Bệnh nghề nghiệp có thể phòng tránh được."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-109-166",
-        "number": 109,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-107-107",
+        "number": 107,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Quản lý vệ sinh lao động là gì?",
         "options": [
           {
@@ -4824,16 +3113,16 @@ window.EXTRA_DECKS = [
             "text": "Quản lý vệ sinh lao động là quản lý các yếu tố bất lợi trong điều kiện và môi trường lao động; thực hiện các biện pháp cải thiện điều kiện lao động, phòng ngừa các bệnh nghề nghiệp và nâng cao khả năng lao động cho người lao động."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-110-167",
-        "number": 110,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-108-108",
+        "number": 108,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Thông tư 28/2016/TT-BYT ngày 30/6/2016 của Bộ Y tế: Hồ sơ điều tra bệnh nghề nghiệp của người lao động được lưu trử thế nào?",
         "options": [
           {
@@ -4859,10 +3148,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-111-168",
-        "number": 111,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-109-109",
+        "number": 109,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Luật ATVSLĐ số 84/2015/QH13 ngày 25/6/2015 của Quốc hội quy định: khi nào người sử dụng lao động phải bồi dưỡng bằng hiện vật cho người lao động?",
         "options": [
           {
@@ -4882,16 +3171,16 @@ window.EXTRA_DECKS = [
             "text": "Không câu nào đúng"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-112-169",
-        "number": 112,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-110-110",
+        "number": 110,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Thông tư 25/2013/TT-BLĐTBXH ngày 18/10/2013 của Bộ Lao động - Thương binh và Xã hội qui định: Điều kiện để người lao động được hưởng chế độ bồi dưỡng bằng hiện vật là gì?",
         "options": [
           {
@@ -4904,19 +3193,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "C",
-            "text": "Cả hai điều kiện trên."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-113-170",
-        "number": 113,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-111-111",
+        "number": 111,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Thông tư 25/2013/TT-BLĐTBXH ngày 18/10/2013 của Bộ Lao động - Thương binh và Xã hội qui định: nguyên tắc của việc bồi dưỡng bằng hiện vật là gì?",
         "options": [
           {
@@ -4933,19 +3222,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các câu đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-114-171",
-        "number": 114,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-112-112",
+        "number": 112,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Thông tư 25/2013/TT-BLĐTBXH ngày 18/10/2013 của Bộ Lao động - Thương binh và Xã hội qui định: Khi người sử dụng lao động áp dụng các biện pháp kỹ thuật, tăng cường thiết bị an toàn lao động và cải thiện điều kiện lao động, bảo đảm không còn yếu tố nguy hiểm, độc hại thì được dừng thực hiện chế độ bồi dưỡng bằng hiện vật không?",
         "options": [
           {
@@ -4965,16 +3254,16 @@ window.EXTRA_DECKS = [
             "text": "Người sử dụng lao động được dừng thực hiện việc bồi dưỡng bằng hiện vật cho người lao động."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-115-172",
-        "number": 115,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-113-113",
+        "number": 113,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Quản lý rủi ro là gì?",
         "options": [
           {
@@ -5000,10 +3289,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-116-173",
-        "number": 116,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-114-114",
+        "number": 114,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Một trong những công việc của quản lý rủi ro là xác định các yếu tố nguy hại, vậy yếu tố nguy hại là gì?",
         "options": [
           {
@@ -5023,16 +3312,16 @@ window.EXTRA_DECKS = [
             "text": "Các yếu tố nguy hại bao gồm các yếu tố nguy hiểm và yếu tố có hại, nó làm tổn hại đến người lao động."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-117-174",
-        "number": 117,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-115-115",
+        "number": 115,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo ILO yếu tố nguy hại được phân thành mấy nhóm?",
         "options": [
           {
@@ -5052,16 +3341,16 @@ window.EXTRA_DECKS = [
             "text": "Yếu tố nguy hại được phân thành 6 nhóm, bao gồm: Nhóm vật lý; Nhóm cơ học; Nhóm điện; Nhóm hóa học; Nhóm sinh học; Nhóm các vấn đề về tâm lý."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-118-175",
-        "number": 118,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-116-116",
+        "number": 116,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Yêu cầu bạn đánh giá các yếu tố nguy hiểm khi vận hành máy mài cầm tay?",
         "options": [
           {
@@ -5081,16 +3370,16 @@ window.EXTRA_DECKS = [
             "text": "Do phần lưỡi quay đá mài quay với tốc độ cao."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-119-176",
-        "number": 119,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-117-117",
+        "number": 117,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Yêu cầu bạn đánh giá các yếu tố nguy hiểm khi vận hành máy khoan cầm tay?",
         "options": [
           {
@@ -5107,19 +3396,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các điều kiện trên."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-120-177",
-        "number": 120,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-118-118",
+        "number": 118,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Yêu cầu bạn đánh giá các yếu tố nguy hiểm nhất (nêu theo thứ tự ưu tiên, nguy hiểm nhất nêu trước) khi vận hành máy hàn điện trên công trường?",
         "options": [
           {
@@ -5136,19 +3425,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các điều kiện trên."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-121-178",
-        "number": 121,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-119-119",
+        "number": 119,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Yêu cầu bạn đánh giá các yếu tố nguy hiểm nhất (nêu theo thứ tự ưu tiên, nguy hiểm nhất nêu trước) khi làm việc trong khu vực kín như bồn, bể, bao hơi, hầm cáp,..",
         "options": [
           {
@@ -5168,16 +3457,16 @@ window.EXTRA_DECKS = [
             "text": "Thiếu dưỡng khí; khí độc; điện giật; thiếu ánh sáng; cháy nổ."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-122-179",
-        "number": 122,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-120-120",
+        "number": 120,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Yêu cầu bạn đánh giá các yếu tố nguy hiểm nhất (nêu theo thứ tự ưu tiên, nguy hiểm nhất nêu trước) khi tiến hành cẩu vật nặng sử dụng loại cẩu di động (xe cẩu di động)",
         "options": [
           {
@@ -5197,45 +3486,45 @@ window.EXTRA_DECKS = [
             "text": "Vật rơi; đứt cáp; tuột móc; vật được cẩu quay không kiểm soát; nền lún làm nghiêng cẩu; té ngã."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-123-180",
-        "number": 123,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Trang bị phương tiện bảo vệ cá nhân dùng cho thợ hàn phải đảm bảo như thế nào?",
+        "id": "AN TOAN__I-121-121",
+        "number": 121,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Trang bị phương tiện bảo vệ cá nhân dùng cho thợ hàn phải đảm bảo như thế nào?\n(1) Chống tia lửa, bụi kim loại nóng và những bức xạ có hại.\n(2) Chống tia X, tia gamma và Chống điện giật.\n(3) Chống lại được tác động cơ học\nChọn phương án đúng:",
         "options": [
           {
             "label": "A",
-            "text": "Chống tia lửa, bụi kim loại nóng và những bức xạ có hại."
+            "text": "Chỉ (1) đúng."
           },
           {
             "label": "B",
-            "text": "Chống tia X, tia gamma và Chống điện giật."
+            "text": "Chỉ (2) đúng."
           },
           {
             "label": "C",
-            "text": "Chống lại được tác động cơ học"
+            "text": "Chỉ (3) đúng."
           },
           {
             "label": "D",
-            "text": "Câu A, C đúng"
+            "text": "Cả (1) và (3) đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-124-181",
-        "number": 124,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-122-122",
+        "number": 122,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Đình chỉ hoạt động của bình chịu áp lực trong các trường hợp nào?",
         "options": [
           {
@@ -5252,48 +3541,48 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Câu A, B, C đúng"
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-125-182",
-        "number": 125,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Khám nghiệm kỹ thuật các bình áp lực nhằm mục đích gì?",
+        "id": "AN TOAN__I-123-123",
+        "number": 123,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Khám nghiệm kỹ thuật các bình áp lực nhằm mục đích gì?\n(1) Xác định chất lượng kết cấu và chế tạo của bình có phù hợp với những yêu cầu của qui phạm hay không và xác định tình trạng kỹ thuật phía trong và phía ngoài thành bình; xác định độ bền, độ kín các bộ phận chịu áp lực của bình.\n(2) Để đảm bảo tuân thủ các qui định Nhà nước về bình chịu áp lực, nhằm hoàn thiện các hồ sơ pháp lý và cấp phép vận hành cho bình chịu áp lực.\n(3) Xác định tình trạng lắp đặt có phù hợp với những yêu cầu của thiết kế hay không: xác định trạng thái hoàn hảo của bộ phận chính, xác định số lượng và chất lượng các dụng cụ kiểm tra-đo lường, các cơ cấu an toàn các phụ tùng.\nChọn phương án đúng:",
         "options": [
           {
             "label": "A",
-            "text": "Xác định chất lượng kết cấu và chế tạo của bình có phù hợp với những yêu cầu của qui phạm hay không và xác định tình trạng kỹ thuật phía trong và phía ngoài thành bình; xác định độ bền, độ kín các bộ phận chịu áp lực của bình."
+            "text": "Chỉ (1) đúng."
           },
           {
             "label": "B",
-            "text": "Để đảm bảo tuân thủ các qui định Nhà nước về bình chịu áp lực, nhằm hoàn thiện các hồ sơ pháp lý và cấp phép vận hành cho bình chịu áp lực."
+            "text": "Chỉ (2) đúng."
           },
           {
             "label": "C",
-            "text": "Xác định tình trạng lắp đặt có phù hợp với những yêu cầu của thiết kế hay không: xác định trạng thái hoàn hảo của bộ phận chính, xác định số lượng và chất lượng các dụng cụ kiểm tra-đo lường, các cơ cấu an toàn các phụ tùng."
+            "text": "Chỉ (3) đúng."
           },
           {
             "label": "D",
-            "text": "Câu A, C đúng."
+            "text": "Cả (1) và (3) đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-126-183",
-        "number": 126,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-124-124",
+        "number": 124,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Trong quá trình sử dụng bình chịu áp lực, gặp các trường hợp nào sau đây thì đơn vị sử dụng phải đề nghị cơ quan thanh tra kỹ thuật tổ chức khám nghiệm bất thường?",
         "options": [
           {
@@ -5310,19 +3599,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Câu A, B, C đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-127-184",
-        "number": 127,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-125-125",
+        "number": 125,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Vị trí đặt bình sinh khí axêtilen phải đảm bảo những yêu cầu nào?",
         "options": [
           {
@@ -5339,19 +3628,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các câu trên đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-128-185",
-        "number": 128,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-126-126",
+        "number": 126,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Mọi công việc khi tiến hành trên thiết bị điện và vật liệu điện, ở gần hoặc liên quan đến thiết bị điện và vật liệu điện đang mang điện đều phải thực hiện theo?",
         "options": [
           {
@@ -5371,16 +3660,16 @@ window.EXTRA_DECKS = [
             "text": "Lệnh điều động và phiếu công tác."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-129-186",
-        "number": 129,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-127-127",
+        "number": 127,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi phát hiện nhân viên trong đơn vị công tác (tổ sản xuất) vi phạm QTATĐ (ví dụ: trèo lên cột trên 2m không có dây đeo an toàn; đưa dụng cụ lên cao, xuống thấp bằng cách tung ném; vi phạm khoảng cách phóng điện v.v..) thì an toàn vệ sinh viên phải làm gì?",
         "options": [
           {
@@ -5400,16 +3689,16 @@ window.EXTRA_DECKS = [
             "text": "Nhắc nhở người vi phạm."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-130-187",
-        "number": 130,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-128-128",
+        "number": 128,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Dây tiếp đất di động được quy định như thế nào?",
         "options": [
           {
@@ -5429,16 +3718,16 @@ window.EXTRA_DECKS = [
             "text": "Dây tiếp đất là dây chuyên dùng, bằng kim loại trần nhiều sợi, mềm (có thể được bọc nhựa trong). Tiết diện phải chịu được tác dụng của lực điện động và nhiệt học nhưng không nhỏ hơn 16 mm2."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-131-188",
-        "number": 131,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-129-129",
+        "number": 129,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Yêu cầu kỹ thuật của dây tiếp đất di động là: dây tiếp đất di động là dây chuyên dụng, làm bằng đồng hoặc hợp kim trần nhiều sợi, mềm (có thể được bọc nhựa trong). Vậy tại sao là dây làm bằng đồng hoặc hợp kim và phải là nhiều sợi? Dùng dây đồng có 1 sợi (1 lõi) được không?",
         "options": [
           {
@@ -5455,19 +3744,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các quan niệm trên đúng."
+            "text": "Tất cả các quan niệm đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-132-189",
-        "number": 132,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-130-130",
+        "number": 130,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Yêu cầu kỹ thuật của dây tiếp đất di động là: dây tiếp đất di động là dây chuyên dụng, làm bằng đồng hoặc hợp kim trần nhiều sợi, mềm (có thể được bọc nhựa trong). Vậy bọc nhựa trong cho dây tiếp địa để làm gì? bọc nhựa loại không trong được không?",
         "options": [
           {
@@ -5493,10 +3782,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-133-190",
-        "number": 133,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-131-131",
+        "number": 131,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Trong các loại máy, thiết bị, vật tư dưới đây, thiết bị nào không được coi là có yêu cầu nghiêm ngặt về an toàn lao động?",
         "options": [
           {
@@ -5516,21 +3805,21 @@ window.EXTRA_DECKS = [
             "text": "Xe nâng hàng dùng động cơ có tải trọng từ 1.000 kg trở lên"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-134-191",
-        "number": 134,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-132-132",
+        "number": 132,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Người sử dụng lao động có trách nhiệm nào sau đây đối với người lao động bị tai nạn lao động, bệnh nghề nghiệp",
         "options": [
           {
             "label": "A",
-            "text": "Thanh toán phần chi phí đồng chi trả và những chi phí không nằm trong danh mục do bảo hiểm y tế chi trả đối với người lao động tham gia bảo hiểm y tế và thanh toán toàn bộ chi phí y tế từ khi sơ cứu, cấp cứu đến khi điều trị ổn định đối với người lao động không tham gia bảo hiểm y tế."
+            "text": "Thanh toán phần chi phí đồng chi trả và những chi phí không nằm trong danh mục do bảo hiểm y tế chi trả đối với người lao động tham gia bảo hiểm y tế và thanh toán toàn bộ chi phí y tế từ khi sơ cứu, cấp cứu đến khi điều trị ổn định đối với người lao động không tham gia bảo hiểm y tế."
           },
           {
             "label": "B",
@@ -5542,19 +3831,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "cả 3 đáp án trên"
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-135-192",
-        "number": 135,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-133-133",
+        "number": 133,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo nghị định số: 44/2016/NĐ-CP đối tượng huấn luyện ATVSLĐ nhóm 2 gồm những đối tượng nào sau đây:",
         "options": [
           {
@@ -5571,19 +3860,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả A, B, C đều đúng"
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-136-193",
-        "number": 136,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-134-134",
+        "number": 134,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Mục đích của công tác an toàn - vệ sinh lao động?",
         "options": [
           {
@@ -5600,19 +3889,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả ba câu A, B, C đều đúng"
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-137-194",
-        "number": 137,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-135-135",
+        "number": 135,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "An toàn lao động là?",
         "options": [
           {
@@ -5630,10 +3919,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-138-195",
-        "number": 138,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-136-136",
+        "number": 136,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Công tác an toàn - vệ sinh lao động có ý nghĩa và lợi ích nào sau đây?",
         "options": [
           {
@@ -5659,10 +3948,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-139-196",
-        "number": 139,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-137-137",
+        "number": 137,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Các yếu tố nào sau đây có thể gây bệnh nghề nghiệp cho người lao động trong quá trình sản xuất?",
         "options": [
           {
@@ -5682,16 +3971,16 @@ window.EXTRA_DECKS = [
             "text": "Bức xạ, phóng xạ, tiếng ồn và rung xóc."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-140-197",
-        "number": 140,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-138-138",
+        "number": 138,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Mục đích của thiết bị bảo hiểm là gì?",
         "options": [
           {
@@ -5711,16 +4000,16 @@ window.EXTRA_DECKS = [
             "text": "Ngăn chặn tác động xấu do sự cố của quá trình sản xuất gây ra; ngăn chặn, hạn chế sự cố sản xuất."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-141-198",
-        "number": 141,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-139-139",
+        "number": 139,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Những đối tượng làm việc có yêu cầu nghiêm ngặt về ATLĐ nào dưới đây bắt buộc phải được huấn luyện AT-VSLĐ trước khi giao việc?",
         "options": [
           {
@@ -5737,19 +4026,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả A, B, C đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-142-199",
-        "number": 142,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-140-140",
+        "number": 140,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Nghĩa vụ của người lao động đối với công tác an toàn, vệ sinh lao động:",
         "options": [
           {
@@ -5766,19 +4055,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả 3 phương án trên"
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-143-200",
-        "number": 143,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-141-141",
+        "number": 141,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Một nạn nhân bị bỏng do nhiệt, điều mà bạn cần phải làm là:",
         "options": [
           {
@@ -5795,7 +4084,7 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả 3 câu A, B, C đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
         "correctIndex": 0,
@@ -5804,10 +4093,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-144-201",
-        "number": 144,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-142-142",
+        "number": 142,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Yêu cầu trước khi đưa vào sử dụng các thiết bị có yêu cầu nghiêm ngặt về an toàn lao động như bình chịu áp lực, thiết bị nâng...:",
         "options": [
           {
@@ -5824,48 +4113,48 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả A, B, C đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-145-202",
-        "number": 145,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Nguyên nhân chính gây ra tai nạn lao động trong quá trình lao động là:",
+        "id": "AN TOAN__I-143-143",
+        "number": 143,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Nguyên nhân chính gây ra tai nạn lao động trong quá trình lao động là:\n(1) Người lao động chưa được huấn luyện ATVSLĐ, vi phạm các quy định về ATVSLĐ, điều kiện lao động không bảo đảm tiêu chuẩn vệ sinh lao động.\n(2) Do trạng thái tâm sinh lý hoặc ý thức người lao động, không trang bị bảo vệ cá nhân hoặc trang bị không đầy đủ và đúng chất lượng.\nChọn phương án đúng:",
         "options": [
           {
             "label": "A",
-            "text": "Người lao động chưa được huấn luyện ATVSLĐ, vi phạm các quy định về ATVSLĐ, điều kiện lao động không bảo đảm tiêu chuẩn vệ sinh lao động."
+            "text": "Chỉ (1) đúng."
           },
           {
             "label": "B",
-            "text": "Do trạng thái tâm sinh lý hoặc ý thức người lao động, không trang bị bảo vệ cá nhân hoặc trang bị không đầy đủ và đúng chất lượng."
+            "text": "Chỉ (2) đúng."
           },
           {
             "label": "C",
-            "text": "Cả 2 câu A, B đúng."
+            "text": "Cả (1) và (2) đều đúng."
           },
           {
             "label": "D",
-            "text": "Cả 2 câu A, B sai."
+            "text": "Cả (1) và (2) đều sai."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-146-203",
-        "number": 146,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-144-144",
+        "number": 144,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi xây dựng phương án về các biện pháp bảo đảm an toàn lao động, vệ sinh lao động phải có các nội dung chính nào sau đây:",
         "options": [
           {
@@ -5882,19 +4171,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các đáp án trên"
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-147-204",
-        "number": 147,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-145-145",
+        "number": 145,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Vệ sinh lao động là?",
         "options": [
           {
@@ -5906,16 +4195,16 @@ window.EXTRA_DECKS = [
             "text": "Là giải pháp phòng, chống tác động của yếu tố có hại gây bệnh tật, làm suy giảm sức khỏe cho con người trong quá trình lao động"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-148-205",
-        "number": 148,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-146-146",
+        "number": 146,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Bồi dưỡng bằng hiện vật được tính theo định suất hàng ngày và có giá trị bằng tiền tương ứng theo các định mức nào sau đây:",
         "options": [
           {
@@ -5932,19 +4221,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả A, B, C đều sai."
+            "text": "Tất cả các phương án đều sai."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-149-206",
-        "number": 149,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-147-147",
+        "number": 147,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Người lao động bị tai nạn lao động, bệnh nghề nghiệp mà không do lỗi của người lao động và bị suy giảm khả năng lao động 81% thì được người sử dụng lao động bồi thường với mức nào sau đây:",
         "options": [
           {
@@ -5964,16 +4253,16 @@ window.EXTRA_DECKS = [
             "text": "Bồi thường ít nhất 29,5 tháng tiền lương theo hợp đồng lao động"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-150-207",
-        "number": 150,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-148-148",
+        "number": 148,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Vùng nguy hiểm trong quá trình sử dụng máy móc có thể tồn tại:",
         "options": [
           {
@@ -5993,16 +4282,16 @@ window.EXTRA_DECKS = [
             "text": "Một hoặc nhiều yếu tố nguy hiểm."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-151-208",
-        "number": 151,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-149-149",
+        "number": 149,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Việc tổ chức đo lường các yếu tố có hại ít nhất mấy lần trong một năm:",
         "options": [
           {
@@ -6022,41 +4311,41 @@ window.EXTRA_DECKS = [
             "text": "1 lần."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-152-209",
-        "number": 152,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-150-150",
+        "number": 150,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Các biện pháp ngăn ngừa rủi ro, bảo vệ người lao động:",
         "options": [
           {
             "label": "A",
-            "text": "A. Trang bị phương tiện bảo vệ cá nhân theo đúng quy định và phù hợp với đặc thù công việc của người lao động"
+            "text": "Trang bị phương tiện bảo vệ cá nhân theo đúng quy định và phù hợp với đặc thù công việc của người lao động"
           },
           {
             "label": "B",
-            "text": "B. Tổ chức khám sức khỏe định kỳ cho người lao động"
+            "text": "Tổ chức khám sức khỏe định kỳ cho người lao động"
           },
           {
             "label": "C",
-            "text": "C. Cả 2 câu A, B đúng"
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-153-210",
-        "number": 153,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-151-151",
+        "number": 151,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Một công nhân đang làm việc không may bị điện giật, sau khi nạn nhân được tách ra khỏi nguồn điện, nạn nhân đang trong tình trạng ngừng thở ngừng tim, người sơ cứu viên cần:",
         "options": [
           {
@@ -6076,16 +4365,16 @@ window.EXTRA_DECKS = [
             "text": "Đưa nạn nhân ra nơi thoáng khí, đặt nạn nhân nằm đầu thấp trên nền cứng bằng phẳng, đầu ngửa về phía gáy, khai thông đường thở, tiến hành thổi ngạt, ép tim ngoài lồng ngực đúng phương pháp cho đến khi nạn nhân hồi tỉnh hoặc trên đường vận chuyển nạn nhân đến bệnh viện."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-154-211",
-        "number": 154,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-152-152",
+        "number": 152,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Các yếu tố nào sau đây có thể gây bệnh nghề nghiệp cho người lao động trong quá trình sản xuất:",
         "options": [
           {
@@ -6105,16 +4394,16 @@ window.EXTRA_DECKS = [
             "text": "Bụi, tiếng ồn."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-155-212",
-        "number": 155,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-153-153",
+        "number": 153,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Sự cố kỹ thuật gây mất an toàn, vệ sinh lao động là?",
         "options": [
           {
@@ -6130,16 +4419,16 @@ window.EXTRA_DECKS = [
             "text": "Sự cố kỹ thuật gây mất an toàn, vệ sinh lao động lớn, xảy ra trên diện rộng và vượt khả năng ứng phó của cơ sở sản xuất"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-156-213",
-        "number": 156,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-154-154",
+        "number": 154,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Sự cố kỹ thuật gây mất an toàn, vệ sinh lao động nghiêm trọng là?",
         "options": [
           {
@@ -6155,16 +4444,16 @@ window.EXTRA_DECKS = [
             "text": "Sự cố kỹ thuật gây mất an toàn, vệ sinh lao động lớn, xảy ra trên diện rộng và vượt khả năng ứng phó của cơ sở sản xuất"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-157-214",
-        "number": 157,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-155-155",
+        "number": 155,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Nguyên nhân gây tai nạn trong lao động sản xuất?",
         "options": [
           {
@@ -6181,19 +4470,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả 3 đáp án trên"
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-158-215",
-        "number": 158,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-156-156",
+        "number": 156,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Nghĩa vụ của người sử dụng lao động đối với công tác an toàn, vệ sinh lao động:",
         "options": [
           {
@@ -6210,19 +4499,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các phương án trên"
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-159-216",
-        "number": 159,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-157-157",
+        "number": 157,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Quy trình An toàn điện, mọi công việc khi thực hiện tại thiết bị và vật liệu điện, ở gần hoặc liên quan đến thiết bị điện và vật liệu điện mang điện (kể cả điện cảm ứng) đều phải:",
         "options": [
           {
@@ -6242,16 +4531,16 @@ window.EXTRA_DECKS = [
             "text": "Thực hiện theo lệnh công tác."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-160-217",
-        "number": 160,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-158-158",
+        "number": 158,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Những người chưa được huấn luyện, kiểm tra đạt yêu cầu Quy trình An toàn điện và các quy trình có liên quan, chưa biết rõ những việc sẽ phải làm thì:",
         "options": [
           {
@@ -6269,10 +4558,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-161-218",
-        "number": 161,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-159-159",
+        "number": 159,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Những mệnh lệnh không đúng Quy trình An toàn điện và các quy trình có liên quan khác, có nguy cơ mất an toàn cho người hoặc thiết bị thì người nhận lệnh có quyền:",
         "options": [
           {
@@ -6288,16 +4577,16 @@ window.EXTRA_DECKS = [
             "text": "Không chấp hành, nếu người ra lệnh không chấp thuận thì người nhận lệnh phải thực hiện."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-162-219",
-        "number": 162,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-160-160",
+        "number": 160,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi phát hiện cán bộ, công nhân vi phạm Quy trình An toàn điện và các quy trình có liên quan khác, có nguy cơ đe dọa đến tính mạng con người hoặc mất an toàn đối với thiết bị, người phát hiện phải:",
         "options": [
           {
@@ -6313,16 +4602,16 @@ window.EXTRA_DECKS = [
             "text": "Lập tức ngăn chặn và báo cáo với cấp có thẩm quyền."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-163-220",
-        "number": 163,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-161-161",
+        "number": 161,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Quản đốc, phó quản đốc phân xưởng (hoặc cấp tương đương), đội trưởng, đội phó đội sản xuất, kỹ thuật viên, kỹ sư trực tiếp sản xuất, công nhân (nhân viên) phải được huấn luyện, kiểm tra quy trình An toàn điện:",
         "options": [
           {
@@ -6344,10 +4633,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-164-221",
-        "number": 164,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-162-162",
+        "number": 162,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi phát hiện có người bị điện giật, trong bất kỳ trường hợp nào người phát hiện cũng phải:",
         "options": [
           {
@@ -6363,16 +4652,16 @@ window.EXTRA_DECKS = [
             "text": "Tìm biện pháp nhanh nhất để cứu chữa người bị nạn."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-165-222",
-        "number": 165,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-163-163",
+        "number": 163,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Biện pháp tổ chức để đảm bảo an toàn khi làm việc ở thiết bị điện bao gồm:",
         "options": [
           {
@@ -6389,19 +4678,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Gồm cả 3 câu A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-166-223",
-        "number": 166,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-164-164",
+        "number": 164,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Phiếu công tác là:",
         "options": [
           {
@@ -6414,19 +4703,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "C",
-            "text": "Gồm cả 2 câu A, B."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-167-224",
-        "number": 167,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-165-165",
+        "number": 165,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi làm việc theo phiếu công tác:",
         "options": [
           {
@@ -6444,10 +4733,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-168-225",
-        "number": 168,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-166-166",
+        "number": 166,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Các công việc khi tiến hành trên thiết bị, đường dây, ở gần hoặc liên quan đến thiết bị, đường dây đang mang điện, thực hiện các biện pháp kỹ thuật chuẩn bị vị trí làm việc phải thực hiện theo PCT bao gồm:",
         "options": [
           {
@@ -6460,23 +4749,23 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "C",
-            "text": "Làm việc ở gần phần có điện;"
+            "text": "Làm việc ở gần phần có điện;"
           },
           {
             "label": "D",
-            "text": "Gồm cả 3 câu A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-169-226",
-        "number": 169,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-167-167",
+        "number": 167,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Người chỉ huy trực tiếp:",
         "options": [
           {
@@ -6493,19 +4782,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Phải gồm cả 3 câu A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-170-227",
-        "number": 170,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-168-168",
+        "number": 168,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Trách nhiệm của người chỉ huy trực tiếp:",
         "options": [
           {
@@ -6527,10 +4816,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-171-228",
-        "number": 171,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-169-169",
+        "number": 169,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Trách nhiệm của người chỉ huy trực tiếp:",
         "options": [
           {
@@ -6548,10 +4837,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-172-229",
-        "number": 172,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-170-170",
+        "number": 170,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Trách nhiệm của người chỉ huy trực tiếp:",
         "options": [
           {
@@ -6563,16 +4852,16 @@ window.EXTRA_DECKS = [
             "text": "Tại hiện trường phải kiểm tra, tiếp nhận các biện pháp an toàn, các yếu tố nguy hiểm, nơi làm việcdo người cho phép giao và chỉ dẫn khi thực hiện việc cho phép làm việc."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-173-230",
-        "number": 173,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-171-171",
+        "number": 171,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Đóng, cắt dao cách ly tại chỗ trực tiếp bằng tay phải mang găng tay cách điện và đi ủng cách điện (hoặc mang găng tay cách điện và đứng trên ghế cách điện). Chỉ được đóng, cắt dao cách ly (hoặc cầu chì tự rơi) trên cột với cấp điện áp ≤ 35kV bằng sào cách điện khi điều kiện khoảng cách từ phần dẫn điện thấp nhất của các thiết bị này đến người thao tác không nhỏ hơn:",
         "options": [
           {
@@ -6588,16 +4877,16 @@ window.EXTRA_DECKS = [
             "text": "3 mét"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-174-231",
-        "number": 174,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-172-172",
+        "number": 172,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tiếp đất nơi làm việc có cắt điện thì phải thực hiện như thế nào?",
         "options": [
           {
@@ -6614,19 +4903,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Gồm cả A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-175-232",
-        "number": 175,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-173-173",
+        "number": 173,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi tạm ngừng công việc trong ngày để nghỉ giải lao (ăn trưa), đối với công việc cắt điện từng phần hoặc không cắt điện:",
         "options": [
           {
@@ -6652,10 +4941,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-176-233",
-        "number": 176,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-174-174",
+        "number": 174,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Để tránh đóng điện nhầm vào thiết bị có người đang làm việc:",
         "options": [
           {
@@ -6675,16 +4964,16 @@ window.EXTRA_DECKS = [
             "text": "Treo biển “Cấm mở! Có người đang làm việc” tại bộ phận truyền động."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-178-234",
-        "number": 178,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-175-175",
+        "number": 175,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Cho phép MBA được vận hành lâu dài với điện áp cao hơn điện áp định mức trong điều kiện:",
         "options": [
           {
@@ -6704,16 +4993,16 @@ window.EXTRA_DECKS = [
             "text": "Tuỳ theo quy định của nhà thiết kế nhưng không quá 5% điện áp định mức."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-179-235",
-        "number": 179,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-176-176",
+        "number": 176,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi được phân công làm nhiệm vụ giám sát an toàn điện đội công tác, người giám sát?",
         "options": [
           {
@@ -6733,16 +5022,16 @@ window.EXTRA_DECKS = [
             "text": "Không phải thực hiện giám sát."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-180-236",
-        "number": 180,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-177-177",
+        "number": 177,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Trước khi cho đơn vị công tác vào làm việc ai chịu trách nhiệm giải thích về nội dung, trình tự thực hiện công việc và các biện pháp an toàn?",
         "options": [
           {
@@ -6762,16 +5051,16 @@ window.EXTRA_DECKS = [
             "text": "Người chỉ huy trực tiếp."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-181-237",
-        "number": 181,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-178-178",
+        "number": 178,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Thủ tục phải thực hiện khi bắt đầu công việc ngày tiếp theo (phiếu công tác nhiều ngày)?",
         "options": [
           {
@@ -6788,19 +5077,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các đáp án nêu trên đều sai."
+            "text": "Tất cả các phương án đều sai."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-182-238",
-        "number": 182,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-179-179",
+        "number": 179,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Người chỉ huy trực tiếp thực hiện việc tiếp đất di động và các biện pháp an toàn khác của đơn vị công tác (nếu có) vào thời điểm nào?",
         "options": [
           {
@@ -6820,16 +5109,16 @@ window.EXTRA_DECKS = [
             "text": "Sau khi ghi, ký vào mục 2 của phiếu công tác để tiếp nhận nơi làm việc."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-183-239",
-        "number": 183,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-180-180",
+        "number": 180,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi thực hiện thủ tục cho phép làm việc có cắt điện, người cho phép phải làm gì để chứng minh là không còn điện ở các phần đã được cắt điện?",
         "options": [
           {
@@ -6849,16 +5138,16 @@ window.EXTRA_DECKS = [
             "text": "Sau khi đã đủ các biện pháp an toàn rồi thì không cần thử để chứng minh hết điện."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-184-240",
-        "number": 184,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-181-181",
+        "number": 181,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi thực hiện việc cho phép làm việc, người cho phép chỉ dẫn về phạm vi được phép làm việc và những phần có điện ở xung quanh cho những người nào?",
         "options": [
           {
@@ -6878,16 +5167,16 @@ window.EXTRA_DECKS = [
             "text": "Với tất cả những người tham gia đơn vị công tác."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-185-241",
-        "number": 185,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-182-182",
+        "number": 182,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại hiện trường khi thực hiện việc cho phép làm việc, người cho phép phải cùng với những người nào sau đây kiểm tra các biện pháp an toàn đã thực hiện?",
         "options": [
           {
@@ -6904,28 +5193,28 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-186-242",
-        "number": 186,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-183-183",
+        "number": 183,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Trong các trường hợp dưới đây, phiếu công tác phải được thực hiện như thế nào cho đúng quy định:",
         "options": [
           {
             "label": "A",
-            "text": "Sau khi hoàn thành công việc, phiếu công tác được giao trả lại người cấp phiếu để kiểm tra, lưu giữ ít nhất 1 tháng."
+            "text": "Sau khi hoàn thành công việc, phiếu công tác được giao trả lại người cấp phiếu để kiểm tra, lưu giữ ít nhất 03 tháng."
           },
           {
             "label": "B",
-            "text": "Thực hiện theo đáp án A cho cả những phiếu công tác đã cấp nhưng không thực hiện."
+            "text": "Những phiếu công tác đã cấp nhưng không thực hiện cũng phải giao trả lại người cấp phiếu để kiểm tra, lưu giữ ít nhất 03 tháng."
           },
           {
             "label": "C",
@@ -6933,19 +5222,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-187-243",
-        "number": 187,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-184-184",
+        "number": 184,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi làm việc ở gần nơi có điện bệ xe cần cẩu, xe thang và xe nâng di động phải thực hiện như thế nào?",
         "options": [
           {
@@ -6961,16 +5250,16 @@ window.EXTRA_DECKS = [
             "text": "Không có quy định."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-188-244",
-        "number": 188,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-185-185",
+        "number": 185,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Ai là người chịu trách nhiệm chính về chất lượng của các dụng cụ an toàn trong quá trình thực hiện công việc theo Phiếu công tác, Lệnh công tác.",
         "options": [
           {
@@ -6987,19 +5276,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-189-245",
-        "number": 189,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-186-186",
+        "number": 186,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi kết thúc công tác, công việc nào trong các công việc sau đây phải làm sau cùng:",
         "options": [
           {
@@ -7019,45 +5308,45 @@ window.EXTRA_DECKS = [
             "text": "Kiểm tra xem trên thiết bị, đường dây có gì còn sai sót vướng mắc không."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-190-246",
-        "number": 190,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Biện pháp an toàn nào sau đây đúng khi kiểm tra chổi than máy phát đang vận hành:",
+        "id": "AN TOAN__I-187-187",
+        "number": 187,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Biện pháp an toàn nào sau đây đúng khi kiểm tra chổi than máy phát đang vận hành:\n(1) Cấm dùng tay tiếp xúc đồng thời với hai cực tính khác nhau của máy.\n(2) Kiểm tra chổi than khi máy đang chạy không mang găng tay cách điện.\n(3) Kiểm tra chổi than khi máy đang chạy phải mang găng tay cách điện và cài chặt vào cổ tay.\nChọn phương án đúng:",
         "options": [
           {
             "label": "A",
-            "text": "Cấm dùng tay tiếp xúc đồng thời với hai cực tính khác nhau của máy."
+            "text": "Chỉ (1) đúng."
           },
           {
             "label": "B",
-            "text": "Kiểm tra chổi than khi máy đang chạy không mang găng tay cách điện."
+            "text": "Chỉ (2) đúng."
           },
           {
             "label": "C",
-            "text": "Kiểm tra chổi than khi máy đang chạy phải mang găng tay cách điện và cài chặt vào cổ tay."
+            "text": "Chỉ (3) đúng."
           },
           {
             "label": "D",
-            "text": "Cả A và C."
+            "text": "Cả (1) và (3) đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-191-247",
-        "number": 191,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-188-188",
+        "number": 188,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Nhân viên đơn vị công tác thí nghiệm thiết bị điện cao áp tại chỗ phải được huấn luyện và kiểm tra bao gồm:",
         "options": [
           {
@@ -7074,19 +5363,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Gồm cả 3 câu A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-192-248",
-        "number": 192,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-189-189",
+        "number": 189,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi tháo lắp đồng hồ rơ le và thiết bị thông tin ở những buồng phân phối điện cao áp trong nhà và ngoài trời phải:",
         "options": [
           {
@@ -7103,19 +5392,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả 3 câu A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-193-249",
-        "number": 193,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-190-190",
+        "number": 190,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Việc chặt cây ở gần đường dây phải thực hiện những quy định như sau:",
         "options": [
           {
@@ -7132,19 +5421,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả 3 trường hợp A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-194-250",
-        "number": 194,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-191-191",
+        "number": 191,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khoảng cách an toàn từ vùng làm việc đến các phần mang điện 500 kV ở xung quanh khi không có rào chắn?",
         "options": [
           {
@@ -7170,10 +5459,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-195-251",
-        "number": 195,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-192-192",
+        "number": 192,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Lúc đang kéo vật nặng lên cao hay đưa xuống thấp:",
         "options": [
           {
@@ -7193,45 +5482,45 @@ window.EXTRA_DECKS = [
             "text": "Chỉ có Tổ trưởng và giám sát an toàn mới được quyền đi lại xung quanh nơi làm việc."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-196-252",
-        "number": 196,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-193-193",
+        "number": 193,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Nếu không là nhân viên QLVH trực tiếp, có được vào trạm biến thế 1 mình hay không?",
         "options": [
           {
             "label": "A",
-            "text": "Được nhưng phải có bậc 5 an toàn."
+            "text": "Được, chỉ cần có bậc 5 an toàn."
           },
           {
             "label": "B",
-            "text": "Được nhưng phải có tên danh sách đã được Lãnh đạo Công ty duyệt."
+            "text": "Được, chỉ cần có tên trong danh sách đã được Lãnh đạo Công ty duyệt."
           },
           {
             "label": "C",
-            "text": "Được nhưng phải có cả 2 điều kiện A và B."
+            "text": "Được, nhưng phải đáp ứng đồng thời cả 2 điều kiện: có bậc 5 an toàn và có tên trong danh sách đã được Lãnh đạo Công ty duyệt."
           },
           {
             "label": "D",
             "text": "Trong bất cứ trường hợp nào cũng không được vào trạm 1 mình."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-197-253",
-        "number": 197,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-194-194",
+        "number": 194,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Chuẩn bị nơi làm việc để đảm bảo an toàn khi tiến hành công việc thì phương pháp làm rào chắn như thế nào là đúng:",
         "options": [
           {
@@ -7248,19 +5537,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả A, B, C đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-198-254",
-        "number": 198,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-195-195",
+        "number": 195,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo quy trình an toàn điện dây tiếp đất di động được quy định như thế nào là đúng:",
         "options": [
           {
@@ -7280,45 +5569,45 @@ window.EXTRA_DECKS = [
             "text": "Là dây chuyên dùng, bằng đồng hoặc hợp kim trần (hoặc bọc nhựa trong), mềm, nhiều sợi; tiết diện phải chịu được tác dụng điện động; tiết diện < 16mm2"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-199-255",
-        "number": 199,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Cắt điện để làm công việc phải thực hiện như thế nào cho đúng quy trình an toàn điện:",
+        "id": "AN TOAN__I-196-196",
+        "number": 196,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Cắt điện để làm công việc phải thực hiện như thế nào cho đúng quy trình an toàn điện:\n(1) Nếu cắt điện bằng máy cắt và dao cách ly có bộ truyền động điều khiển từ xa thì phải khóa mạch điều khiển các thiết bị này, bao gồm: cắt aptomat, gỡ cầu chì.\n(2) Đối với dao cách ly thao tác trực tiếp bằng tay, sau khi cắt điện phải kiểm tra lưỡi dao đã ở vị trí cắt, ở các bộ phận truyền động của dao cách ly phải treo biển “Cấm đóng điện! Có người đang làm việc” và có thêm các biện pháp tăng cường (khóa tay truyền động, đặt tấm lót, cử người canh gác…) để không thể đóng dao đưa điện vào thiết bị có người đang làm việc.\n(3) Cho phép cắt điện để làm việc bằng dao phụ tải và dao cách ly có bộ truyền động tự động.\nChọn phương án đúng:",
         "options": [
           {
             "label": "A",
-            "text": "Nếu cắt điện bằng máy cắt và dao cách ly có bộ truyền động điều khiển từ xa thì phải khóa mạch điều khiển các thiết bị này, bao gồm: cắt aptomat, gỡ cầu chì."
+            "text": "Chỉ (1) đúng."
           },
           {
             "label": "B",
-            "text": "Đối với dao cách ly thao tác trực tiếp bằng tay, sau khi cắt điện phải kiểm tra lưỡi dao đã ở vị trí cắt, ở các bộ phận truyền động của dao cách ly phải treo biển “Cấm đóng điện! Có người đang làm việc” và có thêm các biện pháp tăng cường (khóa tay truyền động, đặt tấm lót, cử người canh gác…) để không thể đóng dao đưa điện vào thiết bị có người đang làm việc."
+            "text": "Chỉ (2) đúng."
           },
           {
             "label": "C",
-            "text": "Cho phép cắt điện để làm việc bằng dao phụ tải và dao cách ly có bộ truyền động tự động."
+            "text": "Chỉ (3) đúng."
           },
           {
             "label": "D",
-            "text": "Cả A, B."
+            "text": "Cả (1) và (2) đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-200-256",
-        "number": 200,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-197-197",
+        "number": 197,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Cắt điện để làm công việc phải thực hiện như thế nào cho đúng quy trình an toàn điện:",
         "options": [
           {
@@ -7335,19 +5624,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Thực hiện theo cả A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-201-257",
-        "number": 201,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-198-198",
+        "number": 198,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi công tác trên chuỗi sứ phải thực hiện như thế nào?",
         "options": [
           {
@@ -7360,19 +5649,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "C",
-            "text": "Phải bao gồm cả 2 trường hợp A và B."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-202-258",
-        "number": 202,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-199-199",
+        "number": 199,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Việc gây ngắn mạch các cọc bình ắc quy có dung lượng lớn có thể đưa đến:",
         "options": [
           {
@@ -7389,19 +5678,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các nội dung A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-203-259",
-        "number": 203,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-200-200",
+        "number": 200,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Đấu dây nối đất vào trang bị nối đất phải:",
         "options": [
           {
@@ -7417,16 +5706,16 @@ window.EXTRA_DECKS = [
             "text": "Làm như cách A hoặc B đều được."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-204-260",
-        "number": 204,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-201-201",
+        "number": 201,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi làm công việc mắc dây, lắp đặt điện hạ áp thì phải thực hiện theo những biện pháp an toàn nào sau đây?",
         "options": [
           {
@@ -7443,19 +5732,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả A, B và C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-205-261",
-        "number": 205,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-202-202",
+        "number": 202,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Điều nào cấm sau đây khi làm việc trong phòng ắc quy:",
         "options": [
           {
@@ -7472,19 +5761,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các nội dung A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-206-262",
-        "number": 206,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-203-203",
+        "number": 203,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi nối dây dẫn điện và sử dụng dây dẫn cho các loại đồ điện có công suất khác nhau để đảm bảo an toàn phải:",
         "options": [
           {
@@ -7501,19 +5790,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả 3 lựa chọn trên đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-207-263",
-        "number": 207,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-204-204",
+        "number": 204,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi tiến hành công việc trên máy cắt có bộ điều khiển từ xa phải:",
         "options": [
           {
@@ -7530,48 +5819,48 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả 3 câu A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-208-264",
-        "number": 208,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Khi máy cắt đang vận hành bình thường thì:",
+        "id": "AN TOAN__I-205-205",
+        "number": 205,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Khi máy cắt đang vận hành bình thường thì:\n(1) Có thể làm việc nếu có Phiếu công tác và giám sát an toàn đầy đủ.\n(2) Có thể lau chùi sứ cách điện bằng chổi lông gắn trên sứ cách điện.\n(3) Cấm sửa chữa ở các máy cắt đang vận hành (kể cả việc lau sứ cách điện bằng thiết bị chuyên dùng).\nChọn phương án đúng:",
         "options": [
           {
             "label": "A",
-            "text": "Có thể làm việc nếu có Phiếu công tác và giám sát an toàn đầy đủ."
+            "text": "Chỉ (1) đúng."
           },
           {
             "label": "B",
-            "text": "Có thể lau chùi sứ cách điện bằng chổi lông gắn trên sứ cách điện."
+            "text": "Chỉ (2) đúng."
           },
           {
             "label": "C",
-            "text": "Cấm sửa chữa ở các máy cắt đang vận hành (kể cả việc lau sứ cách điện bằng thiết bị chuyên dùng)."
+            "text": "Chỉ (3) đúng."
           },
           {
             "label": "D",
-            "text": "Cả hai nội dung A và B đều đúng."
+            "text": "Cả (1) và (2) đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-210-265",
-        "number": 210,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-206-206",
+        "number": 206,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Những người được sử dụng mê-gôm-mét để đo bao gồm:",
         "options": [
           {
@@ -7588,19 +5877,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả 3 câu A, B, C đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-211-266",
-        "number": 211,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-207-207",
+        "number": 207,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi thử nghiệm cáp điện phải thực hiện như thế nào?",
         "options": [
           {
@@ -7617,19 +5906,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả 3 trường hợp A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-212-267",
-        "number": 212,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-208-208",
+        "number": 208,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Những công việc có cắt điện nhưng phải gỡ dây tiếp địa để công tác là:",
         "options": [
           {
@@ -7646,19 +5935,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả 3 nội dung A, B, C đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-213-268",
-        "number": 213,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-209-209",
+        "number": 209,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Một trong các biện pháp an toàn khi làm việc ở các trạm biến áp là:",
         "options": [
           {
@@ -7678,16 +5967,16 @@ window.EXTRA_DECKS = [
             "text": "Người làm nhiệm vụ kiểm tra các thiết bị điện hạ áp phải có bậc 3 an toàn điện trở lên."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-214-269",
-        "number": 214,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-210-210",
+        "number": 210,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Đường dây điện hạ thế đi trong nhà, không được dùng loại dây:",
         "options": [
           {
@@ -7707,16 +5996,16 @@ window.EXTRA_DECKS = [
             "text": "Dây mềm (Soupe)."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-215-270",
-        "number": 215,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-211-211",
+        "number": 211,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Dây dẫn cấp điện cho hệ thống chiếu sáng và dây dẫn cấp điện cho máy động lực:",
         "options": [
           {
@@ -7733,19 +6022,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả 3 câu A, B, C đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-216-271",
-        "number": 216,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-212-212",
+        "number": 212,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Công nhân điều khiển thiết bị nâng phải đảm bảo một trong các yêu cầu sau:",
         "options": [
           {
@@ -7762,19 +6051,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Phải thỏa mãn cả ba điều kiện A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-217-272",
-        "number": 217,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-213-213",
+        "number": 213,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Thử tải trọng định kỳ cho dây an toàn đang sử dụng quy định như thế nào?",
         "options": [
           {
@@ -7790,16 +6079,16 @@ window.EXTRA_DECKS = [
             "text": "Đeo vào người rồi mắc vào vật chắc chắn và ngả người xem dây có hỏng không."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-218-273",
-        "number": 218,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-214-214",
+        "number": 214,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi làm việc trên cao phải thực hiện như sau:",
         "options": [
           {
@@ -7816,19 +6105,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Gồm cả 3 câu A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-219-274",
-        "number": 219,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-215-215",
+        "number": 215,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Nhân viên đơn vị công tác được quy định như thế nào là đúng:",
         "options": [
           {
@@ -7848,16 +6137,16 @@ window.EXTRA_DECKS = [
             "text": "Là người của đơn vị ngoài trực tiếp thực hiện công việc do người chỉ huy trực tiếp phân công."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-220-275",
-        "number": 220,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-216-216",
+        "number": 216,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Được phép tiến hành đặt tiếp đất di động:",
         "options": [
           {
@@ -7877,16 +6166,16 @@ window.EXTRA_DECKS = [
             "text": "Sau khi kiểm tra không còn điện."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-221-276",
-        "number": 221,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-217-217",
+        "number": 217,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi làm việc trên cao nếu cần sử dụng các dụng cụ làm việc như kềm, tuốc-nơ-vít, mỏ lếch, ... thì phải:",
         "options": [
           {
@@ -7906,16 +6195,16 @@ window.EXTRA_DECKS = [
             "text": "Không được mang lên theo người."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-222-277",
-        "number": 222,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-218-218",
+        "number": 218,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi kiểm tra không còn điện thì phải thực hiện như thế nào cho đúng quy trình an toàn điện:",
         "options": [
           {
@@ -7932,19 +6221,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Thực hiện theo cả A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-223-278",
-        "number": 223,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-219-219",
+        "number": 219,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Những biện pháp kỹ thuật chuẩn bị nơi làm việc phải cắt điện bao gồm: a) Cắt điện và ngăn chặn có điện trở lại nơi làm việc b) Đặt (làm) tiếp đất c) Kiểm tra không còn điện d) Đặt (làm) rào chắn treo biển báo, tín hiệu, Nếu cắt điện hoàn toàn thì không phải làm rào chắn.",
         "options": [
           {
@@ -7964,16 +6253,16 @@ window.EXTRA_DECKS = [
             "text": "Theo trình tự a-b-c-d."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-224-279",
-        "number": 224,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-220-220",
+        "number": 220,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Việc trao trả nơi làm việc, khóa phiếu phải thực hiện như thế nào là đúng quy định:",
         "options": [
           {
@@ -7990,19 +6279,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Gồm cả 3 câu A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-225-280",
-        "number": 225,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-221-221",
+        "number": 221,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Lắp và tháo tiếp đất phải thực hiện như thế nào:",
         "options": [
           {
@@ -8015,23 +6304,23 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "C",
-            "text": "Khi thực hiện thao tác tiếp đất trên cột điện, người làm tiếp đất phải đảm bảo khoảng cách an toàn theo quy định tại Khoản 2 Điều 8 của Quy trình ATĐ và không để các đầu dây tiếp đất va chạm vào người, va chạm vào các dây dẫn, thiết bị khác trên cột điện."
+            "text": "Khi thực hiện thao tác tiếp đất trên cột điện, người làm tiếp đất phải đảm bảo khoảng cách an toàn theo quy định tại Khoản 2 Điều 8 của Quy trình ATĐ và không để các đầu dây tiếp đất va chạm vào người, va chạm vào các dây dẫn, thiết bị khác trên cột điện."
           },
           {
             "label": "D",
-            "text": "Gồm cả 3 câu A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-226-281",
-        "number": 226,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-222-222",
+        "number": 222,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi làm việc ở những mạch đo lường, bảo vệ đang có điện phải áp dụng biện pháp an toàn sau đây:",
         "options": [
           {
@@ -8044,19 +6333,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "C",
-            "text": "Gồm cả A và B"
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-227-282",
-        "number": 227,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-223-223",
+        "number": 223,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi có nhiều đơn vị công tác làm việc trên cùng một hệ thống đường dây, một trạm biến áp hay một công trường mà có người chỉ huy trực tiếp riêng biệt thì:",
         "options": [
           {
@@ -8076,16 +6365,16 @@ window.EXTRA_DECKS = [
             "text": "Phiếu công tác được cấp riêng cho mỗi đơn vị công tác, nhưng những biện pháp an toàn có thể phối hợp làm chung để tiết kiệm thời gian, trang bị nối đất và biển báo."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-228-283",
-        "number": 228,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-224-224",
+        "number": 224,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tại hiện trường khi thực hiện việc cho phép làm việc, người cho phép phải thực hiện:",
         "options": [
           {
@@ -8102,24 +6391,24 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Gồm cả 3 câu A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-229-284",
-        "number": 229,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-225-225",
+        "number": 225,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Lệnh công tác phải được lưu trữ như thế nào cho đúng quy định?",
         "options": [
           {
             "label": "A",
-            "text": "Sau khi hoàn thành công việc lệnh công tác phải được lưu giữ ít nhất 1 tháng (kể cả những lệnh đã ban hành nhưng không thực hiện)."
+            "text": "Sau khi hoàn thành công việc lệnh công tác phải được lưu giữ ít nhất 03 tháng (kể cả những lệnh đã ban hành nhưng không thực hiện)."
           },
           {
             "label": "B",
@@ -8127,48 +6416,48 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "C",
-            "text": "Cả A và B đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-230-285",
-        "number": 230,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-226-226",
+        "number": 226,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Sau khi hoàn thành công việc, thời gian lưu giữ lệnh công tác phải được ít nhất:",
         "options": [
           {
             "label": "A",
-            "text": "15 ngày"
-          },
-          {
-            "label": "B",
             "text": "45 ngày"
           },
           {
+            "label": "B",
+            "text": "2 tháng"
+          },
+          {
             "label": "C",
-            "text": "60 ngày"
+            "text": "3 tháng"
           },
           {
             "label": "D",
-            "text": "30 ngày"
+            "text": "1 tháng"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-231-286",
-        "number": 231,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-227-227",
+        "number": 227,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Người ra lệnh công tác phải đáp ứng được các yêu cầu nào sau đây:",
         "options": [
           {
@@ -8185,40 +6474,44 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Gồm cả 3 trường hợp A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-232-287",
-        "number": 232,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-228-228",
+        "number": 228,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Sau khi hoàn thành công việc phiếu công tác phải được lưu trữ như thế nào cho đúng quy định:",
         "options": [
           {
             "label": "A",
-            "text": "Sau khi hoàn thành công việc, phiếu công tác được giao trả lại người cấp phiếu để kiểm tra, lưu giữ ít nhất 1 tháng (kể cả những phiếu đã cấp nhưng không thực hiện)."
+            "text": "Sau khi hoàn thành công việc, phiếu công tác được giao trả lại người cấp phiếu để kiểm tra, lưu giữ ít nhất 03 tháng (kể cả những phiếu đã cấp nhưng không thực hiện)."
           },
           {
             "label": "B",
             "text": "Trường hợp khi tiến hành công việc, nếu để xảy ra sự cố hoặc tai nạn thì phiếu công tác phải được lưu trong hồ sơ điều tra sự cố, tai nạn lao động của đơn vị."
+          },
+          {
+            "label": "C",
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-233-288",
-        "number": 233,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-229-229",
+        "number": 229,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Trong trường hợp phải cử riêng người giám sát an toàn điện cho đơn vị công tác thì tại hiện trường, sau khi ký cho phép, phiếu công tác được giao cho những người nào?",
         "options": [
           {
@@ -8238,16 +6531,16 @@ window.EXTRA_DECKS = [
             "text": "Người cho phép giữ 01 bản và người giám sát an toàn điện giữ 01 bản."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-234-289",
-        "number": 234,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-230-230",
+        "number": 230,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Đơn vị quản lý vận hành phải làm gì sau khi có giấy đăng ký của đơn vị làm công việc:",
         "options": [
           {
@@ -8257,18 +6550,22 @@ window.EXTRA_DECKS = [
           {
             "label": "B",
             "text": "Thông báo và gửi lịch cắt điện cho đơn vị làm công việc để triển khai công việc khi đăng ký cắt điện đã được phê duyệt."
+          },
+          {
+            "label": "C",
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-235-290",
-        "number": 235,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-231-231",
+        "number": 231,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi cấp phiếu công tác phải thực hiện theo những quy định nào sau đây:",
         "options": [
           {
@@ -8281,44 +6578,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "C",
-            "text": "Cả các trường hợp A, B."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-236-291",
-        "number": 236,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Khi làm việc ở gần nơi có điện bệ xe cần cẩu, xe thang và xe nâng di động phải thực hiện như thế nào?",
-        "options": [
-          {
-            "label": "A",
-            "text": "A. Không cần nối đất."
-          },
-          {
-            "label": "B",
-            "text": "B. Các xe phải được nối đất."
-          },
-          {
-            "label": "C",
-            "text": "C. Không có quy định."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__II-237-292",
-        "number": 237,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-232-232",
+        "number": 232,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Bậc an toàn điện của người Lãnh đạo công việc theo Quy trình ATĐ hiện hành được quy định như thế nào?",
         "options": [
           {
@@ -8338,16 +6610,16 @@ window.EXTRA_DECKS = [
             "text": "Tuỳ theo mức độ nguy hiểm của công việc mà có bậc an toàn cho phù hợp."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-238-293",
-        "number": 238,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-233-233",
+        "number": 233,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Đơn vị quản lý vận hành đường dây, nhà máy cử công nhân đi đặt tiếp đất di động trong các trường hợp nào sau đây là đúng?",
         "options": [
           {
@@ -8367,16 +6639,16 @@ window.EXTRA_DECKS = [
             "text": "02 người có bậc an toàn 3/5 và 4/5."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-239-294",
-        "number": 239,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-234-234",
+        "number": 234,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi cắt điện động cơ để cho đơn vị công tác vào sửa chữa động cơ, tại MC cấp nguồn cho động cơ đã được cắt và phải treo biển báo loại nào?",
         "options": [
           {
@@ -8396,16 +6668,16 @@ window.EXTRA_DECKS = [
             "text": "“Cấm vào, phía trên có điện”."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-240-295",
-        "number": 240,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-235-235",
+        "number": 235,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Tất cả các thiết bị lắp đặt trên hệ thống điện đều phải:",
         "options": [
           {
@@ -8418,19 +6690,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "C",
-            "text": "Gồm cả hai nội dung A và B mới đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-241-296",
-        "number": 241,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-236-236",
+        "number": 236,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Quy trình thao tác Hệ thống điện quốc gia, quy định thao tác đóng dao tiếp địa phải:",
         "options": [
           {
@@ -8450,16 +6722,16 @@ window.EXTRA_DECKS = [
             "text": "Kiểm tra đường dây hoặc thiết bị điện đã mất điện (căn cứ thông số dòng điện) và trạng thái tại chỗ máy cắt, dao cách ly liên quan đã mở hoàn toàn."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-242-297",
-        "number": 242,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-237-237",
+        "number": 237,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Quy trình thao tác Hệ thống điện quốc gia, không cho phép dùng dao cách ly để tiến hành các thao tác có điện trong các trường hợp nào sau đây:",
         "options": [
           {
@@ -8479,16 +6751,16 @@ window.EXTRA_DECKS = [
             "text": "Đóng và cắt dao cách ly nối tắt thiết bị."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-243-298",
-        "number": 243,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-238-238",
+        "number": 238,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Quy trình thao tác Hệ thống điện quốc gia, cho phép kiểm tra trạng thái máy cắt theo chỉ thị của tín hiệu và đo lường mà không cần kiểm tra chỉ thị trạng thái tại chỗ trong các trường hợp nào?",
         "options": [
           {
@@ -8505,19 +6777,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các đáp án trên đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-244-299",
-        "number": 244,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-239-239",
+        "number": 239,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Quy trình thao tác Hệ thống điện quốc gia, yêu cầu phải thực hiện nội dung “đọc kỹ phiếu thao tác và kiểm tra phiếu thao tác phải phù hợp với mục đích thao tác” là trách nhiệm của:",
         "options": [
           {
@@ -8537,16 +6809,16 @@ window.EXTRA_DECKS = [
             "text": "Người nhận lệnh thao tác."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-245-300",
-        "number": 245,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-240-240",
+        "number": 240,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Quy trình thao tác Hệ thống điện quốc gia, quy định nhân viên vận hành không cần lập phiếu thao tác nhưng phải ghi chép đầy đủ các bước thao tác vào sổ nhật ký vận hành trước khi thực hiện thao tác là:",
         "options": [
           {
@@ -8566,16 +6838,16 @@ window.EXTRA_DECKS = [
             "text": "Thao tác đơn giản có số bước thao tác không quá 05 bước."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-246-301",
-        "number": 246,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-241-241",
+        "number": 241,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi thao tác sai hoặc gây ra sự cố, đơn vị thao tác phải?",
         "options": [
           {
@@ -8595,16 +6867,16 @@ window.EXTRA_DECKS = [
             "text": "Ghi bổ sung vào phiếu thao tác và báo cáo cấp trên."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-247-302",
-        "number": 247,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-242-242",
+        "number": 242,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi xử lý sự cố thiết bị điện do nhân viên vận hành thực hiện trong ca trực, hoặc những người khác thực hiện dưới sự giám sát của nhân viên vận hành thì có thể thực hiện theo:",
         "options": [
           {
@@ -8621,7 +6893,7 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả A, B và C đều sai."
+            "text": "Tất cả các phương án đều sai."
           }
         ],
         "correctIndex": 0,
@@ -8630,10 +6902,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-248-303",
-        "number": 248,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-243-243",
+        "number": 243,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Lệnh công tác là lệnh viết ra giấy hoặc trực tiếp ra lệnh bằng lời nói (hay qua điện thoại, bộ đàm) để thực hiện công việc ở thiết bị điện và vật liệu điện mà không phải thực hiện việc cho phép làm việc như:",
         "options": [
           {
@@ -8650,19 +6922,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả 3 trường hợp trên đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-249-304",
-        "number": 249,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-244-244",
+        "number": 244,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi ghi chỉ số công tơ điện thì phải thực hiện theo những biện pháp an toàn nào sau đây là đúng:",
         "options": [
           {
@@ -8679,19 +6951,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả 3 trường hợp trên đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-250-305",
-        "number": 250,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-245-245",
+        "number": 245,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Phiếu thao tác phải được cấp khi cần thao tác đóng cắt thiết bị mang điện thế:",
         "options": [
           {
@@ -8717,10 +6989,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-251-306",
-        "number": 251,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-246-246",
+        "number": 246,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Người thao tác và giám sát phải có bậc an toàn:",
         "options": [
           {
@@ -8740,16 +7012,16 @@ window.EXTRA_DECKS = [
             "text": "Người giám sát phải cao hơn người thao tác một bậc an toàn."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-252-307",
-        "number": 252,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-247-247",
+        "number": 247,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi thao tác đóng cắt điện theo phiếu thao tác, người giám sát an toàn phải có trình độ an toàn:",
         "options": [
           {
@@ -8775,155 +7047,39 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-253-308",
-        "number": 253,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Chuẩn bị nơi làm việc để đảm bảo an toàn khi tiến hành công việc thì phương pháp làm rào chắn như thế nào là đúng:",
+        "id": "AN TOAN__I-248-248",
+        "number": 248,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Dao cách ly được phép thao tác có điện:\n(1) Khi dòng điện thao tác nhỏ hơn dòng điện cho phép theo quy trình vận hành của dao cách ly đó do đơn vị quản lý vận hành ban hành.\n(2) Các trường hợp dùng dao cách ly để tiến hành các thao tác có điện được quy định cụ thể trong Quy trình Thao tác hệ thống điện quốc gia.\nChọn phương án đúng:",
         "options": [
           {
             "label": "A",
-            "text": "Rào chắn tạm thời để ngăn cách phần thiết bị có điện với nơi làm việc phải làm bằng vật liệu khô và chắc chắn, như tre, gỗ, nhựa, tấm vật liệu cách điện... Khoảng cách từ rào chắn tạm thời đến phần có điện phụ thuộc vào từng cấp điện áp."
+            "text": "Chỉ (1) đúng."
           },
           {
             "label": "B",
-            "text": "Trường hợp đặc biệt, ở thiết bị điện cấp điện áp đến 15kV, rào chắn tạm thời bằng vật liệu cách điện được chạm vào phần có điện. Rào chắn như vậy phải phù hợp với tiêu chuẩn kỹ thuật sử dụng và thử nghiệm dụng cụ an toàn dùng ở thiết bị điện. Khi làm rào chắn loại này phải đeo găng cách điện, đi ủng cách điện hoặc đứng trên tấm thảm cách điện và thực hiện dưới sự giám sát của người có bậc 5 an toàn điện."
+            "text": "Chỉ (2) đúng."
           },
           {
             "label": "C",
-            "text": "Rào chắn tạm thời phải đặt sao cho khi có nguy hiểm người làm việc dễ dàng thoát ra khỏi vùng nguy hiểm."
+            "text": "Cả (1) và (2) đều đúng."
           },
           {
             "label": "D",
-            "text": "Cả 3 câu A, B, C đều đúng"
+            "text": "Cả (1) và (2) đều sai."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-254-309",
-        "number": 254,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Chuẩn bị nơi làm việc để đảm bảo an toàn khi tiến hành công việc thì phương pháp làm rào chắn như thế nào là đúng:",
-        "options": [
-          {
-            "label": "A",
-            "text": "Rào chắn tạm thời để ngăn cách phần thiết bị có điện với nơi làm việc phải làm bằng vật liệu khô và chắc chắn, như tre, gỗ, nhựa, tấm vật liệu cách điện... Khoảng cách từ rào chắn tạm thời đến phần có điện phụ thuộc vào từng cấp điện áp."
-          },
-          {
-            "label": "B",
-            "text": "Trường hợp đặc biệt, ở thiết bị điện cấp điện áp đến 15kV, rào chắn tạm thời bằng vật liệu cách điện được chạm vào phần có điện. Rào chắn như vậy phải phù hợp với tiêu chuẩn kỹ thuật sử dụng và thử nghiệm dụng cụ an toàn dùng ở thiết bị điện. Khi làm rào chắn loại này phải đeo găng cách điện, đi ủng cách điện hoặc đứng trên tấm thảm cách điện và thực hiện dưới sự giám sát của người có bậc 5 an toàn điện."
-          },
-          {
-            "label": "C",
-            "text": "Rào chắn tạm thời phải đặt sao cho khi có nguy hiểm người làm việc dễ dàng thoát ra khỏi vùng nguy hiểm."
-          },
-          {
-            "label": "D",
-            "text": "Cả 3 câu A, B, C đều đúng"
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__II-255-310",
-        "number": 255,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Cắt điện để làm công việc phải thực hiện như thế nào cho đúng quy trình an toàn điện:",
-        "options": [
-          {
-            "label": "A",
-            "text": "Nếu cắt điện bằng máy cắt và dao cách ly có bộ truyền động điều khiển từ xa thì phải khóa mạch điều khiển các thiết bị này, bao gồm: cắt aptomat, gỡ cầu chì…"
-          },
-          {
-            "label": "B",
-            "text": "Đối với dao cách ly thao tác trực tiếp bằng tay, sau khi cắt điện phải kiểm tra lưỡi dao đã ở vị trí cắt, ở các bộ phận truyền động của dao cách ly phải treo biển “Cấm đóng điện! Có người đang làm việc” và có thêm các biện pháp tăng cường (khóa tay truyền động, đặt tấm lót, cử người canh gác…) để không thể đóng dao đưa điện vào thiết bị có người đang làm việc."
-          },
-          {
-            "label": "C",
-            "text": "Cho phép cắt điện để làm việc bằng dao phụ tải và dao cách ly có bộ truyền động tự động."
-          },
-          {
-            "label": "D",
-            "text": "Cả A và B đúng."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__II-256-311",
-        "number": 256,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Cắt điện để làm công việc phải thực hiện như thế nào cho đúng quy trình an toàn điện:",
-        "options": [
-          {
-            "label": "A",
-            "text": "Phần thiết bị tiến hành công việc phải được nhìn thấy rõ đã cách ly khỏi các phần có điện từ mọi phía bằng cách cắt dao cách ly, tháo cầu chì, tháo đầu cáp, tháo dây dẫn (trừ trạm GIS)."
-          },
-          {
-            "label": "B",
-            "text": "Cấm cắt điện để làm việc chỉ bằng máy cắt, dao phụ tải và dao cách ly có bộ truyền động tự động."
-          },
-          {
-            "label": "C",
-            "text": "Phải ngăn chặn được những nguồn điện cao, hạ áp qua các máy biến áp lực, máy biến áp đo lường, máy phát điện khác có điện ngược trở lại gây nguy hiểm cho người làm việc."
-          },
-          {
-            "label": "D",
-            "text": "Thực hiện theo cả A, B, C."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__II-257-312",
-        "number": 257,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Dao cách ly được phép thao tác có điện:",
-        "options": [
-          {
-            "label": "A",
-            "text": "Khi dòng điện thao tác nhỏ hơn dòng điện cho phép theo quy trình vận hành của dao cách ly đó do đơn vị quản lý vận hành ban hành."
-          },
-          {
-            "label": "B",
-            "text": "Các trường hợp dùng dao cách ly để tiến hành các thao tác có điện được quy định cụ thể trong Quy trình Thao tác hệ thống điện quốc gia."
-          },
-          {
-            "label": "C",
-            "text": "Cả A, B đúng."
-          },
-          {
-            "label": "D",
-            "text": "Cả đáp án A, B, C đều sai."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__II-258-313",
-        "number": 258,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-249-249",
+        "number": 249,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Trong điều kiện vận hành bình thường người giám sát thao tác và người thao tác phải thực hiện những qui định nào?",
         "options": [
           {
@@ -8936,19 +7092,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "C",
-            "text": "Phải bao gồm cả A, B."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-259-314",
-        "number": 259,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-250-250",
+        "number": 250,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Trong điều kiện vận hành bình thường người giám sát thao tác và người thao tác phải thực hiện những qui định nào?",
         "options": [
           {
@@ -8965,61 +7121,36 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Phải bao gồm cả A, B và C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-260-315",
-        "number": 260,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Khi công tác trên chuỗi sứ phải thực hiện như thế nào?",
+        "id": "AN TOAN__I-251-251",
+        "number": 251,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Trong quá trình thực hiện công việc, nếu thấy có việc phát sinh cần xử lý ở ngoài phạm vi được phép làm việc của phiếu công tác thì giải quyết như thế nào?\n(1) Phải cấp phiếu công tác mới cho công việc đó.\n(2) Người chỉ huy trực tiếp tổ chức biện pháp an toàn để thực hiện, ghi thêm vào phiếu đang làm.\n(3) Người chỉ huy trực tiếp báo cho người cho phép biết và tổ chức biện pháp an toàn để thực hiện, đồng thời ghi thêm vào phiếu đang công tác.\nChọn phương án đúng:",
         "options": [
           {
             "label": "A",
-            "text": "Chỉ cho phép người di chuyển dọc chuỗi sứ sau khi đã xem xét kỹ chuỗi sứ, không có vết nứt ở đầu sứ hay các phụ kiện khác, các móc nối, khoá, chốt còn tốt và đủ."
+            "text": "Chỉ (1) đúng."
           },
           {
             "label": "B",
-            "text": "Người làm việc phải sử dụng dây an toàn phụ cài chặt vào xà hoặc đầu cột."
+            "text": "Chỉ (2) đúng."
           },
           {
             "label": "C",
-            "text": "Phải bao gồm cả 2 trường hợp A và B."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__II-261-316",
-        "number": 261,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Trong quá trình thực hiện công việc, nếu thấy có việc phát sinh cần xử lý ở ngoài phạm vi được phép làm việc của phiếu công tác thì giải quyết như thế nào?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Phải cấp phiếu công tác mới cho công việc đó."
-          },
-          {
-            "label": "B",
-            "text": "Người chỉ huy trực tiếp tổ chức biện pháp an toàn để thực hiện, ghi thêm vào phiếu đang làm."
-          },
-          {
-            "label": "C",
-            "text": "Người chỉ huy trực tiếp báo cho người cho phép biết và tổ chức biện pháp an toàn để thực hiện, đồng thời ghi thêm vào phiếu đang công tác."
+            "text": "Chỉ (3) đúng."
           },
           {
             "label": "D",
-            "text": "Cả A và B."
+            "text": "Cả (1) và (2) đều đúng."
           }
         ],
         "correctIndex": 0,
@@ -9028,10 +7159,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-262-317",
-        "number": 262,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-252-252",
+        "number": 252,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Các biện pháp an toàn khi làm việc trong phòng ac-quy:",
         "options": [
           {
@@ -9048,164 +7179,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các nội dung A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-263-318",
-        "number": 263,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Biện pháp an toàn khi tiến hành công việc trên máy cắt có bộ điều khiển từ xa:",
-        "options": [
-          {
-            "label": "A",
-            "text": "Có lệnh cho phép tách máy cắt khỏi vận hành của cấp điều độ có quyền điều khiển; Thực hiện theo Phiếu công tác; Cắt nguồn điều khiển máy cắt;"
-          },
-          {
-            "label": "B",
-            "text": "Cắt các dao cách ly trước và sau máy cắt;"
-          },
-          {
-            "label": "C",
-            "text": "Treo biển báo: “Cấm đóng điện! Có người đang làm việc” vào khóa điều khiển máy cắt."
-          },
-          {
-            "label": "D",
-            "text": "Cả 3 câu A, B, C."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__II-264-319",
-        "number": 264,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Khi máy cắt đang vận hành bình thường thì:",
-        "options": [
-          {
-            "label": "A",
-            "text": "Có thể làm việc nếu có Phiếu công tác và giám sát an toàn đầy đủ."
-          },
-          {
-            "label": "B",
-            "text": "Cấm sửa chữa ở các máy cắt đang vận hành (kể cả việc lau sứ cách điện bằng thiết bị chuyên dùng)."
-          },
-          {
-            "label": "C",
-            "text": "Có thể lau chùi sứ cách điện bằng chổi lông gắn trên sứ cách điện."
-          },
-          {
-            "label": "D",
-            "text": "Cả hai nội dung A và B đều đúng."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__II-265-320",
-        "number": 265,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Những người được sử dụng mê-gôm-mét để đo bao gồm:",
-        "options": [
-          {
-            "label": "A",
-            "text": "Nhân viên thí nghiệm, Nhân viên vận hành hoặc người được nhân viên vận hành giám sát;"
-          },
-          {
-            "label": "B",
-            "text": "Chỉ được dùng mê-gôm-mét để đo các thiết bị điện đã cách ly hoàn toàn ở mọi phía. Trước khi đo phải kiểm tra và biết chắc chắn là không có người làm việc ở bộ phận thiết bị đó. Cấm người chạm vào những vật dẫn điện liên quan đến thiết bị đang đo."
-          },
-          {
-            "label": "C",
-            "text": "Nhân viên vận hành, sửa chữa, thí nghiệm có bậc 3 an toàn điện trở lên được sử dụng mê-gôm-mét một mình để đo trên mạch đã cắt điện và phải có Lệnh công tác hoặc Phiếu công tác."
-          },
-          {
-            "label": "D",
-            "text": "Cả 3 câu A, B, C đều đúng."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__II-266-321",
-        "number": 266,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Những công việc có cắt điện nhưng phải gỡ dây tiếp địa để công tác là:",
-        "options": [
-          {
-            "label": "A",
-            "text": "Kiểm tra hệ thống tiếp địa của hệ thống trạm."
-          },
-          {
-            "label": "B",
-            "text": "Củng cố lại tiếp đất của thiết bị hoặc cả hệ thống trạm."
-          },
-          {
-            "label": "C",
-            "text": "Kiểm tra cách điện của các thiết bị."
-          },
-          {
-            "label": "D",
-            "text": "Cả 3 câu A, B, C đều đúng."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__II-267-322",
-        "number": 267,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Biện pháp an toàn khi làm việc ở các trạm biến áp:",
-        "options": [
-          {
-            "label": "A",
-            "text": "Người làm nhiệm vụ kiểm tra các thiết bị điện hạ áp phải có bậc 1 an toàn điện trở lên."
-          },
-          {
-            "label": "B",
-            "text": "Người làm nhiệm vụ kiểm tra các thiết bị điện hạ áp phải có bậc 2 an toàn điện trở lên."
-          },
-          {
-            "label": "C",
-            "text": "Người làm nhiệm vụ kiểm tra các thiết bị điện hạ áp phải có bậc 4 an toàn điện trở lên."
-          },
-          {
-            "label": "D",
-            "text": "Người làm nhiệm vụ kiểm tra các thiết bị điện hạ áp phải có bậc 3 an toàn điện trở lên."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__II-268-323",
-        "number": 268,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-253-253",
+        "number": 253,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Biện pháp an toàn khi làm việc ở các trạm biến áp:",
         "options": [
           {
@@ -9222,7 +7208,7 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Các câu trên đều sai"
+            "text": "Tất cả các phương án đều sai."
           }
         ],
         "correctIndex": 0,
@@ -9231,10 +7217,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-269-324",
-        "number": 269,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-254-254",
+        "number": 254,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo quy trình an toàn điện, phiếu công tác được quy định như thế nào là đúng:",
         "options": [
           {
@@ -9251,19 +7237,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả 3 câu A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-270-325",
-        "number": 270,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-255-255",
+        "number": 255,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Căn cứ vào đâu để xác định thiết bị còn điện hay không còn điện?",
         "options": [
           {
@@ -9280,19 +7266,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Các câu trên đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-271-326",
-        "number": 271,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-256-256",
+        "number": 256,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Đối với những công tác cần phải cắt điện, chỉ được phép làm việc sau khi:",
         "options": [
           {
@@ -9312,16 +7298,16 @@ window.EXTRA_DECKS = [
             "text": "Treo biển cấm đóng điện."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-272-327",
-        "number": 272,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-257-257",
+        "number": 257,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Lắp và tháo tiếp địa di động phải có mấy người thực hiện:",
         "options": [
           {
@@ -9337,45 +7323,45 @@ window.EXTRA_DECKS = [
             "text": "2 người (02 người thực hiện và 01 người giám sát)."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-273-328",
-        "number": 273,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Khi kiểm tra không còn điện thì phải thực hiện như thế nào cho đúng quy trình an toàn điện:",
+        "id": "AN TOAN__I-258-258",
+        "number": 258,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Khi kiểm tra không còn điện thì phải thực hiện như thế nào cho đúng quy trình an toàn điện:\n(1) Người thực hiện thao tác cắt điện đồng thời phải tiến hành kiểm tra không còn điện ở các thiết bị đã cắt điện.\n(2) Kiểm tra không còn điện bằng thiết bị thử điện chuyên dùng phù hợp với điện áp danh định của thiết bị điện cần thử, như bút thử điện, còi thử điện; phải thử ở tất cả các pha và các phía vào, ra của thiết bị điện.\n(3) Có thể căn cứ tín hiệu đèn, rơ le, đồng hồ để xác nhận thiết bị điện không còn điện; nhưng nếu đèn, rơ le, đồng hồ báo tín hiệu có điện thì phải xem như thiết bị vẫn có điện.\nChọn phương án đúng:",
         "options": [
           {
             "label": "A",
-            "text": "Người thực hiện thao tác cắt điện đồng thời phải tiến hành kiểm tra không còn điện ở các thiết bị đã cắt điện."
+            "text": "Chỉ (1) đúng."
           },
           {
             "label": "B",
-            "text": "Kiểm tra không còn điện bằng thiết bị thử điện chuyên dùng phù hợp với điện áp danh định của thiết bị điện cần thử, như bút thử điện, còi thử điện; phải thử ở tất cả các pha và các phía vào, ra của thiết bị điện."
+            "text": "Chỉ (2) đúng."
           },
           {
             "label": "C",
-            "text": "Có thể căn cứ tín hiệu đèn, rơ le, đồng hồ để xác nhận thiết bị điện không còn điện; nhưng nếu đèn, rơ le, đồng hồ báo tín hiệu có điện thì phải xem như thiết bị vẫn có điện."
+            "text": "Chỉ (3) đúng."
           },
           {
             "label": "D",
-            "text": "Cả 2 câu A và B."
+            "text": "Cả (1) và (2) đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-274-329",
-        "number": 274,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-259-259",
+        "number": 259,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Lắp và tháo tiếp đất phải thực hiện như thế nào:",
         "options": [
           {
@@ -9392,48 +7378,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả 3 câu A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-275-330",
-        "number": 275,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Tiếp đất nơi làm việc có cắt điện thì phải thực hiện như thế nào?",
-        "options": [
-          {
-            "label": "A",
-            "text": "Phải tiếp đất ngay sau khi thử hết điện."
-          },
-          {
-            "label": "B",
-            "text": "Tiếp đất ở tất cả các pha của thiết bị về phía có khả năng dẫn điện đến."
-          },
-          {
-            "label": "C",
-            "text": "Đảm bảo khoảng cách an toàn đối với phần còn mang điện và đảm bảo cho toàn bộ đơn vị công tác nằm trọn trong vùng bảo vệ của nối đất."
-          },
-          {
-            "label": "D",
-            "text": "Cả 3 câu A, B, C."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__II-276-331",
-        "number": 276,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-260-260",
+        "number": 260,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Hãy lựa chọn đáp án đúng trong những đáp án sau:",
         "options": [
           {
@@ -9455,10 +7412,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-277-332",
-        "number": 277,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-261-261",
+        "number": 261,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi gặp sự cố có thể gây nguy hiểm cho người hoặc hư hại thiết bị. Nhân viên vận hành được phép:",
         "options": [
           {
@@ -9478,45 +7435,45 @@ window.EXTRA_DECKS = [
             "text": "Chỉ được cắt điện khi có lệnh hoặc Phiếu theo qui trình."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-278-333",
-        "number": 278,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Đối với thiết bị ngoài trời trong lúc mưa to nước chảy thành dòng trên thiết bị, dụng cụ an toàn hoặc đang có giông sét thì:",
+        "id": "AN TOAN__I-262-262",
+        "number": 262,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Đối với thiết bị ngoài trời trong lúc mưa to nước chảy thành dòng trên thiết bị, dụng cụ an toàn hoặc đang có giông sét thì:\n(1) Cấm đóng, cắt điện bằng sào thao tác và dao cách ly thao tác trực tiếp tại chỗ hoặc thay dây chì.\n(2) Được phép đóng, cắt dao cách ly ở những đường dây không có điện.\n(3) Cho phép đóng, cắt điện bằng sào thao tác và dao cách ly thao tác trực tiếp tại chỗ hoặc thay dây chì nếu mang đầy đủ găng tay cách điện và ủng cách điện.\nChọn phương án đúng:",
         "options": [
           {
             "label": "A",
-            "text": "Cấm đóng, cắt điện bằng sào thao tác và dao cách ly thao tác trực tiếp tại chỗ hoặc thay dây chì."
+            "text": "Chỉ (1) đúng."
           },
           {
             "label": "B",
-            "text": "Được phép đóng, cắt dao cách ly ở những đường dây không có điện."
+            "text": "Chỉ (2) đúng."
           },
           {
             "label": "C",
-            "text": "Cho phép đóng, cắt điện bằng sào thao tác và dao cách ly thao tác trực tiếp tại chỗ hoặc thay dây chì nếu mang đầy đủ găng tay cách điện và ủng cách điện."
+            "text": "Chỉ (3) đúng."
           },
           {
             "label": "D",
-            "text": "Câu A, B đều đúng."
+            "text": "Cả (1) và (2) đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-279-334",
-        "number": 279,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-263-263",
+        "number": 263,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Thao tác đóng, cắt ở thiết bị điện cao áp, cần:",
         "options": [
           {
@@ -9532,45 +7489,45 @@ window.EXTRA_DECKS = [
             "text": "Ít nhất phải do 2 người thực hiện (trừ trường hợp thiết bị được trang bị đặc biệt và có quy trình thao tác riêng), một người thao tác và một người giám sát thao tác. Người thao tác phải có bậc 3 an toàn điện trở lên, người giám sát thao tác phải có bậc 4 an toàn điện trở lên. Những người này phải hiểu rõ sơ đồ và vị trí của thiết bị tại hiện trường."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-280-335",
-        "number": 280,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Phiếu thao tác thực hiện xong:",
+        "id": "AN TOAN__I-264-264",
+        "number": 264,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Phiếu thao tác thực hiện xong:\n(1) Phiếu thao tác thực hiện xong phải được lưu ít nhất 01 tháng.\n(2) Phiếu thao tác thực hiện xong phải được lưu ít nhất 03 tháng.\n(3) Trường hợp thao tác có liên quan đến sự cố, tai nạn thì các phiếu thao tác có liên quan phải được lưu trong hồ sơ điều tra sự cố, tai nạn lao động của đơn vị.\nChọn phương án đúng:",
         "options": [
           {
             "label": "A",
-            "text": "Phiếu thao tác thực hiện xong phải được lưu ít nhất 01 tháng."
+            "text": "Chỉ (1) đúng."
           },
           {
             "label": "B",
-            "text": "Phiếu thao tác thực hiện xong phải được lưu ít nhất 03 tháng."
+            "text": "Chỉ (2) đúng."
           },
           {
             "label": "C",
-            "text": "Trường hợp thao tác có liên quan đến sự cố, tai nạn thì các phiếu thao tác có liên quan phải được lưu trong hồ sơ điều tra sự cố, tai nạn lao động của đơn vị."
+            "text": "Chỉ (3) đúng."
           },
           {
             "label": "D",
-            "text": "Cả 2 câu B và C."
+            "text": "Cả (2) và (3) đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-281-336",
-        "number": 281,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-265-265",
+        "number": 265,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Phương pháp hô hấp nhân tạo đặt nạn nhân nằm ngửa là phương pháp:",
         "options": [
           {
@@ -9586,16 +7543,16 @@ window.EXTRA_DECKS = [
             "text": "Có thể một người hoặc hai người cùng phối hợp động tác với nhau"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-282-337",
-        "number": 282,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-266-266",
+        "number": 266,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Phương pháp cấp cứu hà hơi thổi ngạt kết hợp ép tim ngoài lồng ngực là phương pháp:",
         "options": [
           {
@@ -9612,19 +7569,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả 3 ý trên đều sai."
+            "text": "Tất cả các phương án đều sai."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-283-338",
-        "number": 283,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-267-267",
+        "number": 267,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Phương pháp hô hấp nhân tạo đặt nạn nhân nằm ngửa, người cấp cứu ngồi ở vị trí nào:",
         "options": [
           {
@@ -9641,19 +7598,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Có thể chọn 1 trong 3 ý trên."
+            "text": "Có thể chọn bất kỳ phương án nào."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-284-339",
-        "number": 284,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-268-268",
+        "number": 268,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi cấp cứu nạn nhân bằng phương pháp hô hấp nhân tạo đặt nạn nhân nằm ngửa, người cứu 2 tay cầm lấy 2 tay nạn nhân (chỗ gần khuỷu), từ từ đưa lên phía trên đầu sao cho hai bàn tay nạn nhân gần chạm vào nhau. Sau 2-3 giây nhẹ nhàng đưa tay nạn nhân gập lại và lấy sức mình ép 2 tay nạn nhân lên ngực. Sau 2-3 giây lặp lại các động tác trên và làm từ 16-18 lần trong một phút. Làm thật đều và đếm “1-2-3” cho lúc hít vào, “4-5-6” cho lúc thở ra. Làm liên tục cho đến khi nạn nhân tự thở được bình thường hoặc có ý kiến quyết định của y, bác sỹ mới thôi, người cứu làm như trên đúng hay sai?",
         "options": [
           {
@@ -9665,16 +7622,16 @@ window.EXTRA_DECKS = [
             "text": "Đúng"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-285-340",
-        "number": 285,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-269-269",
+        "number": 269,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Công nhân hàn thay đổi công việc hoặc nghỉ liên tục với thời gian bao lâu cần phải sát hạch lại:",
         "options": [
           {
@@ -9696,10 +7653,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-286-341",
-        "number": 286,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-270-270",
+        "number": 270,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Phương pháp hà hơi thổi ngạt kết hợp ép tim ngoài lồng ngực, người cứu ấn mạnh tay làm lồng ngực nạn nhân bị nén xuống rồi buông tay ra để lồng ngực nạn nhân trở lại bình thường lặp lại các động tác trên bao nhiên lần trong một phút.",
         "options": [
           {
@@ -9719,16 +7676,16 @@ window.EXTRA_DECKS = [
             "text": "Khoảng 45-60 lần/phút."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-287-342",
-        "number": 287,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-271-271",
+        "number": 271,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Phương pháp hà hơi thổi ngạt kết hợp ép tim ngoài lồng ngực, người cứu ấn mạnh tay làm lồng ngực nạn nhân bị nén xuống với chiều sâu bao nhiêu:",
         "options": [
           {
@@ -9745,19 +7702,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Có thể chọn 1 trong 3 ý trên."
+            "text": "Có thể chọn bất kỳ phương án nào."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-288-343",
-        "number": 288,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-272-272",
+        "number": 272,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo QCVN 01/2020/BCT, khi nâng hạ một tải trọng phải tuân thủ các nguyên tắc sau:",
         "options": [
           {
@@ -9774,19 +7731,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Gồm cả A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-289-344",
-        "number": 289,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-273-273",
+        "number": 273,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Vỏ máy hàn điện phải được tiếp địa:",
         "options": [
           {
@@ -9803,19 +7760,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Gồm cả A, B, C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-290-345",
-        "number": 290,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-274-274",
+        "number": 274,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Thời gian huấn luyện ATĐ lần đầu ít nhất là bao nhiêu giờ?",
         "options": [
           {
@@ -9835,16 +7792,16 @@ window.EXTRA_DECKS = [
             "text": "8 giờ"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-291-346",
-        "number": 291,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-275-275",
+        "number": 275,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Chiều dài dây dẫn từ nơi cấp điện áp sơ cấp đến thiết bị hàn di động không vượt quá:",
         "options": [
           {
@@ -9861,19 +7818,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả ba câu trên đều sai."
+            "text": "Tất cả các phương án đều sai."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-292-347",
-        "number": 292,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-276-276",
+        "number": 276,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Vận tốc cho phép đối với xe cần cẩu, xe thang, xe nâng di chuyển trong khu vực trạm điện?",
         "options": [
           {
@@ -9899,10 +7856,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-293-348",
-        "number": 293,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-277-277",
+        "number": 277,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Những công nhân được phép sử dụng, bảo quản, sửa chữa máy công cụ là:",
         "options": [
           {
@@ -9918,16 +7875,16 @@ window.EXTRA_DECKS = [
             "text": "Công nhân đã được đào tạo về máy công cụ."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-294-349",
-        "number": 294,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-278-278",
+        "number": 278,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi cấp cứu người bị điện giật, nếu nạn nhân được cứu chữa ngay trong phút đầu tiên thì khả năng cứu sống là:",
         "options": [
           {
@@ -9947,45 +7904,45 @@ window.EXTRA_DECKS = [
             "text": "90%."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-295-350",
-        "number": 295,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Các máy hàn để ngoài trời:",
+        "id": "AN TOAN__I-279-279",
+        "number": 279,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Các máy hàn để ngoài trời:\n(1) Có mái che mưa.\n(2) Cấm hàn ở ngoài trời khi có mưa, bão.\n(3) Không có mái che mưa.\nChọn phương án đúng:",
         "options": [
           {
             "label": "A",
-            "text": "Có mái che mưa."
+            "text": "Chỉ (1) đúng."
           },
           {
             "label": "B",
-            "text": "Cấm hàn ở ngoài trời khi có mưa, bão."
+            "text": "Chỉ (2) đúng."
           },
           {
             "label": "C",
-            "text": "Không có mái che mưa."
+            "text": "Chỉ (3) đúng."
           },
           {
             "label": "D",
-            "text": "Cả A và B"
+            "text": "Cả (1) và (2) đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-296-351",
-        "number": 296,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-280-280",
+        "number": 280,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Trước khi vận hành cầu trục cần kiểm tra tình trạng kỹ thuật thiết bị và cơ cấu quan trọng nào:",
         "options": [
           {
@@ -10002,19 +7959,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các ý A, B, C"
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-297-352",
-        "number": 297,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-281-281",
+        "number": 281,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Thời hạn thử nghiệm định kỳ cho palăng và kích thủy lực là:",
         "options": [
           {
@@ -10034,16 +7991,16 @@ window.EXTRA_DECKS = [
             "text": "24 tháng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-298-353",
-        "number": 298,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-282-282",
+        "number": 282,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Ngoài các phương tiện BHLĐ thường dùng người công nhân hàn điện cần trang bị thêm khi hàn:",
         "options": [
           {
@@ -10059,45 +8016,45 @@ window.EXTRA_DECKS = [
             "text": "Bình chữa cháy."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-299-354",
-        "number": 299,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Khi cần tách người bị điện giật ra khỏi mạch điện, trường hợp không cắt được mạch điện:",
+        "id": "AN TOAN__I-283-283",
+        "number": 283,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Khi cần tách người bị điện giật ra khỏi mạch điện, trường hợp không cắt được mạch điện:\n(1) Nếu là mạch điện hạ áp thì người cứu phải đứng trên bàn, ghế hoặc tấm gỗ khô, đi dép hoặc ủng cao su (cách điện), đeo găng cao su (cách điện) để dùng tay kéo nạn nhân tách ra khỏi mạch điện.\n(2) Nếu là mạch điện cao áp thì khi không có dụng cụ cách điện thì có thể dùng thanh thép tung lên dây dẫn làm ngắn mạch đường dây rồi tìm cách tách người ra khỏi mạch điện.\nChọn phương án đúng:",
         "options": [
           {
             "label": "A",
-            "text": "Nếu là mạch điện hạ áp thì người cứu phải đứng trên bàn, ghế hoặc tấm gỗ khô, đi dép hoặc ủng cao su (cách điện), đeo găng cao su (cách điện) để dùng tay kéo nạn nhân tách ra khỏi mạch điện."
+            "text": "Chỉ (1) đúng."
           },
           {
             "label": "B",
-            "text": "Nếu là mạch điện cao áp thì khi không có dụng cụ cách điện thì có thể dùng thanh thép tung lên dây dẫn làm ngắn mạch đường dây rồi tìm cách tách người ra khỏi mạch điện."
+            "text": "Chỉ (2) đúng."
           },
           {
             "label": "C",
-            "text": "Cả A và B đều sai."
+            "text": "Cả (1) và (2) đều sai."
           },
           {
             "label": "D",
-            "text": "Cả A và B đều đúng."
+            "text": "Cả (1) và (2) đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-300-355",
-        "number": 300,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-284-284",
+        "number": 284,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Câu nào đúng khi thực hiện vận chuyển và sử dụng chai ôxy:",
         "options": [
           {
@@ -10114,48 +8071,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả 3 trường hợp A,B,C đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-301-356",
-        "number": 301,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Công nhân điều khiển thiết bị nâng phải đảm bảo một trong các yêu cầu nào sau đây:",
-        "options": [
-          {
-            "label": "A",
-            "text": "Từ 18 tuổi trở lên."
-          },
-          {
-            "label": "B",
-            "text": "Có đủ sức khỏe."
-          },
-          {
-            "label": "C",
-            "text": "Được đào tạo về chuyên môn và được huấn luyện, cấp thẻ an toàn theo đúng quy định."
-          },
-          {
-            "label": "D",
-            "text": "Phải thỏa mãn cả ba điều kiện A, B, C."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__II-302-357",
-        "number": 302,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-285-285",
+        "number": 285,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Công nhân hàn phải đạt các tiêu chuẩn gì:",
         "options": [
           {
@@ -10171,16 +8099,16 @@ window.EXTRA_DECKS = [
             "text": "Được y tế chứng nhận không có bệnh thần kinh."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-303-358",
-        "number": 303,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-286-286",
+        "number": 286,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi hàn cắt trên cao công nhân hàn và phụ hàn phải buộc dây an toàn vào vị trí thích hợp nào?",
         "options": [
           {
@@ -10196,16 +8124,16 @@ window.EXTRA_DECKS = [
             "text": "Buộc vào thiết bị cố định"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-304-359",
-        "number": 304,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-287-287",
+        "number": 287,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi hàn điện, hàn hơi trong các thùng kín hoặc phòng kín phải tiến hành:",
         "options": [
           {
@@ -10222,19 +8150,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả 3 trường hợp A,B,C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-305-360",
-        "number": 305,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-288-288",
+        "number": 288,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi hàn cắt trong khu vục chật hẹp phải bố trí:",
         "options": [
           {
@@ -10250,16 +8178,16 @@ window.EXTRA_DECKS = [
             "text": "Đặt bình chữa cháy tại nơi làm việc."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-306-361",
-        "number": 306,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-289-289",
+        "number": 289,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Dây tiếp đất của máy hàn có thể dùng làm dây mát hàn khi thiếu dây mát:",
         "options": [
           {
@@ -10271,16 +8199,16 @@ window.EXTRA_DECKS = [
             "text": "Không thể dùng được."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-307-362",
-        "number": 307,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-290-290",
+        "number": 290,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Các chú ý an toàn khi làm việc với cần cẩu và cầu trục:",
         "options": [
           {
@@ -10297,19 +8225,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các câu trên đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-308-363",
-        "number": 308,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-291-291",
+        "number": 291,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi phát hiện hư hỏng cầu trục khi vận hành:",
         "options": [
           {
@@ -10327,39 +8255,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-309-364",
-        "number": 309,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Lúc đang kéo vật nặng lên cao hay đưa xuống thấp:",
-        "options": [
-          {
-            "label": "A",
-            "text": "Phải bố trí người giám sát an toàn, không cho người đi lại và đứng xung quanh nơi làm việc."
-          },
-          {
-            "label": "B",
-            "text": "Cấm tuyệt đối không cho ai được đi lại và đứng xung quanh nơi làm việc."
-          },
-          {
-            "label": "C",
-            "text": "Chỉ có những người tham gia công tác mới được quyền đi lại xung quanh nơi làm việc."
-          },
-          {
-            "label": "D",
-            "text": "Chỉ có Tổ trưởng và giám sát an toàn mới được quyền đi lại xung quanh nơi làm việc."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__II-310-365",
-        "number": 310,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-292-292",
+        "number": 292,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Những người nào sau đây được phép vận hành cầu trục?",
         "options": [
           {
@@ -10379,16 +8278,16 @@ window.EXTRA_DECKS = [
             "text": "Những người được huấn luyện vận hành thiết bị nâng, được cấp thẻ vận hành và được QĐ của Giám đốc giao quyền vận hành thiết bị đó."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-311-366",
-        "number": 311,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-293-293",
+        "number": 293,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi cấp cứu người bị điện giật, nếu nạn nhân đến phút thứ 5 mới được cấp cứu thì khả năng cứu sống chỉ còn:",
         "options": [
           {
@@ -10408,45 +8307,45 @@ window.EXTRA_DECKS = [
             "text": "30%."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-312-367",
-        "number": 312,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Cấp cứu người bị điện giật:",
+        "id": "AN TOAN__I-294-294",
+        "number": 294,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Cấp cứu người bị điện giật:\n(1) Nếu nạn nhân bị mất tri giác nhưng vẫn còn thở nhẹ, tim đập yếu thì lập tức đưa đến cơ quan y tế để theo dõi điều trị.\n(2) Nếu nạn nhân bị mất tri giác nhưng vẫn còn thở nhẹ, tim đập yếu thì phải dùng nước lạnh xoa lên người nạn nhân.\nChọn phương án đúng:",
         "options": [
           {
             "label": "A",
-            "text": "Nếu nạn nhân bị mất tri giác nhưng vẫn còn thở nhẹ, tim đập yếu thì lập tức đưa đến cơ quan y tế để theo dõi điều trị."
+            "text": "Chỉ (1) đúng."
           },
           {
             "label": "B",
-            "text": "Nếu nạn nhân bị mất tri giác nhưng vẫn còn thở nhẹ, tim đập yếu thì phải dùng nước lạnh xoa lên người nạn nhân."
+            "text": "Chỉ (2) đúng."
           },
           {
             "label": "C",
-            "text": "Có thể chọn 1 trong 2 cách A,B."
+            "text": "Có thể chọn 1 trong 2 cách (1) hoặc (2)."
           },
           {
             "label": "D",
-            "text": "Cả 2 ý A,B đều sai."
+            "text": "Cả (1) và (2) đều sai."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-314-368",
-        "number": 314,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-295-295",
+        "number": 295,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Phương pháp cấp cứu đặt nạn nhân nằm sấp, người làm hô hấp phải ngồi:",
         "options": [
           {
@@ -10463,19 +8362,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Có thể chọn 1 trong 3 vị trí A,B,C."
+            "text": "Có thể chọn bất kỳ vị trí nào."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-315-369",
-        "number": 315,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-296-296",
+        "number": 296,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Phương pháp cấp cứu đặt nạn nhân nằm sấp người làm hô hấp phải dùng hai bàn tay để vào hai bên cạnh sườn nạn nhân, hai ngón tay cái để sát sống lưng, ấn tay đếm nhẩm “1-2-3” rồi lại từ từ thả tay ra, thẳng người đếm nhẩm”4-5-6”. Số lần như trên là:",
         "options": [
           {
@@ -10495,16 +8394,16 @@ window.EXTRA_DECKS = [
             "text": "Tuỳ thuộc sức khoẻ của người cứu."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-316-370",
-        "number": 316,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-297-297",
+        "number": 297,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Phương pháp hô hấp nhân tạo đặt nạn nhân nằm sấp là phương pháp:",
         "options": [
           {
@@ -10521,19 +8420,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả 3 ý trên đều sai."
+            "text": "Tất cả các phương án đều sai."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-317-371",
-        "number": 317,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-298-298",
+        "number": 298,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Trong các cách cứu chữa dưới đây cách nào được coi là có hiệu quả và phổ biến nhất.",
         "options": [
           {
@@ -10550,19 +8449,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả ba như nhau"
+            "text": "Tất cả các phương án đều như nhau."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-318-372",
-        "number": 318,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-299-299",
+        "number": 299,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Trường hợp nào phải ma sát toàn thân để nạn nhân nóng lên và mời Y, Bác sỹ đến để chăm sóc.",
         "options": [
           {
@@ -10579,7 +8478,7 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả các ý A,B,C."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
         "correctIndex": 0,
@@ -10588,40 +8487,40 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-319-373",
-        "number": 319,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Khi nào quyết định dừng việc cứu chữa nạn nhân bị điện giật:",
+        "id": "AN TOAN__I-300-300",
+        "number": 300,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Khi nào quyết định dừng việc cứu chữa nạn nhân bị điện giật:\n(1) Khi nạn nhân đã hồi tỉnh, nhịp tim và hơi thở đã bình thường\n(2) Có ý kiến cho dừng của Y, Bác sỹ.\nChọn phương án đúng:",
         "options": [
           {
             "label": "A",
-            "text": "Khi nạn nhân đã hồi tỉnh, nhịp tim và hơi thở đã bình thường"
+            "text": "Chỉ (1) đúng."
           },
           {
             "label": "B",
-            "text": "Có ý kiến cho dừng của Y, Bác sỹ."
+            "text": "Chỉ (2) đúng."
           },
           {
             "label": "C",
-            "text": "Cả ý A và B đều đúng."
+            "text": "Cả (1) và (2) đều đúng."
           },
           {
             "label": "D",
-            "text": "Cả hai ý A,B đều sai."
+            "text": "Cả (1) và (2) đều sai."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-320-374",
-        "number": 320,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 09/8/2018 qui định: Ai là người giao phiếu công tác cho người chỉ huy trực tiếp? Và giao khi nào?",
+        "id": "AN TOAN__I-301-301",
+        "number": 301,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 26/7/2021 qui định: Ai là người giao phiếu công tác cho người chỉ huy trực tiếp? Và giao khi nào?",
         "options": [
           {
             "label": "A",
@@ -10640,17 +8539,17 @@ window.EXTRA_DECKS = [
             "text": "Người lãnh đạo công việc giao phiếu công tác cho người chỉ huy trực tiếp tại hiện trường sau khi kiểm tra đầy đủ các biện pháp an toàn."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-321-375",
-        "number": 321,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 09/8/2018 qui định: Người cấp phiếu công tác phải như thế nào?",
+        "id": "AN TOAN__I-302-302",
+        "number": 302,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 26/7/2021 qui định: Người cấp phiếu công tác phải như thế nào?",
         "options": [
           {
             "label": "A",
@@ -10666,78 +8565,78 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Câu A,B,C đúng"
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-322-376",
-        "number": 322,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 09/8/2018 qui định: Trách nhiệm nào sau đây là của người cấp phiếu công tác?",
+        "id": "AN TOAN__I-303-303",
+        "number": 303,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 26/7/2021 qui định: Trách nhiệm nào sau đây là của người cấp phiếu công tác?\n(1) Khi giao phiếu cho Người chỉ huy trực tiếp phải chỉ dẫn những yêu cầu cụ thể và những yếu tố nguy hiểm về an toàn điện tại nơi làm việc để Người chỉ huy trực tiếp hướng dẫn cho đơn vị công tác thực hiện để đảm bảo an toàn.\n(2) Khi giao phiếu cho Người cho phép phải chỉ dẫn những yêu cầu cụ thể và những yếu tố nguy hiểm về an toàn điện tại nơi làm việc để Người cho phép hướng dẫn cho đơn vị công tác khi thực hiện việc cho phép làm việc để đảm bảo an toàn.\n(3) Cử Người cho phép thực hiện việc cho phép làm việc tại hiện trường (cho phép đơn vị công tác vào làm việc)\nChọn phương án đúng:",
         "options": [
           {
             "label": "A",
-            "text": "Khi giao phiếu cho Người chỉ huy trực tiếp phải chỉ dẫn những yêu cầu cụ thể và những yếu tố nguy hiểm về an toàn điện tại nơi làm việc để Người chỉ huy trực tiếp hướng dẫn cho đơn vị công tác thực hiện để đảm bảo an toàn."
+            "text": "Chỉ (1) đúng."
           },
           {
             "label": "B",
-            "text": "Khi giao phiếu cho Người cho phép phải chỉ dẫn những yêu cầu cụ thể và những yếu tố nguy hiểm về an toàn điện tại nơi làm việc để Người cho phép hướng dẫn cho đơn vị công tác khi thực hiện việc cho phép làm việc để đảm bảo an toàn."
+            "text": "Chỉ (2) đúng."
           },
           {
             "label": "C",
-            "text": "Cử Người cho phép thực hiện việc cho phép làm việc tại hiện trường (cho phép đơn vị công tác vào làm việc)"
+            "text": "Chỉ (3) đúng."
           },
           {
             "label": "D",
-            "text": "Câu B,C đúng"
+            "text": "Cả (2) và (3) đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-323-377",
-        "number": 323,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 09/8/2018 qui định: Trách nhiệm nào sau đây là của người cho phép?",
+        "id": "AN TOAN__I-304-304",
+        "number": 304,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 26/7/2021 qui định: Trách nhiệm nào sau đây là của người cho phép?\n(1) Nhận Phiếu công tác từ Người cấp phiếu, tiếp nhận sự điều hành, chỉ dẫn của trưởng ca (trực chính) ca trực vận hành của đơn vị để biết đầy đủ tình trạng vận hành của thiết bị nơi thực hiện công việc (nếu người cấp phiếu không phải là trưởng ca, trực chính ca trực vận hành), kiểm tra biện pháp an toàn và thực hiện việc cho phép làm việc tại hiện trường để cho đơn vị công tác vào làm việc.\n(2) Nắm vững các quy định và những yêu cầu về an toàn điện tại nơi làm việc để giám sát đơn vị công tác đảm bảo an toàn về điện.\n(3) Chỉ dẫn nơi làm việc, phạm vi được phép làm việc, những nơi (phần, thiết bị) có điện ở xung quanh và cảnh báo những nguy cơ gây ra mất an toàn cho toàn đơn vị công tác và người giám sát an toàn điện (nếu có) để họ biết và phòng tránh.Tiếp nhận lại Phiếu công tác và nơi làm việc do người chỉ huy trực tiếp bàn giao khi đơn vị công tác làm xong công việc; kiểm tra nội dung công việc, nơi làm việc, viết, ký khóa phiếu vào Phiếu công tác, giao trả lại phiếu cho người cấp phiếu.\nChọn phương án đúng:",
         "options": [
           {
             "label": "A",
-            "text": "Nhận Phiếu công tác từ Người cấp phiếu, tiếp nhận sự điều hành, chỉ dẫn của trưởng ca (trực chính) ca trực vận hành của đơn vị để biết đầy đủ tình trạng vận hành của thiết bị nơi thực hiện công việc (nếu người cấp phiếu không phải là trưởng ca, trực chính ca trực vận hành), kiểm tra biện pháp an toàn và thực hiện việc cho phép làm việc tại hiện trường để cho đơn vị công tác vào làm việc."
+            "text": "Chỉ (1) đúng."
           },
           {
             "label": "B",
-            "text": "Nắm vững các quy định và những yêu cầu về an toàn điện tại nơi làm việc để giám sát đơn vị công tác đảm bảo an toàn về điện."
+            "text": "Chỉ (2) đúng."
           },
           {
             "label": "C",
-            "text": "Chỉ dẫn nơi làm việc, phạm vi được phép làm việc, những nơi (phần, thiết bị) có điện ở xung quanh và cảnh báo những nguy cơ gây ra mất an toàn cho toàn đơn vị công tác và người giám sát an toàn điện (nếu có) để họ biết và phòng tránh.Tiếp nhận lại Phiếu công tác và nơi làm việc do người chỉ huy trực tiếp bàn giao khi đơn vị công tác làm xong công việc; kiểm tra nội dung công việc, nơi làm việc, viết, ký khóa phiếu vào Phiếu công tác, giao trả lại phiếu cho người cấp phiếu."
+            "text": "Chỉ (3) đúng."
           },
           {
             "label": "D",
-            "text": "Câu A, C đúng"
+            "text": "Cả (1) và (3) đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-324-378",
-        "number": 324,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 09/8/2018 qui định: Trách nhiệm nào sau đây là của người cho phép?",
+        "id": "AN TOAN__I-305-305",
+        "number": 305,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 26/7/2021 qui định: Trách nhiệm nào sau đây là của người cho phép?",
         "options": [
           {
             "label": "A",
@@ -10753,20 +8652,20 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Câu A, B, C đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-325-379",
-        "number": 325,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 09/8/2018 qui định: Trách nhiệm nào sau đây là của người giám sát an toàn điện?",
+        "id": "AN TOAN__I-306-306",
+        "number": 306,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 26/7/2021 qui định: Trách nhiệm nào sau đây là của người giám sát an toàn điện?",
         "options": [
           {
             "label": "A",
@@ -10782,77 +8681,77 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Câu A, B, C đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-326-380",
-        "number": 326,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 09/8/2018 qui định: Trách nhiệm nào sau đây là của người chỉ huy trực tiếp?",
+        "id": "AN TOAN__I-307-307",
+        "number": 307,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 26/7/2021 qui định: Trách nhiệm nào sau đây là của người chỉ huy trực tiếp?\n(1) Chịu trách nhiệm phối hợp hoạt động của các đơn vị công tác, khi công việc do nhiều đơn vị công tác của cùng một tổ chức hoạt động điện lực thực hiện theo các phiếu công tác để đảm bảo an toàn.\n(2) Chỉ huy mọi người đến đúng địa điểm (nơi) sẽ làm việc theo kế hoạch, chỉ dẫn cụ thể nhiệm vụ, nội dung công việc cho các nhân viên trong đơn vị công tác; Tại hiện trường phải kiểm tra, tiếp nhận các biện pháp an toàn, các yếu tố nguy hiểm, nơi làm việc do người cho phép giao và chỉ dẫn khi thực hiện việc cho phép làm việc.\n(3) Kiểm tra xác định nơi làm việc đã hết điện và làm tiếp đất di động tại hiện trường (nếu làm việc có cắt điện) sao cho toàn bộ đơn vị công tác nằm trọn trong vùng bảo vệ của nối đất\nChọn phương án đúng:",
         "options": [
           {
             "label": "A",
-            "text": "Chịu trách nhiệm phối hợp hoạt động của các đơn vị công tác, khi công việc do nhiều đơn vị công tác của cùng một tổ chức hoạt động điện lực thực hiện theo các phiếu công tác để đảm bảo an toàn."
+            "text": "Chỉ (1) đúng."
           },
           {
             "label": "B",
-            "text": "Chỉ huy mọi người đến đúng địa điểm (nơi) sẽ làm việc theo kế hoạch, chỉ dẫn cụ thể nhiệm vụ, nội dung công việc cho các nhân viên trong đơn vị công tác; Tại hiện trường phải kiểm tra, tiếp nhận các biện pháp an toàn, các yếu tố nguy hiểm, nơi làm việc do người cho phép giao và chỉ dẫn khi thực hiện việc cho phép làm việc."
+            "text": "Chỉ (2) đúng."
           },
           {
             "label": "C",
-            "text": "Kiểm tra xác định nơi làm việc đã hết điện và làm tiếp đất di động tại hiện trường (nếu làm việc có cắt điện) sao cho toàn bộ đơn vị công tác nằm trọn trong vùng bảo vệ của nối đất"
+            "text": "Chỉ (3) đúng."
           },
           {
             "label": "D",
-            "text": "Câu B và C đúng"
+            "text": "Cả (2) và (3) đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-327-381",
-        "number": 327,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 09/8/2018 qui định: Trách nhiệm nào sau đây là của người chỉ huy trực tiếp?",
+        "id": "AN TOAN__I-308-308",
+        "number": 308,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 26/7/2021 qui định: Trách nhiệm nào sau đây là của người chỉ huy trực tiếp?\n(1) Làm bổ sung các biện pháp an toàn (rào chắn, biển báo hoặc tín hiệu cảnh báo khác); ghi, ký vào Phiếu công tác, chính thức tiếp nhận nơi làm việc và giữ Phiếu công tác do người cho phép giao trong thời gian làm việc; Khi có nhân viên đơn vị công tác được bổ sung trong quá trình làm việc thì phải phổ biến cho nhân viên này biết nhiệm vụ, nội dung công việc, điều kiện an toàn, các yếu tố nguy hiểm, biện pháp phòng tránh để họ biết và thực hiện, đồng thời báo cho người cho phép biết để ghi vào bản Phiếu công tác mà người cho phép giữ.\n(2) Kiểm tra (hoặc thực hiện nếu được Người cấp phiếu giao) việc thực hiện đúng, đủ các biện pháp an toàn tại hiện trường thuộc trách nhiệm của mình để chuẩn bị chỗ làm việc cho đơn vị công tác, ghi những việc đã làm vào Phiếu công tác.\n(3) Hướng dẫn và trao đổi, thống nhất về các điều kiện an toàn, yếu tố nguy hiểm có thể dẫn đến tai nạn trong khi làm việc với tất cả thành viên của đơn vị công tác. Sau đó, phân công nhân viên vào vị trí làm việc và có mặt liên tục tại nơi làm việc để chỉ huy, phối hợp, kiểm tra, giám sát tất cả các nhân viên của đơn vị công tác trong suốt quá trình làm việc để đảm bảo an toàn.\nChọn phương án đúng:",
         "options": [
           {
             "label": "A",
-            "text": "Làm bổ sung các biện pháp an toàn (rào chắn, biển báo hoặc tín hiệu cảnh báo khác); ghi, ký vào Phiếu công tác, chính thức tiếp nhận nơi làm việc và giữ Phiếu công tác do người cho phép giao trong thời gian làm việc; Khi có nhân viên đơn vị công tác được bổ sung trong quá trình làm việc thì phải phổ biến cho nhân viên này biết nhiệm vụ, nội dung công việc, điều kiện an toàn, các yếu tố nguy hiểm, biện pháp phòng tránh để họ biết và thực hiện, đồng thời báo cho người cho phép biết để ghi vào bản Phiếu công tác mà người cho phép giữ."
+            "text": "Chỉ (1) đúng."
           },
           {
             "label": "B",
-            "text": "Kiểm tra (hoặc thực hiện nếu được Người cấp phiếu giao) việc thực hiện đúng, đủ các biện pháp an toàn tại hiện trường thuộc trách nhiệm của mình để chuẩn bị chỗ làm việc cho đơn vị công tác, ghi những việc đã làm vào Phiếu công tác."
+            "text": "Chỉ (2) đúng."
           },
           {
             "label": "C",
-            "text": "Hướng dẫn và trao đổi, thống nhất về các điều kiện an toàn, yếu tố nguy hiểm có thể dẫn đến tai nạn trong khi làm việc với tất cả thành viên của đơn vị công tác. Sau đó, phân công nhân viên vào vị trí làm việc và có mặt liên tục tại nơi làm việc để chỉ huy, phối hợp, kiểm tra, giám sát tất cả các nhân viên của đơn vị công tác trong suốt quá trình làm việc để đảm bảo an toàn."
+            "text": "Chỉ (3) đúng."
           },
           {
             "label": "D",
-            "text": "Câu A và C đúng"
+            "text": "Cả (1) và (3) đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-328-382",
-        "number": 328,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-309-309",
+        "number": 309,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi nhân viên đơn vị công tác nhận thấy nguy cơ dẫn đến tai nạn như là cháy nổ hay thiếu khí oxy tại nơi làm việc thì phải báo ngay cho ai?",
         "options": [
           {
@@ -10872,16 +8771,16 @@ window.EXTRA_DECKS = [
             "text": "Người giám sát an toàn."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-329-383",
-        "number": 329,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-310-310",
+        "number": 310,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi làm việc có cắt điện một phần hoặc không cắt điện ở gần nơi có điện, bệ xe cẩu, xe thang và xe nâng di động phải được thực hiện như thế nào?",
         "options": [
           {
@@ -10898,19 +8797,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Không có câu nào đúng. Vì không được thực hiện công tác trên."
+            "text": "Không có phương án nào đúng vì không được thực hiện công tác trên."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-330-384",
-        "number": 330,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-311-311",
+        "number": 311,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Nếu làm việc ở nơi cắt điện từng phần hoặc không cắt điện thì khi nghỉ giải lao đơn vị công tác phải thực hiện như thế nào?",
         "options": [
           {
@@ -10930,46 +8829,46 @@ window.EXTRA_DECKS = [
             "text": "Tất cả mọi người trong đơn vị công tác phải rút ra khỏi khu vực làm việc và các biện pháp an toàn phải được giữ nguyên."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-331-385",
-        "number": 331,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 09/8/2018 qui định: Nhân viên đơn vị công tác có quyền nào sau đây?",
+        "id": "AN TOAN__I-312-312",
+        "number": 312,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 26/7/2021 qui định: Nhân viên đơn vị công tác có quyền nào sau đây?\n(1) Phản ánh với cấp trên nếu thấy người giám sát an toàn không có mặt tại nơi công tác.\n(2) Từ chối thực hiện công việc khi thấy không đảm bảo an toàn, nếu người chỉ huy trực tiếp không chấp thuận thì báo cáo lên cấp trên để giải quyết.\n(3) Yêu cầu được phổ biến các biện pháp an toàn và yếu tố nguy hiểm trước khi thực hiện công việc.\nChọn phương án đúng:",
         "options": [
           {
             "label": "A",
-            "text": "Phản ánh với cấp trên nếu thấy người giám sát an toàn không có mặt tại nơi công tác."
+            "text": "Chỉ (1) đúng."
           },
           {
             "label": "B",
-            "text": "Từ chối thực hiện công việc khi thấy không đảm bảo an toàn, nếu người chỉ huy trực tiếp không chấp thuận thì báo cáo lên cấp trên để giải quyết."
+            "text": "Chỉ (2) đúng."
           },
           {
             "label": "C",
-            "text": "Yêu cầu được phổ biến các biện pháp an toàn và yếu tố nguy hiểm trước khi thực hiện công việc."
+            "text": "Chỉ (3) đúng."
           },
           {
             "label": "D",
-            "text": "Câu B,C đúng"
+            "text": "Cả (2) và (3) đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-332-386",
-        "number": 332,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 09/8/2018 qui định: Sau khi hoàn thành công việc, Phiếu công tác được giao trả cho ai?",
+        "id": "AN TOAN__I-313-313",
+        "number": 313,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 26/7/2021 qui định: Sau khi hoàn thành công việc, Phiếu công tác được giao trả cho ai?",
         "options": [
           {
             "label": "A",
@@ -10985,19 +8884,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Đơn vị công công tác."
+            "text": "Đơn vị công tác."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-333-387",
-        "number": 333,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-314-314",
+        "number": 314,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Điện cao áp được quy ước là:",
         "options": [
           {
@@ -11010,23 +8909,23 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "C",
-            "text": "Trên 1000V."
+            "text": "Từ 1000V."
           },
           {
             "label": "D",
             "text": "Từ 3000V trở lên."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-334-388",
-        "number": 334,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-315-315",
+        "number": 315,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Điện áp an toàn khi tiếp xúc với cơ thể con người là:",
         "options": [
           {
@@ -11046,16 +8945,16 @@ window.EXTRA_DECKS = [
             "text": "Mức điện áp 36V điện xoay chiều, 120V điện một chiều."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-335-389",
-        "number": 335,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-316-316",
+        "number": 316,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Biện pháp an toàn điện:",
         "options": [
           {
@@ -11075,16 +8974,16 @@ window.EXTRA_DECKS = [
             "text": "Sử dụng một cầu dao cho hai thiết bị điện trở lên."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-336-390",
-        "number": 336,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-317-317",
+        "number": 317,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Đặt nối đất được qui định như thế nào trong Quy chuẩn và quy trình ATĐ?",
         "options": [
           {
@@ -11101,19 +9000,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả A, B, C đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-337-391",
-        "number": 337,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-318-318",
+        "number": 318,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Có mấy loại nối đất trong hệ thống điện?",
         "options": [
           {
@@ -11133,16 +9032,16 @@ window.EXTRA_DECKS = [
             "text": "Nối đất chống sét, nối đất chống sét van, nối đất trung tính máy biến thế, nối đất vỏ máy biến thế, vỏ máy cắt, vỏ tủ điện, nối đất trụ điện."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-338-392",
-        "number": 338,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-319-319",
+        "number": 319,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Nối đất cho chống sét van (LA) để bảo vệ máy biến thế chính trong nhà máy điện gọi là loại nối đất nào?",
         "options": [
           {
@@ -11162,16 +9061,16 @@ window.EXTRA_DECKS = [
             "text": "Nối đất làm việc."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-339-393",
-        "number": 339,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-320-320",
+        "number": 320,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Nối đất cho trung tính máy biến thế chính trong nhà máy điện gọi là loại nối đất nào?",
         "options": [
           {
@@ -11191,16 +9090,16 @@ window.EXTRA_DECKS = [
             "text": "Nối đất trung tính máy biến thế."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-340-394",
-        "number": 340,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-321-321",
+        "number": 321,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Nối đất vỏ (thùng) máy biến thế chính trong nhà máy điện gọi là loại nối đất nào?",
         "options": [
           {
@@ -11220,16 +9119,16 @@ window.EXTRA_DECKS = [
             "text": "Nối đất bảo vệ."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-341-395",
-        "number": 341,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-322-322",
+        "number": 322,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Một đầu của mạch cuộn dây sơ cấp của máy biến thế đo lường được nối đất. Vậy nối đất đó gọi là loại nối đất nào?",
         "options": [
           {
@@ -11249,16 +9148,16 @@ window.EXTRA_DECKS = [
             "text": "Nối đất bảo vệ."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-342-396",
-        "number": 342,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-323-323",
+        "number": 323,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Một đầu của mạch cuộn dây thứ cấp của máy biến thế đo lường được nối đất. Vậy nối đất đó gọi là loại nối đất nào?",
         "options": [
           {
@@ -11278,17 +9177,17 @@ window.EXTRA_DECKS = [
             "text": "Nối đất bảo vệ."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-343-397",
-        "number": 343,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 09/8/2018 qui định: Khoảng cách an toàn đến phần mang điện khi không có rào chắn đối với cấp điện áp từ 35kV đến 110kV tối thiểu là bao nhiêu mét?",
+        "id": "AN TOAN__I-324-324",
+        "number": 324,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 26/7/2021 qui định: Khoảng cách an toàn đến phần mang điện khi không có rào chắn đối với cấp điện áp từ 35 kV đến 110 kV tối thiểu là bao nhiêu mét?",
         "options": [
           {
             "label": "A",
@@ -11313,11 +9212,11 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-344-398",
-        "number": 344,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 09/8/2018 qui định: Khoảng cách an toàn đến phần mang điện khi không có rào chắn đối với cấp điện áp 220kV tối thiểu là bao nhiêu mét?",
+        "id": "AN TOAN__I-325-325",
+        "number": 325,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 26/7/2021 qui định: Khoảng cách an toàn đến phần mang điện khi không có rào chắn đối với cấp điện áp 220 kV tối thiểu là bao nhiêu mét?",
         "options": [
           {
             "label": "A",
@@ -11336,17 +9235,17 @@ window.EXTRA_DECKS = [
             "text": "1,5 m"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-345-399",
-        "number": 345,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 09/8/2018 qui định: Khoảng cách an toàn đến phần mang điện khi không có rào chắn đối với cấp điện áp 500kV tối thiểu là bao nhiêu mét?",
+        "id": "AN TOAN__I-326-326",
+        "number": 326,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 26/7/2021 qui định: Khoảng cách an toàn đến phần mang điện khi không có rào chắn đối với cấp điện áp 500 kV tối thiểu là bao nhiêu mét?",
         "options": [
           {
             "label": "A",
@@ -11371,11 +9270,11 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-346-400",
-        "number": 346,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 09/8/2018 qui định: Khoảng cách an toàn đến phần mang điện khi không có rào chắn đối với cấp điện áp từ 15kV đến 35kV tối thiểu là bao nhiêu mét?",
+        "id": "AN TOAN__I-327-327",
+        "number": 327,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 26/7/2021 qui định: Khoảng cách an toàn đến phần mang điện khi không có rào chắn đối với cấp điện áp từ 15kV đến 35kV tối thiểu là bao nhiêu mét?",
         "options": [
           {
             "label": "A",
@@ -11394,17 +9293,17 @@ window.EXTRA_DECKS = [
             "text": "2,5 m"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-347-401",
-        "number": 347,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 09/8/2018 qui định: Khoảng cách an toàn từ rào chắn đến phần mang điện của cấp điện áp từ 15kV đến 35kV tối thiểu là bao nhiêu mét?",
+        "id": "AN TOAN__I-328-328",
+        "number": 328,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 26/7/2021 qui định: Khoảng cách an toàn từ rào chắn đến phần mang điện của cấp điện áp từ 15kV đến 35kV tối thiểu là bao nhiêu mét?",
         "options": [
           {
             "label": "A",
@@ -11423,17 +9322,17 @@ window.EXTRA_DECKS = [
             "text": "2,5 m"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-348-402",
-        "number": 348,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 09/8/2018 qui định: Khoảng cách an toàn từ rào chắn đến phần mang điện của của cấp điện áp từ 35kV đến 110kV tối thiểu là bao nhiêu mét?",
+        "id": "AN TOAN__I-329-329",
+        "number": 329,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 26/7/2021 qui định: Khoảng cách an toàn từ rào chắn đến phần mang điện của cấp điện áp từ 35kV đến 110kV tối thiểu là bao nhiêu mét?",
         "options": [
           {
             "label": "A",
@@ -11452,17 +9351,17 @@ window.EXTRA_DECKS = [
             "text": "2,5 m"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-349-403",
-        "number": 349,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 09/8/2018 qui định: Khoảng cách an toàn từ rào chắn đến phần mang điện của của cấp điện áp 220kV tối thiểu là bao nhiêu mét?",
+        "id": "AN TOAN__I-330-330",
+        "number": 330,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 26/7/2021 qui định: Khoảng cách an toàn từ rào chắn đến phần mang điện của cấp điện áp 220kV tối thiểu là bao nhiêu mét?",
         "options": [
           {
             "label": "A",
@@ -11481,17 +9380,17 @@ window.EXTRA_DECKS = [
             "text": "1,5 m"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-350-404",
-        "number": 350,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 09/8/2018 qui định: Khoảng cách an toàn từ rào chắn đến phần mang điện của của cấp điện áp 500kV tối thiểu là bao nhiêu mét?",
+        "id": "AN TOAN__I-331-331",
+        "number": 331,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 26/7/2021 qui định: Khoảng cách an toàn từ rào chắn đến phần mang điện của cấp điện áp 500kV tối thiểu là bao nhiêu mét?",
         "options": [
           {
             "label": "A",
@@ -11510,16 +9409,16 @@ window.EXTRA_DECKS = [
             "text": "1,5 m"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-351-405",
-        "number": 351,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-332-332",
+        "number": 332,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi cứu nạn nhân bị điện giật bị mất tri giác, nhưng nạn nhân còn thở nhẹ, tim còn đập yếu ta phải làm như thế nào?",
         "options": [
           {
@@ -11536,19 +9435,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Các câu trên đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-352-406",
-        "number": 352,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-333-333",
+        "number": 333,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi làm việc có cắt điện, nguyên tắc đặt tiếp đất phải thực hiện như thế nào cho đúng?",
         "options": [
           {
@@ -11565,20 +9464,20 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Các câu trên đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-353-407",
-        "number": 353,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Qui trình Điều tra sự cố trong các nhà máy điện, lưới điện, hệ thống điện của Tập đoàn Điện lực Quốc gia Việt nam ban hành kèm theo Quyết định số 185/QĐ-EVN ngày 17/03/2014 qui định: Thời hạn báo cáo nhanh sự cố là bao nhiêu kể từ khi xảy ra sự cố.",
+        "id": "AN TOAN__I-334-334",
+        "number": 334,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Qui trình Điều tra sự cố trong các nhà máy điện, lưới điện, hệ thống điện của Tập đoàn Điện lực Quốc gia Việt nam ban hành kèm theo Quyết định số 736/QĐ-EVN ngày 09/6/2021 qui định: Thời hạn báo cáo nhanh sự cố là bao nhiêu kể từ khi xảy ra sự cố.",
         "options": [
           {
             "label": "A",
@@ -11597,17 +9496,17 @@ window.EXTRA_DECKS = [
             "text": "Trong vòng 6 giờ kể từ khi sự cố xảy ra."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-354-408",
-        "number": 354,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 09/8/2018 qui định: Nếu xảy ra tai nạn, sự cố hoặc có thể gây mất an toàn cho người và hư hỏng thiết bị thì nhân viên vận hành phải xử lý thế nào?",
+        "id": "AN TOAN__I-335-335",
+        "number": 335,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 26/7/2021 qui định: Nếu xảy ra tai nạn, sự cố hoặc có thể gây mất an toàn cho người và hư hỏng thiết bị thì nhân viên vận hành phải xử lý thế nào?",
         "options": [
           {
             "label": "A",
@@ -11623,20 +9522,20 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Không có câu nào đúng."
+            "text": "Không có phương án nào đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-355-409",
-        "number": 355,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 09/8/2018 qui định: Phiếu thao tác sau khi thực hiện xong phải được lưu bao lâu?",
+        "id": "AN TOAN__I-336-336",
+        "number": 336,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 26/7/2021 qui định: Phiếu thao tác sau khi thực hiện xong phải được lưu bao lâu?",
         "options": [
           {
             "label": "A",
@@ -11652,20 +9551,20 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Không có câu nào đúng."
+            "text": "Không có phương án nào đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-356-410",
-        "number": 356,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 09/8/2018 qui định: Khi thao tác cắt điện thanh cái và đã kiểm tra không còn điện trên thanh cái đã cắt điện bằng bút thử điện chuyên dùng phù hợp với điện áp danh định của thanh cái cần thử. Tuy nhiên, khi kiểm tra đồng hồ hiển thị trên thanh cái thấy vẫn còn điện áp.",
+        "id": "AN TOAN__I-337-337",
+        "number": 337,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 26/7/2021 qui định: Khi thao tác cắt điện thanh cái và đã kiểm tra không còn điện trên thanh cái đã cắt điện bằng bút thử điện chuyên dùng phù hợp với điện áp danh định của thanh cái cần thử. Tuy nhiên, khi kiểm tra đồng hồ hiển thị trên thanh cái thấy vẫn còn điện áp.",
         "options": [
           {
             "label": "A",
@@ -11680,17 +9579,17 @@ window.EXTRA_DECKS = [
             "text": "Trong trường hợp này xem như thanh cái vẫn còn điện."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-357-411",
-        "number": 357,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 09/8/2018 qui định: Nếu công việc phải kéo dài nhiều ngày thì sau mỗi ngày làm việc, đơn vị công tác phải thu dọn nơi làm việc, lối đi; riêng biển báo, rào chắn, nối (tiếp) đất giữ nguyên. Sau đó người chỉ huy trực tiếp giao phiếu công tác cho ai?",
+        "id": "AN TOAN__I-338-338",
+        "number": 338,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 26/7/2021 qui định: Nếu công việc phải kéo dài nhiều ngày thì sau mỗi ngày làm việc, đơn vị công tác phải thu dọn nơi làm việc, lối đi; riêng biển báo, rào chắn, nối (tiếp) đất giữ nguyên. Sau đó người chỉ huy trực tiếp giao phiếu công tác cho ai?",
         "options": [
           {
             "label": "A",
@@ -11709,17 +9608,17 @@ window.EXTRA_DECKS = [
             "text": "Cho người cho phép."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-358-412",
-        "number": 358,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 09/8/2018 qui định: Về giám sát an toàn điện và giám sát an toàn trong khi làm việc. Vậy bạn hiểu thế nào về giám sát an toàn điện và giám sát an toàn trong khi làm việc?",
+        "id": "AN TOAN__I-339-339",
+        "number": 339,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 26/7/2021 qui định: Về giám sát an toàn điện và giám sát an toàn trong khi làm việc. Vậy bạn hiểu thế nào về giám sát an toàn điện và giám sát an toàn trong khi làm việc?",
         "options": [
           {
             "label": "A",
@@ -11735,48 +9634,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Các câu A, B, C đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-359-413",
-        "number": 359,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Một công nhân đang làm việc không may bị điện giật, sau khi nạn nhân được tách ra khỏi nguồn điện, nạn nhân đang trong tình trạng ngừng thở ngừng tim, người sơ cứu viên cần:",
-        "options": [
-          {
-            "label": "A",
-            "text": "Nhanh chóng chuyển nạn nhân về bệnh viện gần nhất để được cấp cứu kịp thời."
-          },
-          {
-            "label": "B",
-            "text": "Đưa nạn nhân ra nơi thoáng khí, tiến hành ép tim ngoài lồng ngực cho đến khi nạn nhân hồi tỉnh hoặc trên đường vận chuyển nạn nhân đến bệnh viện."
-          },
-          {
-            "label": "C",
-            "text": "Đưa nạn nhân ra nơi thoáng khí, tiến hành thổi ngạt cho đến khi nạn nhân hồi tỉnh hoặc trên đường vận chuyển nạn nhân đến bệnh viện."
-          },
-          {
-            "label": "D",
-            "text": "Đưa nạn nhân ra nơi thoáng khí, đặt nạn nhân nằm đầu thấp trên nền cứng bằng phẳng, đầu ngửa về phía gáy, khai thông đường thở, tiến hành thổi ngạt, ép tim ngoài lồng ngực đúng phương pháp cho đến khi nạn nhân hồi tỉnh hoặc trên đường vận chuyển nạn nhân đến bệnh viện."
-          }
-        ],
-        "correctIndex": 0,
-        "correctIndices": [
-          0
-        ]
-      },
-      {
-        "id": "AN TOAN__II-360-414",
-        "number": 360,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-340-340",
+        "number": 340,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Thời gian huấn luyện ATĐ định kỳ ít nhất là bao nhiêu giờ?",
         "options": [
           {
@@ -11796,17 +9666,17 @@ window.EXTRA_DECKS = [
             "text": "8 giờ"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-361-415",
-        "number": 361,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 09/8/2018, khi trèo lên cao từ bao nhiêu mét trở lên thì phải thực hiện các quy định an toàn về làm việc ở trên cao.",
+        "id": "AN TOAN__I-341-341",
+        "number": 341,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Qui trình ATĐ ban hành theo Quyết định số 959/QĐ-EVN ngày 26/7/2021, khi trèo lên cao từ bao nhiêu mét trở lên thì phải thực hiện các quy định an toàn về làm việc ở trên cao.",
         "options": [
           {
             "label": "A",
@@ -11825,16 +9695,16 @@ window.EXTRA_DECKS = [
             "text": "5,0 m"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-362-416",
-        "number": 362,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-342-342",
+        "number": 342,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Thời hạn thí nghiệm định kỳ găng tay cách điện cao áp là bao nhiêu?",
         "options": [
           {
@@ -11854,45 +9724,45 @@ window.EXTRA_DECKS = [
             "text": "12 tháng / 1 lần"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-363-417",
-        "number": 363,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Khi làm việc trên cao, để đưa dụng cụ, vật liệu lên cao hoặc từ trên cao xuống phải thực hiện những trường hợp nào sau đây:",
+        "id": "AN TOAN__I-343-343",
+        "number": 343,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Khi làm việc trên cao, để đưa dụng cụ, vật liệu lên cao hoặc từ trên cao xuống phải thực hiện những trường hợp nào sau đây:\n(1) Đưa bằng cách tung, ném\n(2) Đưa bằng cách dùng dây buộc để kéo lên hoặc hạ xuống từ từ qua puly\n(3) Người ở dưới phải đứng xa chân cột và giữ một đầu dây dưới\nChọn phương án đúng:",
         "options": [
           {
             "label": "A",
-            "text": "Đưa bằng cách tung, ném"
+            "text": "Chỉ (1) đúng."
           },
           {
             "label": "B",
-            "text": "Đưa bằng cách dùng dây buộc để kéo lên hoặc hạ xuống từ từ qua puly"
+            "text": "Chỉ (2) đúng."
           },
           {
             "label": "C",
-            "text": "Người ở dưới phải đứng xa chân cột và giữ một đầu dây dưới"
+            "text": "Chỉ (3) đúng."
           },
           {
             "label": "D",
-            "text": "Cả đáp án B và C."
+            "text": "Cả (2) và (3) đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-364-418",
-        "number": 364,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-344-344",
+        "number": 344,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Sào thao tác, găng, ủng cách điện là các dụng cụ an toàn dùng để thao tác, khi thao tác trên lưới điện cao áp bắt buộc phải:",
         "options": [
           {
@@ -11909,19 +9779,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Thực hiện cả các đáp án trên"
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-365-419",
-        "number": 365,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-345-345",
+        "number": 345,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Cấm làm việc trên cao khi có gió tới:",
         "options": [
           {
@@ -11947,39 +9817,39 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-366-420",
-        "number": 366,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Công việc làm có cắt điện một phần là công việc làm khi:",
+        "id": "AN TOAN__I-346-346",
+        "number": 346,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Công việc làm có cắt điện một phần là công việc làm khi:\n(1) Thiết bị điện đã được cắt điện một phần để làm việc\n(2) Thiết bị điện đã được cắt điện hoàn toàn nhưng lối đi sang khu vực khác có điện vẫn mở\n(3) Thiết bị điện đã được cắt điện hoàn toàn và lối đi sang khu vực khác có điện đã bị khóa\nChọn phương án đúng:",
         "options": [
           {
             "label": "A",
-            "text": "Thiết bị điện đã được cắt điện một phần để làm việc"
+            "text": "Chỉ (1) đúng."
           },
           {
             "label": "B",
-            "text": "Thiết bị điện đã được cắt điện hoàn toàn nhưng lối đi sang khu vực khác có điện vẫn mở"
+            "text": "Chỉ (2) đúng."
           },
           {
             "label": "C",
-            "text": "Thiết bị điện đã được cắt điện hoàn toàn và lối đi sang khu vực khác có điện đã bị khóa"
+            "text": "Chỉ (3) đúng."
           },
           {
             "label": "D",
-            "text": "Cả đáp án A, B"
+            "text": "Cả (1) và (2) đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-367-421",
-        "number": 367,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-347-347",
+        "number": 347,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Ai phải chịu trách nhiệm trước pháp luật nếu để xảy ra mất an toàn do lỗi không thực hiện giám sát nhân viên đơn vị công tác trong khi tiến hành công việc?",
         "options": [
           {
@@ -11996,19 +9866,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các đáp án trên"
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-368-422",
-        "number": 368,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-348-348",
+        "number": 348,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Trách nhiệm nào sau đây là trách nhiệm của người cho phép:",
         "options": [
           {
@@ -12025,7 +9895,7 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các đáp án trên đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
         "correctIndex": 0,
@@ -12034,39 +9904,39 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-369-423",
-        "number": 369,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Theo Luật Phòng cháy và chữa cháy số 17/VBHN-VPQH ngày 13/12/2013 của Quốc hội quy định: Ai là người chỉ huy chữa cháy tại cơ sở?",
+        "id": "AN TOAN__I-349-349",
+        "number": 349,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Theo Luật Phòng cháy và chữa cháy của Quốc hội quy định: Ai là người chỉ huy chữa cháy tại cơ sở?\n(1) Người có chức vụ cao nhất của đơn vị cảnh sát PCCC.\n(2) Người đứng đầu cơ sở hoặc người được người đứng đầu cơ sở ủy quyền.\n(3) Đội trưởng đội PCCC cơ sở.\nChọn phương án đúng:",
         "options": [
           {
             "label": "A",
-            "text": "Người có chức vụ cao nhất của đơn vị cảnh sát PCCC."
+            "text": "Chỉ (1)."
           },
           {
             "label": "B",
-            "text": "Người đứng đầu cơ sở/ hoặc người được người đứng dầu cơ sở ủy quyền."
+            "text": "Chỉ (2)."
           },
           {
             "label": "C",
-            "text": "Đội trưởng đội PCCC cơ sở."
+            "text": "Chỉ (3)."
           },
           {
             "label": "D",
-            "text": "Một trong 3 người trên nếu người nào có mặt theo thứ tự ưu tiên: A/B/C"
+            "text": "Một trong 3 người (1), (2), (3) nếu có mặt theo thứ tự ưu tiên: (1) → (2) → (3)."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-370-424",
-        "number": 370,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-350-350",
+        "number": 350,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Lực lượng nào là lực lượng chính để chữa cháy ở cơ sở?",
         "options": [
           {
@@ -12083,7 +9953,7 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả người trên."
+            "text": "Tất cả các đối tượng đều đúng."
           }
         ],
         "correctIndex": 0,
@@ -12092,10 +9962,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-371-425",
-        "number": 371,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-351-351",
+        "number": 351,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Nghị định 136/2014/NĐ-CP ngày 24/11/2020 quy định chi tiết một số điều của Luật PCCC quy định: Nội dung cơ bản của phương án chữa cháy là:",
         "options": [
           {
@@ -12112,19 +9982,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Các câu A, B, C đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-372-426",
-        "number": 372,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-352-352",
+        "number": 352,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Người phát hiện thấy cháy phải bằng mọi cách báo cháy cho ai?",
         "options": [
           {
@@ -12144,16 +10014,16 @@ window.EXTRA_DECKS = [
             "text": "Báo cho lãnh đạo đơn vị tại cơ sở xảy ra cháy."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-373-427",
-        "number": 373,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-353-353",
+        "number": 353,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Thông tư 149/2020/TT-BCA ngày 31/12/2020 quy định: Nội quy an toàn về PCCC gồm các nội dung cơ bản sau đây:",
         "options": [
           {
@@ -12162,23 +10032,23 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "B",
-            "text": "Quy định việc quản lý, sử dụng nguồn lửa, nguồn nhiệt, chất dễ cháy, nổ, thiết bị, dụng cụcó khả năng sinh lửa, sinh nhiệt; những hành vi bị nghiêm cấm theo quy định của pháp luật vềphòng cháy và chữa cháy; quy định việc quản lý, bảo quản, bảo dưỡng, sử dụng phương tiện, thiết bị phòng cháy và chữa cháy; những việc phải làm để phòng ngừa cháy, nổ hoặc khi có cháy, nổ xảy ra"
+            "text": "Quy định việc quản lý, sử dụng nguồn lửa, nguồn nhiệt, chất dễ cháy, nổ, thiết bị, dụng cụ có khả năng sinh lửa, sinh nhiệt; những hành vi bị nghiêm cấm theo quy định của pháp luật về phòng cháy và chữa cháy; quy định việc quản lý, bảo quản, bảo dưỡng, sử dụng phương tiện, thiết bị phòng cháy và chữa cháy; những việc phải làm để phòng ngừa cháy, nổ hoặc khi có cháy, nổ xảy ra"
           },
           {
             "label": "C",
-            "text": "Tất cả các câu đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-374-428",
-        "number": 374,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-354-354",
+        "number": 354,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Thông tư 149/2020/TT-BCA ngày 31/12/2020 quy định: Sơ đồ chỉ dẫn về PCCC phải thể hiện các nội dung cơ bản nào sau đây:",
         "options": [
           {
@@ -12187,11 +10057,11 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "B",
-            "text": "Sơ đồ chỉ dẫn phải quy định việc quản lý, sử dụng nguồn lửa, nguồn nhiệt, chất dễ cháy, nổ, thiết bị, dụng cụcó khả năng sinh lửa, sinh nhiệt; những hành vi bị nghiêm cấm theo quy định của pháp luật vềphòng cháy và chữa cháy; quy định việc quản lý, bảo quản, bảo dưỡng, sử dụng phương tiện, thiết bị phòng cháy và chữa cháy; những việc phải làm để phòng ngừa cháy, nổ hoặc khi có cháy, nổ xảy ra."
+            "text": "Sơ đồ chỉ dẫn phải quy định việc quản lý, sử dụng nguồn lửa, nguồn nhiệt, chất dễ cháy, nổ, thiết bị, dụng cụ có khả năng sinh lửa, sinh nhiệt; những hành vi bị nghiêm cấm theo quy định của pháp luật về phòng cháy và chữa cháy; quy định việc quản lý, bảo quản, bảo dưỡng, sử dụng phương tiện, thiết bị phòng cháy và chữa cháy; những việc phải làm để phòng ngừa cháy, nổ hoặc khi có cháy, nổ xảy ra."
           },
           {
             "label": "C",
-            "text": "Tất cả các câu đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
         "correctIndex": 0,
@@ -12200,10 +10070,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-375-429",
-        "number": 375,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-355-355",
+        "number": 355,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Nghị định 136/2020/NĐ-CP ngày 24/11/2020 quy định chi tiết một số điều của Luật PCCC quy định: Người đứng đầu cơ sở có trách nhiệm tổ chức các hình thức kiểm tra an toàn về PCCC nào sau đây?",
         "options": [
           {
@@ -12225,10 +10095,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-376-430",
-        "number": 376,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-356-356",
+        "number": 356,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Thông tư 149/2020/TT-BCA ngày 31/12/2020 quy định: Đối với cơ sở có nguy cơ cháy nổ cao thì qui định về thời gian kiểm tra của Cảnh sát PCCC địa phương như thế nào?",
         "options": [
           {
@@ -12244,16 +10114,16 @@ window.EXTRA_DECKS = [
             "text": "3 tháng hoặc 6 tháng còn phụ thuộc vào điều kiện hoạt động và môi trường ví dụ mùa khô và mùa mưa."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-377-431",
-        "number": 377,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-357-357",
+        "number": 357,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Thông tư 149/2020/TT-BCA ngày 31/12/2020 quy định: về giấy chứng nhận huấn luyện nghiệp vụ phòng cháy và chữa cháy do ai cấp, có giá trị và thời hạn thế nào?",
         "options": [
           {
@@ -12273,16 +10143,16 @@ window.EXTRA_DECKS = [
             "text": "Do Cục trưởng Cục Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ, Giám đốc Cảnh sát phòng cháy và chữa cháy cấp tỉnh, Trưởng phòng Phòng Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ Công an cấp tỉnh cấp, có giá trị trong phạm vi cả nước và thời hạn sử dụng là 2 năm."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-378-432",
-        "number": 378,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-358-358",
+        "number": 358,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Thông tư 149/2020/TT-BCA ngày 31/12/2020 quy định: đối tượng nào sau đây phải được huấn luyện nghiệp vụ phòng cháy và chữa cháy?",
         "options": [
           {
@@ -12299,19 +10169,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Các câu A, B, C đều đúng."
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-379-433",
-        "number": 379,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-359-359",
+        "number": 359,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Thông 149/2020/TT-BCA ngày 31/12/2020 quy định: phương án chữa cháy phải được tổ chức thực tập định kỳ như thế nào?",
         "options": [
           {
@@ -12333,10 +10203,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-380-434",
-        "number": 380,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-360-360",
+        "number": 360,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Các biện pháp phòng cháy chữa cháy:",
         "options": [
           {
@@ -12353,19 +10223,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các ý trên"
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-381-435",
-        "number": 381,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-361-361",
+        "number": 361,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Hãy cho biết có mấy yếu tố cần thiết cho sự cháy?",
         "options": [
           {
@@ -12391,10 +10261,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-382-436",
-        "number": 382,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-362-362",
+        "number": 362,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Trong Luật phòng cháy chữa cháy quy định các hành vi nào sau đây bị nghiêm cấm:",
         "options": [
           {
@@ -12411,19 +10281,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các câu trên đều bị nghiêm cấm."
+            "text": "Tất cả các hành vi đều bị nghiêm cấm."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-383-437",
-        "number": 383,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-363-363",
+        "number": 363,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Bình chữa cháy CO2 Trung Quốc sản xuất có khả năng chữa cháy tình theo thời gian phun có hiệu quả và tầm phun xa ít nhất là:",
         "options": [
           {
@@ -12443,16 +10313,16 @@ window.EXTRA_DECKS = [
             "text": "Thời gian phun có hiệu quả ≥ 7giây và tầm phun xa ≥ 1.5mét."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-384-438",
-        "number": 384,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-364-364",
+        "number": 364,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Ngày toàn dân phòng cháy và chữa cháy được quy định trong Luật Phòng cháy chữa cháy là:",
         "options": [
           {
@@ -12472,16 +10342,16 @@ window.EXTRA_DECKS = [
             "text": "Ngày 4 tháng 10."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-385-439",
-        "number": 385,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-365-365",
+        "number": 365,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Cơ sở nào sau đây phải xây dựng phương án chữa cháy của cơ sở?",
         "options": [
           {
@@ -12498,20 +10368,20 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các trường hợp trên"
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-386-440",
-        "number": 386,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Luật PCCC quy định trong hoạt động PCCC nhiệm vụ nào là chính?",
+        "id": "AN TOAN__I-366-366",
+        "number": 366,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Luật PCCC quy định trong hoạt động PCCC nhiệm vụ nào là chính?",
         "options": [
           {
             "label": "A",
@@ -12530,16 +10400,16 @@ window.EXTRA_DECKS = [
             "text": "Trong hoạt động PCCC lấy phòng ngừa làm chính"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-387-441",
-        "number": 387,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-367-367",
+        "number": 367,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Việc mua bảo hiểm cháy nổ bắt buộc được quy định tại văn bản nào?",
         "options": [
           {
@@ -12559,16 +10429,16 @@ window.EXTRA_DECKS = [
             "text": "Nghị định số 79/2014/NĐ-CP ngày 31/7/2014"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-388-442",
-        "number": 388,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-368-368",
+        "number": 368,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Phương án chữa cháy của cơ sở được quy định tại biểu mẫu nào?",
         "options": [
           {
@@ -12588,16 +10458,16 @@ window.EXTRA_DECKS = [
             "text": "Mẫu PC11, thông tư số 149/2020/TT-BCA"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-389-443",
-        "number": 389,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-369-369",
+        "number": 369,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Phương án chữa cháy của Cảnh sát PCCC được quy định tại biểu mẫu nào?",
         "options": [
           {
@@ -12617,16 +10487,16 @@ window.EXTRA_DECKS = [
             "text": "Mẫu PC13, thông tư số 149/2020/TT-BCA"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-390-444",
-        "number": 390,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-370-370",
+        "number": 370,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Phương án chữa cháy của cơ sở theo Mẫu PC11, thông tư số 149/2020/TT-BCA do ai có trách nhiệm xây dựng?",
         "options": [
           {
@@ -12643,19 +10513,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Cả 3 đáp án trên"
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-391-445",
-        "number": 391,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-371-371",
+        "number": 371,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Phương án chữa cháy của cơ sở quy định Nghị định số 136/2020/NĐ-CP phải được tổ chức thực tập định kỳ, số lần thực tập do người có thẩm quyền xây dựng phương án chữa cháy quyết định nhưng không ít hơn:",
         "options": [
           {
@@ -12675,16 +10545,16 @@ window.EXTRA_DECKS = [
             "text": "01 lần/năm"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-392-446",
-        "number": 392,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-372-372",
+        "number": 372,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Việc xây dựng Phương án chữa cháy có phải nêu đặc điểm về vị trí địa lý của cơ sở không?",
         "options": [
           {
@@ -12706,10 +10576,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-393-447",
-        "number": 393,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-373-373",
+        "number": 373,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Người đứng đầu cơ sở có trách nhiệm kiểm tra an toàn PCCC đối với cơ sở theo chế độ như thế nào?",
         "options": [
           {
@@ -12726,19 +10596,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các trường hợp trên"
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-394-448",
-        "number": 394,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-374-374",
+        "number": 374,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Cơ sở nguy hiểm về cháy nổ được quy định tại đâu?",
         "options": [
           {
@@ -12758,16 +10628,16 @@ window.EXTRA_DECKS = [
             "text": "Phụ lục II Nghị định số 136/2020/NĐ-CP ngày 24/11/2020 của Chính phủ."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-395-449",
-        "number": 395,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-375-375",
+        "number": 375,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Phương tiện PCCC gồm những loại phương tiện nào?",
         "options": [
           {
@@ -12787,16 +10657,16 @@ window.EXTRA_DECKS = [
             "text": "Phương tiện cơ giới, máy móc, thiết bị, dụng cụ, hóa chất, công cụ hỗ trợ, phương tiện thô sơ chuyên dùng cho việc phòng cháy và chữa cháy, cứu người, cứu tài sản."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-396-450",
-        "number": 396,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-376-376",
+        "number": 376,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Việc kiểm tra, bảo dưỡng hệ thống báo cháy tự động được quy định như thế nào theo quy định tại TCVN 3890:2009?",
         "options": [
           {
@@ -12816,16 +10686,16 @@ window.EXTRA_DECKS = [
             "text": "Kiểm tra mỗi năm ít nhất 2 lần."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-397-451",
-        "number": 397,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-377-377",
+        "number": 377,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Chức vụ Đội trưởng đội PCCC cơ sở do người nào có quyền quyết định?",
         "options": [
           {
@@ -12845,16 +10715,16 @@ window.EXTRA_DECKS = [
             "text": "Do người đứng đầu cơ sở hoặc người có thẩm quyền quyết định."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-398-452",
-        "number": 398,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-378-378",
+        "number": 378,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Nhà máy điện có công suất bao nhiêu MW trở lên phải thành lập đội PCCC chuyên ngành?",
         "options": [
           {
@@ -12874,16 +10744,16 @@ window.EXTRA_DECKS = [
             "text": "Từ 300 MW trở lên"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-399-453",
-        "number": 399,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-379-379",
+        "number": 379,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Thời gian huấn luyện, bồi dưỡng nghiệp vụ PCCC lần đầu là bao nhiêu giờ?",
         "options": [
           {
@@ -12903,16 +10773,16 @@ window.EXTRA_DECKS = [
             "text": "16 ÷ 20 giờ"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-400-454",
-        "number": 400,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-380-380",
+        "number": 380,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Danh mục nào thuộc diện phải thông báo với Cơ quan Cảnh sát PCCC về việc đảm bảo các điều kiện An toàn PCCC trước khi đưa vào sử dụng.",
         "options": [
           {
@@ -12932,16 +10802,16 @@ window.EXTRA_DECKS = [
             "text": "Nhà máy nhiệt điện có công suất từ 200 MW trở lên; nhà máy thủy điện có công suất từ 50 MW trở lên; trạm biến áp có điện áp từ 22 KV trở lên"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-401-455",
-        "number": 401,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-381-381",
+        "number": 381,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Nghị định số 136/2020/NĐ-CP ngày 24/11/2020 của Chính phủ qui định Nhà máy điện, trạm biến áp bao nhiêu KV phải thiết kế và thẩm duyệt về PCCC",
         "options": [
           {
@@ -12967,10 +10837,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-402-456",
-        "number": 402,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-382-382",
+        "number": 382,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo Nghị định số 136/2020/NĐ-CP ngày 24/11/2020 của Chính phủ qui định Nhà kho hàng hóa, vật tư cháy được hoặc có bao bì cháy được có khối tích từ bao nhiêu trở lên phải thiết kế và thẩm duyệt về PCCC?",
         "options": [
           {
@@ -12990,45 +10860,45 @@ window.EXTRA_DECKS = [
             "text": "1.000 m3"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-403-457",
-        "number": 403,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-383-383",
+        "number": 383,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Cơ sở nào sau đây thuộc cơ sở nguy hiểm về cháy, nổ quy định tại Phụ lục II, Nghị định số 136/2014/NĐ-CP của Chính phủ?",
         "options": [
           {
             "label": "A",
-            "text": "Nhà máy điện; trạm biến áp từ 35 KV trở lên"
+            "text": "Nhà máy điện; trạm biến áp từ 35 kV trở lên"
           },
           {
             "label": "B",
-            "text": "Nhà máy điện; trạm biến áp từ 220 KV trở lên"
+            "text": "Nhà máy điện; trạm biến áp từ 220 kV trở lên"
           },
           {
             "label": "C",
-            "text": "Nhà máy điện; trạm biến áp từ 380 KV trở lên"
+            "text": "Nhà máy điện; trạm biến áp từ 380 kV trở lên"
           },
           {
             "label": "D",
-            "text": "Nhà máy điện; trạm biến áp từ 110 KV trở lên"
+            "text": "Nhà máy điện; trạm biến áp từ 110 kV trở lên"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-404-458",
-        "number": 404,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-384-384",
+        "number": 384,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Hành vi trang bị nội quy, tiêu lệnh, biển báo, biển cấm, biển chỉ dẫn về phòng cháy và chữa cháy không đúng quy cách sẽ bị xử phạt như thế nào?",
         "options": [
           {
@@ -13044,16 +10914,16 @@ window.EXTRA_DECKS = [
             "text": "Phạt cảnh cáo hoặc phạt tiền từ 100.000 đồng đến 300.000 đồng"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-405-459",
-        "number": 405,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-385-385",
+        "number": 385,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Đối với hành vi không bố trí, niêm yết nội quy về phòng cháy và chữa cháy thì bị phạt bao nhiêu?",
         "options": [
           {
@@ -13073,17 +10943,17 @@ window.EXTRA_DECKS = [
             "text": "Từ 1.000.000 đến 2.000.000 đồng"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-406-460",
-        "number": 406,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
-        "text": "Đối với hành vi không kiểm tra định kỳ hệ thống chống sét theo quy định.sẽ bị phạt tiền từ:",
+        "id": "AN TOAN__I-386-386",
+        "number": 386,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "text": "Đối với hành vi không kiểm tra định kỳ hệ thống chống sét theo quy định sẽ bị phạt tiền từ:",
         "options": [
           {
             "label": "A",
@@ -13102,16 +10972,16 @@ window.EXTRA_DECKS = [
             "text": "Từ 300.000 đến 500.000 đồng"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-407-461",
-        "number": 407,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-387-387",
+        "number": 387,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Đối với hành vi không có thiết bị thông gió, thoát khói theo quy định cho lối thoát nạn sẽ bị xử phạt tiền từ:",
         "options": [
           {
@@ -13131,16 +11001,16 @@ window.EXTRA_DECKS = [
             "text": "Từ 5.000.000 đến 10.000.000 đồng"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-408-462",
-        "number": 408,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-388-388",
+        "number": 388,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Trong Luật phòng cháy và chữa cháy, khái niệm “ cháy ” được hiểu như thế nào?",
         "options": [
           {
@@ -13160,16 +11030,16 @@ window.EXTRA_DECKS = [
             "text": "Là trường hợp xảy ra cháy không kiểm soát được có thể gây thiệt hại về người, tài sản và ảnh hưởng môi trường"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-409-463",
-        "number": 409,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-389-389",
+        "number": 389,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Theo quy định của Luật PC&CC, các cơ sở phải thực hiện các yêu cầu gì về PCCC?",
         "options": [
           {
@@ -13195,10 +11065,10 @@ window.EXTRA_DECKS = [
         ]
       },
       {
-        "id": "AN TOAN__II-410-464",
-        "number": 410,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-390-390",
+        "number": 390,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Luật PC&CC qui định Trách nhiệm PCCC là của ai ?",
         "options": [
           {
@@ -13218,16 +11088,16 @@ window.EXTRA_DECKS = [
             "text": "UBND các cấp, Chủ các doanh nghiệp, cơ quan, tổ chức và hộ gia đình"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-411-465",
-        "number": 411,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-391-391",
+        "number": 391,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Khi nhận được lệnh huy động tham gia cứu chữa đám cháy. Bạn sẽ thực hiện như thế nào?",
         "options": [
           {
@@ -13247,16 +11117,16 @@ window.EXTRA_DECKS = [
             "text": "Nhanh chóng tiếp cận đám cháy và thực hiện theo chỉ dẫn của lực lượng chữa cháy cơ sở."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-412-466",
-        "number": 412,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-392-392",
+        "number": 392,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Những trường hợp nào sau đây không bắt buộc lắp đặt hệ thống cấp nước chữa cháy ngoài nhà:",
         "options": [
           {
@@ -13273,19 +11143,19 @@ window.EXTRA_DECKS = [
           },
           {
             "label": "D",
-            "text": "Tất cả các trường hợp trên"
+            "text": "Tất cả các phương án đều đúng."
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-413-467",
-        "number": 413,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-393-393",
+        "number": 393,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Nhà máy thủy điện có công suất từ bao nhiêu trở lên phải trang bị xe chữa cháy?",
         "options": [
           {
@@ -13305,16 +11175,16 @@ window.EXTRA_DECKS = [
             "text": "200 MW"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-414-468",
-        "number": 414,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-394-394",
+        "number": 394,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Nhà máy nhiệt điện có công suất từ bao nhiêu trở lên phải trang bị xe chữa cháy?",
         "options": [
           {
@@ -13334,16 +11204,16 @@ window.EXTRA_DECKS = [
             "text": "50 MW"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-415-469",
-        "number": 415,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-395-395",
+        "number": 395,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Đèn chiếu sáng sự cố và đèn chỉ dẫn thoát nạn có nguồn điện dự phòng đảm bảo thời gian hoạt động tối thiểu là",
         "options": [
           {
@@ -13363,16 +11233,16 @@ window.EXTRA_DECKS = [
             "text": "2h"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 3,
         "correctIndices": [
-          0
+          3
         ]
       },
       {
-        "id": "AN TOAN__II-416-470",
-        "number": 416,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-396-396",
+        "number": 396,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Phương tiện chữa cháy thô sơ được định kỳ tổ chức kiểm tra, bảo dưỡng ít nhất là",
         "options": [
           {
@@ -13392,16 +11262,16 @@ window.EXTRA_DECKS = [
             "text": "12 tháng một lần"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "correctIndices": [
-          0
+          1
         ]
       },
       {
-        "id": "AN TOAN__II-417-471",
-        "number": 417,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-397-397",
+        "number": 397,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Kiểm tra, bảo dưỡng bình chữa cháy được quy định tại:",
         "options": [
           {
@@ -13417,44 +11287,1755 @@ window.EXTRA_DECKS = [
             "text": "TCVN 7435-2"
           }
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "correctIndices": [
-          0
+          2
         ]
       },
       {
-        "id": "AN TOAN__II-418-472",
-        "number": 418,
-        "sectionId": "II",
-        "sectionTitle": "PHẦN 2: THEO QUY ĐỊNH CỦA PHÁP LUẬT",
+        "id": "AN TOAN__I-398-398",
+        "number": 398,
+        "sectionId": "I",
+        "sectionTitle": "THEO QUY ĐỊNH CỦA PHÁP LUẬT",
         "text": "Số lượng bình chữa cháy dự trữ phải không ít hơn bao nhiêu % tổng số bình để trang bị thay thế khi cần thiết?",
         "options": [
           {
             "label": "A",
-            "text": "0.1"
+            "text": "10%"
           },
           {
             "label": "B",
-            "text": "0.08"
+            "text": "8%"
           },
           {
             "label": "C",
-            "text": "0.05"
+            "text": "5%"
           },
           {
             "label": "D",
-            "text": "0.12"
+            "text": "12%"
           }
         ],
         "correctIndex": 0,
         "correctIndices": [
           0
         ]
+      },
+      {
+        "id": "AN TOAN__II-1-399",
+        "number": 1,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Anh/ chị hãy giải thích thế nào là Người lãnh đạo công việc?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Là người có trách nhiệm phân công công việc, chỉ huy và giám sát nhân viên đơn vị công tác trong suốt quá trình thực hiện công việc."
+          },
+          {
+            "label": "B",
+            "text": "Là người chỉ đạo chung khi công việc do nhiều đơn vị công tác của cùng một tổ chức hoạt động điện lực thực hiện."
+          },
+          {
+            "label": "C",
+            "text": "Là người của đơn vị quản lý vận hành thực hiện việc cho phép đơn vị công tác vào làm việc ở tại hiện trường, khi hiện trường công tác đã đủ điều kiện đảm bảo an toàn."
+          },
+          {
+            "label": "D",
+            "text": "Là người của đơn vị công tác trực tiếp thực hiện công việc do người chỉ huy trực tiếp phân công."
+          }
+        ],
+        "correctIndex": 1,
+        "correctIndices": [
+          1
+        ]
+      },
+      {
+        "id": "AN TOAN__II-2-400",
+        "number": 2,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Anh/chị hãy giải thích thế nào là Người chỉ huy trực tiếp?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Là người có trách nhiệm phân công công việc, chỉ huy và giám sát nhân viên đơn vị công tác trong suốt quá trình thực hiện công việc"
+          },
+          {
+            "label": "B",
+            "text": "Là người của đơn vị trực tiếp quản lý vận hành các thiết bị điện được giao nhiệm vụ cấp PCT"
+          },
+          {
+            "label": "C",
+            "text": "Là người của đơn vị quản lý vận hành thực hiện việc cho phép đơn vị công tác vào làm việc ở tại hiện trường, khi hiện trường công tác đã đủ điều kiện đảm bảo an toàn"
+          },
+          {
+            "label": "D",
+            "text": "Là người của đơn vị công tác trực tiếp thực hiện công việc do người chỉ huy trực tiếp phân công"
+          }
+        ],
+        "correctIndex": 0,
+        "correctIndices": [
+          0
+        ]
+      },
+      {
+        "id": "AN TOAN__II-3-401",
+        "number": 3,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Anh/chị hãy giải thích thế nào là Nhân viên đơn vị công tác?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Là người của đơn vị quản lý vận hành thực hiện việc cho phép đơn vị công tác vào làm việc ở tại hiện trường, khi hiện trường công tác đã đủ điều kiện đảm bảo an toàn"
+          },
+          {
+            "label": "B",
+            "text": "Là người có kiến thức về an toàn điện, được huấn luyện, chỉ định và thực hiện việc giám sát an toàn điện cho đơn vị công tác"
+          },
+          {
+            "label": "C",
+            "text": "Là người của đơn vị công tác trực tiếp thực hiện công việc do người chỉ huy trực tiếp phân công"
+          },
+          {
+            "label": "D",
+            "text": "Là người có trách nhiệm phân công công việc, chỉ huy và giám sát nhân viên đơn vị công tác trong suốt quá trình thực hiện công việc"
+          }
+        ],
+        "correctIndex": 2,
+        "correctIndices": [
+          2
+        ]
+      },
+      {
+        "id": "AN TOAN__II-4-402",
+        "number": 4,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Anh/chị hãy giải thích thế nào là Người cho phép?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Là người chỉ đạo chung khi công việc do nhiều đơn vị công tác của cùng một tổ chức hoạt động điện lực thực hiện"
+          },
+          {
+            "label": "B",
+            "text": "Là người có trách nhiệm phân công công việc, chỉ huy và giám sát nhân viên đơn vị công tác trong suốt quá trình thực hiện công việc"
+          },
+          {
+            "label": "C",
+            "text": "Là người của đơn vị công tác trực tiếp thực hiện công việc do người chỉ huy trực tiếp phân công"
+          },
+          {
+            "label": "D",
+            "text": "Là người của đơn vị quản lý vận hành thực hiện việc cho phép đơn vị công tác vào làm việc ở tại hiện trường, khi hiện trường công tác đã đủ điều kiện đảm bảo an toàn"
+          }
+        ],
+        "correctIndex": 3,
+        "correctIndices": [
+          3
+        ]
+      },
+      {
+        "id": "AN TOAN__II-5-403",
+        "number": 5,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Anh/chị hãy giải thích thế nào là Đơn vị công tác?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Là đơn vị thực hiện công việc sửa chữa, thí nghiệm, xây lắp,... Mỗi đơn vị công tác phải có ít nhất 02 người, trong đó phải có 01 người chỉ huy trực tiếp chịu trách nhiệm chung"
+          },
+          {
+            "label": "B",
+            "text": "Là đơn vị có quyền và trách nhiệm cử ra đơn vị công tác để thực hiện công việc sửa chữa, thí nghiệm, xây lắp,…"
+          },
+          {
+            "label": "C",
+            "text": "Là đơn vị trực tiếp thực hiện công việc quản lý, vận hành các thiết bị."
+          },
+          {
+            "label": "D",
+            "text": "Là đơn vị bên ngoài cử đến Công ty để tham quan, học tập và được hướng dẫn an toàn trước khi vào nhà máy"
+          }
+        ],
+        "correctIndex": 0,
+        "correctIndices": [
+          0
+        ]
+      },
+      {
+        "id": "AN TOAN__II-6-404",
+        "number": 6,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Anh/chị hãy giải thích thế nào là Đơn vị làm công việc?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Là đơn vị trực tiếp thực hiện công việc quản lý, vận hành các thiết bị"
+          },
+          {
+            "label": "B",
+            "text": "Là đơn vị có quyền và trách nhiệm cử ra đơn vị công tác để thực hiện công việc sửa chữa, thí nghiệm, xây lắp,…"
+          },
+          {
+            "label": "C",
+            "text": "Là đơn vị bên ngoài cử đến Công ty để tham quan, học tập và được hướng dẫn an toàn trước khi vào nhà máy"
+          },
+          {
+            "label": "D",
+            "text": "Là đơn vị thực hiện công việc sửa chữa, thí nghiệm, xây lắp,... Mỗi đơn vị công tác phải có ít nhất 02 người, trong đó phải có 01 người chỉ huy trực tiếp chịu trách nhiệm chung"
+          }
+        ],
+        "correctIndex": 1,
+        "correctIndices": [
+          1
+        ]
+      },
+      {
+        "id": "AN TOAN__II-7-405",
+        "number": 7,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Anh/chị hãy giải thích thế nào là Đơn vị quản lý vận hành?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Là đơn vị thực hiện công việc sửa chữa, thí nghiệm, xây lắp,... Mỗi đơn vị công tác phải có ít nhất 02 người, trong đó phải có 01 người chỉ huy trực tiếp chịu trách nhiệm chung"
+          },
+          {
+            "label": "B",
+            "text": "Là đơn vị có quyền và trách nhiệm cử ra đơn vị công tác để thực hiện công việc sửa chữa, thí nghiệm, xây lắp,…"
+          },
+          {
+            "label": "C",
+            "text": "Là đơn vị trực tiếp thực hiện công việc quản lý, vận hành các thiết bị"
+          },
+          {
+            "label": "D",
+            "text": "Là đơn vị bên ngoài cử đến Công ty để tham quan, học tập và được hướng dẫn an toàn trước khi vào nhà máy"
+          }
+        ],
+        "correctIndex": 2,
+        "correctIndices": [
+          2
+        ]
+      },
+      {
+        "id": "AN TOAN__II-8-406",
+        "number": 8,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Anh/chị hãy giải thích thế nào là Làm việc có cắt điện một phần?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Là công việc phải áp dụng các biện pháp kỹ thuật hoặc tổ chức để đề phòng người và phương tiện, dụng cụ làm việc đến phần có điện với khoảng cách nhỏ hơn khoảng cách an toàn cho phép"
+          },
+          {
+            "label": "B",
+            "text": "Là công việc làm ở thiết bị đang mang điện, có sử dụng các trang bị, dụng cụ chuyên dùng"
+          },
+          {
+            "label": "C",
+            "text": "Là làm việc ở độ cao từ 2,0 m trở lên, được tính từ mặt đất (mặt bằng) đến điểm tiếp xúc của chân người thực hiện công việc"
+          },
+          {
+            "label": "D",
+            "text": "Là công việc làm ở thiết bị chỉ có một phần được cắt điện để làm việc hoặc thiết bị được cắt điện hoàn toàn nhưng các lối đi ra phần phân phối ngoài trời hoặc thông sang phòng bên cạnh có điện vẫn mở cửa"
+          }
+        ],
+        "correctIndex": 3,
+        "correctIndices": [
+          3
+        ]
+      },
+      {
+        "id": "AN TOAN__II-9-407",
+        "number": 9,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Anh/ chị hiểu thế nào là làm việc trên cao?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Làm việc trên cao là làm việc ở độ cao từ 1,0 m trở lên, được tính từ mặt đất (mặt bằng) đến điểm tiếp xúc của chân người thực hiện công việc."
+          },
+          {
+            "label": "B",
+            "text": "Làm việc trên cao là làm việc ở độ cao từ 1,5 m trở lên, được tính từ mặt đất (mặt bằng) đến điểm tiếp xúc của chân người thực hiện công việc."
+          },
+          {
+            "label": "C",
+            "text": "Làm việc trên cao là làm việc ở độ cao từ 2,0 m trở lên, được tính từ mặt đất (mặt bằng) đến điểm tiếp xúc của chân người thực hiện công việc."
+          },
+          {
+            "label": "D",
+            "text": "Làm việc trên cao là làm việc ở độ cao từ 0,5 m trở lên, được tính từ mặt đất (mặt bằng) đến điểm tiếp xúc của chân người thực hiện công việc."
+          }
+        ],
+        "correctIndex": 2,
+        "correctIndices": [
+          2
+        ]
+      },
+      {
+        "id": "AN TOAN__II-10-408",
+        "number": 10,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Anh/chị hãy giải thích thế nào là Điện hạ áp?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Là điện áp dưới 1.000 V"
+          },
+          {
+            "label": "B",
+            "text": "Là điện áp trên 1.000 V"
+          },
+          {
+            "label": "C",
+            "text": "Là điện áp đến 2.000 V"
+          },
+          {
+            "label": "D",
+            "text": "Là điện áp đến 6.000 V"
+          }
+        ],
+        "correctIndex": 0,
+        "correctIndices": [
+          0
+        ]
+      },
+      {
+        "id": "AN TOAN__II-11-409",
+        "number": 11,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Anh/chị hãy giải thích thế nào là Điện cao áp?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Là điện áp dưới 1000 V"
+          },
+          {
+            "label": "B",
+            "text": "Là điện áp từ 1.000 V"
+          },
+          {
+            "label": "C",
+            "text": "Là điện áp = 1000 V"
+          },
+          {
+            "label": "D",
+            "text": "Là điện áp = 220 V"
+          }
+        ],
+        "correctIndex": 1,
+        "correctIndices": [
+          1
+        ]
+      },
+      {
+        "id": "AN TOAN__II-12-410",
+        "number": 12,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Khi thao tác đóng, cắt điện ở thiết bị điện cao áp phải do mấy người thực hiện?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Thao tác đóng, cắt điện ở thiết bị điện cao áp, phải do ít nhất 02 người thực hiện (trừ trường hợp thiết bị được trang bị đặc biệt và có quy trình thao tác riêng). Người thao tác phải có bậc 3 an toàn điện trở lên, người giám sát thao tác phải có bậc 4 an toàn điện trở lên."
+          },
+          {
+            "label": "B",
+            "text": "Thao tác đóng, cắt điện ở thiết bị điện cao áp, chỉ cần 01 người thực hiện (trừ trường hợp thiết bị được trang bị đặc biệt và có quy trình thao tác riêng), người này phải có bậc 4 an toàn điện trở lên và hiểu rõ sơ đồ và vị trí của thiết bị tại hiện trường"
+          },
+          {
+            "label": "C",
+            "text": "Thao tác đóng, cắt điện ở thiết bị điện cao áp, phải do ít nhất 02 người thực hiện (trừ trường hợp thiết bị được trang bị đặc biệt và có quy trình thao tác riêng). Người thao tác phải có bậc 2 an toàn điện trở lên, người giám sát thao tác phải có bậc 3 an toàn điện trở lên."
+          },
+          {
+            "label": "D",
+            "text": "Thao tác đóng, cắt điện ở thiết bị điện cao áp, phải do ít nhất 02 người thực hiện (trừ trường hợp thiết bị được trang bị đặc biệt và có quy trình thao tác riêng). Người thao tác phải là nhân viên đơn vị công tác có bậc 3 an toàn điện trở lên, người giám sát thao tác phải có bậc nghề là bậc 6 trở lên."
+          }
+        ],
+        "correctIndex": 0,
+        "correctIndices": [
+          0
+        ]
+      },
+      {
+        "id": "AN TOAN__II-13-411",
+        "number": 13,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Dao cách ly được phép thao tác trong trường hợp nào sau đây?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Dao cách ly được phép thao tác không điện hoặc thao tác có điện khi dòng điện thao tác nhỏ hơn dòng điện cho phép theo quy trình vận hành của dao cách ly do đơn vị quản lý vận hành ban hành."
+          },
+          {
+            "label": "B",
+            "text": "Dao cách ly được phép đóng, cắt trực tiếp tại chỗ ở ngoài trời trong lúc mưa to nước chảy thành dòng trên thiết bị, dụng cụ an toàn hoặc đang có giông sét với điều kiện phải có người giám sát tại chỗ."
+          },
+          {
+            "label": "C",
+            "text": "Dao cách ly được phép thao tác không điện hoặc thao tác có điện khi dòng điện thao tác lớn hơn dòng điện cho phép theo quy trình vận hành của dao cách ly do đơn vị quản lý vận hành ban hành."
+          },
+          {
+            "label": "D",
+            "text": "Dao cách ly được phép thao tác không điện hoặc thao tác có điện khi dòng điện thao tác lớn hơn dòng điện cho phép theo quy trình vận hành của dao cách ly do đơn vị quản lý vận hành ban hành nhưng phải có người giám sát an toàn bậc 4 an toàn điện trở lên."
+          }
+        ],
+        "correctIndex": 0,
+        "correctIndices": [
+          0
+        ]
+      },
+      {
+        "id": "AN TOAN__II-14-412",
+        "number": 14,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Khi nào thì nhân viên vận hành được phép cắt các máy cắt, dao cách ly mà không phải có lệnh thao tác hoặc phiếu thao tác?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Khi xảy ra tai nạn, sự cố hoặc có thể gây ra mất an toàn cho người và hư hỏng thiết bị."
+          },
+          {
+            "label": "B",
+            "text": "Khi đưa thiết bị từ sửa chữa vào vận hành và các Phiếu công tác liên quan đên thiết bị đã được khóa hết."
+          },
+          {
+            "label": "C",
+            "text": "Khi các Phiếu công tác liên quan đên thiết bị đã được khóa, nơi làm việc đã được đơn vi công tác bàn giao cho người cho phép làm việc."
+          },
+          {
+            "label": "D",
+            "text": "Khi nhân viên đơn vị công tác yêu cầu đóng điện để chạy thử và hiệu chỉnh thiết bị."
+          }
+        ],
+        "correctIndex": 0,
+        "correctIndices": [
+          0
+        ]
+      },
+      {
+        "id": "AN TOAN__II-15-413",
+        "number": 15,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Phiếu thao tác thực hiện xong phải được lưu trong thời gian bao lâu?",
+        "options": [
+          {
+            "label": "A",
+            "text": "01 tháng."
+          },
+          {
+            "label": "B",
+            "text": "02 tháng."
+          },
+          {
+            "label": "C",
+            "text": "Ít nhất 03 tháng."
+          },
+          {
+            "label": "D",
+            "text": "Không cần lưu."
+          }
+        ],
+        "correctIndex": 2,
+        "correctIndices": [
+          2
+        ]
+      },
+      {
+        "id": "AN TOAN__II-16-414",
+        "number": 16,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Bậc an toàn điện được chia thành bao nhiêu bậc?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Bậc an toàn điện được chia thành 4 bậc đó là: 1/5; 2/5; 3/5; 4/5."
+          },
+          {
+            "label": "B",
+            "text": "Bậc an toàn điện được chia thành 7 bậc đó là: 1/7; 2/7; 3/7; 4/7; 5/7; 6/7; 7/7"
+          },
+          {
+            "label": "C",
+            "text": "Bậc an toàn điện được chia thành 5 bậc đó là: 1/5; 2/5; 3/5; 4/5; 5/5."
+          },
+          {
+            "label": "D",
+            "text": "Bậc an toàn điện được chia thành 5 bậc đó là: 2/5; 3/5; 4/5; 5/5; 6/5."
+          }
+        ],
+        "correctIndex": 2,
+        "correctIndices": [
+          2
+        ]
+      },
+      {
+        "id": "AN TOAN__II-17-415",
+        "number": 17,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Những biện pháp kỹ thuật chuẩn bị nơi làm việc phải cắt điện bao gồm những biện pháp nào?",
+        "options": [
+          {
+            "label": "A",
+            "text": "(1) Cắt điện và ngăn chặn có điện trở lại nơi làm việc; (2) Đăng ký công tác; (3) Đặt nối đất; (4) Đặt rào chắn; treo biển báo, tín hiệu. Nếu cắt điện hoàn toàn thì không phải làm rào chắn."
+          },
+          {
+            "label": "B",
+            "text": "(1) Cắt điện và ngăn chặn có điện trở lại nơi làm việc; (2) Kiểm tra không còn điện; (3) Làm việc theo PCT hoặc LCT; (4) Đặt rào chắn; treo biển báo, tín hiệu. Nếu cắt điện hoàn toàn thì không phải làm rào chắn."
+          },
+          {
+            "label": "C",
+            "text": "(1) Cắt điện và ngăn chặn có điện trở lại nơi làm việc; (2) Kiểm tra không còn điện; (3) Đặt nối đất; (4) Cho phép làm việc tại hiện trường."
+          },
+          {
+            "label": "D",
+            "text": "(1) Cắt điện và ngăn chặn có điện trở lại nơi làm việc; (2) Kiểm tra không còn điện; (3) Đặt nối đất; (4) Đặt rào chắn; treo biển báo, tín hiệu. Nếu cắt điện hoàn toàn thì không phải làm rào chắn."
+          }
+        ],
+        "correctIndex": 3,
+        "correctIndices": [
+          3
+        ]
+      },
+      {
+        "id": "AN TOAN__II-18-416",
+        "number": 18,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Các biện pháp sau đây biện pháp nào là biện pháp tổ chức để đảm bảo an toàn khi làm việc?",
+        "options": [
+          {
+            "label": "A",
+            "text": "(1) Khảo sát, lập biên bản hiện trường, lập phương án thi công và biện pháp an toàn (nếu cần thiết); (2) Đăng ký công tác; (3) Làm việc theo PCT hoặc LCT; (4) Cho phép làm việc tại hiện trường; (5) Giám sát an toàn trong thời gian làm việc."
+          },
+          {
+            "label": "B",
+            "text": "(1) Cắt điện và ngăn chặn có điện trở lại nơi làm việc; (2) Đăng ký công tác; (3) Làm việc theo PCT hoặc LCT; (4) Cho phép làm việc tại hiện trường; (5) Giám sát an toàn trong thời gian làm việc; (6) Kiểm tra không còn điện; (7) Đặt nối đất."
+          },
+          {
+            "label": "C",
+            "text": "(1) Khảo sát, lập biên bản hiện trường, lập phương án thi công và biện pháp an toàn (nếu cần thiết); (2) Kiểm tra không còn điện; (3) Làm việc theo PCT hoặc LCT; (4) Cho phép làm việc tại hiện trường; (5) Giám sát an toàn trong thời gian làm việc."
+          },
+          {
+            "label": "D",
+            "text": "(1) Khảo sát, lập biên bản hiện trường, lập phương án thi công và biện pháp an toàn (nếu cần thiết); (2) Đăng ký công tác; (3) Đặt rào chắn; treo biển báo, tín hiệu. Nếu cắt điện hoàn toàn thì không phải làm rào chắn; (4) Giám sát an toàn trong thời gian làm việc."
+          }
+        ],
+        "correctIndex": 0,
+        "correctIndices": [
+          0
+        ]
+      },
+      {
+        "id": "AN TOAN__II-19-417",
+        "number": 19,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Khoảng cách an toàn điện khi không có rào chắn đối với cấp điện áp từ 1 kV đến 15 kV là bao nhiêu m?",
+        "options": [
+          {
+            "label": "A",
+            "text": "0,3 m."
+          },
+          {
+            "label": "B",
+            "text": "0,7 m."
+          },
+          {
+            "label": "C",
+            "text": "0,4 m."
+          },
+          {
+            "label": "D",
+            "text": "0,5 m."
+          }
+        ],
+        "correctIndex": 1,
+        "correctIndices": [
+          1
+        ]
+      },
+      {
+        "id": "AN TOAN__II-20-418",
+        "number": 20,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Khoảng cách an toàn điện khi không có rào chắn đối với cấp điện áp từ trên 15 kV đến 35 kV là bao nhiêu m ?",
+        "options": [
+          {
+            "label": "A",
+            "text": "0,5 m."
+          },
+          {
+            "label": "B",
+            "text": "0,6 m."
+          },
+          {
+            "label": "C",
+            "text": "1,0 m."
+          },
+          {
+            "label": "D",
+            "text": "0,7 m."
+          }
+        ],
+        "correctIndex": 2,
+        "correctIndices": [
+          2
+        ]
+      },
+      {
+        "id": "AN TOAN__II-21-419",
+        "number": 21,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Khoảng cách an toàn điện khi không có rào chắn đối với cấp điện áp 220 kV là bao nhiêu m ?",
+        "options": [
+          {
+            "label": "A",
+            "text": "0,7 m."
+          },
+          {
+            "label": "B",
+            "text": "1,0 m."
+          },
+          {
+            "label": "C",
+            "text": "1,5 m."
+          },
+          {
+            "label": "D",
+            "text": "2,5 m."
+          }
+        ],
+        "correctIndex": 3,
+        "correctIndices": [
+          3
+        ]
+      },
+      {
+        "id": "AN TOAN__II-22-420",
+        "number": 22,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Khi phải làm rào chắn thì Khoảng cách nhỏ nhất từ rào chắn đến phần mang điện đối với cấp điện áp từ 1 kV đến 15 kV là bao nhiêu m?",
+        "options": [
+          {
+            "label": "A",
+            "text": "0,35 m."
+          },
+          {
+            "label": "B",
+            "text": "0,1 m"
+          },
+          {
+            "label": "C",
+            "text": "0,2 m."
+          },
+          {
+            "label": "D",
+            "text": "0,3 m."
+          }
+        ],
+        "correctIndex": 0,
+        "correctIndices": [
+          0
+        ]
+      },
+      {
+        "id": "AN TOAN__II-23-421",
+        "number": 23,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Khi phải làm rào chắn thì Khoảng cách nhỏ nhất từ rào chắn đến phần mang điện đối với cấp điện áp trên 15 kV đến 35 kV là bao nhiêu m?",
+        "options": [
+          {
+            "label": "A",
+            "text": "0,2 m."
+          },
+          {
+            "label": "B",
+            "text": "0,6 m."
+          },
+          {
+            "label": "C",
+            "text": "0,4 m."
+          },
+          {
+            "label": "D",
+            "text": "0,5 m"
+          }
+        ],
+        "correctIndex": 1,
+        "correctIndices": [
+          1
+        ]
+      },
+      {
+        "id": "AN TOAN__II-24-422",
+        "number": 24,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Khi phải làm rào chắn thì Khoảng cách nhỏ nhất từ rào chắn đến phần mang điện đối với cấp điện áp 220 kV là bao nhiêu m?",
+        "options": [
+          {
+            "label": "A",
+            "text": "1,0 m."
+          },
+          {
+            "label": "B",
+            "text": "2,0 m."
+          },
+          {
+            "label": "C",
+            "text": "2,5 m."
+          },
+          {
+            "label": "D",
+            "text": "0,7 m."
+          }
+        ],
+        "correctIndex": 2,
+        "correctIndices": [
+          2
+        ]
+      },
+      {
+        "id": "AN TOAN__II-25-423",
+        "number": 25,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Các yêu cầu khi cắt điện để làm công việc nào sau đây là đúng?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Nếu cắt điện bằng máy cắt và dao cách ly có bộ truyền động điều khiển từ xa thì phải khoá mạch điều khiển các thiết bị này, bao gồm: cắt aptomat, gỡ cầu chì,..."
+          },
+          {
+            "label": "B",
+            "text": "Người thao tác phải treo biển: “Cấm đóng điện! Có người đang làm việc” ở các bộ phận truyền động của các máy cắt, dao cách ly,... mà từ đó có thể đóng điện đến nơi làm việc."
+          },
+          {
+            "label": "C",
+            "text": "Cắt điện từng phần để làm việc phải giao cho người chỉ huy trực tiếp đơn vị công tác để ngăn ngừa khả năng nhầm lẫn, gây nguy hiểm cho đơn vị công tác."
+          },
+          {
+            "label": "D",
+            "text": "Phải ngăn chặn được những nguồn điện cao, hạ áp qua các máy biến áp lực, máy biến áp đo lường, máy phát điện khác có điện ngược trở lại gây nguy hiểm cho thiết bị đang vận hành."
+          }
+        ],
+        "correctIndex": 0,
+        "correctIndices": [
+          0
+        ]
+      },
+      {
+        "id": "AN TOAN__II-26-424",
+        "number": 26,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Anh chị hãy chỉ ra yêu cầu khi cắt điện để làm công việc nào sau đây là đúng?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Nếu cắt điện bằng máy cắt và dao cách ly có bộ truyền động điều khiển từ xa thì không được khoá mạch điều khiển các thiết bị này, bao gồm: cắt aptomat, gỡ cầu chì,..."
+          },
+          {
+            "label": "B",
+            "text": "Người thao tác phải treo biển: “Cấm đóng điện! Có người đang làm việc” ở các bộ phận truyền động của các máy cắt, dao cách ly,... mà từ đó có thể đóng điện đến nơi làm việc."
+          },
+          {
+            "label": "C",
+            "text": "Cắt điện từng phần để làm việc phải giao cho người chỉ huy trực tiếp đơn vị công tác để ngăn ngừa khả năng nhầm lẫn, gây nguy hiểm cho đơn vị công tác."
+          },
+          {
+            "label": "D",
+            "text": "Phải ngăn chặn được những nguồn điện cao, hạ áp qua các máy biến áp lực, máy biến áp đo lường, máy phát điện khác có điện ngược trở lại gây nguy hiểm cho người làm việc."
+          }
+        ],
+        "correctIndex": 3,
+        "correctIndices": [
+          3
+        ]
+      },
+      {
+        "id": "AN TOAN__II-27-425",
+        "number": 27,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Ai là người phải treo biển “Cấm đóng điện! Có người đang làm việc” ở các bộ phận truyền động của các máy cắt, dao cách ly...?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Người thao tác."
+          },
+          {
+            "label": "B",
+            "text": "Người giám sát thao tác."
+          },
+          {
+            "label": "C",
+            "text": "Người chỉ huy trực tiếp đơn vị công tác."
+          },
+          {
+            "label": "D",
+            "text": "Nhân viên đơn vị công tác."
+          }
+        ],
+        "correctIndex": 1,
+        "correctIndices": [
+          1
+        ]
+      },
+      {
+        "id": "AN TOAN__II-28-426",
+        "number": 28,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Người nào phải tiến hành kiểm tra không còn điện ở các thiết bị đã cắt điện?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Nhân viên đơn vị công tác"
+          },
+          {
+            "label": "B",
+            "text": "Người giám sát thao tác"
+          },
+          {
+            "label": "C",
+            "text": "Người thực hiện thao tác cắt điện"
+          },
+          {
+            "label": "D",
+            "text": "Người chỉ huy trực tiếp đơn vị công tác"
+          }
+        ],
+        "correctIndex": 2,
+        "correctIndices": [
+          2
+        ]
+      },
+      {
+        "id": "AN TOAN__II-29-427",
+        "number": 29,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Khi kiểm tra không còn điện ở thiết bị đã được cắt điện, việc gì sau đây bị cấm?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Cấm Người thực hiện thao tác cắt điện tiến hành kiểm tra không còn điện ở các thiết bị đã cắt điện."
+          },
+          {
+            "label": "B",
+            "text": "Cấm kiểm tra không còn điện bằng thiết bị thử điện chuyên dùng phù hợp với điện áp danh định của thiết bị cần thử."
+          },
+          {
+            "label": "C",
+            "text": "Cấm căn cứ tín hiệu đèn, rơ le, đồng hồ để xác nhận thiết bị không còn điện, nhưng nếu đèn, rơ le, đồng hồ báo tín hiệu có điện thì phải xem như thiết bị vẫn có điện."
+          },
+          {
+            "label": "D",
+            "text": "Cấm dùng bút thử điện, còi thử điện để thử không còn điện ở tất cả các pha và các phía vào, ra của thiết bị."
+          }
+        ],
+        "correctIndex": 2,
+        "correctIndices": [
+          2
+        ]
+      },
+      {
+        "id": "AN TOAN__II-30-428",
+        "number": 30,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Nơi làm việc có cắt điện, vị trí nối đất phải thực hiện như thế nào:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Phải nối đất ngay sau khi kiểm tra không còn điện; Nối đất ở tất cả các pha của thiết bị về phía có khả năng dẫn điện đến; Đảm bảo khoảng cách an toàn đối với phần còn mang điện; Đảm bảo cho toàn bộ đơn vị công tác nằm trọn trong vùng bảo vệ của nối đất."
+          },
+          {
+            "label": "B",
+            "text": "Phải nối đất ngay sau khi cắt điện; Nối đất ở tất cả các pha của thiết bị về phía có khả năng dẫn điện đến; Đảm bảo khoảng cách an toàn đối với phần còn mang điện; Đảm bảo cho toàn bộ đơn vị công tác nằm trọn trong vùng bảo vệ của nối đất."
+          },
+          {
+            "label": "C",
+            "text": "Phải nối đất ngay sau khi cắt điện; Nối đất ở tất cả các pha của thiết bị về phía có khả năng dẫn điện đến; Đảm bảo khoảng cách an toàn đối với phần còn mang điện; Đảm bảo cho toàn bộ đơn vị công tác nằm ngoài vùng bảo vệ của nối đất."
+          },
+          {
+            "label": "D",
+            "text": "Phải nối đất ngay sau khi kiểm tra không còn điện; Nối đất ở tất cả các pha của thiết bị về phía có khả năng dẫn điện đến; Đảm bảo khoảng cách an toàn đối với phần đã cắt điện; Đảm bảo cho toàn bộ đơn vị công tác nằm trọn trong vùng bảo vệ của nối đất."
+          }
+        ],
+        "correctIndex": 0,
+        "correctIndices": [
+          0
+        ]
+      },
+      {
+        "id": "AN TOAN__II-31-429",
+        "number": 31,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Trách nhiệm của việc nối đất tạo vùng an toàn khi làm việc được quy định như thế nào cho đúng?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Tại hiện trường làm việc, người cho phép tổ chức thực hiện việc nối đất tạo vùng làm việc, người chỉ huy trực tiếp chịu trách nhiệm tổ chức thực hiện nối đất di động. Người cho phép và người chỉ huy trực tiếp phải khẳng định rõ các vị trí đã nối đất để tạo vùng an toàn sao cho đơn vị công tác nằm trọn trong vùng bảo vệ của nối đất."
+          },
+          {
+            "label": "B",
+            "text": "Tại hiện trường làm việc, người cho phép tổ chức thực hiện việc nối đất di động, người chỉ huy trực tiếp chịu trách nhiệm tổ chức thực hiện nối đất tạo vùng làm việc. Người cho phép và người chỉ huy trực tiếp phải khẳng định rõ các vị trí đã nối đất để tạo vùng an toàn sao cho đơn vị công tác nằm trọn trong vùng bảo vệ của nối đất."
+          },
+          {
+            "label": "C",
+            "text": "Tại hiện trường làm việc, người cho phép tổ chức thực hiện việc nối đất tạo vùng làm việc, người chỉ huy trực tiếp chịu trách nhiệm tổ chức thực hiện nối đất di động. Người cho phép và người chỉ huy trực tiếp phải khẳng định rõ các vị trí đã nối đất để tạo vùng an toàn sao cho đơn vị công tác nằm ngoài vùng bảo vệ của nối đất."
+          },
+          {
+            "label": "D",
+            "text": "Tại hiện trường làm việc, người cho phép tổ chức thực hiện việc nối đất di động, người chỉ huy trực tiếp chịu trách nhiệm tổ chức thực hiện nối đất tạo vùng làm việc. Người cho phép và người chỉ huy trực tiếp phải khẳng định rõ các vị trí đã nối đất để tạo vùng an toàn sao cho đơn vị công tác nằm ngoài vùng bảo vệ của nối đất."
+          }
+        ],
+        "correctIndex": 0,
+        "correctIndices": [
+          0
+        ]
+      },
+      {
+        "id": "AN TOAN__II-32-430",
+        "number": 32,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Các nối đất tạo vùng an toàn khi làm việc chỉ được tháo dỡ khi có sự đồng ý của ai?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Của người chỉ huy trực tiếp."
+          },
+          {
+            "label": "B",
+            "text": "Của nhân viên đơn vị công tác."
+          },
+          {
+            "label": "C",
+            "text": "Của người cho phép làm việc."
+          },
+          {
+            "label": "D",
+            "text": "Của người cấp Phiếu công tác."
+          }
+        ],
+        "correctIndex": 0,
+        "correctIndices": [
+          0
+        ]
+      },
+      {
+        "id": "AN TOAN__II-33-431",
+        "number": 33,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Đặt và tháo nối đất phải do mấy người thực hiện?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Phải do 02 người thực hiện, trong đó một người phải có bậc an toàn điện từ bậc 4 trở lên, người còn lại từ bậc 2 trở lên."
+          },
+          {
+            "label": "B",
+            "text": "Phải do 01 người thực hiện, người đó phải có bậc 4 an toàn điện trở lên."
+          },
+          {
+            "label": "C",
+            "text": "Phải do 02 người thực hiện, hai người này phải có bậc an toàn điện từ bậc 3 trở lên."
+          },
+          {
+            "label": "D",
+            "text": "Phải do 02 người thực hiện, trong đó một người phải có bậc an toàn điện từ bậc 4 trở lên, người còn lại từ bậc 3 trở lên."
+          }
+        ],
+        "correctIndex": 3,
+        "correctIndices": [
+          3
+        ]
+      },
+      {
+        "id": "AN TOAN__II-34-432",
+        "number": 34,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Khi đặt nối đất phải thực hiện như thế nào cho đúng?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Khi đặt nối đất phải lắp một đầu dây nối đất với đất trước, sau đó lắp đầu còn lại vào thiết bị, đường dây; tháo nối đất làm theo trình tự ngược lại. Khi lắp/tháo nối đất di động người lắp/tháo phải dùng sào và găng cách điện."
+          },
+          {
+            "label": "B",
+            "text": "Khi đặt nối đất phải lắp một đầu dây nối đất với thiết bị trước, sau đó lắp đầu còn lại vào đất; tháo nối đất làm theo trình tự ngược lại. Khi lắp/tháo nối đất di động người lắp/tháo phải dùng sào và găng cách điện."
+          },
+          {
+            "label": "C",
+            "text": "Khi đặt nối đất phải lắp một đầu dây nối đất với đất trước, sau đó lắp đầu còn lại vào thiết bị, đường dây; tháo nối đất làm theo trình tự ngược lại. Khi lắp/tháo nối đất di động người lắp/tháo phải dùng sào và găng tay bảo hộ lao động."
+          },
+          {
+            "label": "D",
+            "text": "Khi đặt nối đất phải lắp một đầu dây nối đất với đất trước, sau đó lắp đầu còn lại vào thiết bị, đường dây; tháo nối đất làm theo trình tự như lắp nối đất. Khi lắp/tháo nối đất di động người lắp/tháo phải dùng đầy đủ bảo hộ lao động."
+          }
+        ],
+        "correctIndex": 0,
+        "correctIndices": [
+          0
+        ]
+      },
+      {
+        "id": "AN TOAN__II-35-433",
+        "number": 35,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Việc nối đất di động do ai chịu trách nhiệm thực hiện?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Người cho phép làm việc."
+          },
+          {
+            "label": "B",
+            "text": "Người cấp PCT."
+          },
+          {
+            "label": "C",
+            "text": "Người ra Lệnh công tác."
+          },
+          {
+            "label": "D",
+            "text": "Người chỉ huy trực tiếp."
+          }
+        ],
+        "correctIndex": 3,
+        "correctIndices": [
+          3
+        ]
+      },
+      {
+        "id": "AN TOAN__II-36-434",
+        "number": 36,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Đối với lưới điện phân phối, theo quy định tiết diện dây nối đất di động là bao nhiêu mm2 ?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Không được nhỏ hơn 16 mm2."
+          },
+          {
+            "label": "B",
+            "text": "Không được nhỏ hơn 15 mm2."
+          },
+          {
+            "label": "C",
+            "text": "Không được nhỏ hơn 10 mm2."
+          },
+          {
+            "label": "D",
+            "text": "Không được nhỏ hơn 6 mm2."
+          }
+        ],
+        "correctIndex": 0,
+        "correctIndices": [
+          0
+        ]
+      },
+      {
+        "id": "AN TOAN__II-37-435",
+        "number": 37,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Ở bộ phận truyền động của máy cắt, dao cách ly mà từ đó đóng điện đến nơi làm việc phải treo biển gì ?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Treo biển “Dừng lại! Có điện nguy hiểm chết người”."
+          },
+          {
+            "label": "B",
+            "text": "Treo biển “Cấm đóng điện! Có người đang làm việc”."
+          },
+          {
+            "label": "C",
+            "text": "Treo biển “Cấm lại gần! Có điện nguy hiểm chết người”."
+          },
+          {
+            "label": "D",
+            "text": "Treo biển “Cấm vào! Điện áp cao nguy hiểm chết người\"."
+          }
+        ],
+        "correctIndex": 1,
+        "correctIndices": [
+          1
+        ]
+      },
+      {
+        "id": "AN TOAN__II-38-436",
+        "number": 38,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Trong Phiếu công tác bao gồm những chức danh nào sau đây?",
+        "options": [
+          {
+            "label": "A",
+            "text": "(1) Người cấp Phiếu công tác; (2) Người Lãnh đạo công việc; (3) Người chỉ huy trực tiếp; (4) Người cho phép làm việc; (5) Người giám sát an toàn điện; (6) Nhân viên đơn vị công tác."
+          },
+          {
+            "label": "B",
+            "text": "(1) Người cấp Phiếu công tác; (2) Người ra lện công tác; (3) Người chỉ huy trực tiếp; (4) Người cho phép làm việc; (5) Người giám sát an toàn điện; (6) Nhân viên đơn vị công tác."
+          },
+          {
+            "label": "C",
+            "text": "(1) Người cấp Phiếu công tác; (2) Người Lãnh đạo việc; (3) Người chỉ huy trực tiếp; (4) Người cho phép làm việc; (5) Người giám sát an toàn điện; (6) Người nhận lệnh công tác."
+          },
+          {
+            "label": "D",
+            "text": "(1) Người cấp Phiếu công tác; (2) Người Lãnh đạo việc; (3) Người ra lệnh công tác; (4) Người cho phép làm việc; (5) Người nhận lệnh công tác; (6) Nhân viên đơn vị công tác."
+          }
+        ],
+        "correctIndex": 0,
+        "correctIndices": [
+          0
+        ]
+      },
+      {
+        "id": "AN TOAN__II-39-437",
+        "number": 39,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Đối với công việc phải khảo sát hiện trường thì Đơn vị làm công việc phải cử ai đi khảo sát hiện trường?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Người đi khảo sát phải là những người sẽ được cử làm người cho phép làm việc hoặc người cấp Phiếu công tác (nếu có)."
+          },
+          {
+            "label": "B",
+            "text": "Người đi khảo sát phải là những người sẽ được cử làm người chỉ huy trực tiếp hoặc người giám sát an toàn điện (nếu có)."
+          },
+          {
+            "label": "C",
+            "text": "Người đi khảo sát phải là những người sẽ được cử làm nhân viên đơn vị công tác hoặc người thao tác thiết bị điện (nếu có)."
+          },
+          {
+            "label": "D",
+            "text": "Người đi khảo sát phải là những người sẽ được cử làm người giám sát thao tác hoặc nhân viên vận hành quản lý thiết bị (nếu có)."
+          }
+        ],
+        "correctIndex": 1,
+        "correctIndices": [
+          1
+        ]
+      },
+      {
+        "id": "AN TOAN__II-40-438",
+        "number": 40,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Thời gian hiệu lực của PCT được quy định như thế nào là đúng?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Thời gian hiệu lực của PCT do người lãnh đạo công việc ghi nhưng không quá 30 ngày"
+          },
+          {
+            "label": "B",
+            "text": "Thời gian hiệu lực của PCT do người cấp phiếu ghi nhưng không quá 60 ngày"
+          },
+          {
+            "label": "C",
+            "text": "Thời gian hiệu lực của PCT do người cấp phiếu ghi nhưng không quá 35 ngày"
+          },
+          {
+            "label": "D",
+            "text": "Thời gian hiệu lực của PCT do người cấp phiếu ghi nhưng không quá 40 ngày"
+          }
+        ],
+        "correctIndex": 1,
+        "correctIndices": [
+          1
+        ]
+      },
+      {
+        "id": "AN TOAN__II-41-439",
+        "number": 41,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Phiếu công tác được cấp như thế nào?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Mỗi PCT chỉ được cấp cho 01 đơn vị công tác cho 02 công việc."
+          },
+          {
+            "label": "B",
+            "text": "Mỗi PCT chỉ được cấp cho 01 đơn vị công tác cho 03 công việc."
+          },
+          {
+            "label": "C",
+            "text": "Mỗi PCT chỉ được cấp cho 01 đơn vị công tác cho 01 công việc."
+          },
+          {
+            "label": "D",
+            "text": "Mỗi PCT chỉ được cấp cho 02 đơn vị công tác cho 01 công việc."
+          }
+        ],
+        "correctIndex": 2,
+        "correctIndices": [
+          2
+        ]
+      },
+      {
+        "id": "AN TOAN__II-42-440",
+        "number": 42,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Trong khi tiến hành công việc theo PCT, có được tự ý mở rộng phạm vi làm việc không? Nếu mở rộng phạm vi làm việc thì phải thực hiện như thế nào cho đúng?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Trong khi tiến hành công việc theo PCT, không được tự ý mở rộng phạm vi làm việc. Nếu mở rộng phạm vi làm việc thì phải cấp LCT."
+          },
+          {
+            "label": "B",
+            "text": "Trong khi tiến hành công việc theo PCT được tự ý mở rộng phạm vi làm việc, Nếu mở rộng phạm vi làm việc thì phải bổ sung thêm nhân viên đơn vị công tác."
+          },
+          {
+            "label": "C",
+            "text": "Trong khi tiến hành công việc theo PCT, được tự ý mở rộng phạm vi làm việc. Nếu mở rộng phạm vi làm việc thì không phải cấp PCT mới."
+          },
+          {
+            "label": "D",
+            "text": "Trong khi tiến hành công việc theo PCT, không được tự ý mở rộng phạm vi làm việc. Nếu mở rộng phạm vi làm việc thì phải cấp PCT mới."
+          }
+        ],
+        "correctIndex": 3,
+        "correctIndices": [
+          3
+        ]
+      },
+      {
+        "id": "AN TOAN__II-43-441",
+        "number": 43,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Sau khi hoàn thành công việc, PCT được quản lý như thế nào?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Sau khi hoàn thành công việc, PCT được trả lại người cấp phiếu để kiểm tra, lưu giữ ít nhất 15 ngày (kể cả những phiếu đã cấp nhưng không thực hiện)"
+          },
+          {
+            "label": "B",
+            "text": "Sau khi hoàn thành công việc, PCT được trả lại người cấp phiếu để kiểm tra, lưu giữ ít nhất 20 ngày (kể cả những phiếu đã cấp nhưng không thực hiện)"
+          },
+          {
+            "label": "C",
+            "text": "Sau khi hoàn thành công việc, PCT được trả cho người chỉ huy trực tiếp, lưu giữ ít nhất 30 ngày (kể cả những phiếu đã cấp nhưng không thực hiện)"
+          },
+          {
+            "label": "D",
+            "text": "Sau khi hoàn thành công việc, PCT được trả lại người cấp phiếu để kiểm tra, lưu giữ ít nhất 03 tháng (kể cả những phiếu đã cấp nhưng không thực hiện)"
+          }
+        ],
+        "correctIndex": 3,
+        "correctIndices": [
+          3
+        ]
+      },
+      {
+        "id": "AN TOAN__II-44-442",
+        "number": 44,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Sau khi hoàn thành công việc, LCT phải được lưu giữ trong thời gian bao lâu?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Sau khi hoàn thành công việc, LCT phải được lưu giữ ít nhất 01 tháng (kể cả những lệnh đã ban hành nhưng không thực hiện)"
+          },
+          {
+            "label": "B",
+            "text": "Sau khi hoàn thành công việc, LCT phải được lưu giữ ít nhất 03 tháng (kể cả những lệnh đã ban hành nhưng không thực hiện)"
+          },
+          {
+            "label": "C",
+            "text": "Sau khi hoàn thành công việc, LCT phải được lưu giữ ít nhất 20 ngày (kể cả những lệnh đã ban hành nhưng không thực hiện)"
+          },
+          {
+            "label": "D",
+            "text": "Sau khi hoàn thành công việc, LCT phải được lưu giữ trong thời gian 25 ngày (kể cả những lệnh đã ban hành nhưng không thực hiện)"
+          }
+        ],
+        "correctIndex": 1,
+        "correctIndices": [
+          1
+        ]
+      },
+      {
+        "id": "AN TOAN__II-45-443",
+        "number": 45,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Các công việc thực hiện theo PCT bao gồm những công việc nào?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Làm việc cắt điện hoàn toàn; Làm việc có điện; Làm việc ở gần phần có điện."
+          },
+          {
+            "label": "B",
+            "text": "Làm việc cắt điện hoàn toàn; Làm việc có điện; Làm việc ở gần phần có điện; Làm việc ở xa nơi có điện."
+          },
+          {
+            "label": "C",
+            "text": "Làm việc cắt điện hoàn toàn; Làm việc có điện; Làm việc ở gần phần có điện; Xử lý sự cố thiết bị do nhân viên vận hành thực hiện trong ca."
+          },
+          {
+            "label": "D",
+            "text": "Làm việc cắt điện hoàn toàn; Làm việc có điện; Làm việc ở gần phần có điện; Công việc không cần phải thực hiện các biện pháp kỹ thuật chuẩn bị vị trí làm việc."
+          }
+        ],
+        "correctIndex": 0,
+        "correctIndices": [
+          0
+        ]
+      },
+      {
+        "id": "AN TOAN__II-46-444",
+        "number": 46,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Những công việc sau đây, các công việc được phép thực hiện theo LCT ?",
+        "options": [
+          {
+            "label": "A",
+            "text": "(1) Làm việc cắt điện hoàn toàn; (2) Làm việc có điện; (3) Làm việc ở gần phần có điện ."
+          },
+          {
+            "label": "B",
+            "text": "(1) Làm việc ở xa nơi có điện; (2) Xử lý sự cố thiết bị, đường dây do nhân viên vận hành thực hiện trong ca trực, hoặc những người khác thực hiện dưới sự giám sát của nhân viên vận hành."
+          },
+          {
+            "label": "C",
+            "text": "(1) Làm việc có điện; (2) Làm việc ở thiết bị, đường dây điện cao áp trong một số trường hợp do cấp có thẩm quyền của đơn vị quản lý thiết bị, đường dây quyết định."
+          },
+          {
+            "label": "D",
+            "text": "(1) Xử lý sự cố thiết bị, đường dây do nhân viên đơn vị công tác thực hiện trong ca trực; (2) Làm việc cắt điện hoàn toàn."
+          }
+        ],
+        "correctIndex": 1,
+        "correctIndices": [
+          1
+        ]
+      },
+      {
+        "id": "AN TOAN__II-47-445",
+        "number": 47,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Theo Quy trình an toàn điện trong 01 PCT, 01 người được phép đảm nhận 02 chức danh nào sau đây?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Người cấp phiếu công tác, Người Lãnh đạo công việc hoặc Người Lãnh đạo công việc, Người giám sát an toàn điện (nếu có)"
+          },
+          {
+            "label": "B",
+            "text": "Người cấp phiếu công tác, Nhân viên đơn vị công tác hoặc Nhân viên đơn vị công tác, Người giám sát an toàn điện (nếu có)"
+          },
+          {
+            "label": "C",
+            "text": "Người cấp phiếu công tác, Người chỉ huy trực tiếp hoặc Người cấp phiếu công tác, Người giám sát an toàn điện (nếu có)"
+          },
+          {
+            "label": "D",
+            "text": "Người cấp phiếu công tác, Người Lãnh đạo công việc hoặc Người cấp phiếu công tác, Nhân viên đơn vị công tác"
+          }
+        ],
+        "correctIndex": 2,
+        "correctIndices": [
+          2
+        ]
+      },
+      {
+        "id": "AN TOAN__II-48-446",
+        "number": 48,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Theo Quy trình an toàn điện trong 01 PCT, 01 người được phép đảm nhận nhiều nhất 03 chức danh nào sau đây?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Người cấp phiếu công tác, Người Lãnh đạo công việc, Người giám sát an toàn điện (nếu có)."
+          },
+          {
+            "label": "B",
+            "text": "Người cấp phiếu công tác, Nhân viên đơn vị công tác, Người giám sát an toàn điện (nếu có)."
+          },
+          {
+            "label": "C",
+            "text": "Người cấp phiếu công tác, Người giám sát thao tác, Người giám sát an toàn điện (nếu có)."
+          },
+          {
+            "label": "D",
+            "text": "Người cấp phiếu công tác, Người cho phép, Người giám sát an toàn điện (nếu có)."
+          }
+        ],
+        "correctIndex": 3,
+        "correctIndices": [
+          3
+        ]
+      },
+      {
+        "id": "AN TOAN__II-49-447",
+        "number": 49,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Lệnh công tác có các chức danh nào sau đây?",
+        "options": [
+          {
+            "label": "A",
+            "text": "(1) Người ra LCT (2) Người giám sát an toàn điện (3) Người chỉ huy trực tiếp (khi tổ chức thành đơn vị công tác), Người thi hành lệnh (khi thực hiện công việc một mình) (4) Nhân viên đơn vị công tác."
+          },
+          {
+            "label": "B",
+            "text": "(1) Người ra LCT (2) Người cấp Phiếu công tác (3) Người chỉ huy trực tiếp (khi tổ chức thành đơn vị công tác), Người thi hành lệnh (khi thực hiện công việc một mình) (4) Nhân viên đơn vị công tác."
+          },
+          {
+            "label": "C",
+            "text": "(1) Người ra LCT (2) Người cho phép làm việc (3) Người chỉ huy trực tiếp (khi tổ chức thành đơn vị công tác), Người thi hành lệnh (khi thực hiện công việc một mình) (4) Nhân viên đơn vị công tác."
+          },
+          {
+            "label": "D",
+            "text": "(1) Người ra LCT (2) Người cho phép làm việc (3) Người chỉ huy trực tiếp (khi tổ chức thành đơn vị công tác), Người thi hành lệnh (khi thực hiện công việc một mình) (4) Người cấp Phiếu công tác."
+          }
+        ],
+        "correctIndex": 0,
+        "correctIndices": [
+          0
+        ]
+      },
+      {
+        "id": "AN TOAN__II-50-448",
+        "number": 50,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Người cấp PCT phải có bậc an toàn điện là bao nhiêu?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Có bậc 5 an toàn điện"
+          },
+          {
+            "label": "B",
+            "text": "Có bậc 4 an toàn điện"
+          },
+          {
+            "label": "C",
+            "text": "Có bậc 3 an toàn điện"
+          },
+          {
+            "label": "D",
+            "text": "Có bậc 6 an toàn điện."
+          }
+        ],
+        "correctIndex": 0,
+        "correctIndices": [
+          0
+        ]
+      },
+      {
+        "id": "AN TOAN__II-51-449",
+        "number": 51,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Theo quy trình An toàn điện, Người cấp PCT phải đáp ứng yêu cầu nào sau đây mới được làm Người cấp PCT?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Người cấp PCT phải là người của đơn vị quản lý vận hành; phải biết được nội dung công việc, điều kiện đảm bảo an toàn điện để đề ra đủ, đúng các biện pháp an toàn về điện cho đơn vị công tác. Có bậc 5 an toàn điện và được công nhận chức danh “Người cấp phiếu công tác”."
+          },
+          {
+            "label": "B",
+            "text": "Người cấp PCT phải là người của đơn vị làm công việc; phải biết được nội dung công việc, điều kiện đảm bảo an toàn điện để đề ra đủ, đúng các biện pháp an toàn về điện cho đơn vị công tác. Có bậc 5 an toàn điện và được công nhận chức danh “Người cấp phiếu công tác”."
+          },
+          {
+            "label": "C",
+            "text": "Người cấp PCT phải là người của đơn vị quản lý vận hành; phải biết được nội dung công việc, điều kiện đảm bảo an toàn điện để đề ra đủ, đúng các biện pháp an toàn về điện cho đơn vị công tác. Có bậc 4 an toàn điện và được công nhận chức danh “Người cấp phiếu công tác”."
+          },
+          {
+            "label": "D",
+            "text": "Người cấp PCT phải là người của đơn vị quản lý vận hành; phải biết được nội dung công việc, điều kiện đảm bảo an toàn điện để đề ra đủ, đúng các biện pháp an toàn về điện cho đơn vị công tác. Có bậc 5 an toàn điện và được công nhận chức danh “Người ra lệnh công tác”."
+          }
+        ],
+        "correctIndex": 0,
+        "correctIndices": [
+          0
+        ]
+      },
+      {
+        "id": "AN TOAN__II-52-450",
+        "number": 52,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Tại nhà máy điện những ai được cấp Phiếu công tác?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Tại các nhà máy điện, PCT do Quản đốc, Phó Quản đốc, Chuyên viên kỹ thuật cấp. Trưởng ca đương nhiệm cấp PCT trong trường hợp người cấp PCT vắng mặt, công việc đột xuất hoặc khi sự cố."
+          },
+          {
+            "label": "B",
+            "text": "Tại các nhà máy điện, PCT do Quản đốc, Phó Quản đốc, Kỹ thuật viên phân xưởng quản lý vận hành thiết bị cấp. Trưởng kíp điện đương nhiệm cấp PCT trong trường hợp người cấp PCT vắng mặt, công việc đột xuất hoặc khi sự cố."
+          },
+          {
+            "label": "C",
+            "text": "Tại các nhà máy điện, PCT do Quản đốc, Phó Quản đốc, Kỹ thuật viên phân xưởng sửa chữa thiết bị cấp. Trưởng ca đương nhiệm cấp PCT trong trường hợp người cấp PCT vắng mặt, công việc đột xuất hoặc khi sự cố."
+          },
+          {
+            "label": "D",
+            "text": "Tại các nhà máy điện, PCT do Quản đốc, Phó Quản đốc, Kỹ thuật viên phân xưởng quản lý vận hành thiết bị cấp. Trưởng ca đương nhiệm cấp PCT trong trường hợp người cấp PCT vắng mặt, công việc đột xuất hoặc khi sự cố."
+          }
+        ],
+        "correctIndex": 3,
+        "correctIndices": [
+          3
+        ]
+      },
+      {
+        "id": "AN TOAN__II-53-451",
+        "number": 53,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Điều kiện để làm người cho phép là điều kiện nào sau đây?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Người cho phép phải là nhân viên đơn vị công tác đang làm nhiệm vụ trong ca trực. Có bậc 4 an toàn điện trở lên và được công nhận chức danh “Người cho phép”."
+          },
+          {
+            "label": "B",
+            "text": "Người cho phép phải là nhân viên vận hành đang làm nhiệm vụ trong ca trực. Có bậc 4 an toàn điện trở lên và được công nhận chức danh “Người cho phép”."
+          },
+          {
+            "label": "C",
+            "text": "Người cho phép phải là nhân viên vận hành đang làm nhiệm vụ trong ca trực. Có bậc 3 an toàn điện trở lên và được công nhận chức danh “Người cho phép”."
+          },
+          {
+            "label": "D",
+            "text": "Người cho phép phải là nhân viên vận hành đang làm nhiệm vụ trong ca trực. Có bậc 5 an toàn điện trở lên và được công nhận chức danh “Người chỉ huy trực tiếp”."
+          }
+        ],
+        "correctIndex": 1,
+        "correctIndices": [
+          1
+        ]
+      },
+      {
+        "id": "AN TOAN__II-54-452",
+        "number": 54,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Trách nhiệm của Người cho phép là:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Chịu trách nhiệm phối hợp hoạt động của các đơn vị công tác, khi công việc do nhiều đơn vị công tác của cùng một tổ chức hoạt động điện lực thực hiện theo các PCT để đảm bảo an toàn."
+          },
+          {
+            "label": "B",
+            "text": "Kiểm tra (hoặc thực hiện nếu được người cấp phiếu giao) việc thực hiện đủ, đúng các biện pháp an toàn tại hiện trường thuộc trách nhiệm của mình để chuẩn bị chỗ làm việc cho đơn vị công tác."
+          },
+          {
+            "label": "C",
+            "text": "Có mặt liên tục tại nơi làm việc, giám sát và có biện pháp để nhân viên đơn vị công tác không thực hiện những hành vi có thể gây tai nạn trong quá trình làm việc."
+          },
+          {
+            "label": "D",
+            "text": "Chấp hành nghiêm nhiệm vụ được phân công và có trách nhiệm tự bảo vệ để đảm bảo an toàn khi làm việc. Từ chối thực hiện công việc khi thấy không đảm bảo an toàn, nếu người chỉ huy trực tiếp không chấp thuận thì báo cáo lên cấp trên để giải quyết."
+          }
+        ],
+        "correctIndex": 1,
+        "correctIndices": [
+          1
+        ]
+      },
+      {
+        "id": "AN TOAN__II-55-453",
+        "number": 55,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Người cho phép, Người chỉ huy trực tiếp, Người giám sát an toàn điện phải có bậc an toàn điện là bậc mấy?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Bậc 2 an toàn điện."
+          },
+          {
+            "label": "B",
+            "text": "Không quy định bậc an toàn điện."
+          },
+          {
+            "label": "C",
+            "text": "Bậc 4 an toàn điện trở lên."
+          },
+          {
+            "label": "D",
+            "text": "Bậc 3 an toàn điện trở lên"
+          }
+        ],
+        "correctIndex": 2,
+        "correctIndices": [
+          2
+        ]
+      },
+      {
+        "id": "AN TOAN__II-56-454",
+        "number": 56,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Người lãnh đạo công việc, Người cấp PCT, Người ra LCT phải có bậc an toàn điện là bậc mấy?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Bậc 5 an toàn điện."
+          },
+          {
+            "label": "B",
+            "text": "Không quy định bậc an toàn điện."
+          },
+          {
+            "label": "C",
+            "text": "Bậc 4 an toàn điện trở lên."
+          },
+          {
+            "label": "D",
+            "text": "Bậc 3 an toàn điện trở lên."
+          }
+        ],
+        "correctIndex": 0,
+        "correctIndices": [
+          0
+        ]
+      },
+      {
+        "id": "AN TOAN__II-57-455",
+        "number": 57,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Anh/ chị hãy chỉ ra đâu là trách nhiệm của Người lãnh đạo công việc?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Chịu trách nhiệm phối hợp hoạt động của các đơn vị công tác, khi công việc do nhiều đơn vị công tác của cùng một tổ chức hoạt động điện lực thực hiện theo các PCT để đảm bảo an toàn."
+          },
+          {
+            "label": "B",
+            "text": "Có mặt liên tục tại nơi làm việc, giám sát và có biện pháp để nhân viên đơn vị công tác không thực hiện những hành vi có thể gây tai nạn trong quá trình làm việc"
+          },
+          {
+            "label": "C",
+            "text": "Kiểm tra (hoặc thực hiện nếu được người cấp phiếu giao) việc thực hiện đủ, đúng các biện pháp an toàn tại hiện trường thuộc trách nhiệm của mình để chuẩn bị chỗ làm việc cho đơn vị công tác"
+          },
+          {
+            "label": "D",
+            "text": "Chỉ huy điều hành đơn vị công tác thực hiện các công việc trong phạm vi cho phép làm việc theo PCT, bao gồm việc thực hiện các thủ tục, biện pháp an toàn nơi làm việc thuộc trách nhiệm của đơn vị công tác"
+          }
+        ],
+        "correctIndex": 0,
+        "correctIndices": [
+          0
+        ]
+      },
+      {
+        "id": "AN TOAN__II-58-456",
+        "number": 58,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Người ra LCT phải có bậc mấy an toàn điện?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Bậc 4 an toàn điện"
+          },
+          {
+            "label": "B",
+            "text": "Bậc 3 an toàn điện"
+          },
+          {
+            "label": "C",
+            "text": "Bậc 2 an toàn điện"
+          },
+          {
+            "label": "D",
+            "text": "Bậc 5 an toàn điện"
+          }
+        ],
+        "correctIndex": 3,
+        "correctIndices": [
+          3
+        ]
+      },
+      {
+        "id": "AN TOAN__II-59-457",
+        "number": 59,
+        "sectionId": "II",
+        "sectionTitle": "THEO QUYẾT ĐỊNH 959/QĐ CỦA EVN",
+        "text": "Anh/ chỉ hãy chỉ ra đâu là trách nhiệm của Người ra LCT trong đáp án sau?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Có mặt liên tục tại nơi làm việc, giám sát và có biện pháp để nhân viên đơn vị công tác không thực hiện những hành vi có thể gây tai nạn trong quá trình làm việc."
+          },
+          {
+            "label": "B",
+            "text": "Kiểm tra (hoặc thực hiện nếu được người cấp phiếu giao) việc thực hiện đủ, đúng các biện pháp an toàn tại hiện trường thuộc trách nhiệm của mình để chuẩn bị chỗ làm việc cho đơn vị công tác."
+          },
+          {
+            "label": "C",
+            "text": "Chịu trách nhiệm phối hợp hoạt động của các đơn vị công tác, khi công việc do nhiều đơn vị công tác của cùng một tổ chức hoạt động điện lực thực hiện theo các PCT để đảm bảo an toàn."
+          },
+          {
+            "label": "D",
+            "text": "Tiếp nhận báo cáo kết quả, thời gian hoàn thành sau khi thực hiện xong công việc từ người chỉ huy trực tiếp (hoặc người thi hành lệnh) và ghi vào sổ LCT theo quy định."
+          }
+        ],
+        "correctIndex": 3,
+        "correctIndices": [
+          3
+        ]
       }
     ],
     "warnings": [],
     "totalSections": 2,
-    "totalQuestions": 472
+    "totalQuestions": 457
   },
   {
     "id": "VHDN",
