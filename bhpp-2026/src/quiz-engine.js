@@ -261,6 +261,7 @@
       currentIndex: 0,
       durationSec,
       remainingSec: durationSec,
+      accumulatedSec: 0,
       startedAt: Date.now(),
       submitted: false,
     };
@@ -354,7 +355,10 @@
     const spentSec =
       session.durationSec > 0
         ? Math.max(0, session.durationSec - session.remainingSec)
-        : Math.max(1, Math.round((Date.now() - session.startedAt) / 1000));
+        : Math.max(
+            1,
+            Math.round((session.accumulatedSec || 0) + (Date.now() - session.startedAt) / 1000)
+          );
 
     const scorePercent =
       totalQuestions > 0 ? Math.round((correctCount / totalQuestions) * 1000) / 10 : 0;

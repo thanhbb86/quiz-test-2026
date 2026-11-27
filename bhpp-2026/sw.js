@@ -1,4 +1,4 @@
-const CACHE_NAME = "quiz-bhpp-2026-v8";
+const CACHE_NAME = "quiz-bhpp-2026-v9";
 const CORE_ASSETS = [
   "./",
   "./index.html",

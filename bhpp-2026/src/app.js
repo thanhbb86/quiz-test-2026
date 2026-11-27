@@ -17,6 +17,11 @@
     selectedSections: new Set(),
     bookmarks: new Set(),
     wrongStats: new Map(),
+    practiceSessions: new Map(),
+    activePracticeKey: null,
+    activePracticeLabel: "",
+    activePracticeSectionIds: [],
+    pendingResumePrompt: null,
     session: null,
     lastResult: null,
     lastConfig: null,
@@ -76,15 +81,269 @@
     $("cfg-shuffle-opt").checked = Boolean(shuffleOptions);
   }
 
+  // --- Hỗ trợ lưu & tiếp tục phiên Ôn tập ---
+  function isPracticeMode(mode) {
+    return mode === "practice" || mode === "wrong_review" || mode === "bookmark_review";
+  }
+
+  function buildPracticeKey(deckId, mode, selectedSectionIds) {
+    if (mode === "practice") {
+      const sorted = Array.from(new Set(selectedSectionIds || [])).sort().join(",");
+      return `${deckId}::practice::${sorted}`;
+    }
+    return `${deckId}::${mode}`;
+  }
+
+  function buildPracticeLabel(mode, selectedSectionIds, sections) {
+    if (mode === "wrong_review") return "Ôn tập câu hay sai";
+    if (mode === "bookmark_review") return "Ôn tập câu đã đánh dấu";
+    const secSet = new Set(selectedSectionIds || []);
+    const matched = (sections || []).filter((s) => secSet.has(s.id));
+    if (matched.length === 1) return `${matched[0].id}. ${matched[0].title}`;
+    if (matched.length > 0 && matched.length === (sections || []).length) {
+      return `Tất cả chuyên đề (${matched.length})`;
+    }
+    if (matched.length <= 3) {
+      return `Chuyên đề ${matched.map((s) => s.id).join(", ")}`;
+    }
+    return `Chuyên đề ${matched.slice(0, 2).map((s) => s.id).join(", ")}... (${matched.length} chuyên đề)`;
+  }
+
+  function serializeConfig(cfg) {
+    if (!cfg || typeof cfg !== "object") return null;
+    const copy = { ...cfg };
+    if (copy.filterIds instanceof Set) {
+      copy.filterIds = Array.from(copy.filterIds);
+      copy._filterIdsWasSet = true;
+    }
+    return copy;
+  }
+
+  function deserializeConfig(cfg) {
+    if (!cfg || typeof cfg !== "object") return null;
+    const copy = { ...cfg };
+    if (copy._filterIdsWasSet && Array.isArray(copy.filterIds)) {
+      copy.filterIds = new Set(copy.filterIds);
+      delete copy._filterIdsWasSet;
+    }
+    return copy;
+  }
+
+  function isPracticeQuestionDone(q, ans, isChecked) {
+    if (q && q.isMulti) return Boolean(isChecked);
+    return ans !== null && ans !== undefined;
+  }
+
+  function findFirstRemainingIndex(session) {
+    if (!session || !Array.isArray(session.questions) || session.questions.length === 0) return 0;
+    for (let i = 0; i < session.questions.length; i++) {
+      if (!isPracticeQuestionDone(session.questions[i], session.answers[i], session.checked && session.checked[i])) {
+        return i;
+      }
+    }
+    return Math.max(0, Math.min(session.questions.length - 1, session.currentIndex || 0));
+  }
+
+  function buildPracticeRecordFromCurrentSession() {
+    const session = state.session;
+    if (!session || session.submitted || !isPracticeMode(session.mode) || !state.activePracticeKey || !state.activeDeck) {
+      return null;
+    }
+    const answeredCount = session.answers.filter(isQuestionAnswered).length;
+    const hasFlagged = Array.isArray(session.flagged) && session.flagged.some(Boolean);
+    if (answeredCount === 0 && session.currentIndex === 0 && !hasFlagged) {
+      return null;
+    }
+    const snapshotAccumulatedSec =
+      (session.accumulatedSec || 0) + Math.max(0, Math.round((Date.now() - session.startedAt) / 1000));
+    return {
+      key: state.activePracticeKey,
+      deckId: state.activeDeck.id,
+      deckName: state.activeDeck.name,
+      mode: session.mode,
+      title: session.title,
+      label: state.activePracticeLabel || session.title,
+      selectedSectionIds: state.activePracticeSectionIds.slice(),
+      answeredCount,
+      totalQuestions: session.questions.length,
+      currentIndex: session.currentIndex,
+      accumulatedSec: snapshotAccumulatedSec,
+      updatedAt: new Date().toISOString(),
+      lastConfig: serializeConfig(state.lastConfig),
+      session: {
+        id: session.id,
+        mode: session.mode,
+        title: session.title,
+        questions: session.questions,
+        answers: session.answers,
+        checked: session.checked,
+        flagged: session.flagged,
+        currentIndex: session.currentIndex,
+        durationSec: 0,
+        remainingSec: 0,
+        submitted: false,
+      },
+    };
+  }
+
+  function saveActivePracticeSession() {
+    const record = buildPracticeRecordFromCurrentSession();
+    if (!record) return null;
+    state.practiceSessions.set(record.key, record);
+    global.BhppDB.savePracticeSession(record).catch((err) => {
+      console.warn("Không thể lưu tiến độ ôn tập:", err);
+    });
+    return record;
+  }
+
+  async function removePracticeSession(key) {
+    if (!key) return;
+    state.practiceSessions.delete(key);
+    try {
+      await global.BhppDB.deletePracticeSession(key);
+    } catch (err) {
+      console.warn("Không thể xóa phiên ôn tập:", err);
+    }
+  }
+
+  function openResumePrompt(saved, onRestart) {
+    const remaining = Math.max(0, (saved.totalQuestions || 0) - (saved.answeredCount || 0));
+    $("resume-modal-desc").textContent =
+      remaining > 0
+        ? `Bạn đang ôn dở "${saved.label}" (đã làm ${saved.answeredCount}/${saved.totalQuestions} câu, còn ${remaining} câu). Bạn muốn tiếp tục hay bắt đầu ôn lại từ đầu?`
+        : `Bạn đã làm đủ ${saved.answeredCount}/${saved.totalQuestions} câu trong "${saved.label}" nhưng chưa nộp bài. Bạn muốn mở lại để xem/nộp bài hay ôn lại từ đầu?`;
+    state.pendingResumePrompt = { key: saved.key, onRestart };
+    $("resume-modal-backdrop").classList.remove("hidden");
+  }
+
+  function closeResumePrompt() {
+    state.pendingResumePrompt = null;
+    $("resume-modal-backdrop").classList.add("hidden");
+  }
+
+  function resumePracticeSession(key) {
+    const saved = state.practiceSessions.get(key);
+    if (!saved || !saved.session || !Array.isArray(saved.session.questions) || saved.session.questions.length === 0) {
+      showToast("Không tìm thấy dữ liệu phiên ôn tập.", "warning");
+      return;
+    }
+
+    if (saved.deckId && (!state.activeDeck || saved.deckId !== state.activeDeck.id)) {
+      selectDeck(saved.deckId, true);
+    }
+
+    const src = saved.session;
+    const len = src.questions.length;
+    const resumedSession = {
+      id: src.id || `session_${Date.now()}`,
+      mode: src.mode || saved.mode || "practice",
+      title: src.title || saved.title || "Ôn tập",
+      questions: src.questions,
+      answers: Array.isArray(src.answers) ? src.answers.slice() : new Array(len).fill(null),
+      checked: Array.isArray(src.checked) ? src.checked.slice() : new Array(len).fill(false),
+      flagged: Array.isArray(src.flagged) ? src.flagged.slice() : new Array(len).fill(false),
+      currentIndex: 0,
+      durationSec: 0,
+      remainingSec: 0,
+      accumulatedSec: saved.accumulatedSec || 0,
+      startedAt: Date.now(),
+      submitted: false,
+    };
+    resumedSession.currentIndex = findFirstRemainingIndex(resumedSession);
+
+    state.session = resumedSession;
+    state.lastConfig = deserializeConfig(saved.lastConfig);
+    state.activePracticeKey = saved.key;
+    state.activePracticeLabel = saved.label || resumedSession.title;
+    state.activePracticeSectionIds = Array.isArray(saved.selectedSectionIds) ? saved.selectedSectionIds.slice() : [];
+
+    switchView("quiz");
+    $("quiz-timer-box").classList.add("hidden");
+    renderQuizQuestion();
+    renderNavigatorGrids();
+
+    const remaining = Math.max(0, len - (saved.answeredCount || 0));
+    showToast(
+      remaining > 0
+        ? `Tiếp tục ôn tập: còn ${remaining}/${len} câu chưa làm.`
+        : `Đã làm đủ ${len}/${len} câu — bạn có thể xem lại hoặc Nộp bài.`
+    );
+  }
+
+  function renderResumePracticeBanner() {
+    const card = $("resume-practice-card");
+    const listEl = $("resume-practice-list");
+    const countEl = $("resume-practice-count");
+    if (!card || !listEl || !state.activeDeck) return;
+
+    const list = Array.from(state.practiceSessions.values())
+      .filter((item) => item && item.deckId === state.activeDeck.id && item.totalQuestions > 0)
+      .sort((a, b) => (b.updatedAt || "").localeCompare(a.updatedAt || ""));
+
+    if (list.length === 0) {
+      card.classList.add("hidden");
+      listEl.innerHTML = "";
+      return;
+    }
+
+    card.classList.remove("hidden");
+    if (countEl) countEl.textContent = `${list.length} phiên chưa hoàn tất`;
+
+    listEl.innerHTML = list
+      .map((item) => {
+        const answered = item.answeredCount || 0;
+        const total = item.totalQuestions || 0;
+        const remaining = Math.max(0, total - answered);
+        const pct = total > 0 ? Math.round((answered / total) * 100) : 0;
+        const timeStr = item.updatedAt
+          ? new Date(item.updatedAt).toLocaleString("vi-VN", {
+              hour: "2-digit",
+              minute: "2-digit",
+              day: "2-digit",
+              month: "2-digit",
+            })
+          : "";
+        return `
+          <div class="p-3 rounded-xl bg-white dark:bg-slate-900 border border-amber-200/90 dark:border-amber-800/60 flex flex-col sm:flex-row sm:items-center justify-between gap-2.5">
+            <div class="min-w-0 flex-1 space-y-1">
+              <div class="text-sm font-bold text-slate-800 dark:text-slate-100 truncate">${escapeHtml(item.label || item.title)}</div>
+              <div class="text-xs text-slate-500 dark:text-slate-400">
+                Đã làm <strong class="text-amber-700 dark:text-amber-300">${answered}/${total}</strong> câu
+                ${remaining > 0 ? `(còn ${remaining} câu)` : "(chờ nộp bài)"}
+                ${timeStr ? ` • ${escapeHtml(timeStr)}` : ""}
+              </div>
+              <div class="w-full h-1.5 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+                <div class="h-full bg-amber-500 transition-all" style="width: ${pct}%"></div>
+              </div>
+            </div>
+            <div class="flex items-center gap-1.5 shrink-0">
+              <button type="button" data-resume-key="${escapeHtml(item.key)}"
+                class="btn-resume-session px-3 py-1.5 rounded-lg bg-brand-600 hover:bg-brand-700 text-white font-semibold text-xs transition">
+                ▶ Tiếp tục
+              </button>
+              <button type="button" data-delete-key="${escapeHtml(item.key)}" title="Xóa tiến độ này"
+                class="btn-delete-session px-2.5 py-1.5 rounded-lg bg-slate-100 hover:bg-rose-100 dark:bg-slate-800 dark:hover:bg-rose-950/60 text-slate-600 hover:text-rose-600 dark:text-slate-300 font-semibold text-xs transition">
+                ✕ Xóa
+              </button>
+            </div>
+          </div>
+        `;
+      })
+      .join("");
+  }
+
   function switchView(viewName) {
+    if (viewName !== "quiz") {
+      if (state.session && !state.session.submitted && isPracticeMode(state.session.mode)) {
+        saveActivePracticeSession();
+      }
+      global.QuizEngine.stopTimer();
+      closeMobileDrawer();
+    }
     ["home", "quiz", "result", "import", "history"].forEach((v) => {
       const el = $(`view-${v}`);
       if (el) el.classList.toggle("hidden", v !== viewName);
     });
-    if (viewName !== "quiz") {
-      global.QuizEngine.stopTimer();
-      closeMobileDrawer();
-    }
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
@@ -159,14 +418,16 @@
       state.settings = global.BhppDB.getSettings();
       applySettings();
 
-      const [customRecord, bookmarks, wrongStats] = await Promise.all([
+      const [customRecord, bookmarks, wrongStats, practiceSessions] = await Promise.all([
         global.BhppDB.getCustomDecks(),
         global.BhppDB.getBookmarks(),
         global.BhppDB.getWrongStats(),
+        global.BhppDB.getPracticeSessions(),
       ]);
 
       state.bookmarks = bookmarks;
       state.wrongStats = wrongStats;
+      state.practiceSessions = new Map((practiceSessions || []).map((s) => [s.key, s]));
 
       if (customRecord && customRecord.data && Array.isArray(customRecord.data.decks)) {
         state.catalog = customRecord.data;
@@ -272,6 +533,7 @@
     $("stat-bookmark-count").textContent = bmInDeck;
 
     renderDeckSelector();
+    renderResumePracticeBanner();
     updateAllocationUI();
     renderSectionList();
     updateSelectedSectionSummary();
@@ -287,6 +549,10 @@
       const checked = state.selectedSections.has(sec.id);
       const ratioVal = state.sectionRatios[sec.id] ?? 0;
       const picked = countsMap ? countsMap.get(sec.id) || 0 : 0;
+      const singleSaved = state.practiceSessions.get(buildPracticeKey(state.activeDeck.id, "practice", [sec.id]));
+      const savedBadgeHtml = singleSaved
+        ? `<span class="inline-block ml-1.5 px-1.5 py-0.5 rounded bg-amber-100 dark:bg-amber-900/50 text-amber-800 dark:text-amber-300 font-semibold">Đang ôn ${singleSaved.answeredCount}/${singleSaved.totalQuestions}</span>`
+        : "";
 
       const row = document.createElement("div");
       row.className =
@@ -298,7 +564,7 @@
           } />
           <div class="min-w-0 flex-1">
             <div class="text-sm font-semibold truncate">${escapeHtml(sec.id)}. ${escapeHtml(sec.title)}</div>
-            <div class="text-[11px] text-slate-400">Ngân hàng: ${sec.questionCount} câu</div>
+            <div class="text-[11px] text-slate-400">Ngân hàng: ${sec.questionCount} câu${savedBadgeHtml}</div>
           </div>
         </label>
         ${
@@ -342,6 +608,17 @@
         allQuestions: state.activeDeck.questions,
         ...config,
       });
+
+      if (isPracticeMode(state.session.mode)) {
+        const secIds = Array.isArray(config.selectedSectionIds) ? config.selectedSectionIds : [];
+        state.activePracticeKey = buildPracticeKey(state.activeDeck.id, state.session.mode, secIds);
+        state.activePracticeLabel = buildPracticeLabel(state.session.mode, secIds, state.activeDeck.sections);
+        state.activePracticeSectionIds = secIds.slice();
+      } else {
+        state.activePracticeKey = null;
+        state.activePracticeLabel = "";
+        state.activePracticeSectionIds = [];
+      }
 
       switchView("quiz");
       renderQuizQuestion();
@@ -462,6 +739,7 @@
           return;
         }
         session.checked[idx] = true;
+        saveActivePracticeSession();
         renderQuizQuestion();
       });
       container.appendChild(checkBtn);
@@ -538,6 +816,7 @@
     } else {
       state.session.answers[idx] = optIdx;
     }
+    saveActivePracticeSession();
     renderQuizQuestion();
     renderNavigatorGrids();
   }
@@ -546,12 +825,15 @@
     if (!state.session) return;
     const max = state.session.questions.length - 1;
     state.session.currentIndex = Math.max(0, Math.min(max, idx));
+    saveActivePracticeSession();
     renderQuizQuestion();
     renderNavigatorGrids();
   }
 
   async function submitCurrentQuiz() {
     if (!state.session || state.session.submitted) return;
+    const practiceKeyToDelete = state.activePracticeKey;
+    state.activePracticeKey = null;
     const result = global.QuizEngine.gradeSession(state.session);
     state.lastResult = result;
     state.resultFilter = "all";
@@ -570,6 +852,7 @@
           createdAt: result.createdAt,
         }),
         global.BhppDB.recordWrongQuestions(result.wrongQuestionIds),
+        removePracticeSession(practiceKeyToDelete),
       ]);
       state.wrongStats = await global.BhppDB.getWrongStats();
     } catch (err) {
@@ -768,14 +1051,29 @@
 
   function bindEvents() {
     $("btn-logo-home").addEventListener("click", () => {
+      if (state.session && !state.session.submitted && isPracticeMode(state.session.mode)) {
+        saveActivePracticeSession();
+        state.session = null;
+        state.activePracticeKey = null;
+      }
       renderHome();
       switchView("home");
     });
     $("btn-nav-import").addEventListener("click", () => {
+      if (state.session && !state.session.submitted && isPracticeMode(state.session.mode)) {
+        saveActivePracticeSession();
+        state.session = null;
+        state.activePracticeKey = null;
+      }
       renderImportView();
       switchView("import");
     });
     $("btn-nav-history").addEventListener("click", async () => {
+      if (state.session && !state.session.submitted && isPracticeMode(state.session.mode)) {
+        saveActivePracticeSession();
+        state.session = null;
+        state.activePracticeKey = null;
+      }
       await renderHistoryView();
       switchView("history");
     });
@@ -912,57 +1210,125 @@
       saveCurrentDeckRatios();
 
       const duration = parseInt($("cfg-duration").value, 10) || 0;
-      startQuizWithConfig({
+      const selectedSectionIds = Array.from(state.selectedSections);
+      const quizConfig = {
         mode: state.selectedMode,
         title: state.selectedMode === "practice" ? "Ôn tập" : "Thi thử",
-        selectedSectionIds: Array.from(state.selectedSections),
+        selectedSectionIds,
         questionLimit: limit,
         shuffleQuestions,
         shuffleOptions,
         durationMinutes: state.selectedMode === "practice" ? 0 : duration,
         allocationMode: state.allocationMode,
         sectionRatios: { ...state.sectionRatios },
-      });
+      };
+
+      if (state.selectedMode === "practice") {
+        const key = buildPracticeKey(state.activeDeck.id, "practice", selectedSectionIds);
+        const saved = state.practiceSessions.get(key);
+        if (saved) {
+          openResumePrompt(saved, async () => {
+            await removePracticeSession(key);
+            startQuizWithConfig(quizConfig);
+          });
+          return;
+        }
+      }
+
+      startQuizWithConfig(quizConfig);
     });
 
     $("btn-quick-wrong").addEventListener("click", () => {
-      const deckQIds = getActiveDeckQuestionIds();
-      const wrongInDeck = new Set();
-      state.wrongStats.forEach((_, qId) => {
-        if (deckQIds.has(qId)) wrongInDeck.add(qId);
-      });
-      if (wrongInDeck.size === 0) {
-        showToast(`Bộ đề ${state.activeDeck.name} chưa có câu sai nào.`);
+      const key = buildPracticeKey(state.activeDeck.id, "wrong_review");
+      const saved = state.practiceSessions.get(key);
+      const startFresh = async () => {
+        const deckQIds = getActiveDeckQuestionIds();
+        const wrongInDeck = new Set();
+        state.wrongStats.forEach((_, qId) => {
+          if (deckQIds.has(qId)) wrongInDeck.add(qId);
+        });
+        if (wrongInDeck.size === 0) {
+          showToast(`Bộ đề ${state.activeDeck.name} chưa có câu sai nào.`);
+          return;
+        }
+        await removePracticeSession(key);
+        startQuizWithConfig({
+          mode: "wrong_review",
+          title: "Ôn câu hay sai",
+          filterIds: wrongInDeck,
+          shuffleQuestions: true,
+          shuffleOptions: state.settings.shuffleOptions,
+          durationMinutes: 0,
+        });
+      };
+      if (saved) {
+        openResumePrompt(saved, startFresh);
         return;
       }
-      startQuizWithConfig({
-        mode: "wrong_review",
-        title: "Ôn câu hay sai",
-        filterIds: wrongInDeck,
-        shuffleQuestions: true,
-        shuffleOptions: state.settings.shuffleOptions,
-        durationMinutes: 0,
-      });
+      startFresh();
     });
 
     $("btn-quick-bookmarks").addEventListener("click", () => {
-      const deckQIds = getActiveDeckQuestionIds();
-      const bmInDeck = new Set();
-      state.bookmarks.forEach((qId) => {
-        if (deckQIds.has(qId)) bmInDeck.add(qId);
-      });
-      if (bmInDeck.size === 0) {
-        showToast(`Bộ đề ${state.activeDeck.name} chưa có câu đánh dấu nào.`);
+      const key = buildPracticeKey(state.activeDeck.id, "bookmark_review");
+      const saved = state.practiceSessions.get(key);
+      const startFresh = async () => {
+        const deckQIds = getActiveDeckQuestionIds();
+        const bmInDeck = new Set();
+        state.bookmarks.forEach((qId) => {
+          if (deckQIds.has(qId)) bmInDeck.add(qId);
+        });
+        if (bmInDeck.size === 0) {
+          showToast(`Bộ đề ${state.activeDeck.name} chưa có câu đánh dấu nào.`);
+          return;
+        }
+        await removePracticeSession(key);
+        startQuizWithConfig({
+          mode: "bookmark_review",
+          title: "Ôn câu đã đánh dấu",
+          filterIds: bmInDeck,
+          shuffleQuestions: false,
+          shuffleOptions: false,
+          durationMinutes: 0,
+        });
+      };
+      if (saved) {
+        openResumePrompt(saved, startFresh);
         return;
       }
-      startQuizWithConfig({
-        mode: "bookmark_review",
-        title: "Ôn câu đã đánh dấu",
-        filterIds: bmInDeck,
-        shuffleQuestions: false,
-        shuffleOptions: false,
-        durationMinutes: 0,
-      });
+      startFresh();
+    });
+
+    // Home: Resume practice banner (event delegation)
+    $("resume-practice-list").addEventListener("click", async (e) => {
+      const resumeBtn = e.target.closest(".btn-resume-session");
+      if (resumeBtn) {
+        resumePracticeSession(resumeBtn.dataset.resumeKey);
+        return;
+      }
+      const delBtn = e.target.closest(".btn-delete-session");
+      if (delBtn) {
+        const key = delBtn.dataset.deleteKey;
+        if (!confirm("Xóa tiến độ phiên ôn tập dở này?")) return;
+        await removePracticeSession(key);
+        renderHome();
+        showToast("Đã xóa tiến độ phiên ôn tập.");
+      }
+    });
+
+    // Modal: Resume / Restart practice
+    $("btn-modal-resume").addEventListener("click", () => {
+      const prompt = state.pendingResumePrompt;
+      closeResumePrompt();
+      if (prompt && prompt.key) resumePracticeSession(prompt.key);
+    });
+    $("btn-modal-restart").addEventListener("click", () => {
+      const prompt = state.pendingResumePrompt;
+      closeResumePrompt();
+      if (prompt && typeof prompt.onRestart === "function") prompt.onRestart();
+    });
+    $("btn-modal-cancel").addEventListener("click", closeResumePrompt);
+    $("resume-modal-backdrop").addEventListener("click", (e) => {
+      if (e.target === $("resume-modal-backdrop")) closeResumePrompt();
     });
 
     // Quiz events
@@ -994,9 +1360,25 @@
     $("btn-submit-mobile").addEventListener("click", handleSubmit);
 
     $("btn-quiz-exit").addEventListener("click", () => {
+      if (state.session && isPracticeMode(state.session.mode)) {
+        const saved = saveActivePracticeSession();
+        global.QuizEngine.stopTimer();
+        state.session = null;
+        state.activePracticeKey = null;
+        renderHome();
+        switchView("home");
+        if (saved) {
+          showToast(
+            `Đã lưu tiến độ ôn tập (${saved.answeredCount}/${saved.totalQuestions} câu).`,
+            "success"
+          );
+        }
+        return;
+      }
       if (confirm("Thoát bài làm hiện tại?")) {
         global.QuizEngine.stopTimer();
         state.session = null;
+        state.activePracticeKey = null;
         renderHome();
         switchView("home");
       }
@@ -1006,6 +1388,7 @@
       if (!state.session) return;
       const i = state.session.currentIndex;
       state.session.flagged[i] = !state.session.flagged[i];
+      saveActivePracticeSession();
       renderQuizQuestion();
       renderNavigatorGrids();
     });
@@ -1040,6 +1423,13 @@
       }
     });
 
+    // Tự động lưu khi ẩn tab hoặc chuyển app trên điện thoại
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "hidden") {
+        saveActivePracticeSession();
+      }
+    });
+
     // Result
     document.querySelectorAll(".res-filter-btn").forEach((btn) => {
       btn.addEventListener("click", () => {
@@ -1047,8 +1437,9 @@
         renderResultDetails();
       });
     });
-    $("btn-retry-wrong").addEventListener("click", () => {
+    $("btn-retry-wrong").addEventListener("click", async () => {
       if (!state.lastResult || state.lastResult.wrongQuestionIds.length === 0) return;
+      await removePracticeSession(buildPracticeKey(state.activeDeck.id, "wrong_review"));
       startQuizWithConfig({
         mode: "wrong_review",
         title: "Ôn lại câu sai",
@@ -1079,6 +1470,8 @@
       showLoading("Đang cập nhật toàn bộ đề...");
       try {
         const record = await global.BhppDB.saveCustomDecks(state.pendingImportData);
+        await global.BhppDB.clearPracticeSessions();
+        state.practiceSessions.clear();
         state.catalog = record.data;
         state.isCustomBank = true;
         state.bankUpdatedAt = record.updatedAt;
@@ -1097,8 +1490,10 @@
       $("import-preview-box").classList.add("hidden");
     });
     $("btn-restore-default-bank").addEventListener("click", async () => {
-      if (!confirm("Khôi phục bộ đề mặc định BHPP 2026 (19 bộ đề)?")) return;
+      if (!confirm("Khôi phục bộ đề mặc định BHPP 2026?")) return;
       await global.BhppDB.clearCustomDecks();
+      await global.BhppDB.clearPracticeSessions();
+      state.practiceSessions.clear();
       state.catalog = global.BHPP_DATA;
       state.isCustomBank = false;
       state.bankUpdatedAt = global.BHPP_DATA.meta?.generatedAt || null;

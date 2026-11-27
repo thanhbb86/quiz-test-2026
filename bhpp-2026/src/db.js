@@ -5,7 +5,7 @@
   "use strict";
 
   const DB_NAME = "bhpp_2026_quiz_db";
-  const DB_VERSION = 1;
+  const DB_VERSION = 2;
   const SETTINGS_KEY = "bhpp_2026_settings_v1";
   const IO_TIMEOUT_MS = 10000;
 
@@ -14,6 +14,7 @@
     HISTORY: "exam_history",
     BOOKMARKS: "bookmarks",
     WRONG_STATS: "wrong_stats",
+    PRACTICE_SESSIONS: "practice_sessions",
   };
 
   let dbInstance = null;
@@ -54,6 +55,10 @@
           }
           if (!db.objectStoreNames.contains(STORES.WRONG_STATS)) {
             db.createObjectStore(STORES.WRONG_STATS, { keyPath: "questionId" });
+          }
+          if (!db.objectStoreNames.contains(STORES.PRACTICE_SESSIONS)) {
+            const psStore = db.createObjectStore(STORES.PRACTICE_SESSIONS, { keyPath: "key" });
+            psStore.createIndex("updatedAt", "updatedAt", { unique: false });
           }
         };
 
@@ -229,23 +234,55 @@
     );
   }
 
+  // --- Phiên ôn tập đang dang dở (Auto-save & Resume) ---
+  async function getPracticeSessions() {
+    try {
+      const list = await runTx(STORES.PRACTICE_SESSIONS, "readonly", (store) => store.getAll());
+      return (list || []).sort((a, b) => (b.updatedAt || "").localeCompare(a.updatedAt || ""));
+    } catch (err) {
+      console.warn("Không đọc được phiên ôn tập dở dang:", err);
+      return [];
+    }
+  }
+
+  async function savePracticeSession(record) {
+    if (!record || !record.key) return null;
+    const payload = {
+      ...record,
+      updatedAt: record.updatedAt || new Date().toISOString(),
+    };
+    await runTx(STORES.PRACTICE_SESSIONS, "readwrite", (store) => store.put(payload));
+    return payload;
+  }
+
+  async function deletePracticeSession(key) {
+    if (!key) return;
+    await runTx(STORES.PRACTICE_SESSIONS, "readwrite", (store) => store.delete(key));
+  }
+
+  async function clearPracticeSessions() {
+    await runTx(STORES.PRACTICE_SESSIONS, "readwrite", (store) => store.clear());
+  }
+
   async function exportAllData() {
-    const [customDecks, history, bookmarksSet, wrongMap] = await Promise.all([
+    const [customDecks, history, bookmarksSet, wrongMap, practiceSessions] = await Promise.all([
       getCustomDecks(),
       getExamHistory(),
       getBookmarks(),
       getWrongStats(),
+      getPracticeSessions(),
     ]);
 
     return {
       app: "bhpp-2026-trac-nghiem",
-      version: 1,
+      version: 2,
       exportedAt: new Date().toISOString(),
       settings: getSettings(),
       customDecks: customDecks ? customDecks.data : null,
       history,
       bookmarks: Array.from(bookmarksSet),
       wrongStats: Array.from(wrongMap.values()),
+      practiceSessions,
     };
   }
 
@@ -273,15 +310,35 @@
     }
     if (Array.isArray(payload.wrongStats)) {
       const db = await openDB();
-      await new Promise((resolve, reject) => {
-        const tx = db.transaction(STORES.WRONG_STATS, "readwrite");
-        const store = tx.objectStore(STORES.WRONG_STATS);
-        for (const item of payload.wrongStats) {
-          if (item && item.questionId) store.put(item);
-        }
-        tx.oncomplete = () => resolve(true);
-        tx.onerror = () => reject(tx.error);
-      });
+      await withTimeout(
+        new Promise((resolve, reject) => {
+          const tx = db.transaction(STORES.WRONG_STATS, "readwrite");
+          const store = tx.objectStore(STORES.WRONG_STATS);
+          for (const item of payload.wrongStats) {
+            if (item && item.questionId) store.put(item);
+          }
+          tx.oncomplete = () => resolve(true);
+          tx.onerror = () => reject(tx.error);
+        }),
+        IO_TIMEOUT_MS,
+        "Khôi phục thống kê câu sai"
+      );
+    }
+    if (Array.isArray(payload.practiceSessions)) {
+      const db = await openDB();
+      await withTimeout(
+        new Promise((resolve, reject) => {
+          const tx = db.transaction(STORES.PRACTICE_SESSIONS, "readwrite");
+          const store = tx.objectStore(STORES.PRACTICE_SESSIONS);
+          for (const item of payload.practiceSessions) {
+            if (item && item.key) store.put(item);
+          }
+          tx.oncomplete = () => resolve(true);
+          tx.onerror = () => reject(tx.error);
+        }),
+        IO_TIMEOUT_MS,
+        "Khôi phục phiên ôn tập dở dang"
+      );
     }
     return { type: "full_backup" };
   }
@@ -299,6 +356,10 @@
     toggleBookmark,
     getWrongStats,
     recordWrongQuestions,
+    getPracticeSessions,
+    savePracticeSession,
+    deletePracticeSession,
+    clearPracticeSessions,
     exportAllData,
     importBackupData,
   };
